@@ -1,0 +1,127 @@
+{
+  "area": 4,
+  "nombre": "Inventarios y Evaluación",
+  "descripcion": "Instrumentos de evaluación psicométrica utilizados en el contexto de la DS: inventarios de ansiedad, miedos, asertividad y escalas de medida",
+  "elementos": [
+    {
+      "id": "INV-001",
+      "tipo": "inventario",
+      "titulo": "ISRA - Inventario de Situaciones y Respuestas de Ansiedad",
+      "autores": "Miguel Tobal, J.J. y Cano Vindel, A.R. (1986)",
+      "descripcion": "Evalúa la ansiedad en tres canales de respuesta (cognitivo, fisiológico, motor) ante 22 situaciones. Basado en el Modelo Tridimensional de la Ansiedad. Permite identificar la desincronía entre canales.",
+      "estructura": {
+        "situaciones": 22,
+        "escala_respuesta": "0 (Casi nunca) a 4 (Casi siempre)",
+        "canales_evaluados": {
+          "C_cognitivo": "Preocupación, pensamientos negativos, miedo, inseguridad",
+          "F_fisiologico": "Sudoración, taquicardia, tensión muscular, molestias gástricas",
+          "M_motor": "Evitación, fumar, comer en exceso, tartamudeo, movimientos repetitivos"
+        }
+      },
+      "factores_situacionales": {
+        "F1_evaluacion": "Ansiedad ante exámenes, entrevistas, ser observado",
+        "F2_interpersonal": "Relaciones sociales, conflictos, hablar con desconocidos",
+        "F3_fobica": "Transporte, animales, alturas, espacios cerrados",
+        "F4_vida_cotidiana": "Ansiedad difusa ante el día a día"
+      },
+      "interpretacion_centiles": {
+        "mayor_75": "Ansiedad severa",
+        "50_a_75": "Ansiedad moderada",
+        "menor_25": "Ansiedad mínima o ausencia"
+      },
+      "utilidad_clinica_ds": "Determina el perfil de desincronía para elegir la intervención: predominio F → relajación/biofeedback como respuesta incompatible; predominio C → considerar añadir componente cognitivo; predominio M → priorizar exposición directa. Sirve como pre-test y re-test a los 3 meses para evaluar cambio.",
+      "fuente": "Miguel Tobal y Cano Vindel (1986); Documento universitario ISRA"
+    },
+    {
+      "id": "INV-002",
+      "tipo": "inventario",
+      "titulo": "FSS-III - Fear Survey Schedule III",
+      "autores": "Wolpe, J. y Lang, P.J. (1964)",
+      "descripcion": "Inventario de 122 ítems que evalúa la intensidad del miedo ante diferentes estímulos y situaciones. Cada ítem se puntúa de 0 (Nada) a 4 (Muchísimo).",
+      "categorias_miedos": [
+        "Animales (arañas, serpientes, insectos, perros, gatos)",
+        "Situaciones sociales (hablar en público, conocer gente, autoridades)",
+        "Lesiones/sangre (heridas, inyecciones, operaciones, dentista)",
+        "Espacios (cerrados, abiertos, alturas, oscuridad)",
+        "Fenómenos naturales (tormentas, agua profunda, fuego)",
+        "Muerte y enfermedad",
+        "Situaciones varias (exámenes, viajar, soledad)"
+      ],
+      "utilidad_clinica_ds": "Proporciona un mapa completo de los miedos del paciente. Permite identificar temas para las jerarquías y detectar miedos adicionales no reportados en entrevista. Se usa como screening inicial y como medida de cambio pre-post tratamiento.",
+      "fuente": "Wolpe, J. y Lang, P.J. (1964)"
+    },
+    {
+      "id": "INV-003",
+      "tipo": "inventario",
+      "titulo": "STAI - State-Trait Anxiety Inventory",
+      "autores": "Spielberger, C.D. (1970). Adaptación española: TEA Ediciones",
+      "descripcion": "Evalúa dos dimensiones de ansiedad: Estado (ansiedad transitoria actual) y Rasgo (tendencia estable a percibir situaciones como amenazantes). 40 ítems (20 por escala), puntuación 0-3.",
+      "subescalas": {
+        "STAI_E_estado": "Cómo se siente el paciente 'ahora mismo'. Sensible al cambio terapéutico.",
+        "STAI_R_rasgo": "Cómo se siente 'en general'. Más estable, indica vulnerabilidad."
+      },
+      "utilidad_clinica_ds": "STAI-E como medida pre-post sesión para verificar efecto inmediato de la DS. STAI-R como medida pre-post tratamiento global. Si STAI-R es muy alto, considerar que la DS específica puede no ser suficiente y puede necesitarse intervención más amplia.",
+      "fuente": "Spielberger, C.D. (1970)"
+    },
+    {
+      "id": "INV-004",
+      "tipo": "escala",
+      "titulo": "Escala USA - Unidades Subjetivas de Ansiedad",
+      "autores": "Wolpe, J. (1958)",
+      "descripcion": "Escala subjetiva de 0-100 para cuantificar la intensidad de ansiedad percibida por el paciente. Es la herramienta de medida central en la DS.",
+      "escala": {
+        "0": "Ausencia total de ansiedad, relajación completa",
+        "10": "Ansiedad mínima, apenas perceptible",
+        "25": "Ansiedad leve, ligeramente incómodo",
+        "50": "Ansiedad moderada, claramente molesta pero manejable",
+        "75": "Ansiedad alta, difícil de soportar",
+        "90": "Ansiedad muy alta, casi intolerable",
+        "100": "Máxima ansiedad jamás experimentada, pánico"
+      },
+      "usos": [
+        "Cuantificar ítems de la jerarquía de ansiedad",
+        "Monitorizar ansiedad durante presentación de ítems en sesión",
+        "Evaluar progreso entre sesiones",
+        "Criterio de habituación en exposición en vivo (reducción al 50%)",
+        "Comunicación rápida paciente-terapeuta durante la DS (señal con dedo si USA > 10)"
+      ],
+      "entrenamiento_paciente": "Explicar anclajes: '0 es como estás tumbado en la playa sin preocupaciones', '100 es el peor pánico que has sentido en tu vida'. Practicar valorando situaciones cotidianas antes de usar en la jerarquía."
+    },
+    {
+      "id": "INV-005",
+      "tipo": "inventario",
+      "titulo": "Cuestionario de Willoughby",
+      "autores": "Willoughby, R.R. Adaptado por Wolpe",
+      "descripcion": "Cuestionario utilizado por Wolpe para evaluar la predisposición neurótica general. Puntuaciones altas indican alta reactividad emocional ante situaciones interpersonales. Wolpe lo usaba como medida de línea base y de progreso.",
+      "utilidad_clinica_ds": "Medida global de mejoría. Wolpe reportaba reducciones dramáticas (ej: de 56 a 13, de 34 a 10) como indicador de éxito del tratamiento. Útil para evaluar si los beneficios de la DS específica se generalizan al funcionamiento interpersonal global.",
+      "fuente": "Wolpe (1958)"
+    },
+    {
+      "id": "INV-006",
+      "tipo": "inventario",
+      "titulo": "ADCA-1 - Autoinforme de Conducta Asertiva",
+      "descripcion": "Evalúa el grado de asertividad y diferencia entre conducta asertiva, pasiva y agresiva. Útil cuando la DS se aplica a problemas de ansiedad social donde la respuesta incompatible elegida son las respuestas asertivas (siguiendo a Wolpe).",
+      "utilidad_clinica_ds": "Si el problema incluye componente de déficit de asertividad además de ansiedad condicionada, puede indicar la necesidad de combinar DS con entrenamiento en habilidades sociales o usar la autoaserción como respuesta incompatible en lugar de la relajación."
+    },
+    {
+      "id": "INV-007",
+      "tipo": "inventario",
+      "titulo": "BAT - Behavioral Avoidance Test (Test de Evitación Conductual)",
+      "descripcion": "Prueba conductual donde se mide directamente hasta qué punto el paciente es capaz de acercarse al estímulo temido. Se establece una secuencia graduada de aproximación y se registra el punto donde el paciente se detiene, junto con el USA reportado.",
+      "utilidad_clinica_ds": "Medida objetiva (conductual) complementaria a las medidas subjetivas (USA, inventarios). Útil cuando los tres componentes de la ansiedad no correlacionan. Permite construir o validar la jerarquía basándose en la conducta real del paciente. Medida pre-post tratamiento para evaluar cambio conductual."
+    },
+    {
+      "id": "INV-008",
+      "tipo": "protocolo_evaluacion",
+      "titulo": "Batería de Evaluación Recomendada para DS",
+      "descripcion": "Conjunto de instrumentos sugeridos para una evaluación completa antes de iniciar DS",
+      "bateria": {
+        "screening_inicial": ["FSS-III (mapa de miedos)", "STAI (ansiedad estado-rasgo)"],
+        "evaluacion_especifica": ["ISRA (perfil tridimensional)", "Escala USA (línea base)", "BAT (medida conductual)"],
+        "evaluacion_complementaria": ["ADCA-1 (si componente social)", "Willoughby (funcionamiento general)"],
+        "monitoreo_sesion": ["USA (antes, durante, después de cada sesión)"],
+        "evaluacion_post": ["Re-aplicar ISRA, STAI, FSS-III, BAT a los 3 meses"]
+      }
+    }
+  ]
+}

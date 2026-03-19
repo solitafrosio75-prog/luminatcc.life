@@ -1,0 +1,80 @@
+{
+  "area_id": "objetivos_clinicos",
+  "nombre": "Objetivos Clínicos",
+  "descripcion": "Trastornos o problemas para los cuales la Activación Conductual es más efectiva, incluyendo indicaciones y contraindicaciones",
+  "fuentes": [
+    "Dimidjian et al. (2006)",
+    "Lewinsohn et al. (1986)",
+    "Barlow et al. (2011). Unified Protocol for Transdiagnostic Treatment",
+    "Ekers et al. (2014). Cochrane Review"
+  ],
+  "indicaciones": [
+    {
+      "trastorno": "Depresión mayor (leve a grave)",
+      "nivel_evidencia": "alta",
+      "notas": "Igual o superior a antidepresivos en metaanálisis (Dimidjian et al., 2006). Eficacia demostrada en depresión severa."
+    },
+    {
+      "trastorno": "Distimia (trastorno depresivo persistente)",
+      "nivel_evidencia": "alta",
+      "notas": "Eficaz para patrones crónicos de baja activación y evitación mantenidos a largo plazo."
+    },
+    {
+      "trastorno": "Apatía crónica",
+      "nivel_evidencia": "moderada",
+      "notas": "Abordaje directo del déficit de activación sin requerir insight cognitivo previo."
+    },
+    {
+      "trastorno": "Duelo complicado",
+      "nivel_evidencia": "moderada",
+      "notas": "La AC ayuda a re-comprometerse con actividades significativas tras la pérdida."
+    },
+    {
+      "trastorno": "Depresión posparto",
+      "nivel_evidencia": "moderada",
+      "notas": "Adaptaciones para incluir actividades con el bebé y red de apoyo."
+    },
+    {
+      "trastorno": "Depresión en adultos mayores",
+      "nivel_evidencia": "alta",
+      "notas": "Especialmente útil por su simplicidad y foco conductual, sin requerir habilidades cognitivas complejas."
+    },
+    {
+      "trastorno": "Depresión comórbida con ansiedad",
+      "nivel_evidencia": "moderada",
+      "notas": "Protocolos transdiagnósticos de Barlow integran componentes de AC."
+    },
+    {
+      "trastorno": "Prevención de recaídas depresivas",
+      "nivel_evidencia": "moderada",
+      "notas": "Reduce la rumiación vía acción y establece repertorios conductuales protectores."
+    }
+  ],
+  "contraindicaciones": [
+    {
+      "condicion": "Depresión bipolar",
+      "razon": "Riesgo de inducir episodio maníaco por sobreactivación. La programación agresiva de actividades puede desestabilizar el estado de ánimo.",
+      "alternativa": "Priorizar estabilizadores del ánimo (litio, ácido valproico). Si se usa AC, con monitoreo estricto y actividades de baja intensidad."
+    },
+    {
+      "condicion": "Psicosis activa",
+      "razon": "El paciente no puede participar en la programación de actividades ni realizar análisis funcional de forma fiable.",
+      "alternativa": "Estabilización farmacológica primero. La AC puede incorporarse en fase de mantenimiento."
+    },
+    {
+      "condicion": "Ideación suicida alta (riesgo inminente)",
+      "razon": "Requiere gestión de riesgo inmediata y posible hospitalización antes de cualquier intervención programada.",
+      "alternativa": "Protocolo de crisis → estabilización → luego AC como parte del plan de tratamiento."
+    },
+    {
+      "condicion": "Limitaciones físicas graves",
+      "razon": "Si las limitaciones impiden la ejecución de actividades programadas, puede generar frustración y empeorar el cuadro.",
+      "alternativa": "Adaptar actividades al nivel funcional. Si es insuficiente, pivotar a intervención cognitiva."
+    },
+    {
+      "condicion": "Falta de motivación extrema (abulia severa)",
+      "razon": "El paciente no puede iniciar ni las microtareas más simples.",
+      "alternativa": "Combinar con Entrevista Motivacional para construir disposición al cambio. Usar microtareas ultra-simples (levantarse de la cama, abrir la ventana)."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+    "session_numero": 1,
+    "timestamp": "2026-03-14T10:00:00Z",
+    "paciente": {
+        "patient_id": "12345",
+        "nombre": "Ana Pérez",
+        "edad": 32,
+        "sexo": "F"
+    },
+    "plan_sesion": {
+        "objetivos": [
+            "Presentación",
+            "Motivo de consulta",
+            "Psicoeducación"
+        ],
+        "bloques": [
+            {
+                "nombre": "Inicio",
+                "contenido": "Saludo, contextualización",
+                "evidencia": [
+                    {
+                        "tipo": "guía",
+                        "referencia": "APA Practice Guidelines 2021",
+                        "doi": "10.1176/appi.books.9780890424841"
+                    }
+                ]
+            }
+        ]
+    },
+    "inventarios": [
+        {
+            "inventory_id": "bdi_ii",
+            "score_total": 25,
+            "items_criticos": [
+                {
+                    "item": 9,
+                    "valor": 2,
+                    "alerta": "crisis"
+                }
+            ]
+        }
+    ],
+    "procedures": [
+        {
+            "procedure_id": "ac_psicoeducacion",
+            "pasos_realizados": [
+                {
+                    "orden": 1,
+                    "descripcion": "Explicar el modelo de activación-conducta",
+                    "resultado": "Paciente comprende el modelo"
+                }
+            ]
+        }
+    ],
+    "tareas": [
+        {
+            "tarea_id": "monitoreo_actividad",
+            "criterios_cumplimiento": "Completar al menos 5 registros"
+        }
+    ],
+    "validaciones_clinicas": [
+        {
+            "criterio": "No iniciar si hay riesgo suicida activo",
+            "resultado": "Validado"
+        }
+    ],
+    "incidentes_eticos": [],
+    "decisiones": [
+        {
+            "momento": "Psicoeducación",
+            "decision": "Aplicar técnica AC",
+            "justificacion": "Guía NICE recomienda psicoeducación en fase inicial"
+        }
+    ],
+    "resumen": "Sesión completada, paciente sin incidentes graves, tareas asignadas."
+}

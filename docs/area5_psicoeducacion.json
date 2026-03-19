@@ -1,0 +1,91 @@
+{
+  "area": 5,
+  "nombre": "Recursos Psicoeducativos",
+  "descripcion": "Materiales para explicar al paciente qué es la DS, cómo funciona, qué puede esperar, y por qué es eficaz",
+  "elementos": [
+    {
+      "id": "PSI-001",
+      "tipo": "explicacion_paciente",
+      "titulo": "¿Qué es la Desensibilización Sistemática?",
+      "nivel": "paciente",
+      "contenido": "Es una técnica que te ayuda a perder el miedo a situaciones que ahora te generan ansiedad. Funciona de una forma muy sencilla: tu sistema nervioso no puede estar relajado y ansioso al mismo tiempo. Si aprendes a relajarte profundamente y luego te imaginas las situaciones que te dan miedo (empezando por las más suaves), tu cerebro aprende a asociar esas situaciones con calma en lugar de con miedo. Es como si reprogramáramos la alarma de tu cuerpo para que deje de sonar ante cosas que en realidad no son peligrosas."
+    },
+    {
+      "id": "PSI-002",
+      "tipo": "explicacion_paciente",
+      "titulo": "¿Por qué funciona? La Inhibición Recíproca",
+      "nivel": "paciente",
+      "contenido": "Tu cuerpo tiene dos 'modos' opuestos: el modo alerta (corazón acelerado, músculos tensos, respiración rápida) y el modo calma (corazón lento, músculos sueltos, respiración profunda). No puede estar en los dos a la vez. Cuando te relajas y al mismo tiempo piensas en algo que te da miedo, tu cerebro recibe un mensaje contradictorio: 'la situación está ahí, pero mi cuerpo está en calma'. Si repetimos esto suficientes veces, tu cerebro actualiza su archivo y deja de clasificar esa situación como peligrosa."
+    },
+    {
+      "id": "PSI-003",
+      "tipo": "explicacion_paciente",
+      "titulo": "¿Qué es la Jerarquía de Ansiedad?",
+      "nivel": "paciente",
+      "contenido": "Es tu mapa personal del miedo. Juntos vamos a hacer una lista de situaciones relacionadas con tu problema, ordenadas de la que menos miedo te da a la que más. Le pondremos un número del 0 al 100 a cada una (0 = nada de miedo, 100 = pánico total). Empezaremos siempre por las situaciones más suaves y solo avanzaremos cuando las hayas dominado. Es como subir una escalera: no saltamos al último peldaño, vamos paso a paso."
+    },
+    {
+      "id": "PSI-004",
+      "tipo": "explicacion_paciente",
+      "titulo": "¿Qué pasará en las sesiones de DS?",
+      "nivel": "paciente",
+      "contenido": "Primero te ayudaré a relajarte profundamente. Cuando estés en calma, te pediré que imagines una escena de tu lista (empezando por las más fáciles). Si en algún momento sientes ansiedad, me lo indicas levantando un dedo y cortamos la imagen inmediatamente. Volvemos a la relajación y lo intentamos de nuevo. Un ítem se considera superado cuando puedes imaginarlo tres veces seguidas sin sentir nada de ansiedad. No hay prisa: avanzamos a tu ritmo."
+    },
+    {
+      "id": "PSI-005",
+      "tipo": "explicacion_paciente",
+      "titulo": "¿Por qué tengo que imaginar con tanto detalle?",
+      "nivel": "paciente",
+      "contenido": "Tu cerebro procesa la imaginación vívida casi como si fuera real. Las mismas zonas cerebrales que se activan cuando ves algo de verdad se activan cuando lo imaginas con detalle. Por eso te pediré que veas colores, oigas sonidos, sientas temperaturas y texturas. Cuanto más real sea la escena en tu mente, más efectivo será el tratamiento. Si te digo simplemente 'imagina que vas a hablar en público', tu cerebro bosteza. Si te digo 'sientes la silla rígida en tu espalda, oyes el murmullo del público, ves la madera del atril brillar bajo los focos', tu cerebro dice 'esto va en serio' y se activa la respuesta que queremos reprogramar."
+    },
+    {
+      "id": "PSI-006",
+      "tipo": "explicacion_paciente",
+      "titulo": "¿Por qué no debo evitar las situaciones que me dan miedo?",
+      "nivel": "paciente",
+      "contenido": "Cada vez que evitas algo que te da miedo, tu cerebro interpreta: 'He escapado, luego ERA peligroso'. La evitación es el combustible del miedo. Cuando te expones y te quedas, tu cerebro registra: 'Estuve ahí y no pasó nada malo'. Eso es habituación: tu sistema nervioso aprende que la alarma era una falsa alarma. Pero para que funcione, necesitas quedarte el tiempo suficiente para que la ansiedad baje sola. Si escapas cuando la ansiedad está alta, la refuerzas."
+    },
+    {
+      "id": "PSI-007",
+      "tipo": "explicacion_paciente",
+      "titulo": "La Curva de la Ansiedad",
+      "nivel": "paciente",
+      "contenido": "La ansiedad sigue siempre la misma curva: sube, llega a un pico, y luego baja sola. SIEMPRE baja. No puede quedarse arriba para siempre porque tu cuerpo no tiene energía infinita para mantener la alarma. El problema es que la mayoría de las personas escapan justo en el pico, así que nunca comprueban que baja. En la DS y en la exposición en vivo, el objetivo es que experimentes la bajada. Una vez que tu cerebro registra esa bajada, el miedo pierde fuerza."
+    },
+    {
+      "id": "PSI-008",
+      "tipo": "explicacion_paciente",
+      "titulo": "¿Qué son las Conductas de Seguridad?",
+      "nivel": "paciente",
+      "contenido": "Son los 'trucos' que usas sin darte cuenta para sentirte menos ansioso: sentarte cerca de la puerta, llevar pastillas en el bolsillo 'por si acaso', ir siempre acompañado, usar el móvil para distraerte. El problema es que si usas estos trucos durante la exposición, tu cerebro piensa: 'No me pasó nada GRACIAS a la puerta/pastilla/acompañante'. No aprende que la situación es segura por sí misma. Por eso, durante las tareas de exposición, iremos retirando estas muletas poco a poco."
+    },
+    {
+      "id": "PSI-009",
+      "tipo": "metafora",
+      "titulo": "Metáfora de la Alarma de Incendios",
+      "nivel": "paciente",
+      "contenido": "Imagina que la alarma de incendios de tu casa se dispara cada vez que haces una tostada. No hay fuego, pero la alarma suena igual. ¿Qué opciones tienes? Opción 1: dejar de hacer tostadas para siempre (evitación). Opción 2: recalibrar la alarma para que solo suene ante fuego real (DS). Lo que hacemos es entrenar a tu sistema nervioso para que distinga entre el humo de la tostada (situación incómoda pero segura) y un incendio real (peligro verdadero)."
+    },
+    {
+      "id": "PSI-010",
+      "tipo": "metafora",
+      "titulo": "Metáfora de la Escalera",
+      "nivel": "paciente",
+      "contenido": "Tu miedo es como un edificio de 10 pisos. Ahora mismo estás en la planta baja mirando hacia arriba y pensando 'imposible'. Pero nadie te va a pedir que subas los 10 pisos de golpe. Vamos a subir uno a uno. Y en cada piso, antes de subir al siguiente, te aseguras de que estás completamente cómodo. Cuando llegues al piso 10, te sorprenderá lo fácil que fue porque nunca diste un salto mayor del que podías manejar."
+    },
+    {
+      "id": "PSI-011",
+      "tipo": "explicacion_paciente",
+      "titulo": "¿Qué hago si siento ansiedad durante la tarea para casa?",
+      "nivel": "paciente",
+      "contenido": "Si durante la exposición en vivo sientes que la ansiedad sube: (1) No escapes. Quédate donde estás. (2) Aplica la respiración cuadrada: 4 segundos inhalar, 4 mantener, 4 exhalar, 4 esperar. (3) Observa la ansiedad como si fueras un científico: 'Interesante, ahora estoy en un 60'. (4) Espera. La curva bajará. (5) Anota todo en tu registro. Si la ansiedad es tan alta que te sientes desbordado, puedes alejarte ligeramente (no escapar del todo), reducir la intensidad, respirar, y cuando baje un poco, volver a acercarte."
+    },
+    {
+      "id": "PSI-012",
+      "tipo": "explicacion_paciente",
+      "titulo": "Paso a Paso del Tratamiento Completo",
+      "nivel": "paciente",
+      "contenido": "Fase 1 (Semanas 1-2): Evaluación. Entenderemos bien tu problema y te enseñaré a relajarte. Fase 2 (Semana 3): Construiremos juntos tu escalera del miedo (jerarquía). Fase 3 (Semanas 4-8): Sesiones de desensibilización en consulta. Iremos subiendo tu escalera en la imaginación. Fase 4 (Semanas 6-10): En paralelo, empezarás a exponerte en la vida real a las situaciones que ya hayas superado en imaginación. Fase 5 (Semanas 10-12): Consolidación. Verificamos que los resultados se mantienen y prevenimos recaídas. Total estimado: 10-15 sesiones."
+    }
+  ]
+}

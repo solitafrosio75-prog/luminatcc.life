@@ -1,0 +1,17 @@
+{
+  "orchestrator_id": "orch_001",
+  "session_id": "ac_sesion_1",
+  "flujo": [
+    "Paciente → Terapeuta → Base Conocimiento → Terapeuta → Ético → Automonitoreo → Intervención"
+  ],
+  "prioridades": [
+    "Ético",
+    "Automonitoreo",
+    "Relacional"
+  ],
+  "interrupciones": [
+    "Crisis suicida detectada"
+  ],
+  "fecha": "2026-03-14",
+  "observaciones": "Flujo adaptado por crisis."
+}

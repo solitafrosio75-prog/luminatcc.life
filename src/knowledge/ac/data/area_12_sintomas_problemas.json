@@ -1,0 +1,66 @@
+{
+  "area_id": "sintomas_problemas",
+  "nombre": "Síntomas y Problemas",
+  "descripcion": "Trastornos y síntomas más frecuentes que requieren intervención con Activación Conductual, con descripción de cómo se manifiestan conductualmente",
+  "fuentes": [
+    "DSM-5-TR (APA, 2022)",
+    "Martell et al. (2010)",
+    "Lewinsohn (1974)",
+    "Dimidjian et al. (2006)"
+  ],
+  "trastornos": [
+    {
+      "nombre": "Depresión Mayor",
+      "sintomas_principales": [
+        "Estado de ánimo deprimido la mayor parte del día",
+        "Pérdida de interés o placer (anhedonia)",
+        "Cambios en apetito y peso",
+        "Insomnio o hipersomnia",
+        "Fatiga o pérdida de energía",
+        "Sentimientos de inutilidad o culpa excesiva",
+        "Dificultad para concentrarse",
+        "Pensamientos recurrentes de muerte",
+        "Agitación o enlentecimiento psicomotor"
+      ],
+      "como_se_manifiesta_en_conducta": "Reducción drástica de actividades, permanencia prolongada en cama, abandono de higiene y autocuidado, aislamiento social, evitación de responsabilidades, rumiación prolongada, abandono de hobbies y actividades placenteras.",
+      "foco_intervencion": "Incrementar progresivamente la tasa de reforzamiento positivo contingente a la respuesta mediante programación graduada de actividades, comenzando por autocuidado básico."
+    },
+    {
+      "nombre": "Anhedonia",
+      "sintomas_principales": [
+        "Incapacidad para experimentar placer",
+        "Pérdida de interés en actividades antes disfrutadas",
+        "Sensación de vacío emocional",
+        "Embotamiento afectivo",
+        "Dificultad para anticipar placer (anhedonia anticipatoria)",
+        "Falta de motivación intrínseca"
+      ],
+      "como_se_manifiesta_en_conducta": "Abandono total de actividades recreativas, respuesta emocional plana ante estímulos normalmente agradables, reducción de conductas de búsqueda de placer, preferencia por actividades pasivas (TV, redes sociales sin disfrute).",
+      "foco_intervencion": "Experimentos conductuales de 'actuar como si', saboreo consciente de experiencias sensoriales, actividades novedosas y estimulantes que rompan la habituación, ejercicios de atención plena."
+    },
+    {
+      "nombre": "Apatía Crónica",
+      "sintomas_principales": [
+        "Falta de motivación persistente",
+        "Indiferencia emocional",
+        "Reducción de iniciativa",
+        "Desinterés por metas personales",
+        "Pasividad ante el entorno"
+      ],
+      "como_se_manifiesta_en_conducta": "Mínima actividad más allá de lo estrictamente necesario, delegación de decisiones en otros, vida en 'piloto automático', rutinas muy reducidas sin variación.",
+      "foco_intervencion": "Microtareas iniciales para generar momentum conductual. Conexión con valores como fuente de motivación extrínseca inicial. Economía de fichas si la motivación intrínseca está muy deteriorada."
+    },
+    {
+      "nombre": "Duelo Complicado",
+      "sintomas_principales": [
+        "Duelo prolongado más allá de lo esperado culturalmente",
+        "Anhelo intenso y persistente del fallecido",
+        "Evitación de recordatorios de la pérdida",
+        "Dificultad para re-comprometerse con la vida",
+        "Aislamiento social progresivo"
+      ],
+      "como_se_manifiesta_en_conducta": "Evitación de lugares, personas y actividades asociadas al fallecido. Abandono de actividades que antes compartían. Repliegue social progresivo. Rumiación sobre la pérdida.",
+      "foco_intervencion": "Re-compromiso gradual con actividades significativas. Exposición graduada a recordatorios. Creación de nuevas fuentes de reforzamiento social. Programación de actividades que honren la memoria sin perpetuar la evitación."
+    }
+  ]
+}

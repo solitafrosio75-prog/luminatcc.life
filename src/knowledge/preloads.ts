@@ -1,0 +1,118 @@
+/**
+ * preloads.ts — Perfiles de precarga por contexto clínico
+ *
+ * Agnósticos a la técnica: definen QUÉ áreas precargar.
+ * El componente pasa el techniqueId al hook.
+ * Solo incluyen áreas compartidas (las específicas se precargan ad-hoc).
+ */
+
+import { KBArea } from './types';
+
+/** Evaluación e intake */
+export const PRELOAD_ASSESSMENT: KBArea[] = [
+  KBArea.HERRAMIENTAS_EVALUACION,
+  KBArea.SINTOMAS_PROBLEMAS,
+];
+
+/** Entrevista clínica */
+export const PRELOAD_INTERVIEW: KBArea[] = [
+  KBArea.HABILIDADES_TERAPEUTA,
+  KBArea.HERRAMIENTAS_EVALUACION,
+  KBArea.SINTOMAS_PROBLEMAS,
+];
+
+/** Psicoeducación */
+export const PRELOAD_PSYCHOEDUCATION: KBArea[] = [
+  KBArea.CONOCIMIENTO,
+  KBArea.RECURSOS_MATERIALES,
+];
+
+/** Planificación de sesión */
+export const PRELOAD_SESSION_FULL: KBArea[] = [
+  KBArea.ESTRUCTURA_SESIONES,
+  KBArea.BARRERAS,
+  KBArea.HABILIDADES_TERAPEUTA,
+  KBArea.TECNICAS_ESPECIFICAS,
+];
+
+/** Planificación de actividades (AC) */
+export const PRELOAD_AC_PLANNING: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.AC_ACTIVIDADES_POR_PROBLEMA,
+  KBArea.AC_AREAS_VITALES,
+  KBArea.AC_VALORES_REFORZADORES,
+];
+
+/** Trabajo cognitivo (RC) */
+export const PRELOAD_RC_COGNITIVE: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.RC_DISTORSIONES_COGNITIVAS,
+  KBArea.RC_REGISTRO_PENSAMIENTOS,
+  KBArea.RC_CREENCIAS_NUCLEARES,
+  KBArea.RC_EXPERIMENTOS_CONDUCTUALES,
+];
+
+/** Desensibilización Sistemática (DS) */
+export const PRELOAD_DS_DESENSIBILIZACION: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.DS_JERARQUIA_ANSIEDAD,
+  KBArea.DS_RELAJACION,
+  KBArea.DS_PROCESO_DESENSIBILIZACION,
+];
+
+/** Terapia de Exposición (EXP) */
+export const PRELOAD_EXP_EXPOSICION: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.EXP_JERARQUIA_EXPOSICION,
+  KBArea.EXP_PREVENCION_RESPUESTA,
+  KBArea.EXP_PROCESO_EXPOSICION,
+];
+
+/** Modificación de Conducta (MC) */
+export const PRELOAD_MC_MODIFICACION: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.MC_ANALISIS_FUNCIONAL,
+  KBArea.MC_PROGRAMAS_REFORZAMIENTO,
+  KBArea.MC_TECNICAS_OPERANTES,
+];
+
+/** Flexibilidad psicológica (ACT) */
+export const PRELOAD_ACT_FLEXIBILIDAD: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.ACT_HEXAFLEX,
+  KBArea.ACT_DEFUSION_COGNITIVA,
+  KBArea.ACT_VALORES_ACCION,
+];
+
+/** Habilidades DBT (DC) */
+export const PRELOAD_DC_HABILIDADES: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.DC_REGULACION_EMOCIONAL,
+  KBArea.DC_TOLERANCIA_MALESTAR,
+  KBArea.DC_EFECTIVIDAD_INTERPERSONAL,
+];
+
+/** Trabajo racional-emotivo (TREC) */
+export const PRELOAD_TREC_RACIONAL: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.TREC_CREENCIAS_IRRACIONALES,
+  KBArea.TREC_DISPUTACION,
+  KBArea.TREC_MODELO_ABCDE,
+];
+
+/** Práctica mindfulness */
+export const PRELOAD_MINDFULNESS_PRACTICA: KBArea[] = [
+  KBArea.EJERCICIOS_TAREAS,
+  KBArea.TECNICAS_ESPECIFICAS,
+  KBArea.MINDFULNESS_PRACTICAS_FORMALES,
+  KBArea.MINDFULNESS_PRACTICAS_INFORMALES,
+  KBArea.MINDFULNESS_APLICACIONES_CLINICAS,
+];

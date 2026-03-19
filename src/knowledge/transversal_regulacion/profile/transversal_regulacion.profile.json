@@ -1,0 +1,97 @@
+{
+  "profile_id": "transversal_regulacion_profile_v3",
+  "technique_id": "transversal_regulacion",
+  "nombre": "Guia Transversal de Regulacion y Compasion",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "reviewed_by": [
+    "equipo_tcc_lab",
+    "revision_tecnica_inicial"
+  ],
+  "resumen_clinico": "Paquete transversal orientado a regulacion emocional breve, defusion cognitiva y autocuidado compasivo cuando no existe tecnica troncal especifica para el caso.",
+  "mecanismos_de_cambio": [
+    "disminucion de fusion cognitiva",
+    "reduccion de autocritica desreguladora",
+    "anclaje atencional al presente",
+    "contencion de rumiacion temporal"
+  ],
+  "problemas_diana": [
+    "autocritica_excesiva",
+    "rumiacion",
+    "sobrecarga_emocional",
+    "bloqueo_por_preocupacion"
+  ],
+  "sintomas_diana": [
+    "tension_mental_persistente",
+    "habla_interna_hostil",
+    "hipervigilancia_cognitiva",
+    "insomnio_por_preocupacion"
+  ],
+  "poblaciones_objetivo": [
+    "adultos",
+    "adolescentes",
+    "contextos_de_alta_autoexigencia"
+  ],
+  "prerequisitos": [
+    "capacidad minima de observacion interna",
+    "disponibilidad para practica breve diaria"
+  ],
+  "contraindicaciones": [
+    {
+      "id": "tx_ci_01",
+      "condicion": "Disociacion activa intensa",
+      "tipo": "relativa",
+      "razon_clinica": "Algunas tecnicas introspectivas pueden aumentar desconexion si no hay anclaje previo.",
+      "alternativa_sugerida": "Intervenciones de grounding conductual externo y estabilizacion"
+    }
+  ],
+  "banderas_seguridad": [
+    "autodesprecio persistente",
+    "desesperanza en aumento",
+    "disociacion al aumentar introspeccion",
+    "insomnio por hiperactivacion cognitiva"
+  ],
+  "requiere_derivacion_si": [
+    "riesgo_suicida_alto",
+    "psicosis_activa",
+    "desorganizacion_clinica"
+  ],
+  "supervision": [
+    {
+      "id": "tx_sup_01",
+      "descripcion": "Supervision recomendada cuando hay trauma complejo o antecedentes de disociacion",
+      "requerido": true,
+      "contexto": "casos de alta reactividad emocional"
+    }
+  ],
+  "evidencia": {
+    "nivel_global": "moderada",
+    "fuerza_recomendacion": "condicional",
+    "poblaciones_validadas": [
+      "ansiedad",
+      "depresion",
+      "estres_cronico"
+    ],
+    "fuentes_clave": [
+      "Neff (2011). Self-Compassion",
+      "Hayes et al. (2016). Acceptance and Commitment Therapy",
+      "Kabat-Zinn (1990). Full Catastrophe Living"
+    ],
+    "limitaciones": [
+      "no sustituye intervenciones nucleares en cuadros severos",
+      "requiere practica sostenida para efecto estable"
+    ]
+  },
+  "combinable_con": [
+    "activacion_conductual",
+    "reestructuracion_cognitiva",
+    "exposicion",
+    "modificacion_de_conducta"
+  ],
+  "no_recomendada_con": [
+    "uso_unico_en_crisis_aguda"
+  ],
+  "trace_sources": [
+    "src/services/tccEngineKnowledgeV3Bridge.ts"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "area_id": "ejercicios_tareas",
+  "nombre": "Ejercicios y Tareas de ACT",
+  "descripcion": "Ejercicios experienciales y tareas para casa diseñados para desarrollar flexibilidad psicológica a través de los seis procesos del hexaflex",
+  "fuentes": [
+    "Hayes, Strosahl & Wilson (2012). Acceptance and Commitment Therapy, 2nd ed.",
+    "Harris (2009). ACT Made Simple",
+    "Luoma, Hayes & Walser (2007). Learning ACT",
+    "Stoddard & Afari (2014). The Big Book of ACT Metaphors"
+  ],
+  "ejercicios": [
+    {
+      "id": "EJ01",
+      "nombre": "Hojas en el río",
+      "tipo": "defusion_experiencial",
+      "objetivo": "Desarrollar la capacidad de observar los pensamientos sin fusionarse con ellos, practicando la defusión cognitiva mediante visualización guiada",
+      "instrucciones": [
+        "Pide al paciente que cierre los ojos y se imagine sentado junto a un río tranquilo con hojas flotando en la superficie",
+        "Indica que cuando surja un pensamiento, lo coloque mentalmente sobre una hoja y observe cómo la corriente se lo lleva río abajo",
+        "Si aparece un pensamiento difícil o pegajoso, simplemente nótalo y ponlo en otra hoja",
+        "Si la mente se queda en blanco, observa también ese pensamiento ('mi mente está en blanco') y ponlo en una hoja",
+        "Si se distrae y pierde el río, nótalo amablemente y vuelve a la orilla del río",
+        "Continuar durante 5-10 minutos, observando qué tipo de pensamientos aparecen y con cuáles se engancha más"
+      ],
+      "frecuencia": "Diaria, 5-10 minutos. Inicialmente en sesión con guía del terapeuta, luego como práctica autónoma en casa.",
+      "ejemplo": "Un paciente con ansiedad social nota pensamientos como 'van a pensar que soy raro' y 'seguro que digo algo estúpido'. En lugar de debatirlos o intentar eliminarlos, los coloca en hojas y observa cómo flotan. Con la práctica, reporta que los pensamientos siguen apareciendo pero ya no dominan su conducta."
+    },
+    {
+      "id": "EJ02",
+      "nombre": "Manos como pensamientos",
+      "tipo": "defusion_corporal",
+      "objetivo": "Ilustrar de forma experiencial la diferencia entre fusión cognitiva (cuando los pensamientos dominan la experiencia) y defusión (cuando se observan con distancia)",
+      "instrucciones": [
+        "Pide al paciente que se tape los ojos con las manos: así es la fusión — los pensamientos cubren toda la realidad y no se puede ver nada más",
+        "Ahora pide que separe las manos lentamente de la cara: así es la defusión — los pensamientos siguen ahí (las manos no desaparecen) pero ya no dominan todo el campo visual",
+        "Pregunta: '¿Puedes ver la habitación con las manos pegadas a la cara? ¿Y con las manos separadas?'",
+        "Conecta con su experiencia: '¿Qué pasa cuando tus pensamientos de ansiedad están pegados a tu cara? ¿Puedes ver otras cosas en tu vida?'",
+        "Practica mover las manos: acercar (fusión) y alejar (defusión), notando cómo cambia la experiencia"
+      ],
+      "frecuencia": "1-2 veces en sesión como demostración. El paciente puede practicarlo cuando detecte fusión cognitiva intensa.",
+      "ejemplo": "El terapeuta dice: 'Tu mente te dice que eres un fracasado. Imagina que ese pensamiento son tus manos. Cuando están pegadas a tu cara, es lo único que ves. ¿Puedes conducir así? ¿Puedes trabajar? Ahora sepáralas. El pensamiento sigue ahí, pero ya puedes ver todo lo demás.'"
+    },
+    {
+      "id": "EJ03",
+      "nombre": "Ejercicio del funeral (clarificación de valores)",
+      "tipo": "valores_experiencial",
+      "objetivo": "Conectar al paciente con sus valores más profundos a través de una visualización que genera contacto emocional con lo que realmente importa",
+      "instrucciones": [
+        "Advierte al paciente que este ejercicio puede ser emocionalmente intenso y que eso es normal",
+        "Pide que cierre los ojos e imagine que han pasado muchos años y ha llegado al final de su vida",
+        "Guía la visualización: 'Imagina tu funeral. Están presentes las personas más importantes de tu vida: familia, amigos, compañeros de trabajo'",
+        "Pregunta: '¿Qué te gustaría que dijera tu pareja o ser querido más cercano sobre ti y vuestra relación?'",
+        "Pregunta: '¿Qué te gustaría que dijera tu mejor amigo/a sobre la clase de amigo/a que fuiste?'",
+        "Pregunta: '¿Qué te gustaría que dijera un compañero de trabajo sobre cómo fue trabajar contigo?'",
+        "Pregunta: '¿Qué te gustaría que dijera tu hijo/a (real o imaginario) sobre el tipo de padre/madre que fuiste?'",
+        "Reflexiona: '¿Las cosas que quieres que digan de ti se parecen a cómo estás viviendo ahora? ¿Qué cambiarías?'"
+      ],
+      "frecuencia": "1-2 veces durante el proceso terapéutico, generalmente en las sesiones dedicadas a clarificación de valores. Puede revisarse al final del tratamiento.",
+      "ejemplo": "Una paciente que vive centrada en el trabajo y el rendimiento, al realizar el ejercicio, se da cuenta de que en ningún eulogy mencionó su cargo o salario. Lo que quería que dijeran era que fue cariñosa, presente y que disfrutaba la vida. Esto le permite reconectar con valores de relación y ocio que tenía abandonados."
+    },
+    {
+      "id": "EJ04",
+      "nombre": "Diana de valores (Bull's Eye)",
+      "tipo": "valores_evaluacion",
+      "objetivo": "Evaluar visualmente la distancia entre los valores del paciente y su conducta actual, identificando áreas prioritarias para la acción comprometida",
+      "instrucciones": [
+        "Presenta al paciente una diana con cuatro cuadrantes: trabajo/educación, relaciones, ocio/recreación, salud/crecimiento personal",
+        "Explica: 'El centro de la diana representa vivir plenamente según tus valores. El borde exterior representa estar completamente desconectado de ellos'",
+        "Pide que en cada cuadrante escriba brevemente sus valores para esa área",
+        "Pide que marque un punto en cada cuadrante indicando dónde se encuentra actualmente",
+        "Para cada punto alejado del centro, pregunta: '¿Qué te impide acercarte al centro?' (identificar barreras)",
+        "Pregunta: '¿Qué pequeña acción podrías hacer esta semana para acercarte un poco al centro en esta área?'"
+      ],
+      "frecuencia": "Cada 2-4 sesiones para monitorizar progreso en acción comprometida. Comparar dianas anteriores con las actuales.",
+      "ejemplo": "Un paciente con depresión marca puntos muy alejados del centro en 'relaciones' y 'ocio', pero cerca del centro en 'trabajo'. Identifica que la barrera es la evitación: cuando se siente triste, cancela planes sociales. Se compromete a asistir a una comida familiar aunque se sienta mal."
+    },
+    {
+      "id": "EJ05",
+      "nombre": "Acción opuesta a la evitación",
+      "tipo": "accion_comprometida",
+      "objetivo": "Romper el patrón de evitación experiencial mediante la realización de acciones comprometidas que implican contacto voluntario con malestar",
+      "instrucciones": [
+        "Identifica con el paciente una situación que evita habitualmente por las emociones que genera",
+        "Explora: '¿Qué valor está detrás de esta acción que evitas? ¿Qué te importa de esto?'",
+        "Evalúa la disposición: '¿Estarías dispuesto/a a sentir esa incomodidad si eso te acercara a lo que te importa?'",
+        "Diseña una acción concreta, específica y graduada (no empezar por lo más difícil)",
+        "Acuerda un compromiso: cuándo, dónde, con quién, cuánto tiempo",
+        "Después de la acción, reflexionar: '¿Qué pasó? ¿Pudiste estar con la incomodidad? ¿Te acercó a tus valores?'"
+      ],
+      "frecuencia": "Semanal. Cada semana el paciente elige una acción comprometida con un valor específico que implique algún grado de exposición al malestar evitado.",
+      "ejemplo": "Un paciente que evita hablar en reuniones por miedo al juicio se compromete a hacer un comentario en la próxima reunión. No se busca que la ansiedad desaparezca, sino que pueda actuar según su valor de 'contribuir profesionalmente' incluso con ansiedad."
+    },
+    {
+      "id": "EJ06",
+      "nombre": "Diario de valores y acciones",
+      "tipo": "monitoreo_valores",
+      "objetivo": "Registro diario que conecta las acciones del paciente con sus valores, aumentando la conciencia de cuándo actúa según valores y cuándo actúa por evitación",
+      "instrucciones": [
+        "Proporciona al paciente una hoja con columnas: Día, Acción realizada, ¿Conectada con qué valor?, Nivel de dificultad (0-10), ¿Qué pensamientos/emociones aparecieron?, ¿Fue hacia valores o hacia evitación?",
+        "Pide que registre al menos 2-3 acciones diarias significativas",
+        "Explica: 'No se trata de evaluar si lo hiciste bien o mal, sino de notar la dirección de tu conducta'",
+        "En sesión, revisa el diario juntos, reforzando las acciones conectadas con valores y explorando los momentos de evitación sin juicio",
+        "Busca patrones: ¿hay momentos del día, contextos o emociones que disparan más evitación?"
+      ],
+      "frecuencia": "Diario durante las semanas de acción comprometida. Revisar en cada sesión.",
+      "ejemplo": "El paciente registra: 'Lunes: Llamé a mi madre (valor: familia). Dificultad 4. Apareció pensamiento: no tengo nada interesante que contar. Fue hacia valores.' 'Martes: Me quedé en cama viendo series (evitación). Evité ir al gimnasio. Apareció: estoy muy cansado para eso.'"
+    }
+  ]
+}

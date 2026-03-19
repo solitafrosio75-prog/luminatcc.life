@@ -1,0 +1,128 @@
+{
+  "area_id": "tecnicas_especificas",
+  "nombre": "Tecnicas Especificas de Mindfulness Clinico",
+  "descripcion": "Tecnicas especializadas de mindfulness para aplicacion en contexto clinico y terapeutico.",
+  "fuentes": [
+    "Segal, Z. V. et al. (2013). MBCT for Depression (2nd ed.). Guilford.",
+    "Kabat-Zinn, J. (2013). Full Catastrophe Living. Bantam.",
+    "Linehan, M. M. (2015). DBT Skills Training Manual (2nd ed.). Guilford.",
+    "Germer, C. K. & Neff, K. D. (2013). Self-Compassion in Clinical Practice. Journal of Clinical Psychology, 69(8), 856-867."
+  ],
+  "tecnicas": [
+    {
+      "id": "descentramiento",
+      "nombre": "Descentramiento (Decentering)",
+      "descripcion": "Capacidad de observar los pensamientos y emociones como eventos mentales pasajeros, no como hechos o como parte de uno mismo.",
+      "procedimiento": [
+        "Notar cuando surge un pensamiento",
+        "Etiquetarlo suavemente: 'Estoy teniendo el pensamiento de que...'",
+        "Observarlo como si fuera una nube que pasa",
+        "No engancharse ni intentar eliminarlo",
+        "Regresar al momento presente"
+      ],
+      "indicaciones": [
+        "Rumia depresiva",
+        "Preocupacion ansiosa",
+        "Fusion cognitiva"
+      ],
+      "diferencia_con_reestructuracion": "No se busca cambiar el contenido del pensamiento (como en TCC), sino cambiar la relacion con el pensamiento."
+    },
+    {
+      "id": "surf_emocional",
+      "nombre": "Surfear la emocion (Urge Surfing)",
+      "descripcion": "Observar la emocion o impulso como una ola que crece, alcanza su pico y naturalmente decrece.",
+      "procedimiento": [
+        "Notar la emocion o impulso cuando surge",
+        "Localizar donde se siente en el cuerpo",
+        "Observar su intensidad como si fuera una ola",
+        "Respirar con la emocion sin intentar cambiarla",
+        "Notar como gradualmente la intensidad cambia por si sola",
+        "Reconocer que las emociones son transitorias"
+      ],
+      "indicaciones": [
+        "Craving en adicciones",
+        "Impulsos autolesivos",
+        "Ira intensa",
+        "Ansiedad aguda"
+      ]
+    },
+    {
+      "id": "atencion_abierta",
+      "nombre": "Atencion abierta (Choiceless Awareness)",
+      "descripcion": "Estado de atencion receptiva a cualquier experiencia que surja, sin dirigir el foco a ningun objeto particular.",
+      "procedimiento": [
+        "Comenzar con atencion focalizada en respiracion",
+        "Gradualmente soltar el ancla y abrir la atencion",
+        "Notar lo que surja: sonidos, sensaciones, pensamientos, emociones",
+        "Mantener ecuanimidad ante lo agradable y desagradable",
+        "Observar como cada experiencia surge y desaparece"
+      ],
+      "indicaciones": [
+        "Practicantes intermedios-avanzados",
+        "Desarrollo de ecuanimidad",
+        "Prevencion de recaidas"
+      ],
+      "nivel": "avanzado"
+    },
+    {
+      "id": "autocompasion_mindful",
+      "nombre": "Autocompasion consciente (Mindful Self-Compassion)",
+      "descripcion": "Practica que combina mindfulness con autocompasion: tratarse a uno mismo con la misma amabilidad que se trataria a un amigo querido.",
+      "componentes": [
+        {
+          "componente": "Mindfulness",
+          "descripcion": "Reconocer el sufrimiento sin suprimirlo ni exagerarlo"
+        },
+        {
+          "componente": "Humanidad compartida",
+          "descripcion": "Reconocer que el sufrimiento es parte de la experiencia humana universal"
+        },
+        {
+          "componente": "Amabilidad hacia uno mismo",
+          "descripcion": "Dirigirse palabras y gestos de cuidado y comprension"
+        }
+      ],
+      "practica_breve": [
+        "Poner una mano sobre el corazon",
+        "Decirse: 'Este es un momento de sufrimiento' (mindfulness)",
+        "Decirse: 'El sufrimiento es parte de la vida' (humanidad compartida)",
+        "Decirse: 'Que pueda ser amable conmigo mismo' (amabilidad)"
+      ],
+      "indicaciones": [
+        "Autocritica severa",
+        "Verguenza",
+        "Trauma",
+        "Depresion recurrente"
+      ]
+    },
+    {
+      "id": "rain",
+      "nombre": "Tecnica RAIN",
+      "descripcion": "Acronimo para trabajar con emociones dificiles de forma mindful.",
+      "pasos": [
+        {
+          "paso": "R - Reconocer",
+          "descripcion": "Reconocer que esta presente una emocion dificil. Nombrarla."
+        },
+        {
+          "paso": "A - Aceptar/Permitir",
+          "descripcion": "Permitir que la emocion este presente sin resistirla."
+        },
+        {
+          "paso": "I - Investigar",
+          "descripcion": "Explorar con curiosidad: donde la siento en el cuerpo? Que pensamientos la acompanan?"
+        },
+        {
+          "paso": "N - No-identificacion",
+          "descripcion": "Reconocer que la emocion no es 'yo'. Es una experiencia transitoria."
+        }
+      ],
+      "indicaciones": [
+        "Regulacion emocional",
+        "Ansiedad",
+        "Tristeza",
+        "Ira"
+      ]
+    }
+  ]
+}

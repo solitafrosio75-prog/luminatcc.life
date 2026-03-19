@@ -1,0 +1,89 @@
+{
+  "area_id": "objetivos_clinicos",
+  "nombre": "Objetivos Clínicos del Mindfulness Terapéutico",
+  "descripcion": "Indicaciones terapéuticas, niveles de evidencia y contraindicaciones para la aplicación del mindfulness en contexto clínico.",
+  "fuentes": [
+    "Kabat-Zinn, J. (1990). Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness. Delacorte Press.",
+    "Segal, Z. V., Williams, J. M. G., & Teasdale, J. D. (2013). Mindfulness-Based Cognitive Therapy for Depression (2nd ed.). Guilford Press.",
+    "Khoury, B. et al. (2013). Mindfulness-based therapy: A comprehensive meta-analysis. Clinical Psychology Review, 33(6), 763-771.",
+    "Goldberg, S. B. et al. (2018). Mindfulness-based interventions for psychiatric disorders. Clinical Psychology Review, 59, 52-60.",
+    "Bowen, S., Chawla, N., & Marlatt, G. A. (2011). Mindfulness-Based Relapse Prevention for Addictive Behaviors. Guilford Press.",
+    "Germer, C. K. (2009). The Mindful Path to Self-Compassion. Guilford Press.",
+    "Treleaven, D. A. (2018). Trauma-Sensitive Mindfulness: Practices for Safe and Transformative Healing. W. W. Norton.",
+    "Creswell, J. D. (2017). Mindfulness interventions. Annual Review of Psychology, 68, 491-516."
+  ],
+  "indicaciones": [
+    {
+      "trastorno": "Estrés crónico",
+      "nivel_evidencia": "Alta",
+      "notas": "MBSR fue diseñado originalmente para esta población. Múltiples ensayos clínicos aleatorizados demuestran reducción significativa en niveles percibidos de estrés, cortisol y marcadores inflamatorios. Eficaz tanto en estrés laboral como en estrés asociado a enfermedades médicas (Kabat-Zinn, 1990; Creswell, 2017)."
+    },
+    {
+      "trastorno": "Depresión recurrente (prevención de recaídas)",
+      "nivel_evidencia": "Alta",
+      "notas": "MBCT es el estándar de referencia (gold standard) para prevención de recaídas en pacientes con tres o más episodios depresivos previos. Recomendado por guías NICE del Reino Unido. Reduce el riesgo de recaída en un 31-50% comparado con tratamiento habitual. No se recomienda como monoterapia en episodio depresivo agudo (Segal et al., 2013; Kuyken et al., 2016)."
+    },
+    {
+      "trastorno": "Trastorno de ansiedad generalizada",
+      "nivel_evidencia": "Alta",
+      "notas": "Reducción significativa de preocupación excesiva y síntomas ansiosos. MBSR y MBCT adaptado muestran eficacia comparable a programas de manejo de estrés y TCC grupal. Mejora en regulación emocional y tolerancia a la incertidumbre (Goldberg et al., 2018; Hoge et al., 2013)."
+    },
+    {
+      "trastorno": "Dolor crónico",
+      "nivel_evidencia": "Alta",
+      "notas": "MBSR fue originalmente desarrollado para pacientes con dolor crónico. Eficaz en fibromialgia, lumbalgia crónica, artritis y cefaleas. No elimina el dolor sino que modifica la relación con la experiencia dolorosa, reduciendo el sufrimiento asociado y la catastrofización (Kabat-Zinn, 1990; Hilton et al., 2017)."
+    },
+    {
+      "trastorno": "Insomnio",
+      "nivel_evidencia": "Moderada",
+      "notas": "La práctica de mindfulness reduce la hiperactivación cognitiva pre-sueño (rumiación nocturna) y mejora la calidad del sueño. Protocolos de MBTI (Mindfulness-Based Therapy for Insomnia) y MBSR adaptado muestran mejoras en latencia de sueño, eficiencia de sueño y calidad subjetiva (Ong et al., 2014)."
+    },
+    {
+      "trastorno": "Adicciones (prevención de recaídas)",
+      "nivel_evidencia": "Moderada",
+      "notas": "MBRP (Mindfulness-Based Relapse Prevention) de Bowen et al. (2011) reduce significativamente el craving y las tasas de recaída en alcohol y sustancias. El mindfulness ayuda a observar los impulsos sin actuar sobre ellos (surfear el impulso), interrumpiendo los ciclos automáticos de consumo."
+    },
+    {
+      "trastorno": "Burnout y fatiga profesional",
+      "nivel_evidencia": "Moderada",
+      "notas": "Programas MBSR adaptados para profesionales sanitarios, educadores y otros colectivos en riesgo de burnout muestran reducción del agotamiento emocional, despersonalización y mejora de la satisfacción laboral y la resiliencia. Mejora la empatía y la capacidad de estar presente en la relación profesional (Goodman & Schorling, 2012)."
+    },
+    {
+      "trastorno": "TDAH (complementario)",
+      "nivel_evidencia": "Emergente",
+      "notas": "El entrenamiento en mindfulness puede mejorar la atención sostenida, la regulación emocional y la impulsividad en adultos con TDAH como complemento al tratamiento estándar. Se requieren adaptaciones: sesiones más breves, mayor estructura, más práctica guiada y menor tiempo de silencio. La evidencia es prometedora pero aún limitada (Mitchell et al., 2015; Cairncross & Miller, 2020)."
+    },
+    {
+      "trastorno": "Trastornos alimentarios",
+      "nivel_evidencia": "Moderada",
+      "notas": "MB-EAT (Mindfulness-Based Eating Awareness Training) aborda la alimentación emocional, los atracones y la desconexión con señales de hambre y saciedad. El mindfulness ayuda a reconocer disparadores emocionales del comer automático y a cultivar una relación más consciente con la alimentación (Kristeller & Wolever, 2011)."
+    }
+  ],
+  "contraindicaciones": [
+    {
+      "condicion": "Trauma no estabilizado con síntomas disociativos activos",
+      "razon": "La práctica de mindfulness, especialmente el body scan y la meditación prolongada, puede intensificar flashbacks, reexperimentaciones y episodios disociativos en personas con TEPT no estabilizado. La atención focalizada al cuerpo puede resultar retraumatizante cuando el cuerpo almacena memorias traumáticas no procesadas (Treleaven, 2018).",
+      "alternativa": "Estabilizar primero con técnicas de grounding y regulación somática. Considerar terapia de procesamiento de trauma (EMDR, PE). Introducir mindfulness adaptado al trauma (trauma-sensitive mindfulness) solo cuando exista suficiente ventana de tolerancia y capacidad de autorregulación."
+    },
+    {
+      "condicion": "Psicosis activa o trastorno psicótico en fase aguda",
+      "razon": "La práctica de mindfulness puede exacerbar la desrealización, despersonalización y experiencias perceptivas alteradas en personas con psicosis activa. La observación introspectiva prolongada puede amplificar las experiencias psicóticas y difuminar los límites entre la realidad interna y externa.",
+      "alternativa": "Estabilización farmacológica y psicosocial como prioridad. En fase de remisión, considerar introducción gradual y supervisada de prácticas breves de mindfulness con foco externo (sonidos, movimiento) antes de la observación interna."
+    },
+    {
+      "condicion": "Depresión severa en fase aguda",
+      "razon": "No se recomienda como monoterapia durante un episodio depresivo grave. La rumiación intensa y la falta de energía dificultan la práctica y pueden generar frustración o exacerbar la autocrítica si el paciente no puede mantener la atención. El riesgo suicida activo requiere intervención inmediata de otra naturaleza.",
+      "alternativa": "Tratamiento con farmacoterapia y/o TCC como primera línea. Introducir mindfulness progresivamente cuando se alcance una mejoría suficiente. MBCT está indicada para prevención de recaídas una vez el episodio agudo haya remitido."
+    },
+    {
+      "condicion": "Uso del mindfulness como evitación experiencial (bypassing espiritual)",
+      "razon": "Algunos pacientes pueden utilizar la práctica de mindfulness como una forma sofisticada de evitación emocional: usando la observación distanciada para no contactar con emociones dolorosas, o la aceptación como resignación para no tomar acciones necesarias. Este patrón puede enmascarar problemas subyacentes y perpetuar el estancamiento terapéutico.",
+      "alternativa": "Psicoeducación sobre la diferencia entre aceptación genuina y evitación disfrazada. Explorar las funciones que cumple la práctica. Complementar con técnicas de procesamiento emocional y activación conductual cuando sea necesario."
+    },
+    {
+      "condicion": "Ideación suicida activa con plan",
+      "razon": "La práctica de mindfulness no sustituye la intervención de crisis ni el manejo del riesgo suicida. La observación no reactiva puede ser contraproducente cuando se requiere acción inmediata para garantizar la seguridad del paciente.",
+      "alternativa": "Protocolo de crisis y evaluación de riesgo suicida. Plan de seguridad. Derivación a servicios de urgencia si es necesario. El mindfulness puede incorporarse posteriormente como parte de un plan integral de prevención de recaídas."
+    }
+  ]
+}

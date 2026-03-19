@@ -1,0 +1,112 @@
+{
+  "area_id": "habilidades_terapeuta",
+  "nombre": "Habilidades del Terapeuta para Reestructuración Cognitiva",
+  "descripcion": "Competencias clínicas necesarias para conducir eficazmente el proceso de reestructuración cognitiva",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Padesky, C. A. (1993). Socratic Questioning: Changing Minds or Guiding Discovery?",
+    "Roth, A. D. & Pilling, S. (2008). Using an Evidence-Based Methodology to Identify the Competences Required to Deliver Effective Cognitive Therapy"
+  ],
+  "habilidades": [
+    {
+      "id": "dominio_socratico",
+      "nombre": "Dominio del Cuestionamiento Socrático",
+      "descripcion": "Capacidad para formular preguntas que guíen el descubrimiento del paciente sin imponer conclusiones. Implica curiosidad genuina, timing adecuado y flexibilidad.",
+      "nivel": "esencial",
+      "importancia": "Es la competencia central de la RC: sin cuestionamiento socratico, la intervencion se vuelve confrontativa o didactica.",
+      "como_desarrollar": "Practicar secuencias de preguntas abiertas, supervision con role-play y revision de sesiones grabadas.",
+      "errores_comunes": [
+        "Hacer preguntas retóricas disfrazadas de socráticas",
+        "Interrogar en lugar de explorar",
+        "No dar tiempo suficiente para que el paciente reflexione",
+        "Tener la 'respuesta correcta' predeterminada"
+      ],
+      "indicadores_competencia": [
+        "Las preguntas surgen de curiosidad genuina",
+        "El paciente llega a conclusiones por sí mismo",
+        "Se siguen las respuestas del paciente en lugar de una agenda rígida",
+        "Se tolera la incertidumbre y las respuestas inesperadas"
+      ]
+    },
+    {
+      "id": "descubrimiento_guiado",
+      "nombre": "Descubrimiento Guiado",
+      "descripcion": "Facilitar que el paciente examine la evidencia y genere interpretaciones alternativas mediante un proceso de exploración colaborativa, no didáctica.",
+      "nivel": "esencial",
+      "importancia": "Permite que el cambio cognitivo sea internalizado por el paciente y no impuesto por el terapeuta.",
+      "como_desarrollar": "Entrenar formulacion colaborativa, validar antes de intervenir y usar guias de empirismo colaborativo.",
+      "errores_comunes": [
+        "Dar la respuesta adaptativa directamente",
+        "Confrontar los pensamientos del paciente",
+        "Minimizar las preocupaciones ('no es para tanto')",
+        "Intentar convencer mediante argumentación lógica"
+      ],
+      "indicadores_competencia": [
+        "El proceso se siente como exploración conjunta, no como debate",
+        "El paciente genera sus propias alternativas",
+        "Se valida la emoción antes de trabajar el pensamiento",
+        "Se usa la curiosidad compartida como motor"
+      ]
+    },
+    {
+      "id": "formulacion_cognitiva",
+      "nombre": "Formulación Cognitiva del Caso",
+      "descripcion": "Capacidad para construir y actualizar una conceptualización cognitiva que conecte pensamientos automáticos → creencias intermedias → creencias nucleares → experiencias tempranas.",
+      "nivel": "esencial",
+      "importancia": "Asegura coherencia entre evaluacion, objetivos y tecnicas seleccionadas en cada fase del tratamiento.",
+      "como_desarrollar": "Usar plantillas de formulacion, revisarlas periodicamente y discutirlas en supervision clinica.",
+      "errores_comunes": [
+        "Trabajar pensamiento a pensamiento sin ver el patrón subyacente",
+        "No actualizar la formulación con nuevos datos",
+        "Formular sin compartirla colaborativamente con el paciente",
+        "Asumir la formulación como verdad en lugar de hipótesis"
+      ],
+      "indicadores_competencia": [
+        "Identifica patrones transversales en los pensamientos del paciente",
+        "Conecta PA con creencias intermedias y nucleares",
+        "Comparte y revisa la formulación con el paciente regularmente",
+        "Usa la formulación para planificar intervenciones"
+      ]
+    },
+    {
+      "id": "timing_cognitivo",
+      "nombre": "Timing de la Intervención Cognitiva",
+      "descripcion": "Saber cuándo es el momento adecuado para intervenir cognitivamente: ni demasiado pronto (antes de validar) ni demasiado tarde (cuando la ventana emocional se cerró).",
+      "nivel": "avanzado",
+      "importancia": "Mejora la eficacia de la reestructuracion al intervenir cuando la activacion emocional y la alianza lo permiten.",
+      "como_desarrollar": "Practicar lectura de activacion emocional, alternar validacion y reestructuracion, y usar supervision de casos.",
+      "errores_comunes": [
+        "Reestructurar antes de validar emocionalmente",
+        "Trabajar con pensamientos 'fríos' que no generan activación",
+        "No detectar cuando el paciente está demasiado activado para el trabajo cognitivo",
+        "Insistir en reestructurar cuando se necesita primero regulación emocional"
+      ],
+      "indicadores_competencia": [
+        "Detecta el momento óptimo de activación emocional para el trabajo cognitivo",
+        "Valida antes de reestructurar",
+        "Cambia de técnica si el nivel de activación no es adecuado",
+        "Integra regulación emocional cuando es necesario previo a la RC"
+      ]
+    },
+    {
+      "id": "manejo_creencias_nucleares",
+      "nombre": "Trabajo con Creencias Nucleares",
+      "descripcion": "Competencia avanzada para identificar, formular y modificar creencias nucleares sobre uno mismo, los demás y el mundo.",
+      "nivel": "avanzado",
+      "importancia": "Es clave para cambios profundos y estables en casos cronicos o de recaida frecuente.",
+      "como_desarrollar": "Entrenar flecha descendente, tecnicas de reatribucion y diario de datos positivos en supervision estructurada.",
+      "errores_comunes": [
+        "Intentar reestructurar creencias nucleares con técnicas de PA",
+        "Abordar creencias nucleares demasiado pronto en la terapia",
+        "No preparar al paciente para la intensidad emocional del trabajo con esquemas",
+        "Confundir creencias intermedias con nucleares"
+      ],
+      "indicadores_competencia": [
+        "Usa flecha descendente para llegar a creencias nucleares",
+        "Implementa diario de datos positivos para creencias nuevas",
+        "Distingue entre creencias nucleares e intermedias",
+        "Maneja la activación emocional intensa que surge en el trabajo con esquemas"
+      ]
+    }
+  ]
+}

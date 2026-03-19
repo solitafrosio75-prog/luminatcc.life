@@ -1,0 +1,148 @@
+{
+  "area_id": "act_defusion_cognitiva",
+  "nombre": "Técnicas de Defusión Cognitiva",
+  "descripcion": "Catálogo de técnicas de defusión para distanciarse del contenido mental y cambiar la función de los pensamientos.",
+  "fuentes": [
+    "Hayes, S. C. et al. (2012). ACT (2nd ed.). Guilford Press.",
+    "Harris, R. (2009). ACT Made Simple. New Harbinger.",
+    "Luoma, J. B. et al. (2007). Learning ACT. New Harbinger.",
+    "Titchener, E. B. (1916). A Text-Book of Psychology. Macmillan."
+  ],
+  "tecnicas_defusion": [
+    {
+      "id": "repeticion_palabras",
+      "nombre": "Repetición de Palabras (Titchener)",
+      "tipo": "experiencial",
+      "objetivo": "Reducir el impacto emocional de una palabra o frase repitiéndola hasta que pierda su significado literal y se experimente como mero sonido.",
+      "instrucciones": [
+        "Elige una palabra angustiante (ej: fracaso, inútil, gordo)",
+        "Repítela en voz alta rápidamente durante 30-60 segundos",
+        "Nota cómo pierde gradualmente su significado emocional",
+        "Observa que es solo un sonido, no una verdad"
+      ],
+      "duracion_aproximada": "2-5 minutos",
+      "indicaciones": [
+        "Fusión con autodescripciones negativas",
+        "Rumiación con palabras clave recurrentes",
+        "Pensamientos catastrofistas con etiquetas fijas"
+      ],
+      "ejemplo": "Paciente que repite inútil 45 veces. Al final dice: ahora suena raro, como si no fuera una palabra. Eso es defusión."
+    },
+    {
+      "id": "nombrar_historias",
+      "nombre": "Nombrar Historias",
+      "tipo": "verbal",
+      "objetivo": "Crear distancia de narrativas recurrentes poniéndoles un nombre reconocible.",
+      "instrucciones": [
+        "Identifica una narrativa que tu mente repite frecuentemente",
+        "Ponle un nombre: La historia de que no soy suficiente",
+        "Cuando aparezca, nota: Ahí está otra vez la historia de...",
+        "No intentes detenerla, solo reconocerla como una historia familiar"
+      ],
+      "duracion_aproximada": "Continuo, cada vez que aparece",
+      "indicaciones": [
+        "Narrativas autocríticas recurrentes",
+        "Historias de victimización o catastrofismo",
+        "Rumiación con tema identificable"
+      ],
+      "ejemplo": "Paciente con ansiedad social: nombra La historia de que todos me juzgan. Cuando aparece antes de una reunión, dice: ahí está mi historia otra vez, y puede elegir ir de todos modos."
+    },
+    {
+      "id": "agradecer_mente",
+      "nombre": "Agradecer a la Mente",
+      "tipo": "verbal",
+      "objetivo": "Reconocer que la mente intenta proteger (aunque sea de forma contraproducente) sin engancharse con el contenido.",
+      "instrucciones": [
+        "Cuando aparezca un pensamiento difícil, di internamente: Gracias mente por intentar protegerme",
+        "No discutas con el pensamiento ni intentes cambiarlo",
+        "Vuelve a lo que estabas haciendo",
+        "Practica con pensamientos de intensidad baja primero"
+      ],
+      "duracion_aproximada": "10 segundos cada vez",
+      "indicaciones": [
+        "Pensamientos de preocupación anticipatoria",
+        "Autocrítica leve a moderada",
+        "Pensamiento catastrofista habitual"
+      ],
+      "ejemplo": "Paciente antes de presentación: mente dice Vas a hacer el ridículo. Responde: Gracias mente, entiendo que quieres protegerme. Y sube al escenario."
+    },
+    {
+      "id": "cantar_pensamiento",
+      "nombre": "Cantar el Pensamiento",
+      "tipo": "experiencial",
+      "objetivo": "Cambiar la forma del pensamiento (cantarlo, decirlo con voz graciosa) para alterar su función sin cambiar su contenido.",
+      "instrucciones": [
+        "Toma un pensamiento angustiante y dilo en voz alta",
+        "Ahora cántalo con la melodía de Cumpleaños Feliz",
+        "Prueba con voz de dibujo animado",
+        "Nota: el contenido es el mismo, pero la relación con el pensamiento cambió"
+      ],
+      "duracion_aproximada": "2-3 minutos",
+      "indicaciones": [
+        "Fusión con pensamientos específicos",
+        "Pacientes que responden bien al humor",
+        "Sesiones donde se necesita aligerar la intensidad"
+      ],
+      "ejemplo": "Paciente deprimido que se repite No valgo nada. Al cantarlo con voz de Mickey Mouse, se ríe y dice: es un pensamiento, no una realidad."
+    },
+    {
+      "id": "prefijo_defusion",
+      "nombre": "Prefijo de Defusión",
+      "tipo": "verbal",
+      "objetivo": "Añadir un prefijo metacognitivo que crea distancia entre la persona y el pensamiento.",
+      "instrucciones": [
+        "Cuando aparezca un pensamiento, añade: Estoy notando que tengo el pensamiento de que...",
+        "Practica la cadena completa: primero Soy un fracaso, luego Estoy pensando que soy un fracaso, luego Estoy notando que estoy pensando que soy un fracaso",
+        "Cada nivel añade más distancia",
+        "Usa el nivel que necesites en cada momento"
+      ],
+      "duracion_aproximada": "Continuo",
+      "indicaciones": [
+        "Primera técnica de defusión a enseñar (básica)",
+        "Fusión con cualquier tipo de pensamiento",
+        "Complemento a otras técnicas de defusión"
+      ],
+      "ejemplo": "Paciente ansioso: Mi mente me está diciendo que no voy a poder con esto. Noto el pensamiento, pero puedo actuar de todos modos."
+    },
+    {
+      "id": "fisicalizar",
+      "nombre": "Fisicalizar Pensamientos",
+      "tipo": "corporal",
+      "objetivo": "Dar forma física (tamaño, color, textura, peso) a un pensamiento para crear distancia y observarlo como objeto externo.",
+      "instrucciones": [
+        "Cierra los ojos y enfoca un pensamiento difícil",
+        "Si tuviera forma, ¿cuál sería?",
+        "Si tuviera color, ¿cuál sería? ¿Temperatura? ¿Textura? ¿Peso?",
+        "Imagina que lo sacas de tu cabeza y lo colocas frente a ti",
+        "Observa el objeto. ¿Puedes tenerlo ahí sin que te controle?"
+      ],
+      "duracion_aproximada": "5-10 minutos",
+      "indicaciones": [
+        "Pacientes con facilidad para imaginería",
+        "Emociones intensas con componente somático",
+        "Complemento a defusión verbal cuando esta no es suficiente"
+      ],
+      "ejemplo": "Paciente describe su ansiedad como una bola negra, caliente, del tamaño de un puño en el pecho. Al externalizarla puede decir: la bola está ahí, pero no soy la bola."
+    },
+    {
+      "id": "hojas_rio",
+      "nombre": "Hojas en el Río",
+      "tipo": "metaforica",
+      "objetivo": "Observar pensamientos como eventos que fluyen, sin aferrarse ni rechazarlos, desde la posición de observador sentado junto al río.",
+      "instrucciones": [
+        "Imagina que estás sentado junto a un río tranquilo",
+        "Por el río flotan hojas",
+        "Cada vez que aparezca un pensamiento, colócalo sobre una hoja y déjalo pasar",
+        "No aceleres el río ni detengas las hojas",
+        "Si te enganchas y pierdes el río, nota que ocurrió y vuelve a la orilla"
+      ],
+      "duracion_aproximada": "5-10 minutos",
+      "indicaciones": [
+        "Rumiación intensa",
+        "Ejercicio formal de defusión en sesión",
+        "Complemento a meditación mindfulness"
+      ],
+      "ejemplo": "Paciente con duelo: pensamientos de culpa aparecen como hojas. No se intenta que desaparezcan, solo que fluyan. Algunos pensamientos vuelven varias veces, y eso está bien."
+    }
+  ]
+}

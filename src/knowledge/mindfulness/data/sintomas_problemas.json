@@ -1,0 +1,86 @@
+{
+  "area_id": "sintomas_problemas",
+  "nombre": "Sintomas y Problemas Abordables con Mindfulness",
+  "descripcion": "Mapa de trastornos y condiciones clinicas donde mindfulness tiene evidencia de eficacia.",
+  "fuentes": [
+    "Khoury, B. et al. (2013). Mindfulness-based therapy: A comprehensive meta-analysis. Clinical Psychology Review, 33(6), 763-771.",
+    "Goldberg, S. B. et al. (2018). Mindfulness-based interventions for psychiatric disorders. Annals of the New York Academy of Sciences, 1426(1), 59-72.",
+    "Hofmann, S. G. et al. (2010). The Effect of Mindfulness-Based Therapy on Anxiety and Depression. Journal of Consulting and Clinical Psychology, 78(2), 169-183."
+  ],
+  "problemas_clinicos": [
+    {
+      "problema": "Depresion recurrente",
+      "programa_recomendado": "MBCT (Mindfulness-Based Cognitive Therapy)",
+      "enfoque": "Prevencion de recaidas mediante descentramiento de pensamientos depresogenicos. Ensenar a reconocer senales tempranas de recaida.",
+      "nivel_evidencia": "Alto. NICE (UK) lo recomienda como tratamiento de primera linea para prevencion de recaidas en depresion recurrente (3+ episodios).",
+      "practicas_clave": [
+        "Descentramiento",
+        "Espacio de respiracion 3 min",
+        "Registro de actividad y estado de animo"
+      ]
+    },
+    {
+      "problema": "Ansiedad generalizada",
+      "programa_recomendado": "MBSR o MBCT adaptado",
+      "enfoque": "Reduccion de la preocupacion cronica mediante atencion al momento presente. Desarrollar tolerancia a la incertidumbre.",
+      "nivel_evidencia": "Moderado-Alto. Meta-analisis muestran reduccion significativa de sintomas ansiosos.",
+      "practicas_clave": [
+        "Respiracion consciente",
+        "Body scan",
+        "Surfear la emocion"
+      ]
+    },
+    {
+      "problema": "Dolor cronico",
+      "programa_recomendado": "MBSR (Mindfulness-Based Stress Reduction)",
+      "enfoque": "Cambiar la relacion con el dolor: distinguir sensacion de sufrimiento. Reducir la resistencia al dolor que amplifica el sufrimiento.",
+      "nivel_evidencia": "Alto. MBSR fue originalmente desarrollado para dolor cronico con amplia evidencia.",
+      "practicas_clave": [
+        "Body scan",
+        "Meditacion con atencion al dolor",
+        "Movimiento consciente"
+      ]
+    },
+    {
+      "problema": "Estres laboral y burnout",
+      "programa_recomendado": "MBSR",
+      "enfoque": "Reduccion de la reactividad al estres. Desarrollo de resiliencia mediante practica regular.",
+      "nivel_evidencia": "Alto. Multiples estudios en poblacion laboral.",
+      "practicas_clave": [
+        "Espacio de respiracion 3 min",
+        "Caminata consciente",
+        "Practicas informales en el trabajo"
+      ]
+    },
+    {
+      "problema": "Insomnio",
+      "programa_recomendado": "MBSR o MBTI (Mindfulness-Based Therapy for Insomnia)",
+      "enfoque": "Reduccion de la activacion cognitiva nocturna. Aceptacion de la experiencia de no dormir en lugar de luchar contra ella.",
+      "nivel_evidencia": "Moderado. Evidencia creciente, especialmente combinado con higiene del sueno.",
+      "practicas_clave": [
+        "Body scan antes de dormir",
+        "Respiracion consciente",
+        "Aceptacion de la vigilia"
+      ]
+    },
+    {
+      "problema": "Trastornos alimentarios",
+      "programa_recomendado": "Mindful Eating o MB-EAT",
+      "enfoque": "Desarrollar conciencia de senales de hambre y saciedad. Reducir comer emocional mediante atencion plena al acto de comer.",
+      "nivel_evidencia": "Moderado. Evidencia prometedora especialmente para atracones.",
+      "practicas_clave": [
+        "Comer consciente",
+        "Surfear impulsos",
+        "Body scan para conciencia corporal"
+      ]
+    }
+  ],
+  "contraindicaciones_relativas": [
+    "Psicosis activa (la introspoccion puede empeorar sintomas)",
+    "TEPT severo no estabilizado (riesgo de flashbacks durante practica)",
+    "Disociacion severa activa",
+    "Ideacion suicida activa (estabilizar primero)",
+    "Intoxicacion aguda por sustancias"
+  ],
+  "nota_clinica": "Mindfulness no es un tratamiento en si mismo para la mayoria de trastornos, sino un componente que se integra en protocolos mas amplios (MBCT, DBT, ACT). Su eficacia depende de la practica sostenida del paciente."
+}

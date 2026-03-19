@@ -1,0 +1,118 @@
+{
+  "area_id": "estructura_sesiones",
+  "nombre": "Estructura de Sesiones de Reestructuración Cognitiva",
+  "descripcion": "Guía para estructurar sesiones de RC: agenda, revisión de tareas, trabajo cognitivo en sesión, asignación de tareas, feedback",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Beck, A. T. et al. (1979). Cognitive Therapy of Depression"
+  ],
+  "total_sesiones": "12-18 sesiones",
+  "frecuencia": "Semanal",
+  "bloques": [
+    {
+      "nombre": "Fase inicial",
+      "sesiones": "1-4",
+      "objetivos": [
+        "Psicoeducacion del modelo cognitivo",
+        "Identificacion de pensamientos automaticos",
+        "Entrenamiento en registro cognitivo"
+      ],
+      "actividades_principales": [
+        "Agenda colaborativa",
+        "Revision de tareas",
+        "Registro de pensamientos en sesion"
+      ]
+    },
+    {
+      "nombre": "Fase intermedia",
+      "sesiones": "5-12",
+      "objetivos": [
+        "Reestructuracion de pensamientos automaticos",
+        "Deteccion de distorsiones recurrentes",
+        "Introduccion de experimentos conductuales"
+      ],
+      "actividades_principales": [
+        "Dialogo socratico",
+        "Analisis de evidencia",
+        "Diseno y revision de experimentos"
+      ]
+    },
+    {
+      "nombre": "Fase avanzada",
+      "sesiones": "13-18",
+      "objetivos": [
+        "Trabajo de creencias nucleares",
+        "Consolidacion de habilidades",
+        "Prevencion de recaidas"
+      ],
+      "actividades_principales": [
+        "Flecha descendente",
+        "Diario de datos positivos",
+        "Plan de mantenimiento"
+      ]
+    }
+  ],
+  "estructura_general": {
+    "componentes_sesion": [
+      {
+        "fase": "Revisión del estado emocional",
+        "duracion_minutos": 5,
+        "descripcion": "Check-in breve del ánimo, puntuación subjetiva (0-10) y eventos significativos desde la última sesión.",
+        "tecnicas": ["Escala subjetiva de malestar", "Pregunta abierta breve"]
+      },
+      {
+        "fase": "Puente desde la sesión anterior",
+        "duracion_minutos": 5,
+        "descripcion": "Revisar los puntos clave de la sesión anterior. '¿Qué recuerdas de lo que trabajamos la última vez?'",
+        "tecnicas": ["Resumen del paciente", "Refuerzo de aprendizajes"]
+      },
+      {
+        "fase": "Establecimiento de la agenda",
+        "duracion_minutos": 5,
+        "descripcion": "Definición conjunta de los temas a trabajar. Priorización colaborativa.",
+        "tecnicas": ["Negociación de agenda", "Priorización por urgencia/importancia"]
+      },
+      {
+        "fase": "Revisión de tareas para casa",
+        "duracion_minutos": 10,
+        "descripcion": "Revisión detallada del autorregistro de pensamientos y otras tareas cognitivas asignadas.",
+        "tecnicas": ["Revisión de registros de pensamiento", "Refuerzo de logros", "Análisis de dificultades"]
+      },
+      {
+        "fase": "Trabajo cognitivo en sesión",
+        "duracion_minutos": 20,
+        "descripcion": "Trabajo central: identificación y reestructuración de pensamientos automáticos, trabajo con creencias intermedias o nucleares según la fase de tratamiento.",
+        "tecnicas": ["Diálogo socrático", "Registro de pensamientos", "Técnicas de reestructuración"]
+      },
+      {
+        "fase": "Asignación de nuevas tareas",
+        "duracion_minutos": 5,
+        "descripcion": "Tareas cognitivas para la semana: autorregistro, lectura de notas de terapia, experimentos conductuales planificados.",
+        "tecnicas": ["Asignación gradual", "Predicción de dificultades", "Escritura de notas de terapia"]
+      },
+      {
+        "fase": "Resumen y feedback",
+        "duracion_minutos": 5,
+        "descripcion": "Resumen de los puntos principales por el paciente. Feedback bidireccional sobre la sesión.",
+        "tecnicas": ["Resumen del paciente", "'¿Qué te llevas hoy?'", "Feedback sobre el proceso"]
+      }
+    ]
+  },
+  "fases_tratamiento": [
+    {
+      "fase": "Inicial (sesiones 1-4)",
+      "foco": "Psicoeducación del modelo cognitivo, formulación de caso, identificación de pensamientos automáticos",
+      "objetivo": "Que el paciente comprenda la conexión pensamiento-emoción-conducta y comience a identificar sus pensamientos automáticos"
+    },
+    {
+      "fase": "Intermedia (sesiones 5-12)",
+      "foco": "Reestructuración activa de pensamientos automáticos, identificación de patrones y distorsiones recurrentes, inicio del trabajo con creencias intermedias",
+      "objetivo": "Que el paciente sea capaz de cuestionar y modificar sus pensamientos disfuncionales de forma autónoma"
+    },
+    {
+      "fase": "Avanzada (sesiones 13-18)",
+      "foco": "Trabajo con creencias nucleares, prevención de recaídas, consolidación de habilidades",
+      "objetivo": "Modificación de esquemas disfuncionales y desarrollo de esquemas más adaptativos"
+    }
+  ]
+}

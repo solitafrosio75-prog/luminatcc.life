@@ -1,0 +1,46 @@
+{
+    "procedure_id": "ac_psicoeducacion",
+    "nombre": "Psicoeducación sobre modelo AC",
+    "indicaciones": [
+        "Paciente sin experiencia previa en TCC",
+        "Fase inicial"
+    ],
+    "contraindicaciones": [
+        "Paciente con deterioro cognitivo severo"
+    ],
+    "pasos": [
+        {
+            "orden": 1,
+            "descripcion": "Explicar el modelo de activación-conducta",
+            "evidencia": [
+                {
+                    "tipo": "guía",
+                    "referencia": "NICE Depression Guideline 2022",
+                    "doi": "10.1016/S0140-6736(22)01237-2"
+                }
+            ]
+        },
+        {
+            "orden": 2,
+            "descripcion": "Ejemplo práctico con caso simulado",
+            "evidencia": [
+                {
+                    "tipo": "estudio",
+                    "referencia": "Jacobson et al. 1996",
+                    "doi": "10.1037/0022-006X.64.2.295"
+                }
+            ]
+        }
+    ],
+    "criterios_seguridad": [
+        "No iniciar si hay riesgo suicida activo"
+    ],
+    "nivel_evidencia": "A",
+    "referencias": [
+        {
+            "tipo": "metaanálisis",
+            "referencia": "Cuijpers et al. 2013",
+            "doi": "10.1016/j.cpr.2013.03.009"
+        }
+    ]
+}

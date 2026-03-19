@@ -1,0 +1,181 @@
+{
+  "area_id": "act_valores_accion",
+  "nombre": "Valores y Acción Comprometida",
+  "descripcion": "Sistema de clarificación de valores, herramientas de exploración y plan de acción comprometida graduada.",
+  "fuentes": [
+    "Hayes, S. C. et al. (2012). ACT (2nd ed.). Guilford Press.",
+    "Harris, R. (2009). ACT Made Simple. New Harbinger.",
+    "Wilson, K. G. & Murrell, A. R. (2004). Values work in ACT. In S. C. Hayes & K. D. Strosahl (Eds.), A practical guide to ACT. Springer.",
+    "Lundgren, T., Luoma, J. B., Dahl, J., Strosahl, K. & Melin, L. (2012). The Bulls Eye Values Survey. The Behavior Analyst Today, 13(3-4), 3-7."
+  ],
+  "dominios_valores": [
+    {
+      "dominio": "Relaciones íntimas / pareja",
+      "preguntas_exploracion": [
+        "¿Qué tipo de pareja quieres ser?",
+        "¿Cómo quieres tratar a tu pareja incluso en momentos difíciles?",
+        "¿Qué cualidades quieres aportar a una relación?",
+        "¿Qué diría tu pareja ideal sobre cómo le tratas?"
+      ],
+      "ejemplo_valores": [
+        "Presencia emocional",
+        "Honestidad con amabilidad",
+        "Intimidad vulnerable",
+        "Apoyo incondicional"
+      ]
+    },
+    {
+      "dominio": "Familia",
+      "preguntas_exploracion": [
+        "¿Qué tipo de hijo/padre/hermano quieres ser?",
+        "¿Cómo quieres que te recuerden tus hijos?",
+        "¿Qué priorizas en tu tiempo con la familia?"
+      ],
+      "ejemplo_valores": [
+        "Estar presente",
+        "Paciencia",
+        "Celebrar logros ajenos",
+        "Protección con autonomía"
+      ]
+    },
+    {
+      "dominio": "Amistades y vida social",
+      "preguntas_exploracion": [
+        "¿Qué tipo de amigo quieres ser?",
+        "¿Qué cualidades valoras en la amistad?",
+        "¿Cómo inviertes tu tiempo social?"
+      ],
+      "ejemplo_valores": [
+        "Lealtad",
+        "Generosidad de tiempo",
+        "Autenticidad",
+        "Diversión compartida"
+      ]
+    },
+    {
+      "dominio": "Trabajo y carrera",
+      "preguntas_exploracion": [
+        "¿Qué tipo de profesional quieres ser?",
+        "¿Qué contribución quieres hacer con tu trabajo?",
+        "¿Elige tu trabajo o lo soportas?"
+      ],
+      "ejemplo_valores": [
+        "Excelencia sin perfeccionismo",
+        "Contribución significativa",
+        "Colaboración",
+        "Aprendizaje continuo"
+      ]
+    },
+    {
+      "dominio": "Educación y crecimiento personal",
+      "preguntas_exploracion": [
+        "¿Qué te gustaría aprender si no tuvieras miedo?",
+        "¿Cómo alimentas tu curiosidad?",
+        "¿Qué habilidades te gustaría desarrollar?"
+      ],
+      "ejemplo_valores": [
+        "Curiosidad activa",
+        "Humildad ante el aprendizaje",
+        "Perseverancia",
+        "Crecimiento continuo"
+      ]
+    },
+    {
+      "dominio": "Ocio y diversión",
+      "preguntas_exploracion": [
+        "¿Qué actividades te hacen sentir vivo?",
+        "¿Cuándo fue la última vez que hiciste algo solo por diversión?",
+        "¿Qué hobbies abandonaste y te gustaría retomar?"
+      ],
+      "ejemplo_valores": [
+        "Juego y espontaneidad",
+        "Creatividad",
+        "Aventura",
+        "Descanso activo"
+      ]
+    },
+    {
+      "dominio": "Salud y bienestar físico",
+      "preguntas_exploracion": [
+        "¿Cómo quieres tratar tu cuerpo?",
+        "¿Qué relación quieres con el ejercicio y la alimentación?",
+        "¿Qué hábitos reflejarían autocuidado genuino?"
+      ],
+      "ejemplo_valores": [
+        "Autocuidado compasivo",
+        "Movimiento como disfrute",
+        "Equilibrio",
+        "Escuchar al cuerpo"
+      ]
+    },
+    {
+      "dominio": "Espiritualidad y comunidad",
+      "preguntas_exploracion": [
+        "¿Qué te conecta con algo mayor que tú mismo?",
+        "¿Cómo quieres contribuir a tu comunidad?",
+        "¿Qué legado quieres dejar?"
+      ],
+      "ejemplo_valores": [
+        "Servicio a otros",
+        "Conexión con la naturaleza",
+        "Sentido de pertenencia",
+        "Trascendencia"
+      ]
+    }
+  ],
+  "herramientas_clarificacion": [
+    {
+      "id": "bulls_eye",
+      "nombre": "Diana de Valores (Bulls Eye)",
+      "instrucciones": [
+        "Dibuja una diana con 4 cuadrantes: trabajo, relaciones, ocio, salud",
+        "En cada cuadrante escribe el valor más importante para ti",
+        "Marca un punto: centro = vivo plenamente este valor, borde = totalmente desconectado",
+        "La distancia al centro indica dónde enfocar la acción comprometida"
+      ]
+    },
+    {
+      "id": "brujula_valores",
+      "nombre": "Brújula de Valores",
+      "instrucciones": [
+        "Lista los 8 dominios vitales",
+        "Para cada dominio puntua 0-10: importancia y vivencia actual",
+        "Calcula la discrepancia (importancia - vivencia)",
+        "Los dominios con mayor discrepancia son prioridad para acción"
+      ]
+    },
+    {
+      "id": "ejercicio_funeral",
+      "nombre": "Ejercicio del Funeral",
+      "instrucciones": [
+        "Imagina tu funeral. Cuatro personas hablan: pareja, familiar, compañero de trabajo, amigo de comunidad",
+        "Escribe qué te gustaría que cada uno dijera de ti",
+        "Eso que escribiste son tus valores",
+        "Compara con tu vida actual: ¿dónde hay discrepancia?"
+      ]
+    },
+    {
+      "id": "carta_futuro",
+      "nombre": "Carta desde el Futuro",
+      "instrucciones": [
+        "Imagina que tienes 80 años y escribes una carta a tu yo actual",
+        "Qué consejos te darías sobre lo que realmente importa",
+        "Qué te arrepentirías de no haber hecho",
+        "Qué te alegrarías de haber hecho"
+      ]
+    }
+  ],
+  "plan_accion_comprometida": {
+    "pasos": [
+      "Clarificar el valor específico que guía la acción",
+      "Definir una meta concreta al servicio de ese valor",
+      "Desglosar la meta en micro-acciones realizables hoy",
+      "Identificar barreras internas (pensamientos, emociones) que aparecerán",
+      "Aplicar habilidades ACT (defusión, aceptación) a las barreras",
+      "Realizar la acción ANTES de sentir motivación",
+      "Evaluar: ¿la acción me acercó a mi valor? ¿Qué aprendí?",
+      "Recomprometerse sin autocrítica si hubo desvío"
+    ],
+    "criterio_compromiso": "El compromiso no es hacerlo perfecto sino volver a elegir la dirección valiosa cada vez que te desvías. Caer no es fracasar; no levantarse sí lo es."
+  }
+}

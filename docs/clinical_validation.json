@@ -1,0 +1,18 @@
+{
+  "validation_id": "val_001",
+  "session_id": "ac_sesion_1",
+  "criterios_clinicos": [
+    "Cambio clínicamente significativo",
+    "Cumple criterios de seguridad"
+  ],
+  "resultado": "Validado",
+  "fecha": "2026-03-14",
+  "evidencia": [
+    {
+      "tipo": "estudio",
+      "referencia": "Jacobson et al. 1996",
+      "doi": "10.1037/0022-006X.64.2.295"
+    }
+  ],
+  "observaciones": "Paciente muestra mejoría relevante."
+}

@@ -1,0 +1,112 @@
+{
+  "area": 1,
+  "nombre": "Conocimiento Teórico",
+  "descripcion": "Fundamentos teóricos, principios, mecanismos de acción y evidencia de la Desensibilización Sistemática",
+  "elementos": [
+    {
+      "id": "CON-001",
+      "tipo": "definicion",
+      "titulo": "Definición de Desensibilización Sistemática",
+      "contenido": "Técnica clásica de la Primera Ola de Terapia de Conducta diseñada por Joseph Wolpe (1958). Consiste en un proceso de contra-condicionamiento donde se asocia un estímulo que previamente provocaba ansiedad con una respuesta incompatible (típicamente relajación), de forma gradual y sistemática, hasta que el estímulo pierde su capacidad de evocar la respuesta de ansiedad.",
+      "fuente": "Wolpe, J. (1958). Psicoterapia por inhibición recíproca"
+    },
+    {
+      "id": "CON-002",
+      "tipo": "principio",
+      "titulo": "Principio de Inhibición Recíproca",
+      "contenido": "El sistema nervioso no puede experimentar dos estados fisiológicos opuestos simultáneamente. Si se provoca una respuesta incompatible con la ansiedad (relajación, excitación sexual, autoaserción) en presencia de estímulos evocadores de ansiedad, la conexión entre dichos estímulos y la respuesta de ansiedad se debilitará progresivamente. Este principio fue formulado por Wolpe a partir de sus experimentos con neurosis experimentales en gatos.",
+      "fuente": "Wolpe, J. (1958). Cap. 5: La inhibición recíproca como principio terapéutico"
+    },
+    {
+      "id": "CON-003",
+      "tipo": "mecanismo",
+      "titulo": "Modelo Teórico del Contra-condicionamiento",
+      "contenido": "Si una constelación de estímulos compuesta de cinco elementos igualmente potentes A1-A2-A3-A4-A5 evoca 50 unidades de respuesta de ansiedad, una relajación insuficiente para contrarrestar las 50 unidades puede sin embargo inhibir las 10 unidades evocadas por solo A1. Si la ansiedad evocada por A1 es inhibida repetidamente por la relajación, su magnitud terminará por descender a cero. En consecuencia, A1-A2 ahora solo evocará 10 unidades en lugar de 20. Siguiendo progresivamente, la totalidad de la combinación terminará perdiendo su potencial evocador de ansiedad.",
+      "fuente": "Wolpe, J. (1958). Cap. 9: DS basada en la relajación"
+    },
+    {
+      "id": "CON-004",
+      "tipo": "concepto",
+      "titulo": "Jerarquía de Ansiedad",
+      "contenido": "Lista de situaciones de estímulo ante las cuales el paciente reacciona con cantidades graduales de ansiedad. El ítem más perturbador se coloca al principio (100 USA) y el menos perturbador al final (5-10 USA). Debe contener entre 10-15 ítems, con saltos no superiores a 15 USA entre ítems consecutivos. Los ítems deben ser: realistas, concretos, relevantes para el problema, generados por el paciente, y cuantificados en Unidades Subjetivas de Ansiedad (USA 0-100).",
+      "fuente": "Labrador, F.J. (2008). Cap. 9: Desensibilización sistemática"
+    },
+    {
+      "id": "CON-005",
+      "tipo": "concepto",
+      "titulo": "Unidades Subjetivas de Ansiedad (USA/SUD)",
+      "contenido": "Escala subjetiva de 0 a 100 donde el paciente valora la intensidad de ansiedad que le produce una situación. 0 = ausencia total de ansiedad, 100 = máxima ansiedad jamás experimentada. Se usa para: cuantificar ítems de la jerarquía, monitorizar ansiedad durante la sesión de DS, evaluar progreso entre sesiones, y como criterio de habituación en exposición en vivo (reducción al 50% = habituación).",
+      "fuente": "Wolpe, J. (1958); Labrador, F.J. (2008)"
+    },
+    {
+      "id": "CON-006",
+      "tipo": "concepto",
+      "titulo": "Respuesta Incompatible",
+      "contenido": "Cualquier respuesta fisiológica o conductual que sea antagónica a la ansiedad y pueda provocarse de forma voluntaria, rápida y eficaz. La más utilizada es la Relajación Progresiva de Jacobson por sus intensos efectos antiansiedad, facilidad de aprendizaje y aplicabilidad en cualquier situación. Alternativas: respiración diafragmática, imágenes emotivas positivas (especialmente en niños), respuestas de autoaserción (ansiedad social), respuestas de excitación sexual (disfunciones sexuales), hipnosis.",
+      "fuente": "Labrador, F.J. (2008). Cap. 9"
+    },
+    {
+      "id": "CON-007",
+      "tipo": "concepto",
+      "titulo": "Generalización del Contra-condicionamiento",
+      "contenido": "Cuando se asocia una nueva respuesta (relajación) a una situación, esta asociación se generaliza a las variaciones de dicha situación. La generalización es mayor cuanto más similar sea la nueva situación a la original. Esto permite que al desensibilizar ítems de la jerarquía, los beneficios se extiendan parcialmente a ítems cercanos. También explica por qué la DS imaginaria puede generalizarse a situaciones reales, aunque la DS en vivo produce una generalización más directa y completa.",
+      "fuente": "Labrador, F.J. (2008). Cap. 9"
+    },
+    {
+      "id": "CON-008",
+      "tipo": "concepto",
+      "titulo": "Habituación vs Sensibilización",
+      "contenido": "La exposición prolongada y repetida produce habituación (reducción de la respuesta). La exposición breve o interrumpida por escape puede producir sensibilización (aumento de la respuesta). Factores que favorecen habituación: sesiones largas (hasta que el miedo remita), intervalo corto entre sesiones, grado mínimo de activación, implicación atencional completa, ausencia de conductas de seguridad. La sobreexposición tras la desaparición del miedo no mejora resultados.",
+      "fuente": "Labrador, F.J. (2008). Cap. 10: Técnicas de exposición"
+    },
+    {
+      "id": "CON-009",
+      "tipo": "concepto",
+      "titulo": "Desincronía de los Tres Sistemas de Respuesta",
+      "contenido": "La ansiedad se manifiesta en tres canales que pueden no coincidir: Cognitivo (preocupación, pensamientos negativos), Fisiológico (sudoración, taquicardia, tensión muscular), Motor (evitación, escape, inquietud). El ISRA evalúa esta desincronía. La implicación clínica es que el tratamiento debe focalizarse en el canal predominante: predominio fisiológico → relajación/biofeedback; predominio cognitivo → reestructuración; predominio motor → exposición directa.",
+      "fuente": "Miguel Tobal y Cano Vindel (1986). ISRA"
+    },
+    {
+      "id": "CON-010",
+      "tipo": "clasificacion",
+      "titulo": "DS dentro de las Técnicas de Exposición",
+      "contenido": "La Exposición es la meta-técnica conductual base. La DS es una técnica específica que combina exposición gradual + respuesta incompatible. Se diferencia de: Inundación (exposición masiva sin relajación), EPR (exposición + bloqueo de compulsión, para TOC), Exposición en Vivo (formato de aplicación, no técnica separada). En la DS el objetivo es que la ansiedad NO suba (inhibición recíproca); en la exposición pura, se permite que suba para que habitu.",
+      "fuente": "Catálogo de técnicas (documento universitario)"
+    },
+    {
+      "id": "CON-011",
+      "tipo": "evidencia",
+      "titulo": "Indicaciones Clínicas de la DS",
+      "contenido": "Indicaciones principales: fobias específicas (animales, alturas, sangre-inyecciones, volar, espacios cerrados), fobia social (componente de ansiedad de ejecución), ansiedad ante exámenes, ansiedad de rendimiento (deportivo, musical), miedos infantiles, disfunciones sexuales con componente de ansiedad, algunas formas de ansiedad interpersonal. Contraindicaciones relativas: TOC (mejor EPR), ansiedad generalizada sin foco claro, pacientes incapaces de relajarse o visualizar, pacientes cuya imaginación no evoca ansiedad.",
+      "fuente": "Labrador, F.J. (2008); Wolpe, J. (1958)"
+    },
+    {
+      "id": "CON-012",
+      "tipo": "evidencia",
+      "titulo": "Eficacia y Resultados de la DS",
+      "contenido": "Wolpe reportó un 89.5% de éxito en una muestra de 210 pacientes con una media de 11.2 sesiones. El porcentaje de mejoras sustanciales fue del 78%. El número total de sesiones requeridas varía normalmente entre 10 y 25. La DS es eficaz tanto en formato imaginario como en vivo. La DS real produce generalización más directa pero la imaginaria ofrece mayor flexibilidad y control. En 4-5 sesiones típicamente se completa la jerarquía.",
+      "fuente": "Wolpe, J. (1958). Cap. 14: Evaluación de los métodos de inhibición recíproca"
+    },
+    {
+      "id": "CON-013",
+      "tipo": "concepto",
+      "titulo": "Tipos de Jerarquías",
+      "contenido": "Jerarquías Imaginarias: los estímulos se presentan de forma imaginaria (visualización guiada). Mayor flexibilidad, se puede incluir cualquier ítem en cualquier momento. Requiere generalización posterior a la vida real. Jerarquías Reales (En Vivo): los estímulos se presentan de forma real. Mejor generalización directa pero menor control sobre la graduación. Gradientes posibles: temporal (tiempo que falta), espacial (distancia al estímulo), intensidad (número de estímulos presentes), de cantidad (número de personas).",
+      "fuente": "Labrador, F.J. (2008). Cap. 9"
+    },
+    {
+      "id": "CON-014",
+      "tipo": "historico",
+      "titulo": "Origen Experimental: Neurosis en Gatos",
+      "contenido": "Wolpe indujo neurosis experimentales en gatos mediante descargas eléctricas asociadas a estímulos ambientales. Los gatos desarrollaron respuestas de ansiedad condicionadas que se generalizaron a contextos similares. El tratamiento consistió en alimentar a los gatos en presencia de 'dosis' cada vez mayores de los estímulos evocadores de ansiedad, comenzando en contextos muy diferentes al original y aproximándose gradualmente. La alimentación actuó como respuesta incompatible con la ansiedad. Este es el análogo experimental directo de la DS.",
+      "fuente": "Wolpe, J. (1958). Cap. 4: La neurosis experimental"
+    },
+    {
+      "id": "CON-015",
+      "tipo": "concepto",
+      "titulo": "Neuroimagen y Base Cerebral de la DS",
+      "contenido": "El cerebro procesa la imaginación vívida en las mismas áreas corticales que la percepción real (corteza visual, auditiva, somatosensorial). Si la descripción de la escena es vaga, la amígdala no se activa y no hay nada que desensibilizar. Por eso es crucial el entrenamiento en inmersión sensorial multimodal: detalles visuales, auditivos, táctiles/propioceptivos y olfativos para cada ítem de la jerarquía.",
+      "fuente": "Documento universitario: Inmersión sensorial en DS"
+    }
+  ]
+}

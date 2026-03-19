@@ -1,0 +1,72 @@
+{
+  "area_id": "ac_areas_vitales",
+  "nombre": "Áreas Vitales",
+  "descripcion": "Dominios de vida específicos utilizados en la Activación Conductual para guiar la selección de actividades alineadas con valores",
+  "fuentes": [
+    "Lejuez et al. (2011). BATD-R",
+    "Martell et al. (2010)",
+    "Hayes et al. (1999). ACT"
+  ],
+  "areas_vitales": [
+    {
+      "nombre": "Relaciones Interpersonales",
+      "descripcion": "Vínculos con familia, pareja, amigos y comunidad. Incluye intimidad, apoyo mutuo y conexión social.",
+      "actividades_ejemplo": [
+        "Llamar a un familiar o amigo",
+        "Organizar una comida con alguien querido",
+        "Enviar un mensaje de agradecimiento",
+        "Asistir a una reunión social",
+        "Practicar escucha activa con la pareja",
+        "Jugar con los hijos"
+      ]
+    },
+    {
+      "nombre": "Trabajo y Educación",
+      "descripcion": "Actividades relacionadas con la vida laboral, formación académica y desarrollo profesional.",
+      "actividades_ejemplo": [
+        "Completar una tarea laboral pendiente",
+        "Inscribirse en un curso o taller",
+        "Leer un capítulo de un libro de formación",
+        "Actualizar el CV",
+        "Organizar el espacio de trabajo",
+        "Investigar oportunidades laborales"
+      ]
+    },
+    {
+      "nombre": "Ocio y Tiempo Libre",
+      "descripcion": "Actividades recreativas, pasatiempos, creatividad y experiencias placenteras.",
+      "actividades_ejemplo": [
+        "Retomar un hobby abandonado",
+        "Escuchar música activamente (no como ruido de fondo)",
+        "Pasear por la naturaleza",
+        "Cocinar una receta nueva",
+        "Ver una película elegida intencionalmente",
+        "Dibujar, pintar o hacer manualidades"
+      ]
+    },
+    {
+      "nombre": "Cuidado Personal y Salud",
+      "descripcion": "Autocuidado físico, mental y emocional. Incluye higiene, alimentación, sueño y ejercicio.",
+      "actividades_ejemplo": [
+        "Ducharse y vestirse completamente",
+        "Preparar una comida nutritiva",
+        "Establecer hora fija de sueño",
+        "Ejercicio físico graduado (caminar, yoga)",
+        "Acudir a cita médica pendiente",
+        "Practicar relajación o mindfulness 5 minutos"
+      ]
+    },
+    {
+      "nombre": "Espiritualidad y Ciudadanía",
+      "descripcion": "Conexión con algo más grande que uno mismo: valores comunitarios, prácticas espirituales, voluntariado y contribución social.",
+      "actividades_ejemplo": [
+        "Participar en actividades de voluntariado",
+        "Practicar meditación o contemplación",
+        "Asistir a servicios religiosos o espirituales",
+        "Colaborar en un proyecto comunitario",
+        "Donar ropa o alimentos",
+        "Escribir un diario de gratitud"
+      ]
+    }
+  ]
+}

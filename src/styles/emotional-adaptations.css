@@ -1,0 +1,389 @@
+/**
+ * Emotional Adaptations CSS
+ * Dynamic styling for emotional interface adaptations
+ * Supports real-time emotional state changes and interface personalization
+ */
+
+/* Base emotional state classes */
+.emotion-positive {
+  --primary-color: 10, 147, 51;
+  --secondary-color: 34, 197, 94;
+  --accent-color: 74, 222, 128;
+  --background-gradient: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  --text-primary: #14532d;
+  --text-secondary: #166534;
+  --border-color: #16a34a;
+}
+
+.emotion-negative {
+  --primary-color: 220, 38, 38;
+  --secondary-color: 239, 68, 68;
+  --accent-color: 248, 113, 113;
+  --background-gradient: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+  --text-primary: #7f1d1d;
+  --text-secondary: #991b1b;
+  --border-color: #dc2626;
+}
+
+.emotion-neutral {
+  --primary-color: 71, 85, 105;
+  --secondary-color: 100, 116, 139;
+  --accent-color: 148, 163, 184;
+  --background-gradient: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  --text-primary: #1e293b;
+  --text-secondary: #334155;
+  --border-color: #64748b;
+}
+
+/* Color scheme adaptations */
+:root {
+  --color-scheme: adaptive;
+  --typography-scale: comfortable;
+  --animation-level: moderate;
+  --layout-density: balanced;
+}
+
+/* Color scheme variations */
+[color-scheme="warm"] {
+  --primary-color: 217, 119, 6;
+  --secondary-color: 245, 158, 11;
+  --accent-color: 251, 191, 36;
+  --background-gradient: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  --text-primary: #78350f;
+  --text-secondary: #92400e;
+  --border-color: #d97706;
+}
+
+[color-scheme="cool"] {
+  --primary-color: 37, 99, 235;
+  --secondary-color: 59, 130, 246;
+  --accent-color: 96, 165, 250;
+  --background-gradient: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  --text-primary: #1e3a8a;
+  --text-secondary: #1e40af;
+  --border-color: #2563eb;
+}
+
+[color-scheme="adaptive"] {
+  --primary-color: 71, 85, 105;
+  --secondary-color: 100, 116, 139;
+  --accent-color: 148, 163, 184;
+  --background-gradient: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  --text-primary: #1e293b;
+  --text-secondary: #334155;
+  --border-color: #64748b;
+}
+
+/* Typography scale adaptations */
+[typography-scale="compact"] {
+  --font-size-xs: 0.625rem;
+  --font-size-sm: 0.75rem;
+  --font-size-base: 0.875rem;
+  --font-size-lg: 1rem;
+  --font-size-xl: 1.125rem;
+  --font-size-2xl: 1.25rem;
+  --font-size-3xl: 1.5rem;
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.375;
+  --line-height-relaxed: 1.5;
+  --spacing-compact: 0.5rem;
+}
+
+[typography-scale="comfortable"] {
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --line-height-tight: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --spacing-comfortable: 0.75rem;
+}
+
+[typography-scale="spacious"] {
+  --font-size-xs: 0.875rem;
+  --font-size-sm: 1rem;
+  --font-size-base: 1.125rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 1.875rem;
+  --font-size-3xl: 2.25rem;
+  --line-height-tight: 1.5;
+  --line-height-normal: 1.625;
+  --line-height-relaxed: 1.75;
+  --spacing-spacious: 1rem;
+}
+
+/* Animation level adaptations */
+[animation-level="minimal"] {
+  --animation-duration-fast: 0.1s;
+  --animation-duration-normal: 0.2s;
+  --animation-duration-slow: 0.3s;
+  --animation-easing: ease-out;
+  --transition-timing: ease-out;
+}
+
+[animation-level="moderate"] {
+  --animation-duration-fast: 0.2s;
+  --animation-duration-normal: 0.3s;
+  --animation-duration-slow: 0.5s;
+  --animation-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[animation-level="expressive"] {
+  --animation-duration-fast: 0.3s;
+  --animation-duration-normal: 0.5s;
+  --animation-duration-slow: 0.8s;
+  --animation-easing: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --transition-timing: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Layout density adaptations */
+[layout-density="focused"] {
+  --container-padding: 1rem;
+  --component-spacing: 0.75rem;
+  --element-margin: 0.5rem;
+  --border-radius-sm: 0.375rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.75rem;
+}
+
+[layout-density="balanced"] {
+  --container-padding: 1.5rem;
+  --component-spacing: 1rem;
+  --element-margin: 0.75rem;
+  --border-radius-sm: 0.5rem;
+  --border-radius-md: 0.75rem;
+  --border-radius-lg: 1rem;
+}
+
+[layout-density="comprehensive"] {
+  --container-padding: 2rem;
+  --component-spacing: 1.5rem;
+  --element-margin: 1rem;
+  --border-radius-sm: 0.75rem;
+  --border-radius-md: 1rem;
+  --border-radius-lg: 1.5rem;
+}
+
+/* Emotional indicators */
+.emotional-indicators {
+  --indicator-size: 8px;
+  --indicator-spacing: 4px;
+}
+
+.emotional-indicator {
+  width: var(--indicator-size);
+  height: var(--indicator-size);
+  border-radius: 50%;
+  margin: 0 var(--indicator-spacing);
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+.emotional-indicator.joy {
+  background-color: #eab308;
+  box-shadow: 0 0 10px rgba(234, 179, 8, 0.5);
+}
+
+.emotional-indicator.sadness {
+  background-color: #3b82f6;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+.emotional-indicator.anger {
+  background-color: #ef4444;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+}
+
+.emotional-indicator.fear {
+  background-color: #8b5cf6;
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+}
+
+.emotional-indicator.surprise {
+  background-color: #f97316;
+  box-shadow: 0 0 10px rgba(249, 115, 22, 0.5);
+}
+
+.emotional-indicator.trust {
+  background-color: #10b981;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+}
+
+/* First impression optimizations */
+.visceral-processing {
+  animation: visceral-glow 0.5s ease-out;
+}
+
+.visceral-complete {
+  animation: visceral-settle 0.3s ease-out;
+}
+
+@keyframes visceral-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(var(--primary-color), 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(var(--primary-color), 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(var(--primary-color), 0);
+  }
+}
+
+@keyframes visceral-settle {
+  0% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive emotional adaptations */
+@media (max-width: 768px) {
+  [typography-scale="compact"] {
+    --font-size-base: 0.8rem;
+    --font-size-lg: 0.9rem;
+    --font-size-xl: 1rem;
+  }
+  
+  [typography-scale="comfortable"] {
+    --font-size-base: 0.9rem;
+    --font-size-lg: 1rem;
+    --font-size-xl: 1.125rem;
+  }
+  
+  [typography-scale="spacious"] {
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+  }
+  
+  [layout-density="focused"] {
+    --container-padding: 0.75rem;
+    --component-spacing: 0.5rem;
+  }
+  
+  [layout-density="balanced"] {
+    --container-padding: 1rem;
+    --component-spacing: 0.75rem;
+  }
+  
+  [layout-density="comprehensive"] {
+    --container-padding: 1.5rem;
+    --component-spacing: 1rem;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --text-primary: #000000;
+    --text-secondary: #333333;
+    --border-color: #000000;
+    --background-gradient: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+  }
+  
+  .emotion-positive {
+    --primary-color: 0, 100, 0;
+    --secondary-color: 0, 128, 0;
+    --accent-color: 0, 150, 0;
+  }
+  
+  .emotion-negative {
+    --primary-color: 200, 0, 0;
+    --secondary-color: 255, 0, 0;
+    --accent-color: 255, 50, 50;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  [animation-level="minimal"],
+  [animation-level="moderate"],
+  [animation-level="expressive"] {
+    --animation-duration-fast: 0.01s;
+    --animation-duration-normal: 0.01s;
+    --animation-duration-slow: 0.01s;
+    --animation-easing: linear;
+    --transition-timing: linear;
+  }
+  
+  .emotional-indicator {
+    animation: none;
+  }
+  
+  .visceral-processing,
+  .visceral-complete {
+    animation: none;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    --text-primary: #f8fafc;
+    --text-secondary: #e2e8f0;
+  }
+  
+  .emotion-positive {
+    --background-gradient: linear-gradient(135deg, #14532d 0%, #166534 100%);
+    --text-primary: #dcfce7;
+    --text-secondary: #bbf7d0;
+  }
+  
+  .emotion-negative {
+    --background-gradient: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+    --text-primary: #fecaca;
+    --text-secondary: #fca5a5;
+  }
+  
+  .emotion-neutral {
+    --background-gradient: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    --text-primary: #f1f5f9;
+    --text-secondary: #e2e8f0;
+  }
+}
+
+/* Utility classes for emotional states */
+.emotion-transition {
+  transition: all var(--animation-duration-normal) var(--transition-timing);
+}
+
+.emotion-scale {
+  transform: scale(1);
+}
+
+.emotion-scale:hover {
+  transform: scale(1.05);
+}
+
+.emotion-glow {
+  box-shadow: 0 0 20px rgba(var(--primary-color), 0.3);
+}
+
+.emotion-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

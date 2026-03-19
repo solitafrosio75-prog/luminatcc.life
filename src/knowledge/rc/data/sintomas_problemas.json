@@ -1,0 +1,132 @@
+{
+  "area_id": "sintomas_problemas",
+  "nombre": "Perfiles Cognitivos por Trastorno",
+  "descripcion": "Síntomas y problemas clínicos desde la perspectiva cognitiva: perfiles de pensamiento, distorsiones predominantes y creencias nucleares típicas por trastorno",
+  "fuentes": [
+    "Beck, A. T. (1976). Cognitive Therapy and the Emotional Disorders",
+    "Clark, D. A. & Beck, A. T. (2010). Cognitive Therapy of Anxiety Disorders",
+    "Beck, A. T. et al. (1979). Cognitive Therapy of Depression"
+  ],
+  "trastornos": [
+    {
+      "nombre": "Depresión mayor",
+      "sintomas_principales": [
+        "Animo bajo persistente",
+        "Anhedonia",
+        "Autocritica intensa",
+        "Desesperanza"
+      ],
+      "como_se_manifiesta_en_conducta": "Aparecen evitacion, reduccion de actividad, rumiacion y busqueda de confirmacion de inutilidad.",
+      "foco_intervencion": "Identificar pensamientos automaticos negativos, trabajar triada cognitiva y modificar creencias nucleares de desamparo e inutilidad."
+    },
+    {
+      "nombre": "Trastorno de ansiedad generalizada",
+      "sintomas_principales": [
+        "Preocupacion excesiva",
+        "Inquietud",
+        "Tension muscular",
+        "Fatiga cognitiva"
+      ],
+      "como_se_manifiesta_en_conducta": "Se observa chequeo constante, necesidad de control, sobrepreparacion y dificultad para tolerar incertidumbre.",
+      "foco_intervencion": "Cuestionar catastrofizacion y sobreestimacion de amenaza, incorporar experimentos sobre incertidumbre y afrontamiento."
+    },
+    {
+      "nombre": "Trastorno de pánico",
+      "sintomas_principales": [
+        "Crisis de panico",
+        "Miedo a sensaciones corporales",
+        "Conductas de seguridad",
+        "Evitacion interoceptiva"
+      ],
+      "como_se_manifiesta_en_conducta": "La persona evita actividad fisica o situaciones por miedo a desencadenar sintomas fisiologicos.",
+      "foco_intervencion": "Reestructurar interpretaciones catastroficas de sensaciones y probar hipotesis mediante ejercicios interoceptivos graduados."
+    },
+    {
+      "nombre": "Fobia social",
+      "sintomas_principales": [
+        "Miedo a evaluacion negativa",
+        "Ansiedad anticipatoria",
+        "Autofocalizacion",
+        "Evitacion social"
+      ],
+      "como_se_manifiesta_en_conducta": "Evitacion de exposicion social, conductas de camuflaje y rumiacion post-evento.",
+      "foco_intervencion": "Trabajar lectura de mente y adivinacion del futuro, y usar experimentos conductuales en situaciones sociales."
+    },
+    {
+      "nombre": "TOC",
+      "sintomas_principales": [
+        "Obsesiones",
+        "Compulsiones",
+        "Duda patologica",
+        "Responsabilidad inflada"
+      ],
+      "como_se_manifiesta_en_conducta": "Aparecen rituales repetitivos para reducir ansiedad y evitar daño percibido.",
+      "foco_intervencion": "Cuestionar fusion pensamiento-accion y responsabilidad inflada, complementando con tecnicas conductuales de exposicion y prevencion de respuesta."
+    }
+  ],
+  "perfiles_cognitivos": [
+    {
+      "trastorno": "Depresión mayor",
+      "triada_cognitiva": {
+        "vision_si_mismo": "Soy inadecuado, defectuoso, inútil",
+        "vision_mundo": "El mundo es hostil, exigente, sin recompensas",
+        "vision_futuro": "No va a mejorar, no hay esperanza"
+      },
+      "distorsiones_predominantes": ["Abstracción selectiva", "Sobregeneralización", "Personalización", "Pensamiento dicotómico"],
+      "creencias_nucleares_tipicas": ["Soy incompetente", "Soy indigno de amor", "No valgo nada"],
+      "pensamientos_automaticos_ejemplo": [
+        "No puedo hacer nada bien",
+        "Nadie me quiere de verdad",
+        "Siempre ha sido así y siempre lo será",
+        "Soy una carga para los demás"
+      ]
+    },
+    {
+      "trastorno": "Trastorno de ansiedad generalizada",
+      "tema_cognitivo_central": "Amenaza difusa e incontrolable; intolerancia a la incertidumbre",
+      "distorsiones_predominantes": ["Catastrofización", "Sobrestimación de probabilidad de amenaza", "Subestimación de capacidad de afrontamiento"],
+      "creencias_nucleares_tipicas": ["Soy vulnerable", "El mundo es peligroso e impredecible"],
+      "pensamientos_automaticos_ejemplo": [
+        "¿Y si pasa algo terrible?",
+        "No voy a poder manejarlo",
+        "Algo malo va a pasar, lo presiento",
+        "Necesito tener todo bajo control"
+      ]
+    },
+    {
+      "trastorno": "Trastorno de pánico",
+      "tema_cognitivo_central": "Interpretación catastrófica de sensaciones corporales",
+      "distorsiones_predominantes": ["Catastrofización", "Magnificación de sensaciones corporales", "Razonamiento emocional"],
+      "creencias_nucleares_tipicas": ["Mi cuerpo es frágil", "Las sensaciones físicas son peligrosas"],
+      "pensamientos_automaticos_ejemplo": [
+        "Me está dando un infarto",
+        "Me voy a desmayar",
+        "Estoy perdiendo el control / me estoy volviendo loco",
+        "Me voy a morir"
+      ]
+    },
+    {
+      "trastorno": "Fobia social",
+      "tema_cognitivo_central": "Evaluación negativa por parte de los demás; uno mismo como objeto social defectuoso",
+      "distorsiones_predominantes": ["Lectura de mente", "Personalización", "Atención autofocalizada", "Razonamiento emocional"],
+      "creencias_nucleares_tipicas": ["Soy inadecuado socialmente", "Los demás son evaluadores críticos"],
+      "pensamientos_automaticos_ejemplo": [
+        "Todos se están dando cuenta de que estoy nervioso",
+        "Van a pensar que soy un idiota",
+        "Voy a hacer el ridículo",
+        "No tengo nada interesante que decir"
+      ]
+    },
+    {
+      "trastorno": "TOC",
+      "tema_cognitivo_central": "Responsabilidad inflada, fusión pensamiento-acción, intolerancia a la incertidumbre",
+      "distorsiones_predominantes": ["Fusión pensamiento-acción", "Responsabilidad inflada", "Sobrestimación de amenaza", "Perfeccionismo"],
+      "creencias_nucleares_tipicas": ["Soy responsable de prevenir daños", "Pensar algo es tan malo como hacerlo"],
+      "pensamientos_automaticos_ejemplo": [
+        "Si no verifico, algo terrible pasará y será mi culpa",
+        "El hecho de que piense esto significa que soy una mala persona",
+        "Si no está perfecto, algo malo va a pasar"
+      ]
+    }
+  ]
+}

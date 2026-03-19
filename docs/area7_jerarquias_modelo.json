@@ -1,0 +1,178 @@
+{
+  "area": 7,
+  "nombre": "Jerarquías Modelo por Problema",
+  "descripcion": "Jerarquías de ansiedad modelo para los problemas clínicos más frecuentes, con ítems tipo que sirven como punto de partida para la construcción colaborativa con el paciente",
+  "elementos": [
+    {
+      "id": "JER-001",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Miedo a Hablar en Público",
+      "factor_ISRA": "F1 (Evaluación)",
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Estar en casa escribiendo el esquema de lo que vas a decir"},
+        {"num": 2, "usa": 20, "descripcion": "Comentarle a un familiar que vas a dar una charla la semana que viene"},
+        {"num": 3, "usa": 25, "descripcion": "Entrar en la sala vacía donde darás la charla mañana"},
+        {"num": 4, "usa": 35, "descripcion": "Practicar frente a un espejo tú solo"},
+        {"num": 5, "usa": 45, "descripcion": "Practicar la charla frente a tu pareja o un amigo de confianza"},
+        {"num": 6, "usa": 55, "descripcion": "Practicar frente a 3 conocidos que te dan feedback"},
+        {"num": 7, "usa": 65, "descripcion": "Llegar al lugar de la charla el día señalado y sentarte entre el público"},
+        {"num": 8, "usa": 70, "descripcion": "Estar sentado esperando tu turno mientras el orador anterior habla"},
+        {"num": 9, "usa": 80, "descripcion": "Escuchar que anuncian tu nombre y levantarte"},
+        {"num": 10, "usa": 85, "descripcion": "Ponerte de pie y caminar hacia el atril frente a 20 personas"},
+        {"num": 11, "usa": 95, "descripcion": "Empezar a hablar y mirar a los ojos del público"},
+        {"num": 12, "usa": 100, "descripcion": "Estar hablando y notar que alguien en la primera fila bosteza o mira el móvil"}
+      ],
+      "fuente": "Documento universitario DS; Labrador (2008)"
+    },
+    {
+      "id": "JER-002",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Fobia a Animales (Perros)",
+      "factor_ISRA": "F3 (Fóbica)",
+      "items": [
+        {"num": 1, "usa": 5, "descripcion": "Ver la palabra 'perro' escrita en un libro"},
+        {"num": 2, "usa": 15, "descripcion": "Ver una fotografía de un perro pequeño y tranquilo"},
+        {"num": 3, "usa": 25, "descripcion": "Ver un vídeo corto de un cachorro jugando"},
+        {"num": 4, "usa": 35, "descripcion": "Estar en un parque y ver un perro con correa a 50 metros"},
+        {"num": 5, "usa": 45, "descripcion": "Estar en un parque con un perro con correa a 20 metros"},
+        {"num": 6, "usa": 55, "descripcion": "Estar a 5 metros de un perro pequeño que está tranquilo con su dueño"},
+        {"num": 7, "usa": 65, "descripcion": "Estar a 2 metros de un perro mediano con correa"},
+        {"num": 8, "usa": 75, "descripcion": "Tocar brevemente a un perro pequeño y tranquilo que sostiene su dueño"},
+        {"num": 9, "usa": 85, "descripcion": "Acariciar a un perro mediano durante 30 segundos"},
+        {"num": 10, "usa": 95, "descripcion": "Estar en una habitación con un perro suelto que se acerca a ti"},
+        {"num": 11, "usa": 100, "descripcion": "Un perro grande desconocido corre hacia ti ladrando"}
+      ],
+      "gradientes": ["distancia al estímulo", "tamaño del animal", "nivel de control (correa/suelto)", "actividad del animal (quieto/en movimiento)"]
+    },
+    {
+      "id": "JER-003",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Fobia a Volar",
+      "factor_ISRA": "F3 (Fóbica)",
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Leer un artículo sobre viajes en avión"},
+        {"num": 2, "usa": 20, "descripcion": "Ver un avión volando a gran altura desde el suelo"},
+        {"num": 3, "usa": 30, "descripcion": "Reservar un vuelo por internet"},
+        {"num": 4, "usa": 40, "descripcion": "Hacer la maleta la noche anterior al vuelo"},
+        {"num": 5, "usa": 50, "descripcion": "Llegar al aeropuerto y ver los paneles de vuelos"},
+        {"num": 6, "usa": 60, "descripcion": "Pasar el control de seguridad y caminar hacia la puerta de embarque"},
+        {"num": 7, "usa": 70, "descripcion": "Escuchar la llamada de embarque de tu vuelo"},
+        {"num": 8, "usa": 75, "descripcion": "Entrar en el avión y buscar tu asiento"},
+        {"num": 9, "usa": 80, "descripcion": "Sentarte en el avión, abrocharte el cinturón y oír cerrarse la puerta"},
+        {"num": 10, "usa": 90, "descripcion": "El avión se mueve hacia la pista y acelera para despegar"},
+        {"num": 11, "usa": 95, "descripcion": "Estás en el aire y el avión atraviesa una zona de turbulencias"},
+        {"num": 12, "usa": 100, "descripcion": "Turbulencias fuertes, se enciende la señal de cinturones y oyes un ruido extraño"}
+      ],
+      "gradientes": ["proximidad temporal al vuelo", "cercanía física al avión", "fases del vuelo"]
+    },
+    {
+      "id": "JER-004",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Fobia a Sangre-Inyecciones-Daño (SID)",
+      "factor_ISRA": "F3 (Fóbica)",
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Ver la palabra 'inyección' escrita"},
+        {"num": 2, "usa": 20, "descripcion": "Ver una fotografía de una jeringuilla sin usar"},
+        {"num": 3, "usa": 30, "descripcion": "Ver una foto de alguien recibiendo una inyección"},
+        {"num": 4, "usa": 40, "descripcion": "Ver un vídeo de una extracción de sangre"},
+        {"num": 5, "usa": 50, "descripcion": "Entrar en una consulta médica y ver los instrumentos"},
+        {"num": 6, "usa": 60, "descripcion": "El enfermero prepara el material para sacarte sangre"},
+        {"num": 7, "usa": 70, "descripcion": "Te ponen la goma elástica en el brazo"},
+        {"num": 8, "usa": 80, "descripcion": "Ves la aguja acercarse a tu brazo"},
+        {"num": 9, "usa": 90, "descripcion": "Sientes el pinchazo y ves la sangre llenar el tubo"},
+        {"num": 10, "usa": 100, "descripcion": "Ves una herida abierta sangrando en otra persona"}
+      ],
+      "nota_clinica": "En fobia SID se produce frecuentemente respuesta vasovagal (desmayo). Considerar añadir tensión muscular aplicada (Öst) como respuesta incompatible en lugar de relajación."
+    },
+    {
+      "id": "JER-005",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Ansiedad ante Exámenes",
+      "factor_ISRA": "F1 (Evaluación)",
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Planificar el horario de estudio faltando un mes para el examen"},
+        {"num": 2, "usa": 20, "descripcion": "Estudiar solo en casa faltando dos semanas"},
+        {"num": 3, "usa": 30, "descripcion": "Estudiar en la biblioteca faltando una semana"},
+        {"num": 4, "usa": 40, "descripcion": "La noche anterior al examen, repasando por última vez"},
+        {"num": 5, "usa": 50, "descripcion": "Despertarte la mañana del examen"},
+        {"num": 6, "usa": 60, "descripcion": "Llegar a la facultad y ver compañeros repasando en el pasillo"},
+        {"num": 7, "usa": 70, "descripcion": "Entrar en el aula de examen y sentarte"},
+        {"num": 8, "usa": 80, "descripcion": "El profesor reparte los exámenes boca abajo"},
+        {"num": 9, "usa": 90, "descripcion": "Dar la vuelta al examen y leer la primera pregunta"},
+        {"num": 10, "usa": 95, "descripcion": "Leer una pregunta y no saber la respuesta inmediatamente"},
+        {"num": 11, "usa": 100, "descripcion": "Ver que otros compañeros ya están escribiendo y tú sigues bloqueado"}
+      ]
+    },
+    {
+      "id": "JER-006",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Claustrofobia (Espacios Cerrados)",
+      "factor_ISRA": "F3 (Fóbica)",
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Estar en una habitación grande con la puerta cerrada pero sin llave"},
+        {"num": 2, "usa": 20, "descripcion": "Estar en una habitación mediana con la puerta cerrada"},
+        {"num": 3, "usa": 30, "descripcion": "Subir en un ascensor amplio y moderno 2 pisos"},
+        {"num": 4, "usa": 40, "descripcion": "Subir en un ascensor estrecho 2 pisos"},
+        {"num": 5, "usa": 50, "descripcion": "Subir en un ascensor estrecho 5 pisos"},
+        {"num": 6, "usa": 60, "descripcion": "Estar en un coche en un túnel corto (1 min)"},
+        {"num": 7, "usa": 70, "descripcion": "Estar en un ascensor que se detiene unos segundos entre pisos"},
+        {"num": 8, "usa": 80, "descripcion": "Estar en un túnel largo (5 min) en tráfico lento"},
+        {"num": 9, "usa": 90, "descripcion": "Hacerte una resonancia magnética (tubo cerrado)"},
+        {"num": 10, "usa": 100, "descripcion": "Quedarte atrapado en un ascensor que se para entre pisos"}
+      ],
+      "gradientes": ["tamaño del espacio", "duración del encierro", "posibilidad de salir"]
+    },
+    {
+      "id": "JER-007",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Ansiedad Social (Interacción)",
+      "factor_ISRA": "F2 (Interpersonal)",
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Saludar al vecino del portal"},
+        {"num": 2, "usa": 20, "descripcion": "Pedir un café en un bar con el camarero habitual"},
+        {"num": 3, "usa": 30, "descripcion": "Preguntar la hora a un desconocido en la calle"},
+        {"num": 4, "usa": 40, "descripcion": "Mantener una conversación breve con un conocido en la cola del supermercado"},
+        {"num": 5, "usa": 50, "descripcion": "Ir a una reunión social donde conoces a la mitad de la gente"},
+        {"num": 6, "usa": 60, "descripcion": "Ir a una fiesta donde solo conoces al anfitrión"},
+        {"num": 7, "usa": 70, "descripcion": "Presentarte a un grupo de desconocidos en un evento"},
+        {"num": 8, "usa": 80, "descripcion": "Expresar tu opinión en una reunión de trabajo con 10 personas"},
+        {"num": 9, "usa": 90, "descripcion": "Recibir una crítica de un compañero delante de otros"},
+        {"num": 10, "usa": 100, "descripcion": "Ser el centro de atención inesperado (te piden que hables improvisadamente)"}
+      ],
+      "nota_clinica": "En fobia social, considerar usar autoaserción como respuesta incompatible (Wolpe) además de o en lugar de relajación."
+    },
+    {
+      "id": "JER-008",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Miedo a la Muerte y Enfermedad (caso Wolpe)",
+      "factor_ISRA": "F4 (Vida cotidiana) / Específica",
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Ver una ambulancia pasar por la calle"},
+        {"num": 2, "usa": 20, "descripcion": "Ver un hospital desde fuera"},
+        {"num": 3, "usa": 30, "descripcion": "Estar en el interior de un hospital visitando a alguien"},
+        {"num": 4, "usa": 40, "descripcion": "Leer la esquela de una persona mayor que murió de vejez"},
+        {"num": 5, "usa": 50, "descripcion": "Leer la esquela de una persona joven fallecida de un ataque al corazón"},
+        {"num": 6, "usa": 60, "descripcion": "Pasar en coche cerca de un cementerio"},
+        {"num": 7, "usa": 70, "descripcion": "Ver una procesión funeraria pasar por la calle"},
+        {"num": 8, "usa": 80, "descripcion": "Estar presente en un funeral"},
+        {"num": 9, "usa": 90, "descripcion": "Ver a un paciente con respiración entrecortada en una cama"},
+        {"num": 10, "usa": 100, "descripcion": "Ver a un ser querido en un féretro"}
+      ],
+      "fuente": "Wolpe (1958). Caso 7: Señorita T."
+    },
+    {
+      "id": "JER-009",
+      "tipo": "guia",
+      "titulo": "Gradientes para Construir Jerarquías Personalizadas",
+      "contenido": {
+        "gradiente_temporal": "Manipular cuánto falta para el evento temido (1 mes → 1 semana → mañana → hoy → ahora mismo)",
+        "gradiente_espacial": "Manipular distancia al estímulo (200m → 50m → 20m → 5m → 1m → contacto)",
+        "gradiente_intensidad": "Manipular la fuerza del estímulo (foto → vídeo → realidad; perro pequeño → mediano → grande)",
+        "gradiente_cantidad": "Manipular el número de estímulos (1 persona → 5 → 20 → 100)",
+        "gradiente_control": "Manipular la sensación de control (con escapatoria → sin escapatoria; acompañado → solo)",
+        "gradiente_duracion": "Manipular cuánto tiempo dura la exposición (10 seg → 1 min → 5 min → 15 min)",
+        "gradiente_verbal": "Usar solo la palabra del estímulo como nivel más bajo (Wolpe: 'la palabra funeral')"
+      }
+    }
+  ]
+}

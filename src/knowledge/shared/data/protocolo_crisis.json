@@ -1,0 +1,60 @@
+{
+  "area_id": "protocolo_crisis",
+  "nombre": "Protocolo de Crisis",
+  "descripcion": "Protocolo de intervención ante situaciones de crisis durante el proceso terapéutico, incluyendo ideación suicida y descompensación aguda",
+  "senales_alarma": [
+    "Puntuación BDI-II ítem 9 >= 2 (ideación suicida activa)",
+    "Verbalización de deseos de muerte o planes suicidas",
+    "Aumento súbito de aislamiento o evitación total",
+    "Abandono repentino de actividades programadas sin contacto",
+    "Aumento significativo del consumo de sustancias",
+    "Conductas autolesivas reportadas o visibles",
+    "Deterioro funcional abrupto respecto a la sesión anterior",
+    "Regalo de posesiones o despedidas inusuales"
+  ],
+  "pasos_intervencion": [
+    {
+      "paso": 1,
+      "accion": "Evaluar el riesgo inmediato",
+      "detalle": "Preguntar directamente: '¿Has pensado en hacerte daño o en suicidarte?' Evaluar: plan específico, acceso a medios, intentos previos, factores protectores. Usar escalas de riesgo (Columbia-Suicide Severity Rating Scale)."
+    },
+    {
+      "paso": 2,
+      "accion": "Asegurar la seguridad inmediata",
+      "detalle": "Si hay riesgo inminente: no dejar solo al paciente. Activar red de apoyo. Retirar acceso a medios letales si es posible. Considerar derivación a urgencias psiquiátricas."
+    },
+    {
+      "paso": 3,
+      "accion": "Contención emocional",
+      "detalle": "Validar el sufrimiento sin minimizar. Escucha activa sin juzgar. Normalizar que pedir ayuda es un acto de fortaleza. Mantener tono calmado y presencia estable."
+    },
+    {
+      "paso": 4,
+      "accion": "Crear plan de seguridad",
+      "detalle": "Elaborar con el paciente un plan escrito con: señales de alarma personales, estrategias de afrontamiento, personas de contacto, números de emergencia, razones para vivir identificadas."
+    },
+    {
+      "paso": 5,
+      "accion": "Activar red de apoyo",
+      "detalle": "Contactar con familiares o personas de confianza del paciente (con su consentimiento si es posible). Coordinar con psiquiatra si hay medicación. Programar seguimiento intensivo."
+    },
+    {
+      "paso": 6,
+      "accion": "Seguimiento post-crisis",
+      "detalle": "Contacto telefónico en 24-48 horas. Sesión presencial lo antes posible. Aumentar frecuencia de sesiones temporalmente. Ajustar plan de AC reduciendo exigencia."
+    }
+  ],
+  "recursos_emergencia": [
+    { "recurso": "Teléfono de la Esperanza (España)", "contacto": "717 003 717" },
+    { "recurso": "Línea de Atención a la Conducta Suicida", "contacto": "024" },
+    { "recurso": "Emergencias generales", "contacto": "112" },
+    { "recurso": "SAPTEL (México)", "contacto": "55 5259 8121" },
+    { "recurso": "Centro de Asistencia al Suicida (Argentina)", "contacto": "(011) 5275-1135" }
+  ],
+  "contraindicaciones": [
+    "No continuar con programación de actividades durante crisis aguda",
+    "No minimizar la ideación suicida como 'parte de la depresión'",
+    "No dejar al paciente sin plan de seguridad escrito",
+    "No asumir que el riesgo ha pasado solo porque el paciente dice sentirse mejor al final de la sesión"
+  ]
+}

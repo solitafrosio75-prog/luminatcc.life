@@ -1,0 +1,44 @@
+node_modules
+
+# -------------------------------------------------------
+# Environment files — NEVER commit real secrets to git.
+# Only .env.example (with placeholder values) is tracked.
+# -------------------------------------------------------
+.env
+.env.local
+.env.*.local
+api/.env
+
+# -------------------------------------------------------
+# Kilo Code configuration (personal user settings)
+# -------------------------------------------------------
+.kilocode/
+.kilocodemodes
+
+# -------------------------------------------------------
+# Build output
+# -------------------------------------------------------
+dist/
+
+# -------------------------------------------------------
+# IDE / editor
+# -------------------------------------------------------
+.vscode/
+.idea/
+
+# -------------------------------------------------------
+# Tool / agent artefacts (not part of the project)
+# -------------------------------------------------------
+tmpclaude-*/
+.playwright-mcp/
+
+# -------------------------------------------------------
+# External repos / tools that live in the workspace root
+# (not part of this project — keep them out of git)
+# -------------------------------------------------------
+homebrew-core/
+python-sdk/
+mcp-main/
+aws-sam-cli/
+myapp/
+

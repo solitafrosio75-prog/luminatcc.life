@@ -1,0 +1,89 @@
+{
+  "area_id": "barreras",
+  "nombre": "Barreras y Dificultades en Mindfulness",
+  "descripcion": "Obstaculos comunes en la practica de mindfulness y estrategias para superarlos.",
+  "fuentes": [
+    "Segal, Z. V. et al. (2013). MBCT for Depression (2nd ed.). Guilford.",
+    "Kabat-Zinn, J. (2013). Full Catastrophe Living. Bantam.",
+    "Treleaven, D. A. (2018). Trauma-Sensitive Mindfulness. W. W. Norton."
+  ],
+  "barreras_del_paciente": [
+    {
+      "barrera": "No puedo dejar la mente en blanco",
+      "tipo": "expectativa_erronea",
+      "descripcion": "El paciente cree que mindfulness consiste en no pensar.",
+      "estrategias": [
+        "Psicoeducar: mindfulness no es dejar la mente en blanco, es notar cuando la mente se ha ido y regresar",
+        "Normalizar: la mente produce pensamientos, eso es su funcion natural",
+        "Reencuadrar cada distraccion como oportunidad de practicar el 'regresar'",
+        "Usar la metafora del cachorro: la mente es como un cachorro que se escapa, se le trae de vuelta con amabilidad"
+      ]
+    },
+    {
+      "barrera": "Me quedo dormido durante la practica",
+      "tipo": "dificultad_practica",
+      "descripcion": "El paciente se duerme durante body scan u otras practicas.",
+      "estrategias": [
+        "Practicar sentado en lugar de acostado",
+        "Practicar a horas de mayor alerta (no justo despues de comer o antes de dormir)",
+        "Abrir los ojos levemente",
+        "Evaluar si hay privacion de sueno (necesidad real de descanso)"
+      ]
+    },
+    {
+      "barrera": "Aumento temporal de ansiedad",
+      "tipo": "reaccion_paradojica",
+      "descripcion": "Al prestar atencion al momento presente, el paciente nota mas ansiedad de la que sentia antes.",
+      "estrategias": [
+        "Normalizar: al prestar atencion, se notan cosas que antes se evitaban",
+        "Graduar la exposicion: comenzar con practicas mas cortas",
+        "Usar anclas externas (sonidos) si las internas (respiracion) son activadoras",
+        "Mantener los ojos abiertos si cerrarlos genera malestar",
+        "Evaluar si es apropiado continuar (contraindicaciones en trauma severo)"
+      ]
+    },
+    {
+      "barrera": "No tengo tiempo para practicar",
+      "tipo": "resistencia",
+      "descripcion": "El paciente reporta que no puede encontrar tiempo para la practica diaria.",
+      "estrategias": [
+        "Comenzar con practicas muy cortas (3 minutos)",
+        "Integrar mindfulness en actividades cotidianas (lavarse los dientes, comer)",
+        "Explorar que hay detras de la falta de tiempo (priorizacion, resistencia)",
+        "Vincular la practica a un habito existente (anchor habit)"
+      ]
+    },
+    {
+      "barrera": "Experiencias disociativas o flashbacks",
+      "tipo": "contraindicacion_relativa",
+      "descripcion": "La practica desencadena disociacion o recuerdos traumaticos intrusivos.",
+      "estrategias": [
+        "Detener la practica si hay disociacion activa",
+        "Usar tecnicas de grounding antes y durante",
+        "Mantener ojos abiertos y atencion externa",
+        "Acortar significativamente las practicas",
+        "Considerar trauma-sensitive mindfulness (Treleaven, 2018)",
+        "Evaluar si mindfulness es apropiado en este momento del tratamiento"
+      ]
+    }
+  ],
+  "barreras_del_terapeuta": [
+    {
+      "barrera": "Ensenar mindfulness sin practicarlo personalmente",
+      "descripcion": "El terapeuta ensena tecnicas que no practica, lo que limita su capacidad de guiar y modelar.",
+      "estrategia": "El terapeuta DEBE tener practica personal sostenida. Se recomienda minimo 6 meses de practica regular antes de ensenar. No se puede transmitir lo que no se ha experimentado."
+    },
+    {
+      "barrera": "Usar mindfulness como tecnica de relajacion",
+      "descripcion": "Reducir mindfulness a una herramienta de relajacion pierde su esencia transformadora.",
+      "estrategia": "Recordar que el objetivo es la conciencia, no la relajacion. La relajacion puede ser un efecto secundario, pero no el proposito."
+    }
+  ],
+  "contraindicaciones": [
+    "Psicosis activa con alucinaciones",
+    "Trauma severo no procesado (riesgo de retraumatizacion)",
+    "Ideacion suicida activa (estabilizar primero)",
+    "Adiccion activa severa sin estabilizacion previa",
+    "Disociacion severa (evaluar caso a caso)"
+  ]
+}

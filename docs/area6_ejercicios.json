@@ -1,0 +1,182 @@
+{
+  "area": 6,
+  "nombre": "Ejercicios y Técnicas",
+  "descripcion": "Ejercicios prácticos, protocolos de sesión, guiones de aplicación y técnicas complementarias utilizadas en el marco de la DS",
+  "elementos": [
+    {
+      "id": "EJE-001",
+      "tipo": "protocolo_sesion",
+      "titulo": "Protocolo Completo de Sesión de DS Imaginaria",
+      "pasos": [
+        {
+          "paso": 1,
+          "nombre": "Revisión y preparación",
+          "duracion": "5 min",
+          "descripcion": "Revisar experiencias desde la última sesión. Comprobar tareas para casa. Preguntar por nivel general de ansiedad. Si hay exposiciones en vivo, revisar autorregistro."
+        },
+        {
+          "paso": 2,
+          "nombre": "Inducción de relajación",
+          "duracion": "5-10 min",
+          "descripcion": "Guiar al paciente hacia relajación profunda usando protocolo abreviado (4 grupos) o por evocación. Paciente indica con dedo índice cuando alcanza relajación satisfactoria."
+        },
+        {
+          "paso": 3,
+          "nombre": "Escena control",
+          "duracion": "1-2 min",
+          "descripcion": "Presentar escena neutra no relacionada con la jerarquía: 'Imagina que estás sentado en un sillón cómodo en tu salón, un día soleado'. Verificar que el paciente visualiza con claridad y sin ansiedad."
+        },
+        {
+          "paso": 4,
+          "nombre": "Verificación del último ítem superado",
+          "duracion": "2-3 min",
+          "descripcion": "Presentar una vez el último ítem desensibilizado en la sesión anterior. Si no produce ansiedad: avanzar. Si produce: trabajarlo como ítem problemático."
+        },
+        {
+          "paso": 5,
+          "nombre": "Desensibilización propiamente dicha",
+          "duracion": "25-35 min",
+          "descripcion": "Presentar ítems de la jerarquía siguiendo el protocolo: presentación 15-20s → pausa relajación 40-50s → presentación 25-30s → pausa → presentación 50-60s. Criterio: 3 presentaciones sin ansiedad = superado. Avanzar al siguiente ítem con pausa de relajación de 60-90s entre ítems."
+        },
+        {
+          "paso": 6,
+          "nombre": "Cierre y orientación",
+          "duracion": "5 min",
+          "descripcion": "Contar lentamente hasta 5 para salir de la relajación. Revisar qué ítems se trabajaron y resultados. Refuerzo verbal por logros. Asignar tarea para casa (exposición en vivo al nivel correspondiente)."
+        }
+      ]
+    },
+    {
+      "id": "EJE-002",
+      "tipo": "guion_clinico",
+      "titulo": "Guion de Presentación de Ítem con Inmersión Sensorial",
+      "contexto": "Ejemplo: Ítem 5 - Esperando tu turno en el auditorio (70 USA)",
+      "guion": {
+        "induccion": "Carlos, cierra los ojos. Mantén tu respiración profunda y diafragmática. Tu cuerpo pesa, estás relajado. Ahora quiero que te imagines en el auditorio. No es una foto fija, es una película en 4K.",
+        "canal_visual": "Mira hacia adelante. Ves la nuca de la persona sentada frente a ti. Observa la madera del atril al fondo, brilla bajo los focos del techo. Hay unas 20 personas, ves el movimiento suave de sus cabezas mientras escuchan al orador.",
+        "canal_auditivo": "Escucha el zumbido suave del aire acondicionado. Oyes la voz del orador, un sonido rítmico, un poco lejano. De vez en cuando, el clic de un bolígrafo o el roce de un papel.",
+        "canal_tactil": "Siente el tacto de la silla en tu espalda; es un poco rígida. El peso de tus carpetas sobre las piernas. La temperatura fresca de la sala, el aire frío en tus manos. Estás ahí, sentado, esperando tu turno.",
+        "canal_olfativo": "Percibes ese olor típico de las salas cerradas, un poco a polvo y a café de la pausa anterior.",
+        "evaluacion": "Mantén esa imagen. Estás ahí. Si sientes que tu ansiedad sube por encima de un 2 o 3, levanta el dedo índice de tu mano derecha... (pausa 15 seg)",
+        "escenario_sin_ansiedad": "Muy bien, deja que la imagen se disuelva. Vuelve a centrarte solo en tu respiración. Nota cómo tus músculos se relajan más. Has estado en esa sala y tu cuerpo se ha mantenido en calma. Vamos a repetirlo.",
+        "escenario_con_ansiedad": "De acuerdo, corta la imagen. Borra la sala. Imagina ahora una pantalla blanca. Respira profundo, suelta el aire. Vuelve a tu lugar seguro. Vamos a recuperar la relajación profunda antes de intentar un paso más sencillo."
+      }
+    },
+    {
+      "id": "EJE-003",
+      "tipo": "ejercicio",
+      "titulo": "Entrenamiento en Visualización Progresiva",
+      "objetivo": "Desarrollar la capacidad imaginativa del paciente antes de iniciar la DS",
+      "pasos": [
+        {"sesion": 1, "ejercicio": "Recordar una escena real agradable reciente con ojos cerrados. Describir en voz alta lo que ve, oye, siente y huele."},
+        {"sesion": 1, "ejercicio": "Modificar un detalle de la escena (ej: cambiar la hora del día) y mantenerla 30 seg."},
+        {"sesion": 2, "ejercicio": "Crear una escena nueva completa (playa, montaña) con los 4 canales sensoriales."},
+        {"sesion": 2, "ejercicio": "Imaginar una situación neutra cotidiana (hacer la compra) con el máximo detalle posible."},
+        {"sesion": 3, "ejercicio": "Imaginar el ítem más bajo de la jerarquía (≤10 USA) como prueba. Verificar que produce la cantidad esperada de ansiedad."}
+      ]
+    },
+    {
+      "id": "EJE-004",
+      "tipo": "ejercicio",
+      "titulo": "Biofeedback Casero de Relajación",
+      "objetivo": "Que el paciente compruebe objetivamente su control sobre el sistema autónomo",
+      "instrucciones": "Antes de la relajación: medir pulso manualmente (15 seg × 4) o con smartwatch. Realizar ejercicio de relajación (progresiva o respiración cuadrada). Después: volver a medir pulso. Anotar la diferencia. Objetivo: conseguir una reducción de al menos 10 pulsaciones. El registro de estas diferencias refuerza la autoeficacia y motiva la práctica diaria."
+    },
+    {
+      "id": "EJE-005",
+      "tipo": "protocolo",
+      "titulo": "Protocolo de Exposición en Vivo Post-DS",
+      "pasos": [
+        {
+          "paso": 1,
+          "nombre": "El Puente: de la imaginación a la realidad",
+          "dialogo": "Tu cerebro ha demostrado que puede dominar la calma mientras visualizas la situación. Pero es un poco escéptico: necesita ver que esto funciona fuera de esta sala. Vamos a diseñar tu Experimento Conductual."
+        },
+        {
+          "paso": 2,
+          "nombre": "Selección del ítem",
+          "instruccion": "Elegir un ítem ya superado en imaginación (2 niveles por debajo del último desensibilizado). Nunca pedir al paciente que se enfrente a un nivel que no haya dominado en la consulta."
+        },
+        {
+          "paso": 3,
+          "nombre": "Definir las reglas",
+          "reglas": [
+            "Duración: quedarse hasta que USA baje al 50% del pico",
+            "Prohibido distraerse con móvil o música",
+            "Sentarse en posición que no facilite escape",
+            "Llevar autorregistro y anotar USA cada 5 min",
+            "Aplicar respiración si USA supera 70"
+          ]
+        },
+        {
+          "paso": 4,
+          "nombre": "Eliminar conductas de seguridad",
+          "dialogo": "Si vas al aula y te quedas pegado a la puerta por si tienes que salir corriendo, tu cerebro no aprenderá que el aula es segura, sino que 'te salvaste por estar cerca de la puerta'. Siéntate en el centro. Sin escapatorias. Solo tú y el aula."
+        },
+        {
+          "paso": 5,
+          "nombre": "Revisión en sesión siguiente",
+          "instruccion": "Revisar autorregistro. Si USA final ≤ 50% del pico = habituación exitosa. Reforzar logro. Si no se completó = analizar qué falló sin culpabilizar. Repetir el mismo nivel antes de avanzar."
+        }
+      ]
+    },
+    {
+      "id": "EJE-006",
+      "tipo": "ejercicio",
+      "titulo": "Exposición Interoceptiva (Complemento para Pánico)",
+      "objetivo": "Perder el miedo a las sensaciones corporales de la ansiedad",
+      "ejercicios": [
+        {"ejercicio": "Girar sobre una silla (30 seg)", "sensacion_provocada": "Mareo", "aplicacion": "Miedo al desmayo"},
+        {"ejercicio": "Respirar por una pajita estrecha (60 seg)", "sensacion_provocada": "Falta de aire", "aplicacion": "Miedo a asfixiarse"},
+        {"ejercicio": "Subir escaleras rápido (2 min)", "sensacion_provocada": "Taquicardia", "aplicacion": "Miedo al infarto"},
+        {"ejercicio": "Hiperventilar voluntariamente (30 seg)", "sensacion_provocada": "Hormigueo, irrealidad", "aplicacion": "Miedo a perder el control"},
+        {"ejercicio": "Mirar fijamente un punto en la pared (2 min)", "sensacion_provocada": "Desrealización", "aplicacion": "Miedo a volverse loco"}
+      ],
+      "protocolo": "Realizar el ejercicio → registrar sensaciones y USA → esperar a que USA baje → repetir hasta que el ejercicio no produzca miedo"
+    },
+    {
+      "id": "EJE-007",
+      "tipo": "ejercicio",
+      "titulo": "Inundación Imaginaria (Flooding)",
+      "objetivo": "Exposición masiva al ítem más alto de la jerarquía. Alternativa a la DS cuando se necesita rapidez",
+      "descripcion": "A diferencia de la DS, aquí se expone al paciente al ítem más temido directamente, sin relajación previa, manteniéndolo en la imaginación hasta que la ansiedad caiga por agotamiento fisiológico (habituación). Duración mínima: 45-90 minutos continuos de imaginación. No terminar nunca con ansiedad alta.",
+      "contraindicaciones": "No usar si el paciente tiene riesgo cardiovascular, ataques de pánico severos, o baja tolerancia al malestar. Requiere alianza terapéutica muy sólida.",
+      "nota": "No es DS. Es una técnica alternativa dentro de la familia de exposición. Se incluye como referencia comparativa."
+    },
+    {
+      "id": "EJE-008",
+      "tipo": "ejercicio",
+      "titulo": "Prevención de Respuesta de Demora",
+      "objetivo": "Para TOC o impulsividad. Demorar progresivamente la compulsión",
+      "protocolo": "Semana 1: esperar 15 minutos antes de realizar la compulsión. Semana 2: esperar 30 minutos. Semana 3: esperar 60 minutos. Semana 4+: intentar no realizarla. Registrar: hora de la urgencia, USA al inicio, USA a los 15 min, si se realizó o no la compulsión.",
+      "nota": "Técnica de EPR, no de DS propiamente. Se incluye como complemento para cuadros mixtos."
+    },
+    {
+      "id": "EJE-009",
+      "tipo": "ejercicio",
+      "titulo": "Role-Playing de Asertividad como Respuesta Incompatible",
+      "objetivo": "Para fobia social: usar la autoaserción como respuesta incompatible en lugar de la relajación",
+      "descripcion": "Wolpe identificó las respuestas asertivas como potentes inhibidoras de ansiedad social. Protocolo: (1) Terapeuta modela la situación social temida (hace de jefe difícil, conocido crítico, etc.). (2) Paciente practica respuestas asertivas: Disco Rayado (repetir postura con calma), Banco de Niebla (aceptar parte de la crítica sin ceder). (3) Se repite hasta que el paciente puede ejecutar la respuesta sin ansiedad significativa. (4) Se generaliza a situaciones reales graduadas.",
+      "fuente": "Wolpe (1958). Cap. 8: Inhibición recíproca en situaciones de la vida real"
+    },
+    {
+      "id": "EJE-010",
+      "tipo": "ejercicio",
+      "titulo": "Encuesta Social (Exposición Conductual para Fobia Social)",
+      "objetivo": "Comprobar que no pasa nada malo al interactuar con desconocidos",
+      "instrucciones": "Salir a la calle y: (nivel 1) preguntar la hora a 5 desconocidos, (nivel 2) pedir indicaciones para una dirección inventada, (nivel 3) mantener una conversación breve (3-4 intercambios) con un dependiente de tienda, (nivel 4) dar una opinión no solicitada en una conversación grupal. Registrar USA antes y después de cada interacción."
+    },
+    {
+      "id": "EJE-011",
+      "tipo": "protocolo",
+      "titulo": "Secuencia Paso a Paso para Cualquier Ejercicio",
+      "descripcion": "El terapeuta perfecto nunca manda ejercicios 'por probar'. Siempre sigue este orden:",
+      "pasos": [
+        {"paso": 1, "nombre": "Explicación del fundamento", "descripcion": "¿Para qué sirve este ejercicio? ¿Qué va a pasar en tu cuerpo/mente?"},
+        {"paso": 2, "nombre": "Modelado", "descripcion": "El terapeuta lo hace primero. El paciente observa."},
+        {"paso": 3, "nombre": "Ensayo en sesión", "descripcion": "El paciente lo intenta con supervisión y feedback inmediato."},
+        {"paso": 4, "nombre": "Tarea para casa", "descripcion": "El paciente lo practica solo. Llevar registro. Revisar en siguiente sesión."}
+      ]
+    }
+  ]
+}

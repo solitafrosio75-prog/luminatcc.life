@@ -1,0 +1,50 @@
+{
+  "area_id": "ac_valores_reforzadores",
+  "nombre": "Valores y Objetivos",
+  "descripcion": "Objetivos terapéuticos comunes y valores nucleares que guían la selección de actividades en la Activación Conductual",
+  "fuentes": [
+    "Lejuez et al. (2011). BATD-R",
+    "Martell et al. (2010)",
+    "Hayes, Strosahl & Wilson (1999). ACT"
+  ],
+  "objetivos_terapeuticos": [
+    {
+      "objetivo": "Autonomía (Dominio)",
+      "descripcion": "Recuperar la capacidad de funcionar independientemente en actividades de la vida diaria, incrementando la sensación de competencia y control personal."
+    },
+    {
+      "objetivo": "Conexión Social (Placer)",
+      "descripcion": "Restablecer y fortalecer vínculos interpersonales significativos, aumentando las fuentes de reforzamiento social positivo."
+    },
+    {
+      "objetivo": "Equilibrio Vital",
+      "descripcion": "Lograr un balance entre las diferentes áreas de vida (trabajo, ocio, relaciones, salud) alineado con los valores personales del paciente."
+    },
+    {
+      "objetivo": "Ruptura del Ciclo de Evitación",
+      "descripcion": "Identificar y revertir los patrones de evitación experiencial que mantienen el ciclo depresivo (TRAP → TRAC)."
+    },
+    {
+      "objetivo": "Automonitoreo Independiente",
+      "descripcion": "Desarrollar la capacidad del paciente para detectar señales tempranas de recaída y aplicar estrategias de AC de forma autónoma."
+    }
+  ],
+  "valores_nucleares": [
+    {
+      "valor": "Persistencia (acción pese a la apatía)",
+      "definicion": "Comprometerse con la acción incluso cuando no se siente motivación. El principio 'actuar de afuera hacia adentro' — la motivación viene después de la acción, no antes."
+    },
+    {
+      "valor": "Autocompasión",
+      "definicion": "Tratarse con la misma amabilidad que se trataría a un amigo en la misma situación. No castigarse por los días difíciles, sino usarlos como información."
+    },
+    {
+      "valor": "Flexibilidad",
+      "definicion": "Capacidad de ajustar planes y expectativas según las circunstancias. Si una actividad no funciona, se modifica en lugar de abandonar el proceso completo."
+    },
+    {
+      "valor": "Compromiso con valores",
+      "definicion": "Actuar guiado por lo que es importante para la persona (familia, crecimiento, contribución) y no por el estado emocional momentáneo."
+    }
+  ]
+}

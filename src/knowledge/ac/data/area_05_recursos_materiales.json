@@ -1,0 +1,77 @@
+{
+  "area_id": "recursos_materiales",
+  "nombre": "Recursos y Materiales Auxiliares",
+  "descripcion": "Manuales, formularios, aplicaciones y materiales de apoyo para la implementación de la AC",
+  "fuentes": [
+    "Lewinsohn et al. (1986)",
+    "Beck et al. (1979)",
+    "Ellis (1962)",
+    "Skinner (1953)"
+  ],
+  "recursos": [
+    {
+      "id": "RM01",
+      "tipo": "manual",
+      "titulo": "Controla tu Depresión",
+      "autor": "Lewinsohn, Muñoz, Youngren & Zeiss",
+      "descripcion": "Manual de autoayuda basado en la AC con programación de actividades agradables y desarrollo de habilidades sociales",
+      "uso_clinico": "Material de referencia para el terapeuta y lectura complementaria para pacientes con nivel educativo medio-alto"
+    },
+    {
+      "id": "RM02",
+      "tipo": "manual",
+      "titulo": "Terapia Cognitiva de la Depresión",
+      "autor": "Aaron T. Beck",
+      "descripcion": "Manual fundacional de la TCC para depresión, incluye componentes de activación conductual como parte del protocolo",
+      "uso_clinico": "Referencia para la integración de AC dentro del marco cognitivo-conductual completo"
+    },
+    {
+      "id": "RM03",
+      "tipo": "formulario",
+      "titulo": "Formulario de Creencias Centrales (FCC)",
+      "autor": "Judith Beck",
+      "descripcion": "Hoja de trabajo para identificar y modificar creencias nucleares que mantienen la inactividad",
+      "uso_clinico": "Complemento cuando las creencias interfieren con la adhesión a las actividades programadas"
+    },
+    {
+      "id": "RM04",
+      "tipo": "formulario",
+      "titulo": "Hoja ABCDE (Ellis)",
+      "autor": "Albert Ellis",
+      "descripcion": "Formulario para el modelo racional-emotivo: Activador-Creencia-Consecuencia-Disputa-Efecto",
+      "uso_clinico": "Extensión racional cuando la evitación se mantiene por creencias irracionales identificables"
+    },
+    {
+      "id": "RM05",
+      "tipo": "app",
+      "titulo": "Mood Tracker con recordatorios",
+      "autor": "Diversas aplicaciones",
+      "descripcion": "Aplicaciones móviles para registro de estado de ánimo con notificaciones y gráficos de progreso",
+      "uso_clinico": "Complemento digital al registro en papel. Útil para pacientes tecnológicamente competentes"
+    },
+    {
+      "id": "RM06",
+      "tipo": "libro_autoayuda",
+      "titulo": "Razón y Emoción en Psicoterapia",
+      "autor": "Albert Ellis",
+      "descripcion": "Texto sobre el modelo racional-emotivo que complementa la comprensión de la relación pensamiento-conducta-emoción",
+      "uso_clinico": "Lectura complementaria para profundizar en la conexión entre cognición y conducta"
+    },
+    {
+      "id": "RM07",
+      "tipo": "audiovisual",
+      "titulo": "Videos de modelado (role-playing)",
+      "autor": "Producción clínica",
+      "descripcion": "Videos demostrativos de técnicas de AC como programación de actividades, análisis funcional y manejo de barreras",
+      "uso_clinico": "Material de entrenamiento para terapeutas en formación y psicoeducación visual para pacientes"
+    },
+    {
+      "id": "RM08",
+      "tipo": "audiovisual",
+      "titulo": "Técnicas de relajación guiada",
+      "autor": "Diversos",
+      "descripcion": "Audios y videos de relajación progresiva de Jacobson y respiración diafragmática",
+      "uso_clinico": "Cuando la ansiedad comórbida bloquea la ejecución de actividades programadas"
+    }
+  ]
+}

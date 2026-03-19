@@ -1,0 +1,64 @@
+{
+  "area_id": "herramientas_evaluacion",
+  "nombre": "Herramientas de Evaluación en Mindfulness",
+  "descripcion": "Instrumentos psicométricos validados para la evaluación de mindfulness, autocompasión, estrés percibido y variables relacionadas en el contexto clínico.",
+  "fuentes": [
+    "Baer, R. A., Smith, G. T., Hopkins, J., Krietemeyer, J., & Toney, L. (2006). Using self-report assessment methods to explore facets of mindfulness. Assessment, 13(1), 27-45.",
+    "Brown, K. W., & Ryan, R. M. (2003). The benefits of being present: Mindfulness and its role in psychological well-being. Journal of Personality and Social Psychology, 84(4), 822-848.",
+    "Neff, K. D. (2003). The development and validation of a scale to measure self-compassion. Self and Identity, 2(3), 223-250.",
+    "Cohen, S., Kamarck, T., & Mermelstein, R. (1983). A global measure of perceived stress. Journal of Health and Social Behavior, 24(4), 385-396.",
+    "Cardaciotto, L., Herbert, J. D., Forman, E. M., Moitra, E., & Farrow, V. (2008). The assessment of present-moment awareness and acceptance: The Philadelphia Mindfulness Scale. Assessment, 15(2), 204-223.",
+    "Kabat-Zinn, J. (1990). Full Catastrophe Living. Delacorte Press.",
+    "Segal, Z. V., Williams, J. M. G., & Teasdale, J. D. (2013). Mindfulness-Based Cognitive Therapy for Depression (2nd ed.). Guilford Press."
+  ],
+  "herramientas": [
+    {
+      "id": "ffmq",
+      "nombre": "FFMQ - Cuestionario de las Cinco Facetas de Mindfulness (Five Facet Mindfulness Questionnaire)",
+      "tipo": "Cuestionario autoinforme",
+      "proposito": "Evaluar el constructo multidimensional de mindfulness disposicional a través de cinco facetas independientes: observar, describir, actuar con conciencia, no-juzgar la experiencia interna y no-reactividad ante la experiencia interna.",
+      "cuando_usar": "Al inicio del tratamiento como medida basal, durante el programa para monitorizar progreso, y al finalizar como medida de resultado. Especialmente útil para identificar qué facetas del mindfulness requieren mayor entrenamiento en cada paciente.",
+      "descripcion_formato": "39 ítems con escala Likert de 5 puntos (1=nunca o muy raramente verdadero, 5=muy a menudo o siempre verdadero). Cinco subescalas: Observar (8 ítems), Describir (8 ítems), Actuar con conciencia (8 ítems), No-juzgar (8 ítems), No-reactividad (7 ítems). Tiempo de administración: 10-15 minutos. Validación en español disponible (Cebolla et al., 2012). Puntuaciones más altas indican mayor nivel de mindfulness en cada faceta."
+    },
+    {
+      "id": "maas",
+      "nombre": "MAAS - Escala de Atención y Conciencia Plena (Mindful Attention Awareness Scale)",
+      "tipo": "Cuestionario autoinforme",
+      "proposito": "Evaluar la disposición general a estar atento y consciente de la experiencia del momento presente en la vida cotidiana. Mide mindfulness como constructo unidimensional centrado en la atención y la conciencia.",
+      "cuando_usar": "Como medida breve de cribado de mindfulness disposicional al inicio del tratamiento. Útil para evaluaciones rápidas y seguimiento frecuente dado su brevedad. Adecuada para investigación y práctica clínica cuando se necesita una medida general y parsimoniosa.",
+      "descripcion_formato": "15 ítems con escala Likert de 6 puntos (1=casi siempre, 6=casi nunca). Los ítems describen experiencias de falta de atención y piloto automático (puntuación inversa). Tiempo de administración: 5-7 minutos. Validación en español disponible (Soler et al., 2012). Puntuación total: promedio de los 15 ítems. Puntuaciones más altas indican mayor nivel de mindfulness."
+    },
+    {
+      "id": "scs",
+      "nombre": "SCS - Escala de Autocompasión (Self-Compassion Scale)",
+      "tipo": "Cuestionario autoinforme",
+      "proposito": "Evaluar los tres componentes de la autocompasión según el modelo de Neff (2003): amabilidad hacia uno mismo vs. autocrítica, humanidad compartida vs. aislamiento, y mindfulness equilibrado vs. sobreidentificación con el sufrimiento.",
+      "cuando_usar": "Al inicio y finalización del tratamiento, especialmente cuando se incorporan componentes de autocompasión (MSC, MBCT con autocompasión). Útil para identificar perfiles de autocrítica elevada que pueden requerir intervenciones específicas de autocompasión.",
+      "descripcion_formato": "26 ítems con escala Likert de 5 puntos (1=casi nunca, 5=casi siempre). Seis subescalas: Amabilidad hacia uno mismo (5 ítems), Autocrítica (5 ítems), Humanidad compartida (4 ítems), Aislamiento (4 ítems), Mindfulness (4 ítems), Sobreidentificación (4 ítems). Versión corta disponible (SCS-SF, 12 ítems). Validación en español: García-Campayo et al. (2014). Tiempo de administración: 10-12 minutos."
+    },
+    {
+      "id": "pss",
+      "nombre": "PSS - Escala de Estrés Percibido (Perceived Stress Scale)",
+      "tipo": "Cuestionario autoinforme",
+      "proposito": "Evaluar el grado en que las situaciones de la vida son percibidas como estresantes durante el último mes. Mide la percepción de incontrolabilidad, impredecibilidad y sobrecarga en la vida del paciente.",
+      "cuando_usar": "Como medida de resultado principal en programas MBSR y en cualquier intervención basada en mindfulness dirigida a la reducción de estrés. Administrar al inicio, durante y al final del tratamiento para monitorizar la evolución del estrés percibido.",
+      "descripcion_formato": "10 ítems (versión PSS-10) con escala Likert de 5 puntos (0=nunca, 4=muy a menudo). Los ítems preguntan sobre la frecuencia de pensamientos y sentimientos relacionados con el estrés durante el último mes. Tiempo de administración: 5 minutos. Validación en español ampliamente disponible (Remor, 2006). Puntuación total: 0-40. Puntuaciones de 0-13 indican estrés bajo, 14-26 estrés moderado, 27-40 estrés alto."
+    },
+    {
+      "id": "phlms",
+      "nombre": "PHLMS - Escala de Mindfulness de Filadelfia (Philadelphia Mindfulness Scale)",
+      "tipo": "Cuestionario autoinforme",
+      "proposito": "Evaluar dos componentes independientes del mindfulness: la conciencia del momento presente y la aceptación de la experiencia. Distingue entre notar la experiencia (awareness) y no juzgarla (acceptance), lo que permite identificar perfiles diferenciales.",
+      "cuando_usar": "Cuando se desea una evaluación bidimensional del mindfulness que separe claramente la capacidad de darse cuenta de la experiencia de la actitud hacia dicha experiencia. Útil en investigación y para planificar intervenciones que enfaticen uno u otro componente.",
+      "descripcion_formato": "20 ítems con escala Likert de 5 puntos (1=nunca, 5=muy a menudo). Dos subescalas: Conciencia (10 ítems) y Aceptación (10 ítems, puntuación inversa). Tiempo de administración: 7-10 minutos. Permite identificar pacientes con alta conciencia pero baja aceptación (perfil de hipervigilancia autocrítica) o baja conciencia con alta aceptación (perfil de piloto automático complaciente)."
+    },
+    {
+      "id": "diario_practica",
+      "nombre": "Diario de Práctica de Mindfulness",
+      "tipo": "Registro conductual autoinforme",
+      "proposito": "Registrar la frecuencia, duración y calidad de la práctica formal e informal de mindfulness entre sesiones. Permite monitorizar la adherencia al tratamiento, identificar barreras para la práctica y correlacionar la frecuencia de práctica con los resultados clínicos.",
+      "cuando_usar": "Durante toda la duración del programa de mindfulness. Se entrega en la primera sesión y se revisa semanalmente. Es una herramienta fundamental para la retroalimentación terapéutica y para fomentar la responsabilidad del paciente con su práctica.",
+      "descripcion_formato": "Formato de registro semanal con columnas para: fecha, tipo de práctica (formal/informal), duración, observaciones sobre la experiencia (qué se notó durante la práctica), nivel de dificultad percibido (1-10), y barreras encontradas. Se complementa con registros de experiencias agradables (semanas 1-4) y experiencias desagradables (semanas 5-8) según el protocolo MBCT de Segal et al. (2013)."
+    }
+  ]
+}

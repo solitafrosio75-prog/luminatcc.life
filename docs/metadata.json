@@ -1,0 +1,41 @@
+{
+  "tecnica": "Desensibilización Sistemática",
+  "abreviatura": "DS",
+  "ola": "Primera Ola (Terapia de Conducta)",
+  "creador": "Joseph Wolpe (1958)",
+  "principio_central": "Inhibición Recíproca: el sistema nervioso no puede experimentar ansiedad y relajación simultáneamente",
+  "mecanismo": "Contra-condicionamiento: asociar estímulo ansiógeno con respuesta incompatible (relajación) de forma gradual",
+  "componentes_clave": [
+    "Entrenamiento en respuesta incompatible (relajación progresiva)",
+    "Construcción de jerarquía de ansiedad (USA 0-100)",
+    "Presentación gradual de ítems en imaginación con relajación",
+    "Transferencia a exposición en vivo"
+  ],
+  "indicaciones": [
+    "Fobias específicas",
+    "Miedo a hablar en público",
+    "Ansiedad ante exámenes",
+    "Ansiedad social (con componente de ejecución)",
+    "Disfunciones sexuales con ansiedad",
+    "Miedos infantiles"
+  ],
+  "contraindicaciones_relativas": [
+    "TOC (mejor EPR)",
+    "Ansiedad generalizada sin foco",
+    "Pacientes incapaces de relajarse",
+    "Pacientes cuya imaginación no evoca ansiedad"
+  ],
+  "fuentes_principales": [
+    "Wolpe, J. (1958). Psicoterapia por inhibición recíproca",
+    "Wolpe, J. (1973). Práctica de la terapia de conducta",
+    "Labrador, F.J. (2008). Técnicas de modificación de conducta",
+    "Caballo, V. (2008). Manual de técnicas de terapia y modificación de conducta",
+    "Miguel Tobal, J.J. y Cano Vindel, A.R. (1986). ISRA"
+  ],
+  "estadisticas_base": {
+    "archivos": 8,
+    "elementos_totales": 89,
+    "areas_cubiertas": 8,
+    "tamano_total_kb": 91
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "session_numero": 1,
+    "inventarios_aplicados": [
+        {
+            "inventory_id": "bdi_ii",
+            "score_total": 25,
+            "subescalas": {
+                "cognitivo_afectivo": 15,
+                "somatico_rendimiento": 10
+            },
+            "items_criticos": [
+                {
+                    "item": 9,
+                    "valor": 2,
+                    "alerta": "crisis"
+                }
+            ],
+            "validacion": {
+                "deseabilidad_social": "OK",
+                "simulacion": "OK",
+                "inconsistencia": "OK",
+                "aquiescencia": "OK"
+            },
+            "fecha_aplicacion": "2026-03-14",
+            "referencias": [
+                {
+                    "tipo": "normativa",
+                    "referencia": "Beck et al. 1996",
+                    "doi": "10.1037/0022-006X.64.2.295"
+                }
+            ]
+        }
+    ],
+    "analisis_cambio": {
+        "tipo": "Jacobson-Truax",
+        "resultado": "Cambio clínicamente significativo",
+        "referencia": {
+            "tipo": "estudio",
+            "referencia": "Jacobson et al. 1996",
+            "doi": "10.1037/0022-006X.64.2.295"
+        }
+    }
+}

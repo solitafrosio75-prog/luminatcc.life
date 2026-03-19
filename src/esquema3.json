@@ -1,0 +1,16 @@
+{
+    "tarea_id": "monitoreo_actividad",
+    "tipo": "Monitoreo de actividad",
+    "instrucciones": "Registrar actividades diarias en formato ABC",
+    "criterios_cumplimiento": "Completar al menos 5 registros en la semana",
+    "fecha_limite": "2026-03-21",
+    "feedback": "",
+    "relacion_session_plan": 1,
+    "evidencia": [
+        {
+            "tipo": "RCT",
+            "referencia": "Martell et al. 2010",
+            "doi": "10.1037/12057-000"
+        }
+    ]
+}

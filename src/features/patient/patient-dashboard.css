@@ -1,0 +1,90 @@
+/* ─── Patient Dashboard: "Refugio Cálido" ──────────── */
+
+/* Fonts loaded via index.html <link> for non-blocking load */
+
+/* ─── Font utilities (used via className) ────────────── */
+.font-display { font-family: 'Fraunces', Georgia, serif; }
+.font-body    { font-family: 'Commissioner', 'Segoe UI', sans-serif; }
+
+/* ─── Body override when dashboard is active ─────────── */
+body:has(.patient-dashboard) {
+  background: #FBF8F3 !important;
+  color: #2A2520 !important;
+}
+
+/* ─── Animations ─────────────────────────────────────── */
+@keyframes pdFadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pdBreathe {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  21%      { transform: scale(1.6); opacity: 0.85; }
+  58%      { transform: scale(1.6); opacity: 0.75; }
+}
+
+@keyframes pdPulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.5; }
+}
+
+@keyframes pdScaleIn {
+  from { transform: scale(0.97); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+.pd-fade-up { animation: pdFadeUp 0.45s ease-out both; }
+
+.pd-delay-1 { animation-delay: 60ms; }
+.pd-delay-2 { animation-delay: 120ms; }
+.pd-delay-3 { animation-delay: 180ms; }
+.pd-delay-4 { animation-delay: 240ms; }
+.pd-delay-5 { animation-delay: 300ms; }
+.pd-delay-6 { animation-delay: 360ms; }
+
+.pd-breathe  { animation: pdBreathe 19s ease-in-out infinite; }
+.pd-pulse    { animation: pdPulse 2.5s ease-in-out infinite; }
+.pd-scale-in { animation: pdScaleIn 0.25s ease-out both; }
+
+/* ─── Custom Checkbox — minimal ─────────────────────── */
+.pd-check {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #D5CEC5;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.pd-check:checked {
+  background: #5B8C6F;
+  border-color: #5B8C6F;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+  background-size: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pd-check:hover:not(:checked) {
+  border-color: #B0A69C;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────── */
+.patient-dashboard ::-webkit-scrollbar { width: 4px; }
+.patient-dashboard ::-webkit-scrollbar-track { background: transparent; }
+.patient-dashboard ::-webkit-scrollbar-thumb {
+  background: #D5CEC5;
+  border-radius: 2px;
+}
+
+/* ─── Reduced Motion ─────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .pd-fade-up, .pd-breathe, .pd-pulse, .pd-scale-in {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}

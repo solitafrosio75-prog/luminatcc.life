@@ -1,0 +1,145 @@
+{
+  "area_id": "ac_actividades_por_problema",
+  "nombre": "Actividades Recomendadas por Tipo de Problema",
+  "descripcion": "Guía de actividades específicas organizadas según la problemática principal del paciente, basadas en la evidencia y los principios de la AC",
+  "fuentes": [
+    "Martell et al. (2010)",
+    "Lejuez et al. (2011)",
+    "Lewinsohn et al. (1986)",
+    "Caballo (2007)"
+  ],
+  "problemas": [
+    {
+      "nombre": "Depresión Mayor",
+      "principios_intervencion": [
+        "Empezar con actividades extremadamente sencillas (hacer la cama, ducharse)",
+        "Priorizar rutinas de autocuidado básico como primer objetivo",
+        "Graduar muy lentamente la dificultad",
+        "No presionar con actividades sociales al inicio si generan mucha angustia",
+        "Monitorizar riesgo suicida continuamente"
+      ],
+      "actividades": [
+        {
+          "nombre": "Ejercicio físico graduado",
+          "descripcion": "Actividad física progresiva adaptada al nivel actual del paciente",
+          "justificacion": "Evidencia robusta de efecto antidepresivo: liberación de endorfinas, mejora del sueño, sensación de logro, ruptura del ciclo de inactividad.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Levantarse y caminar por la casa 5 minutos", "dificultad": 1 },
+            { "nivel": 2, "actividad": "Caminar hasta la puerta de casa y volver", "dificultad": 2 },
+            { "nivel": 3, "actividad": "Caminar 10 minutos por el barrio", "dificultad": 3 },
+            { "nivel": 4, "actividad": "Caminar 20-30 minutos", "dificultad": 4 },
+            { "nivel": 5, "actividad": "Estiramientos o yoga suave en casa", "dificultad": 5 },
+            { "nivel": 6, "actividad": "Caminar 30 min a ritmo rápido", "dificultad": 6 },
+            { "nivel": 7, "actividad": "Ir a nadar o ejercicio en grupo", "dificultad": 7 },
+            { "nivel": 8, "actividad": "Ir al gimnasio o correr regularmente", "dificultad": 8 }
+          ]
+        },
+        {
+          "nombre": "Restablecimiento de rutinas de autocuidado",
+          "descripcion": "Recuperar hábitos básicos de higiene, alimentación y sueño como base de la activación",
+          "justificacion": "El autocuidado es el primer dominio en deteriorarse y debe ser el primero en restaurarse. Genera dominio y reduce el deterioro funcional visible.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Lavarse la cara y los dientes", "dificultad": 1 },
+            { "nivel": 2, "actividad": "Ducharse", "dificultad": 2 },
+            { "nivel": 3, "actividad": "Vestirse con ropa limpia", "dificultad": 3 },
+            { "nivel": 4, "actividad": "Preparar una comida simple", "dificultad": 4 },
+            { "nivel": 5, "actividad": "Establecer hora fija de despertar", "dificultad": 5 },
+            { "nivel": 6, "actividad": "Preparar todas las comidas del día", "dificultad": 6 }
+          ]
+        },
+        {
+          "nombre": "Actividades sociales estructuradas",
+          "descripcion": "Contacto social progresivo desde interacciones breves hasta encuentros planificados",
+          "justificacion": "El reforzamiento social es una de las fuentes más potentes de reforzamiento positivo. El aislamiento perpetúa la depresión.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Enviar un mensaje a un familiar", "dificultad": 1 },
+            { "nivel": 2, "actividad": "Hacer una llamada breve (5 min)", "dificultad": 3 },
+            { "nivel": 3, "actividad": "Tomar un café con alguien conocido", "dificultad": 5 },
+            { "nivel": 4, "actividad": "Asistir a una reunión o evento social", "dificultad": 7 }
+          ]
+        },
+        {
+          "nombre": "Retomar antiguos pasatiempos placenteros",
+          "descripcion": "Reintroducir actividades que antes generaban placer, aunque inicialmente no se sientan disfrutables",
+          "justificacion": "Los pasatiempos previos son fuentes conocidas de reforzamiento. La depresión las extinguió pero el repertorio conductual permanece.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Exponer los materiales del hobby (sacar los libros, las pinturas)", "dificultad": 1 },
+            { "nivel": 2, "actividad": "Dedicar 10 minutos al hobby sin presión", "dificultad": 3 },
+            { "nivel": 3, "actividad": "Completar un proyecto pequeño", "dificultad": 5 },
+            { "nivel": 4, "actividad": "Unirse a un grupo o comunidad del hobby", "dificultad": 7 }
+          ]
+        },
+        {
+          "nombre": "Tareas de dominio y logro progresivas",
+          "descripcion": "Actividades que generan sensación de competencia y control, escalando en dificultad",
+          "justificacion": "Las experiencias de dominio contrarrestan los sentimientos de inutilidad y construyen autoeficacia.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Hacer la cama", "dificultad": 1 },
+            { "nivel": 2, "actividad": "Ordenar un cajón o estante", "dificultad": 2 },
+            { "nivel": 3, "actividad": "Limpiar una habitación completa", "dificultad": 4 },
+            { "nivel": 4, "actividad": "Completar un trámite pendiente", "dificultad": 5 },
+            { "nivel": 5, "actividad": "Aprender algo nuevo (receta, reparación)", "dificultad": 6 },
+            { "nivel": 6, "actividad": "Organizar un evento o proyecto personal", "dificultad": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Anhedonia",
+      "principios_intervencion": [
+        "No esperar que las actividades generen placer inmediato",
+        "Usar el principio de 'actuar como si' disfrutara",
+        "Priorizar actividades novedosas que rompan la habituación",
+        "Incluir componentes sensoriales (sabores, texturas, olores)",
+        "Registrar cualquier micro-cambio emocional, por pequeño que sea"
+      ],
+      "actividades": [
+        {
+          "nombre": "Experimentos conductuales de 'actuar como si'",
+          "descripcion": "Realizar actividades que antes eran placenteras actuando como si se disfrutaran, para probar si la experiencia difiere de la predicción",
+          "justificacion": "La anhedonia distorsiona la predicción de placer. La experiencia real suele ser mejor que la anticipada. El cerebro necesita exposición repetida para reactivar circuitos de recompensa.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Comer algo dulce con atención plena", "dificultad": 1 },
+            { "nivel": 2, "actividad": "Escuchar una canción favorita con auriculares", "dificultad": 2 },
+            { "nivel": 3, "actividad": "Ver un episodio de una serie que antes disfrutaba", "dificultad": 3 },
+            { "nivel": 4, "actividad": "Cocinar una receta que antes le gustaba", "dificultad": 5 },
+            { "nivel": 5, "actividad": "Realizar un hobby con compromiso de 20 minutos", "dificultad": 6 }
+          ]
+        },
+        {
+          "nombre": "Saboreo consciente de experiencias sensoriales",
+          "descripcion": "Ejercicios de atención plena aplicados a experiencias sensoriales cotidianas para reconectar con el placer",
+          "justificacion": "La anhedonia se mantiene parcialmente por la desconexión atencional. El saboreo consciente reactiva la capacidad de notar experiencias positivas.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Oler café o flores con atención durante 1 minuto", "dificultad": 1 },
+            { "nivel": 2, "actividad": "Comer un alimento saboreándolo lentamente", "dificultad": 2 },
+            { "nivel": 3, "actividad": "Ducharse notando la temperatura del agua", "dificultad": 3 },
+            { "nivel": 4, "actividad": "Pasear notando 5 cosas que ve, oye y siente", "dificultad": 4 }
+          ]
+        },
+        {
+          "nombre": "Actividades novedosas y estimulantes",
+          "descripcion": "Introducir experiencias nuevas que el paciente nunca ha probado para generar curiosidad y romper la monotonía",
+          "justificacion": "La novedad activa circuitos dopaminérgicos incluso en estados de anhedonia. Las experiencias nuevas tienen más potencial de sorpresa positiva.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Probar un alimento que nunca ha comido", "dificultad": 2 },
+            { "nivel": 2, "actividad": "Caminar por una ruta diferente a la habitual", "dificultad": 3 },
+            { "nivel": 3, "actividad": "Asistir a un taller o clase de prueba", "dificultad": 5 },
+            { "nivel": 4, "actividad": "Visitar un lugar nuevo en la ciudad", "dificultad": 6 }
+          ]
+        },
+        {
+          "nombre": "Ejercicios de atención plena (mindfulness)",
+          "descripcion": "Prácticas formales e informales de mindfulness para reconectar con la experiencia presente",
+          "justificacion": "El mindfulness reduce la rumiación (que mantiene la anhedonia) y aumenta la capacidad de notar experiencias positivas en el momento presente.",
+          "jerarquia": [
+            { "nivel": 1, "actividad": "Respiración consciente 2 minutos", "dificultad": 1 },
+            { "nivel": 2, "actividad": "Body scan de 5 minutos", "dificultad": 3 },
+            { "nivel": 3, "actividad": "Caminata mindful de 10 minutos", "dificultad": 4 },
+            { "nivel": 4, "actividad": "Meditación guiada de 15 minutos", "dificultad": 5 }
+          ]
+        }
+      ]
+    }
+  ]
+}

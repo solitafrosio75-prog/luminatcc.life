@@ -1,0 +1,129 @@
+{
+  "area_id": "rc_registro_pensamientos",
+  "nombre": "Formatos de Registro de Pensamientos",
+  "descripcion": "Formatos estructurados para registro cognitivo progresivo: 3, 5 y 7 columnas",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Greenberger, D. & Padesky, C. A. (2016). Mind Over Mood",
+    "Beck, A. T. et al. (1979). Cognitive Therapy of Depression"
+  ],
+  "formatos": [
+    {
+      "id": "registro_3_columnas",
+      "nombre": "Registro de 3 columnas (basico)",
+      "columnas": [
+        {
+          "nombre": "Situacion",
+          "descripcion": "Contexto especifico donde cambio el estado emocional",
+          "instruccion": "Describe brevemente que paso, con quien y donde"
+        },
+        {
+          "nombre": "Pensamiento automatico",
+          "descripcion": "Frase o imagen mental que aparecio en ese momento",
+          "instruccion": "Escribe textual que te dijiste"
+        },
+        {
+          "nombre": "Emocion (0-100)",
+          "descripcion": "Emocion principal e intensidad subjetiva",
+          "instruccion": "Nombra la emocion y puntuala de 0 a 100"
+        }
+      ],
+      "cuando_usar": "Fase inicial de terapia cuando el paciente aprende a distinguir pensamiento y emocion",
+      "ejemplo_completo": {
+        "situacion": "Envie un email al jefe y no respondio en el dia",
+        "pensamiento_automatico": "No le gusto mi propuesta",
+        "emocion": "Ansiedad 75"
+      }
+    },
+    {
+      "id": "registro_5_columnas",
+      "nombre": "Registro de 5 columnas",
+      "columnas": [
+        {
+          "nombre": "Situacion",
+          "descripcion": "Evento activador especifico",
+          "instruccion": "Detalla el contexto de forma concreta"
+        },
+        {
+          "nombre": "Pensamiento automatico",
+          "descripcion": "Interpretacion inmediata del evento",
+          "instruccion": "Escribe la frase exacta"
+        },
+        {
+          "nombre": "Emocion (0-100)",
+          "descripcion": "Respuesta emocional inicial",
+          "instruccion": "Anota emocion e intensidad"
+        },
+        {
+          "nombre": "Evidencia a favor y en contra",
+          "descripcion": "Datos objetivos que apoyan o contradicen el pensamiento",
+          "instruccion": "Separa evidencia a favor y evidencia en contra"
+        },
+        {
+          "nombre": "Pensamiento alternativo",
+          "descripcion": "Interpretacion mas equilibrada",
+          "instruccion": "Formula una alternativa realista y compasiva"
+        }
+      ],
+      "cuando_usar": "Cuando el paciente ya identifica pensamientos automaticos y puede evaluar evidencia",
+      "ejemplo_completo": {
+        "situacion": "Envie un email al jefe y no respondio en el dia",
+        "pensamiento_automatico": "No le gusto mi propuesta",
+        "emocion": "Ansiedad 75",
+        "evidencia": "A favor: no respondio. En contra: suele tardar y ayer elogio mi trabajo",
+        "pensamiento_alternativo": "Es probable que este ocupado; no tengo evidencia de rechazo"
+      }
+    },
+    {
+      "id": "registro_7_columnas",
+      "nombre": "Registro de 7 columnas (RPD completo)",
+      "columnas": [
+        {
+          "nombre": "Situacion",
+          "descripcion": "Evento activador",
+          "instruccion": "Describe contexto, momento y personas"
+        },
+        {
+          "nombre": "Pensamiento automatico",
+          "descripcion": "Interpretacion inicial",
+          "instruccion": "Escribe el pensamiento central"
+        },
+        {
+          "nombre": "Emocion inicial (0-100)",
+          "descripcion": "Intensidad emocional previa al analisis",
+          "instruccion": "Registra emocion e intensidad"
+        },
+        {
+          "nombre": "Distorsion cognitiva",
+          "descripcion": "Error de pensamiento identificado",
+          "instruccion": "Selecciona una o mas distorsiones"
+        },
+        {
+          "nombre": "Evidencia a favor y en contra",
+          "descripcion": "Prueba empirica del pensamiento",
+          "instruccion": "Incluye datos concretos, no impresiones"
+        },
+        {
+          "nombre": "Pensamiento alternativo",
+          "descripcion": "Reformulacion balanceada",
+          "instruccion": "Redacta una conclusion ajustada a evidencia"
+        },
+        {
+          "nombre": "Emocion reevaluada (0-100)",
+          "descripcion": "Intensidad emocional luego de reestructurar",
+          "instruccion": "Vuelve a puntuar la emocion"
+        }
+      ],
+      "cuando_usar": "Fase intermedia-avanzada cuando el paciente domina distorsiones y evaluacion de evidencia",
+      "ejemplo_completo": {
+        "situacion": "Envie un email al jefe y no respondio en el dia",
+        "pensamiento_automatico": "Piensa que soy incompetente",
+        "emocion_inicial": "Ansiedad 75",
+        "distorsion": "Lectura de mente",
+        "evidencia": "A favor: no respondio. En contra: suele responder tarde y valoro propuestas previas",
+        "pensamiento_alternativo": "No puedo saber que piensa por un silencio de horas",
+        "emocion_reevaluada": "Ansiedad 30"
+      }
+    }
+  ]
+}

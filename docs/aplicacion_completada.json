@@ -1,0 +1,43 @@
+{
+  "aplicacion_id": "ac_exposicion_1",
+  "procedure_id": "ac_exposicion",
+  "nombre": "Exposición gradual a situaciones evitadas",
+  "pasos_realizados": [
+    {
+      "orden": 1,
+      "descripcion": "Identificar situaciones de evitación",
+      "resultado": "Paciente identifica 3 situaciones",
+      "evidencia": [
+        {
+          "tipo": "guía",
+          "referencia": "APA Exposure Guideline 2019",
+          "doi": "10.1176/appi.books.9780890423363"
+        }
+      ]
+    },
+    {
+      "orden": 2,
+      "descripcion": "Planificar jerarquía de exposición",
+      "resultado": "Jerarquía definida y aceptada",
+      "evidencia": [
+        {
+          "tipo": "estudio",
+          "referencia": "Foa et al. 2005",
+          "doi": "10.1016/j.cpr.2005.04.001"
+        }
+      ]
+    }
+  ],
+  "feedback_paciente": "Motivación alta para enfrentar situaciones",
+  "criterios_seguridad": [
+    "No iniciar si hay riesgo suicida activo",
+    "Supervisión en situaciones de alto riesgo"
+  ],
+  "referencias": [
+    {
+      "tipo": "metaanálisis",
+      "referencia": "Cuijpers et al. 2013",
+      "doi": "10.1016/j.cpr.2013.03.009"
+    }
+  ]
+}

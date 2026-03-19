@@ -1,0 +1,48 @@
+{
+  "area_id": "habilidades_terapeuta",
+  "nombre": "Habilidades y Destrezas del Terapeuta AC",
+  "descripcion": "Competencias clave que el terapeuta necesita para implementar eficazmente la Activación Conductual",
+  "fuentes": [
+    "Martell et al. (2010)",
+    "Cormier & Cormier (2000). Estrategias de Entrevista para Terapeutas",
+    "Barraca & Pérez-Álvarez (2015)"
+  ],
+  "habilidades": [
+    {
+      "nombre": "Escucha empática y validación emocional",
+      "descripcion": "Capacidad de comprender y reflejar la experiencia emocional del paciente sin minimizar ni resolver prematuramente",
+      "importancia": "Fundamental para la alianza terapéutica. Sin validación, el paciente percibe la programación de actividades como imposición y no se adhiere.",
+      "como_desarrollar": "Practicar reflejos emocionales ('Entiendo que te sientes agotado y que levantarte parece imposible ahora mismo'). Validar antes de intervenir. Supervisión con feedback de sesiones grabadas."
+    },
+    {
+      "nombre": "Análisis funcional de conducta",
+      "descripcion": "Habilidad para identificar relaciones funcionales entre antecedentes, conductas y consecuencias en los patrones del paciente",
+      "importancia": "Es la herramienta diagnóstica central de la AC. Sin un buen análisis funcional, la programación de actividades es genérica e ineficaz.",
+      "como_desarrollar": "Practicar con casos ejemplo. Usar el modelo ABC sistemáticamente. Preguntar siempre: '¿Qué función cumple esta conducta? ¿Qué mantiene este patrón?'"
+    },
+    {
+      "nombre": "Psicoeducación sobre el modelo AC",
+      "descripcion": "Capacidad de explicar de forma clara y motivadora el modelo de Activación Conductual, adaptando el lenguaje al nivel del paciente",
+      "importancia": "El paciente que entiende POR QUÉ la acción precede a la motivación se adhiere mejor al tratamiento.",
+      "como_desarrollar": "Preparar analogías y metáforas (la bicicleta que es difícil arrancar pero fácil mantener; el motor que necesita encenderse para calentarse). Practicar explicaciones en 2-3 minutos."
+    },
+    {
+      "nombre": "Guiar la programación de actividades",
+      "descripcion": "Habilidad para diseñar agendas de actividades realistas, graduadas y alineadas con los valores del paciente",
+      "importancia": "La programación es la intervención core. Si está mal diseñada (muy ambiciosa, no alineada con valores, sin graduación), el paciente fracasa y se desmotiva.",
+      "como_desarrollar": "Siempre preguntar al paciente qué le parece factible. Empezar más bajo de lo que parece necesario. Revisar cumplimiento y ajustar sin juzgar."
+    },
+    {
+      "nombre": "Fomentar la adherencia y motivación",
+      "descripcion": "Estrategias para mantener al paciente comprometido con el tratamiento a pesar de las dificultades y la falta de motivación inicial",
+      "importancia": "La AC requiere esfuerzo activo del paciente. Sin estrategias de motivación, el abandono es alto.",
+      "como_desarrollar": "Celebrar cada logro por pequeño que sea. Usar autorrecompensas. Normalizar los días malos. Revisar valores como ancla motivacional. Técnicas de entrevista motivacional."
+    },
+    {
+      "nombre": "Manejo de obstáculos y recaídas",
+      "descripcion": "Capacidad de anticipar, identificar y gestionar las barreras que surgen durante el proceso terapéutico",
+      "importancia": "Las recaídas parciales son normales en AC. El terapeuta que las maneja bien las convierte en oportunidades de aprendizaje.",
+      "como_desarrollar": "Anticipar barreras en la programación. Cuando el paciente no cumple, explorar sin juzgar (análisis funcional del incumplimiento). Ajustar el plan en vez de insistir en el mismo."
+    }
+  ]
+}

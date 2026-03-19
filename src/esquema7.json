@@ -1,0 +1,27 @@
+{
+    "session_numero": 1,
+    "decisiones": [
+        {
+            "momento": "Inicio",
+            "decision": "Asignar monitoreo de actividad",
+            "justificacion": "Evidencia de eficacia en activación conductual",
+            "referencia": {
+                "tipo": "metaanálisis",
+                "referencia": "Cuijpers et al. 2013",
+                "doi": "10.1016/j.cpr.2013.03.009"
+            }
+        },
+        {
+            "momento": "Psicoeducación",
+            "decision": "Aplicar técnica AC",
+            "justificacion": "Guía NICE recomienda psicoeducación en fase inicial",
+            "referencia": {
+                "tipo": "guía",
+                "referencia": "NICE Depression Guideline 2022",
+                "doi": "10.1016/S0140-6736(22)01237-2"
+            }
+        }
+    ],
+    "fecha": "2026-03-14",
+    "responsable": "Sistema TCC-Lab"
+}

@@ -1,0 +1,99 @@
+{
+  "area_id": "estructura_sesiones",
+  "nombre": "Estructura de Sesiones",
+  "descripcion": "Protocolo de 10-12 sesiones estructurado pero adaptable para la intervención de Activación Conductual",
+  "fuentes": [
+    "Martell et al. (2010). Behavioral Activation for Depression",
+    "Lejuez et al. (2011). BATD-R",
+    "Barraca & Pérez-Álvarez (2015)"
+  ],
+  "total_sesiones": "10-12 sesiones",
+  "frecuencia": "Semanal (puede ser bisemanal en fase de mantenimiento)",
+  "bloques": [
+    {
+      "nombre": "Evaluación y Psicoeducación",
+      "sesiones": "1-2",
+      "objetivos": [
+        "Realizar evaluación funcional completa",
+        "Establecer línea base de actividad",
+        "Psicoeducación sobre el modelo de AC",
+        "Explicar el ciclo depresivo y el rol de la evitación",
+        "Establecer alianza terapéutica"
+      ],
+      "actividades_principales": [
+        "Aplicar BDI-II y BADS",
+        "Iniciar monitoreo de actividad (7 días)",
+        "Explicar modelo AC con ejemplos del paciente",
+        "Introducir el concepto TRAP/TRAC",
+        "Asignar registro ABC como tarea"
+      ]
+    },
+    {
+      "nombre": "Valores y Programación Inicial",
+      "sesiones": "3-4",
+      "objetivos": [
+        "Identificar valores y áreas vitales prioritarias",
+        "Programar actividades P/D simples",
+        "Iniciar monitoreo con puntuaciones P/D",
+        "Establecer rutina de registro"
+      ],
+      "actividades_principales": [
+        "Completar Brújula de Valores",
+        "Seleccionar actividades alineadas con valores",
+        "Programar 2-3 actividades P/D diarias (baja dificultad)",
+        "Revisar registros ABC de la semana",
+        "Introducir descomposición de tareas si hay abrumo"
+      ]
+    },
+    {
+      "nombre": "Graduación y Manejo de Barreras",
+      "sesiones": "5-8",
+      "objetivos": [
+        "Graduar progresivamente la dificultad de actividades",
+        "Revisar y ajustar patrones ABC",
+        "Manejar barreras y recaídas parciales",
+        "Incorporar técnicas complementarias según necesidad"
+      ],
+      "actividades_principales": [
+        "Aumentar número y dificultad de actividades programadas",
+        "Análisis detallado de TRAPs identificados → convertir en TRACs",
+        "Introducir EHS si hay déficit social",
+        "Introducir relajación si hay ansiedad comórbida",
+        "Aplicar BDI-II para seguimiento"
+      ]
+    },
+    {
+      "nombre": "Experimentos y Prevención de Recaídas",
+      "sesiones": "9-10",
+      "objetivos": [
+        "Realizar experimentos conductuales",
+        "Consolidar aprendizajes",
+        "Iniciar prevención de recaídas",
+        "Identificar señales de alarma tempranas"
+      ],
+      "actividades_principales": [
+        "Diseñar y ejecutar experimentos conductuales",
+        "Revisar progreso global (BDI-II, BADS)",
+        "Crear plan de prevención de recaídas",
+        "Identificar situaciones de riesgo y plan de afrontamiento",
+        "Reducir frecuencia de sesiones si hay progreso"
+      ]
+    },
+    {
+      "nombre": "Consolidación y Terminación",
+      "sesiones": "11-12",
+      "objetivos": [
+        "Consolidar automonitoreo independiente",
+        "Preparar al paciente para mantener los cambios sin terapeuta",
+        "Terminación gradual con sesiones de seguimiento"
+      ],
+      "actividades_principales": [
+        "Revisar todo el proceso y logros alcanzados",
+        "Practicar autoaplicación de AC sin guía del terapeuta",
+        "Establecer plan de mantenimiento a largo plazo",
+        "Programar sesiones de seguimiento (1, 3 y 6 meses)",
+        "Aplicación final de BDI-II y BADS para comparación"
+      ]
+    }
+  ]
+}

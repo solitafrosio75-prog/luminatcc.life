@@ -1,0 +1,96 @@
+{
+  "area_id": "mindfulness_practicas_informales",
+  "nombre": "Practicas Informales de Mindfulness",
+  "descripcion": "Practicas de atencion plena integradas en actividades cotidianas, sin necesidad de tiempo o espacio dedicado.",
+  "fuentes": [
+    "Kabat-Zinn, J. (2013). Full Catastrophe Living. Bantam.",
+    "Williams, M. & Penman, D. (2011). Mindfulness: A Practical Guide. Piatkus.",
+    "Germer, C. K. (2009). The Mindful Path to Self-Compassion. Guilford."
+  ],
+  "practicas": [
+    {
+      "id": "actividades_rutinarias",
+      "nombre": "Atencion plena en actividades rutinarias",
+      "descripcion": "Llevar atencion consciente a una actividad que normalmente se hace en piloto automatico.",
+      "ejemplos": [
+        {
+          "actividad": "Lavarse los dientes",
+          "instruccion": "Notar el sabor de la pasta, la textura del cepillo, los movimientos de la mano, el sonido"
+        },
+        {
+          "actividad": "Ducharse",
+          "instruccion": "Sentir la temperatura del agua, el contacto con la piel, el aroma del jabon"
+        },
+        {
+          "actividad": "Lavar los platos",
+          "instruccion": "Notar la temperatura del agua, la textura de los platos, los movimientos de las manos"
+        },
+        {
+          "actividad": "Vestirse",
+          "instruccion": "Notar la textura de la tela, los movimientos al ponerse cada prenda"
+        }
+      ],
+      "tarea": "Elegir UNA actividad rutinaria y practicar atencion plena en ella durante una semana antes de anadir otra."
+    },
+    {
+      "id": "pausas_conscientes",
+      "nombre": "Pausas conscientes durante el dia",
+      "descripcion": "Momentos breves de atencion plena intercalados en la jornada.",
+      "variantes": [
+        {
+          "nombre": "Tres respiraciones conscientes",
+          "cuando": "Al cambiar de actividad, antes de una reunion, al llegar a un lugar",
+          "instruccion": "Detenerse y tomar tres respiraciones con atencion plena"
+        },
+        {
+          "nombre": "STOP",
+          "cuando": "Ante estres o automatismo",
+          "instruccion": "S-top (para), T-ake a breath (respira), O-bserve (observa tu experiencia), P-roceed (continua conscientemente)"
+        },
+        {
+          "nombre": "Check-in corporal",
+          "cuando": "Cada 2 horas",
+          "instruccion": "Explorar brevemente: como esta mi cuerpo ahora? Tension? Postura?"
+        }
+      ]
+    },
+    {
+      "id": "escucha_consciente",
+      "nombre": "Escucha consciente",
+      "descripcion": "Practicar escucha atenta y presente en conversaciones cotidianas.",
+      "instrucciones": [
+        "Prestar atencion completa a lo que la otra persona dice",
+        "Notar cuando la mente se va a preparar una respuesta",
+        "Regresar a escuchar sin juzgar lo que se dice",
+        "Notar las emociones propias que surgen al escuchar"
+      ],
+      "aplicacion_clinica": "Especialmente util para problemas interpersonales y de comunicacion en pareja."
+    },
+    {
+      "id": "comer_consciente_diario",
+      "nombre": "Comer consciente en la vida diaria",
+      "descripcion": "Aplicar principios de mindfulness a las comidas cotidianas.",
+      "instrucciones": [
+        "Antes de comer: notar el hambre (escala 0-10)",
+        "Primeros bocados: saborear plenamente, sin distracciones",
+        "Durante la comida: notar senales de saciedad",
+        "Al terminar: notar como se siente el cuerpo"
+      ],
+      "progresion": [
+        "Comenzar con solo los primeros 5 minutos de una comida",
+        "Expandir gradualmente",
+        "Una comida completa consciente por semana"
+      ]
+    }
+  ],
+  "integracion_cotidiana": {
+    "principio": "La practica informal no sustituye a la formal, sino que la complementa y extiende.",
+    "recomendacion": "Comenzar con una practica informal sencilla y sostenerla una semana antes de anadir otra.",
+    "senales_de_progreso": [
+      "Notar momentos de piloto automatico con mas frecuencia",
+      "Pausar antes de reaccionar automaticamente",
+      "Mayor conciencia de sensaciones corporales en la vida diaria",
+      "Disfrutar mas de experiencias cotidianas"
+    ]
+  }
+}

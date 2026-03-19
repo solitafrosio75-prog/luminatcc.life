@@ -1,0 +1,97 @@
+{
+  "area_id": "barreras",
+  "nombre": "Barreras y Dificultades en Reestructuración Cognitiva",
+  "descripcion": "Obstáculos frecuentes en el proceso de RC y estrategias para superarlos",
+  "fuentes": [
+    "Leahy, R. L. (2001). Overcoming Resistance in Cognitive Therapy",
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond"
+  ],
+  "barreras": [
+    {
+      "id": "intelectualizacion_sin_emocion",
+      "nombre": "Intelectualización sin cambio emocional",
+      "descripcion": "El paciente entiende racionalmente que su pensamiento es distorsionado pero no experimenta un cambio emocional ('Lo sé con la cabeza pero no lo siento').",
+      "frecuencia": "muy_alta",
+      "ejemplo_paciente": "Paciente reconoce que su pensamiento catastrofico es exagerado, pero su ansiedad sigue en 80/100 ante la misma situacion.",
+      "estrategia_manejo": "Trabajar con hot cognitions, tecnicas experienciales y experimentos conductuales para generar evidencia emocional correctiva.",
+      "estrategias": [
+        "Trabajar con 'hot cognitions': reestructurar durante la activación emocional, no en frío",
+        "Usar técnicas experienciales: role-play, silla vacía, imaginería",
+        "Experimentos conductuales para generar evidencia experiencial",
+        "Repetir la reestructuración con diferentes técnicas hasta que resuene emocionalmente"
+      ]
+    },
+    {
+      "id": "si_pero",
+      "nombre": "Patrón 'Sí, pero...'",
+      "descripcion": "El paciente invalida cada alternativa racional con un 'pero'. Puede reflejar resistencia, creencias nucleares profundas o falta de alianza terapéutica.",
+      "frecuencia": "alta",
+      "ejemplo_paciente": "Paciente responde a cada alternativa con 'si, pero igual va a salir mal' y no integra ningun matiz.",
+      "estrategia_manejo": "Explorar la funcion del 'si, pero', validar primero y usar analisis de ventajas/desventajas antes de seguir disputando.",
+      "estrategias": [
+        "Explorar qué hay detrás del 'pero': ¿creencia nuclear?, ¿miedo al cambio?",
+        "Técnica de ventajas/desventajas del pensamiento original vs. alternativa",
+        "Validar emocionalmente antes de intentar reestructurar",
+        "Considerar si el timing es adecuado o si se necesita más trabajo relacional primero"
+      ]
+    },
+    {
+      "id": "dificultad_identificar_pensamientos",
+      "nombre": "Dificultad para identificar pensamientos automáticos",
+      "descripcion": "Pacientes que reportan solo emociones ('me sentí mal') sin acceder a los pensamientos subyacentes.",
+      "frecuencia": "alta",
+      "ejemplo_paciente": "Paciente solo dice 'me senti terrible' y no logra identificar que se dijo a si mismo en la situacion.",
+      "estrategia_manejo": "Usar preguntas guia, recreacion imaginal y entrenamiento gradual para diferenciar pensamiento de emocion.",
+      "estrategias": [
+        "Preguntas guía: '¿Qué pasó por tu mente justo antes de sentirte así?'",
+        "Usar imágenes mentales para recrear la situación y acceder al pensamiento",
+        "Empezar con el significado: '¿Qué significó esa situación para ti?'",
+        "Psicoeducación sobre la diferencia entre pensamiento y emoción",
+        "Práctica gradual con situaciones de baja intensidad emocional"
+      ]
+    },
+    {
+      "id": "pensamientos_son_hechos",
+      "nombre": "Fusión pensamiento-realidad",
+      "descripcion": "El paciente experimenta sus pensamientos como hechos incuestionables, no como interpretaciones evaluables.",
+      "frecuencia": "alta",
+      "ejemplo_paciente": "Paciente afirma 'si pienso que soy inutil, entonces es verdad' sin abrir espacio a evidencia alternativa.",
+      "estrategia_manejo": "Psicoeducar sobre pensamientos como hipotesis y entrenar contraste de evidencia con ejemplos concretos.",
+      "estrategias": [
+        "Psicoeducación: los pensamientos son hipótesis, no hechos",
+        "Ejercicio: 'Si alguien más estuviera en esta situación, ¿necesariamente pensaría lo mismo?'",
+        "Identificar ocasiones previas donde un pensamiento resultó ser inexacto",
+        "Usar la metáfora de las gafas: 'Los pensamientos son como gafas que filtran la realidad'"
+      ]
+    },
+    {
+      "id": "resistencia_tareas",
+      "nombre": "No completar autorregistros entre sesiones",
+      "descripcion": "El paciente no realiza los registros de pensamientos asignados como tarea para casa.",
+      "frecuencia": "muy_alta",
+      "ejemplo_paciente": "Paciente llega sin registros tres sesiones seguidas y refiere 'no tuve tiempo' o 'no me sirve'.",
+      "estrategia_manejo": "Simplificar formato, practicar en sesion y pactar un momento especifico diario de registro.",
+      "estrategias": [
+        "Explorar la creencia que impide realizarlos (perfeccionismo, 'no sirve para nada')",
+        "Simplificar el formato: empezar con registro de 3 columnas",
+        "Practicar el registro in-session antes de asignarlo",
+        "Programar un momento específico del día para el registro",
+        "Usar apps o formatos digitales si el papel es una barrera"
+      ]
+    },
+    {
+      "id": "sobregeneralizacion_tecnicas",
+      "nombre": "Aplicar la misma técnica a todo",
+      "descripcion": "Tanto terapeuta como paciente caen en usar siempre la misma técnica (típicamente solo preguntas sobre evidencia) sin variar según el tipo de distorsión.",
+      "frecuencia": "media",
+      "ejemplo_paciente": "Se aplica siempre disputa de evidencia, incluso cuando la distorsion principal requiere reatribucion o continuo cognitivo.",
+      "estrategia_manejo": "Seleccionar tecnica segun distorsion objetivo y variar intervenciones en la misma sesion.",
+      "estrategias": [
+        "Emparejar la técnica con el tipo de distorsión específica",
+        "Para catastrofización: descatastrofización; para personalización: reatribución; para dicotómico: continuo",
+        "Variar técnicas dentro de la misma sesión",
+        "Formación continua en técnicas avanzadas (flecha descendente, silla vacía, role-play)"
+      ]
+    }
+  ]
+}

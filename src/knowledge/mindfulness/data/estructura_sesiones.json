@@ -1,0 +1,115 @@
+{
+  "area_id": "estructura_sesiones",
+  "nombre": "Estructura de Sesiones de Mindfulness Clinico",
+  "descripcion": "Organizacion de programas basados en mindfulness (MBSR/MBCT) y estructura de sesiones individuales.",
+  "fuentes": [
+    "Kabat-Zinn, J. (2013). Full Catastrophe Living. Bantam.",
+    "Segal, Z. V. et al. (2013). MBCT for Depression (2nd ed.). Guilford.",
+    "Crane, R. (2009). Mindfulness-Based Cognitive Therapy. Routledge."
+  ],
+  "programa_mbct_8_semanas": [
+    {
+      "sesion": 1,
+      "tema": "Piloto automatico",
+      "objetivos": [
+        "Comprender que es el piloto automatico",
+        "Introducir la uva pasa",
+        "Body scan"
+      ],
+      "practica_en_casa": "Body scan diario + una actividad rutinaria con atencion plena"
+    },
+    {
+      "sesion": 2,
+      "tema": "Vivir en nuestra cabeza",
+      "objetivos": [
+        "Explorar como la mente crea narrativas",
+        "Percepcion directa vs interpretacion"
+      ],
+      "practica_en_casa": "Body scan diario + registro de eventos agradables"
+    },
+    {
+      "sesion": 3,
+      "tema": "Reunir la mente dispersa",
+      "objetivos": [
+        "Introducir meditacion sentada con foco en respiracion",
+        "Movimiento consciente (yoga/estiramientos)"
+      ],
+      "practica_en_casa": "Alternar body scan y meditacion sentada + registro eventos desagradables"
+    },
+    {
+      "sesion": 4,
+      "tema": "Reconocer la aversion",
+      "objetivos": [
+        "Explorar patrones de aversion y evitacion",
+        "Espacio de respiracion 3 minutos"
+      ],
+      "practica_en_casa": "Meditacion sentada 20 min + espacio de respiracion 3x dia"
+    },
+    {
+      "sesion": 5,
+      "tema": "Permitir/dejar ser",
+      "objetivos": [
+        "Practicar aceptacion de lo dificil",
+        "Meditacion sentada con emociones"
+      ],
+      "practica_en_casa": "Meditacion sentada 30 min con atencion abierta"
+    },
+    {
+      "sesion": 6,
+      "tema": "Los pensamientos no son hechos",
+      "objetivos": [
+        "Descentramiento",
+        "Los pensamientos como eventos mentales"
+      ],
+      "practica_en_casa": "Meditacion sentada 30 min + espacio de respiracion ante dificultades"
+    },
+    {
+      "sesion": 7,
+      "tema": "Como puedo cuidarme mejor?",
+      "objetivos": [
+        "Relacion entre actividad y estado de animo",
+        "Plan de accion personalizado"
+      ],
+      "practica_en_casa": "Practica elegida por el participante + plan de prevencion de recaidas"
+    },
+    {
+      "sesion": 8,
+      "tema": "Mantener y extender lo aprendido",
+      "objetivos": [
+        "Reflexion sobre el programa",
+        "Consolidar practica personal sostenible"
+      ],
+      "practica_en_casa": "Practica autonoma continuada segun plan personalizado"
+    }
+  ],
+  "estructura_sesion_individual": {
+    "duracion_minutos": 60,
+    "secuencia": [
+      {
+        "paso": "Practica de apertura",
+        "minutos": 10,
+        "descripcion": "Meditacion guiada breve para entrar en modo mindful."
+      },
+      {
+        "paso": "Revision de practica en casa",
+        "minutos": 15,
+        "descripcion": "Explorar la experiencia de la practica semanal. Que se noto? Que fue dificil?"
+      },
+      {
+        "paso": "Tema de la sesion",
+        "minutos": 20,
+        "descripcion": "Presentar y explorar el tema central con ejercicios experienciales."
+      },
+      {
+        "paso": "Practica principal",
+        "minutos": 10,
+        "descripcion": "Practica formal guiada relacionada con el tema."
+      },
+      {
+        "paso": "Asignacion y cierre",
+        "minutos": 5,
+        "descripcion": "Indicar practica para casa y cerrar con atencion plena al momento."
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "area_id": "conocimiento",
+  "nombre": "Área de Conocimiento",
+  "descripcion": "Fundamentos teóricos, principios clave y evidencia científica de la Activación Conductual",
+  "fuentes": [
+    "Martell, Dimidjian & Herman-Dunn (2010). Behavioral Activation for Depression: A Clinician's Guide",
+    "Lejuez et al. (2011). Ten year revision of the brief behavioral activation treatment for depression",
+    "Lewinsohn (1974). A behavioral approach to depression",
+    "Jacobson et al. (1996). A component analysis of cognitive-behavioral treatment for depression",
+    "Ferster (1973). A functional analysis of depression",
+    "Dimidjian et al. (2006). Randomized trial of behavioral activation, cognitive therapy, and antidepressant medication"
+  ],
+  "fundamentos_teoricos": {
+    "definicion": "La Activación Conductual (AC) es un tratamiento estructurado y parsimonioso con fuerte apoyo empírico para la depresión. Propone que el cambio conductual —no el cambio cognitivo— es el motor principal del cambio terapéutico. El foco está en aumentar el contacto del paciente con fuentes de reforzamiento positivo contingente a la respuesta del entorno, rompiendo el ciclo depresivo de evitación y retirada.",
+    "origenes_historicos": [
+      {
+        "autor": "Ferster (1973)",
+        "aportacion": "Primer análisis funcional de la depresión. Identificó que la depresión se caracteriza por una reducción de conductas reforzadas positivamente y un aumento de conductas de evitación y escape."
+      },
+      {
+        "autor": "Lewinsohn (1974)",
+        "aportacion": "Desarrolló el modelo de reforzamiento positivo contingente a la respuesta: la depresión resulta de una baja tasa de reforzamiento positivo contingente a la conducta del sujeto."
+      },
+      {
+        "autor": "Jacobson et al. (1996)",
+        "aportacion": "Estudio de desmantelamiento de la Terapia Cognitiva de Beck. Descubrieron que el componente de activación conductual solo era tan eficaz como la terapia cognitiva completa."
+      },
+      {
+        "autor": "Martell, Addis y Jacobson (2001)",
+        "aportacion": "Publicaron el primer manual de Activación Conductual como tratamiento completo e independiente para la depresión, incorporando conceptos contextuales y funcionales."
+      },
+      {
+        "autor": "Lejuez, Hopko y Hopko (2001)",
+        "aportacion": "Desarrollaron el TACD (Tratamiento de Activación Conductual para la Depresión), versión breve y altamente estructurada, centrada en valores y áreas vitales."
+      }
+    ],
+    "modelo_explicativo": "La depresión se entiende como resultado de una interacción disfuncional entre la persona y su contexto. El ciclo depresivo: (1) evento vital adverso → (2) reducción de actividades y contacto con reforzadores → (3) conductas de evitación mantenidas por reforzamiento negativo → (4) menor probabilidad de reforzamiento positivo → (5) empeoramiento del ánimo → (6) más retirada y evitación → (7) estrategias disfuncionales secundarias (aislamiento, rumiación, consumo de sustancias).",
+    "mecanismo_de_cambio": "La AC rompe el ciclo actuando directamente sobre la conducta: programando actividades que incrementen el contacto con reforzadores positivos naturales, extinguiendo las conductas de evitación, y aumentando progresivamente el nivel de activación. El cambio emocional y cognitivo se produce como consecuencia del cambio conductual, no como prerrequisito."
+  },
+  "principios_clave": [
+    {
+      "principio": "Reforzamiento positivo contingente a la respuesta",
+      "explicacion": "Consecuencias positivas del entorno que siguen a las conductas de la persona y que aumentan la probabilidad de que esas conductas se repitan. En la depresión, esta fuente se encuentra dramáticamente reducida."
+    },
+    {
+      "principio": "Evitación experiencial",
+      "explicacion": "Patrón de conducta que busca evitar experiencias internas aversivas (emociones, pensamientos) a costa de alejarse de actividades valiosas. Se mantiene por reforzamiento negativo."
+    },
+    {
+      "principio": "Análisis funcional (AF)",
+      "explicacion": "Herramienta central de la AC. Identifica las relaciones funcionales entre antecedentes, conductas y consecuencias. No se centra en el contenido de los pensamientos sino en la función que cumplen las conductas."
+    },
+    {
+      "principio": "TRAP → TRAC",
+      "explicacion": "TRAP: Trigger-Response-Avoidance Pattern (patrón disfuncional). TRAC: Trigger-Response-Alternative Coping (patrón alternativo saludable). La terapia ayuda a identificar TRAPs y convertirlos en TRACs."
+    },
+    {
+      "principio": "Actuar de afuera hacia adentro",
+      "explicacion": "No esperar a sentirse motivado para actuar. La acción precede a la motivación y al cambio emocional. Principio contracultural pero fundamental en AC."
+    }
+  ],
+  "evidencia_cientifica": {
+    "metaanalisis": [
+      "Dimidjian et al. (2006): AC igual o superior a antidepresivos en depresión severa",
+      "Cuijpers et al. (2007): Metaanálisis confirmando eficacia comparable a TCC completa",
+      "Ekers et al. (2014): Metaanálisis Cochrane con 53 ensayos, eficacia robusta para depresión"
+    ],
+    "eficacia_comparativa": "Los estudios muestran que la AC es igual de eficaz que la TCC completa y los antidepresivos para depresión mayor, con ventajas en coste-eficacia y facilidad de implementación. En depresión severa, la AC puede ser superior a la terapia cognitiva.",
+    "poblaciones_estudiadas": [
+      "Depresión mayor (leve a grave)",
+      "Distimia",
+      "Depresión en adultos mayores",
+      "Depresión posparto",
+      "Depresión comórbida con ansiedad",
+      "Pacientes hospitalizados",
+      "Contextos de baja renta económica"
+    ]
+  }
+}

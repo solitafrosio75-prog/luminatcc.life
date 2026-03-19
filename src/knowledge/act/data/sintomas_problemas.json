@@ -1,0 +1,72 @@
+{
+  "area_id": "sintomas_problemas",
+  "nombre": "Síntomas y Problemas Diana de ACT",
+  "descripcion": "Trastornos y problemas clínicos abordados por ACT, con foco en la evitación experiencial como proceso transdiagnóstico.",
+  "fuentes": [
+    "Hayes, S. C. et al. (2012). ACT (2nd ed.). Guilford Press.",
+    "A-Tjak, J. G. L. et al. (2015). A meta-analysis of the efficacy of ACT. Behaviour Research and Therapy, 69, 60-75.",
+    "Twohig, M. P. & Levin, M. E. (2017). ACT as treatment for anxiety and depression. Psychiatric Clinics of North America, 40(4), 751-770."
+  ],
+  "trastornos": [
+    {
+      "nombre": "Evitación experiencial crónica",
+      "sintomas_principales": [
+        "Supresión emocional sistemática",
+        "Evitación de situaciones que generan malestar",
+        "Uso de sustancias o conductas adictivas como escape",
+        "Estrechamiento progresivo de la vida",
+        "Desconexion de emociones, sensaciones y relaciones"
+      ],
+      "como_se_manifiesta_en_conducta": "Restricción progresiva del repertorio conductual: cada vez hace menos cosas para evitar sentir malestar. Vida cada vez más pequeña.",
+      "foco_intervencion": "Aceptación activa + acción comprometida: ampliar el repertorio conductual aceptando el malestar como compañero de viaje, no como obstáculo."
+    },
+    {
+      "nombre": "Rumiación depresiva",
+      "sintomas_principales": [
+        "Pensamientos autocríticos repetitivos",
+        "Análisis interminable de por qué me pasa esto",
+        "Comparación constante con otros o con el pasado",
+        "Sensación de estar atrapado en la cabeza",
+        "Fusión con narrativas de fracaso o inutilidad"
+      ],
+      "como_se_manifiesta_en_conducta": "Inactividad, aislamiento, dificultad para tomar decisiones. El paciente pasa horas pensando pero sin actuar.",
+      "foco_intervencion": "Defusión cognitiva de la rumiación + contacto con el momento presente + micro-acciones comprometidas que rompan el ciclo."
+    },
+    {
+      "nombre": "Ansiedad con evitación",
+      "sintomas_principales": [
+        "Anticipación catastrofista",
+        "Evitación de situaciones temidas",
+        "Conductas de seguridad",
+        "Hipervigilancia",
+        "Tensión física crónica"
+      ],
+      "como_se_manifiesta_en_conducta": "Estrechamiento de la vida social, laboral y de ocio. El paciente organiza su vida alrededor de evitar la ansiedad.",
+      "foco_intervencion": "Aceptación de la ansiedad como experiencia normal + defusión de pensamientos catastrofistas + exposición a situaciones evitadas al servicio de valores."
+    },
+    {
+      "nombre": "Dolor crónico con catastrofización",
+      "sintomas_principales": [
+        "Dolor persistente sin causa orgánica clara",
+        "Catastrofización del dolor",
+        "Fusión con identidad de enfermo",
+        "Evitación de actividades por miedo al dolor",
+        "Pérdida de roles y actividades significativas"
+      ],
+      "como_se_manifiesta_en_conducta": "Inactividad progresiva, dependencia de fármacos, aislamiento social. La vida gira alrededor de evitar o controlar el dolor.",
+      "foco_intervencion": "Aceptación del dolor (no resignación) + defusión de catastrofización + activación graduada al servicio de valores. ACT es tratamiento de elección."
+    },
+    {
+      "nombre": "Adicciones como evitación emocional",
+      "sintomas_principales": [
+        "Uso de sustancias para regular emociones",
+        "Craving intenso ante malestar emocional",
+        "Pérdida de control sobre el consumo",
+        "Desconexión de valores por la sustancia",
+        "Recaidas repetidas tras intentos de control"
+      ],
+      "como_se_manifiesta_en_conducta": "Ciclo de malestar → consumo → alivio temporal → culpa → más malestar → más consumo. La sustancia es la estrategia de evitación experiencial.",
+      "foco_intervencion": "Aceptación del craving (urge surfing) + defusión de pensamientos que justifican el consumo + reconexion con valores que la adicción destruye."
+    }
+  ]
+}

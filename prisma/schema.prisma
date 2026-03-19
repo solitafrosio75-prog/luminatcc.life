@@ -1,0 +1,500 @@
+// ============================================================================
+// tcc-lab — Prisma Schema para SQLite
+//
+// Mapeo 1:1 de las 16 tablas Dexie (src/db/database.ts) a modelos Prisma.
+// Organizado en 5 capas idénticas a la arquitectura Dexie.
+//
+// Convenciones:
+//   - Objetos anidados de TypeScript → Json (SQLite no soporta tipos compuestos)
+//   - Union types de TypeScript → String (SQLite no soporta enum)
+//   - Arrays de TypeScript → Json (SQLite no soporta array columns)
+//   - Los valores válidos de cada String se documentan en comentarios
+//   - Los @@index replican los índices definidos en Dexie para paridad de queries
+// ============================================================================
+
+datasource db {
+  provider = "sqlite"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// ============================================================================
+// CAPA 1: IDENTIDAD Y CONTEXTO CLÍNICO
+// ============================================================================
+
+/// Perfil clínico único del usuario (singleton, id=1).
+/// Captura intake inicial, baseline y estado del proceso.
+model ClinicalProfile {
+  id                           Int       @id @default(autoincrement())
+  alias                        String?
+
+  createdAt                    DateTime  @default(now())
+  lastActiveAt                 DateTime
+
+  // --- Intake (inmutable tras guardarse) ---
+  chiefComplaint               String    @default("") /// Motivo de consulta principal
+  problemOnset                 String    @default("") /// Cuándo empezó el problema
+  problemFrequency             String    @default("daily") /// daily | several_weekly | weekly | occasional
+  problemDuration              String    @default("months") /// weeks | months | one_to_two_years | years | lifelong
+  previousTreatment            Boolean   @default(false)
+  previousTreatmentNotes       String?
+  areasAffected                Json /// string[] — work | relationships | health | leisure | selfcare | sleep | other
+
+  // --- Baseline global (fijo para siempre) ---
+  baselineSUDs                 Int? /// SUDs 0-100
+  baselineFunctionalImpairment String? /// minimal | mild | moderate | severe | very_severe
+  baselineCapturedAt           DateTime?
+
+  // --- Estado del proceso ---
+  currentPhase                 String    @default("intake") /// ProtocolPhase: intake | abc_assessment | psychoeducation | smart_goals | intervention | change_eval | followup
+  phaseStartedAt               DateTime  @default(now())
+  sessionCountByPhase          Json /// Record<ProtocolPhase, number>
+  intakeCompleted              Boolean   @default(false)
+
+  @@index([lastActiveAt])
+  @@index([currentPhase])
+}
+
+/// Inventario de síntomas específicos.
+/// Cada síntoma es una fila. Si cambia, se marca como 'resolved' y se crea uno nuevo.
+model SymptomEntry {
+  id                  Int       @id @default(autoincrement())
+  description         String /// "Palpitaciones antes de hablar en público"
+  emotionCategory     String /// ClinicalEmotion: anxiety | sadness | anger | guilt | shame | fear | disgust | hopelessness | frustration | loneliness | emptiness | overwhelm
+
+  // Parámetros al registrar (inmutables)
+  intensityAtOnset    Int /// SUDs 0-100
+  frequencyAtOnset    String /// daily | several_weekly | weekly | occasional
+  durationAtOnset     String /// "15-20 minutos"
+
+  // Estado actual (actualizable)
+  currentIntensity    Int /// SUDs 0-100
+  currentFrequency    String /// daily | several_weekly | weekly | occasional | remitted
+
+  // Trazabilidad
+  capturedAt          DateTime
+  capturedInSessionId Int?
+  lastUpdatedAt       DateTime
+  status              String /// active | improved | resolved | worsened
+  linkedGoalId        Int?
+  updateNotes         Json /// string[]
+
+  @@index([capturedAt])
+  @@index([emotionCategory])
+  @@index([status])
+  @@index([capturedInSessionId])
+  @@index([linkedGoalId])
+}
+
+// ============================================================================
+// CAPA 2: SESIÓN Y PROTOCOLO
+// ============================================================================
+
+/// La sesión es la unidad central de tcc-lab.
+/// Todo registro clínico pertenece a una sesión.
+model Session {
+  id                     Int       @id @default(autoincrement())
+  patientId              Int? /// ID del paciente
+  type                   String /// intake | assessment | psychoeducation | goal_setting | technique_practice | change_evaluation | followup | free
+  phase                  String /// ProtocolPhase
+  technique              String? /// TCCTechnique (27 valores posibles)
+
+  // Temporalidad
+  startedAt              DateTime
+  endedAt                DateTime?
+  durationMinutes        Int?
+  timeOfDay              String /// early_morning | morning | midday | afternoon | evening | night
+  dayOfWeek              Int /// 0-6 (0=domingo)
+
+  // Estado emocional
+  sudsAtStart            Int? /// SUDs 0-100
+  sudsAtEnd              Int? /// SUDs 0-100
+  dominantEmotionAtStart String? /// ClinicalEmotion
+
+  // Estado
+  status                 String    @default("active") /// active | completed | abandoned
+  sessionNote            String?
+
+  // --- Relaciones ---
+  psychoeducationLogs           PsychoeducationLog[]
+  abcRecords                    ABCRecord[]
+  automaticThoughtRecords       AutomaticThoughtRecord[]
+  cognitiveRestructuringRecords CognitiveRestructuringRecord[]
+  therapeuticGoals              TherapeuticGoal[]
+  goalProgressEntries           GoalProgressEntry[]
+  techniqueExecutions           TechniqueExecution[]
+  exposureHierarchies           ExposureHierarchy[]
+  followUpEntries               FollowUpEntry[]
+
+  @@index([startedAt])
+  @@index([phase])
+  @@index([type])
+  @@index([technique])
+  @@index([status])
+  @@index([timeOfDay])
+  @@index([dayOfWeek])
+}
+
+/// Módulos de psicoeducación completados (Fase 3).
+model PsychoeducationLog {
+  id                  Int       @id @default(autoincrement())
+  sessionId           Int
+  completedAt         DateTime
+  module              String /// cognitive_model | cognitive_distortions | abc_model | exposure_rationale | behavioral_activation | anxiety_cycle | maintenance_factors
+  comprehensionRating Int /// 1-5
+  questionAsked       String?
+  personalInsight     String?
+
+  session Session @relation(fields: [sessionId], references: [id])
+
+  @@index([sessionId])
+  @@index([completedAt])
+  @@index([module])
+}
+
+// ============================================================================
+// CAPA 3: REGISTROS CLÍNICOS (inmutables, append-only)
+// ============================================================================
+
+/// Registro ABC — Antecedente, Conducta, Consecuencia.
+/// INMUTABLE: nunca se edita. Correcciones → nuevo registro con amendedFrom.
+model ABCRecord {
+  id                         Int       @id @default(autoincrement())
+  sessionId                  Int
+  capturedAt                 DateTime
+  linkedSymptomId            Int?
+
+  // Campos desnormalizados para índices (evita parsear JSON)
+  antecedentEmotion          String /// ClinicalEmotion
+  sudsAtAntecedent           Int /// SUDs 0-100
+  behaviorType               String /// avoidance | escape | approach_problematic | compulsion | rumination | reassurance_seeking | safety_behavior | adaptive
+  consequenceType            String /// negative_reinforcement | positive_reinforcement | punishment | neutral
+
+  // Objetos anidados como JSON
+  antecedent                 Json /// { situationDescription, location?, timeContext?, personsInvolved?, internalTrigger?, suds, emotion }
+  behavior                   Json /// { description, type, durationMinutes?, intensityRating, wasPlanned }
+  consequence                Json /// { immediateDescription, immediateEmotion, immediateSUDs, consequenceType, reliefObtained, delayedDescription?, delayedEmotion?, delayedSUDs? }
+  analysis                   Json? /// { behaviorFunction?, maintenanceFactors?, breakingPoints?, alternativeBehavior? }
+  cognitiveDistortionsDetected Json /// CognitiveDistortion[]
+
+  // Inmutabilidad
+  isAmendment                Boolean   @default(false)
+  amendedFrom                Int?
+
+  session Session @relation(fields: [sessionId], references: [id])
+
+  @@index([capturedAt])
+  @@index([sessionId])
+  @@index([linkedSymptomId])
+  @@index([antecedentEmotion])
+  @@index([sudsAtAntecedent])
+  @@index([behaviorType])
+  @@index([consequenceType])
+  @@index([isAmendment])
+}
+
+/// Pensamiento automático tal como apareció — sin editar, sin procesar.
+/// INMUTABLE. Se complementa con CognitiveRestructuringRecord.
+model AutomaticThoughtRecord {
+  id                    Int       @id @default(autoincrement())
+  sessionId             Int
+  capturedAt            DateTime
+  linkedABCRecordId     Int?
+
+  thoughtText           String /// El pensamiento tal como llegó
+  situationThatTriggered String
+
+  // Campos raíz para índices
+  emotion               String /// ClinicalEmotion
+  emotionIntensity      Int /// SUDs 0-100
+
+  detectedDistortions   Json /// CognitiveDistortion[]
+  detectionConfidence   String? /// low | medium | high
+
+  // Inmutabilidad
+  isAmendment           Boolean   @default(false)
+  amendedFrom           Int?
+
+  session Session @relation(fields: [sessionId], references: [id])
+
+  @@index([capturedAt])
+  @@index([sessionId])
+  @@index([linkedABCRecordId])
+  @@index([emotion])
+  @@index([emotionIntensity])
+  @@index([isAmendment])
+}
+
+/// Reestructuración cognitiva sobre un pensamiento automático.
+/// Un mismo pensamiento puede reestructurarse varias veces.
+model CognitiveRestructuringRecord {
+  id                       Int       @id @default(autoincrement())
+  sessionId                Int
+  completedAt              DateTime
+  automaticThoughtRecordId Int
+
+  socraticDialogue         Json? /// { evidenceFor, evidenceAgainst, alternativeExplanation, worstCase, worstCaseCoping, friendPerspective }
+  alternativeThought       String
+  beliefInAlternative      Int /// 0-100
+  beliefInOriginalAfter    Int /// 0-100
+
+  emotionAfter             String /// ClinicalEmotion
+  emotionIntensityAfter    Int /// SUDs 0-100
+  distortionsAddressed     Json /// CognitiveDistortion[]
+
+  effectivenessRating      Int /// 1-5
+  feltBetter               Boolean
+  actionPlanned            String?
+  actionCompleted          Boolean?
+
+  session Session @relation(fields: [sessionId], references: [id])
+
+  @@index([completedAt])
+  @@index([sessionId])
+  @@index([automaticThoughtRecordId])
+  @@index([emotionIntensityAfter])
+  @@index([effectivenessRating])
+}
+
+/// Objetivo terapéutico SMART con baseline explícito.
+model TherapeuticGoal {
+  id                 Int       @id @default(autoincrement())
+  createdAt          DateTime
+  sessionId          Int
+  goalText           String
+
+  smart              Json /// { specific, measurable, achievable, relevant, timeBound }
+  targetBehavior     String
+  linkedSymptomId    Int?
+
+  baseline           Json /// { capturedAt, value, unit, description }
+  target             Json /// { value, unit, deadline }
+
+  status             String    @default("active") /// active | achieved | revised | abandoned
+  achievedAt         DateTime?
+  revisedNotes       String?
+  assignedTechniques Json /// TCCTechnique[]
+
+  session          Session             @relation(fields: [sessionId], references: [id])
+  progressEntries  GoalProgressEntry[]
+
+  @@index([createdAt])
+  @@index([sessionId])
+  @@index([status])
+  @@index([linkedSymptomId])
+}
+
+/// Medición periódica de un objetivo terapéutico.
+model GoalProgressEntry {
+  id                        Int       @id @default(autoincrement())
+  goalId                    Int
+  sessionId                 Int
+  measuredAt                DateTime
+
+  currentValue              Float
+  unit                      String
+  userNarrative             String?
+  perceivedDifficulty       Int /// 1-5
+
+  changeFromBaseline        Float
+  percentChangeFromBaseline Float
+
+  goal    TherapeuticGoal @relation(fields: [goalId], references: [id])
+  session Session         @relation(fields: [sessionId], references: [id])
+
+  @@index([measuredAt])
+  @@index([goalId])
+  @@index([sessionId])
+}
+
+/// Registro de cada ejecución de una técnica TCC.
+/// Tabla más importante para el aprendizaje adaptativo.
+model TechniqueExecution {
+  id                    Int       @id @default(autoincrement())
+  sessionId             Int
+  executedAt            DateTime
+  technique             String /// TCCTechnique (27 valores)
+  variant               String?
+
+  // Contexto (desnormalizado para índices)
+  emotionAtStart        String /// ClinicalEmotion
+  sudsAtStart           Int /// SUDs 0-100
+  hourOfDay             Int
+  dayOfWeek             Int /// 0-6
+
+  durationMinutes       Int
+  completed             Boolean
+  completionPercentage  Int?
+  abandonedReason       String?
+
+  sudsAtEnd             Int? /// SUDs 0-100
+  emotionAtEnd          String? /// ClinicalEmotion
+  sudsChange            Int? /// negativo = mejora
+
+  effectivenessRating   Int? /// 1-5
+  wouldRepeat           Boolean?
+  userNote              String?
+
+  linkedABCRecordId     Int?
+  linkedThoughtRecordId Int?
+  linkedGoalId          Int?
+  linkedExposureStepId  String?
+
+  session Session @relation(fields: [sessionId], references: [id])
+
+  @@index([executedAt])
+  @@index([sessionId])
+  @@index([technique])
+  @@index([emotionAtStart])
+  @@index([sudsAtStart])
+  @@index([sudsChange])
+  @@index([completed])
+  @@index([hourOfDay])
+  @@index([dayOfWeek])
+}
+
+/// Jerarquía de exposición gradual.
+/// REGLA CLÍNICA: Un paso solo puede ser 'available' si el anterior está 'completed'.
+model ExposureHierarchy {
+  id                   Int       @id @default(autoincrement())
+  createdAt            DateTime
+  sessionId            Int
+  linkedGoalId         Int?
+
+  targetBehavior       String
+  rationale            String?
+  status               String    @default("active") /// active | paused | completed | abandoned
+  currentStepIndex     Int       @default(0)
+  completedAt          DateTime?
+
+  totalAttempts        Int       @default(0)
+  totalSuccesses       Int       @default(0)
+  averageSUDsReduction Float     @default(0)
+
+  steps                Json /// Array<{ id, order, description, predictedSUDs, successCriteria, status, completedAt?, attempts[] }>
+
+  session Session @relation(fields: [sessionId], references: [id])
+
+  @@index([createdAt])
+  @@index([sessionId])
+  @@index([linkedGoalId])
+  @@index([status])
+}
+
+/// Registro de seguimiento (Fase 7).
+/// Captura estado actual vs baseline para cambio clínicamente significativo.
+model FollowUpEntry {
+  id                        Int       @id @default(autoincrement())
+  sessionId                 Int
+  recordedAt                DateTime
+  weekNumber                Int
+
+  currentSUDs               Int /// SUDs 0-100
+  perceivedProgress         String /// much_worse | worse | same | slightly_better | better | much_better
+
+  baselineSUDsReference     Int /// SUDs 0-100
+  sudsChangeFromBaseline    Int
+  percentChangeFromBaseline Float
+
+  techniquesStillUsing      Json /// TCCTechnique[]
+  techniqueFrequency        String /// daily | several_weekly | weekly | rarely | not_using
+
+  relapseRiskSigns          Json? /// string[]
+  relapsePreventionPlan     String?
+  whatIsWorkingWell          String?
+  mainChallenge             String?
+  nextSteps                 String?
+
+  session Session @relation(fields: [sessionId], references: [id])
+
+  @@index([recordedAt])
+  @@index([sessionId])
+  @@index([weekNumber])
+  @@index([currentSUDs])
+  @@index([perceivedProgress])
+}
+
+// ============================================================================
+// CAPA 4: APRENDIZAJE Y EFECTIVIDAD (cache regenerable)
+// ============================================================================
+
+/// Cache de efectividad de técnicas.
+/// NUNCA es fuente de verdad — se regenera desde TechniqueExecution.
+model TechniqueEffectivenessCache {
+  id                         String    @id /// TCCTechnique como PK
+
+  totalExecutions            Int       @default(0)
+  completedExecutions        Int       @default(0)
+  completionRate             Float     @default(0)
+
+  averageSUDsChange          Float     @default(0)
+  medianSUDsChange           Float     @default(0)
+  stdDevSUDsChange           Float     @default(0)
+
+  averageEffectivenessRating Float     @default(0)
+  percentWouldRepeat         Float     @default(0)
+
+  bestHoursOfDay             Json /// number[]
+  bestDaysOfWeek             Json /// number[]
+  mostEffectiveForEmotions   Json /// Array<{ emotion, averageSUDsChange }>
+
+  lastCalculatedAt           DateTime
+  basedOnExecutionCount      Int       @default(0)
+  recommendationScore        Float     @default(0)
+
+  @@index([recommendationScore])
+  @@index([lastCalculatedAt])
+}
+
+/// Snapshot de baseline para cálculos de significancia clínica.
+model BaselineSnapshot {
+  id                            Int       @id @default(autoincrement())
+  capturedAt                    DateTime
+  frozenAt                      DateTime
+  metricsData                   Json /// Record<string, { dataPoints, mean, stdDev }>
+  validityData                  Json? /// { isValid, dataQualityScore }
+  usableForClinicalSignificance Boolean   @default(false)
+
+  @@index([capturedAt])
+  @@index([usableForClinicalSignificance])
+}
+
+// ============================================================================
+// CAPA 5: HISTORIAL DE CONVERSACIONES
+// ============================================================================
+
+/// Una conversación completa guardada.
+model Conversation {
+  id               Int       @id @default(autoincrement())
+  source           String /// interview | emotional_chat | primer_encuentro | session_intake | session_other | free
+  title            String
+  startedAt        DateTime  @default(now())
+  endedAt          DateTime?
+  durationMs       Int?
+  messageCount     Int       @default(0)
+  summary          String?
+  clinicalSnapshot Json? /// Record<string, unknown>
+
+  messages ConversationMessage[]
+
+  @@index([source])
+  @@index([startedAt])
+  @@index([endedAt])
+}
+
+/// Un mensaje individual dentro de una conversación. Append-only.
+model ConversationMessage {
+  id             Int       @id @default(autoincrement())
+  conversationId Int
+  role           String /// user | assistant | system
+  text           String
+  timestamp      DateTime  @default(now())
+  metadata       Json? /// Record<string, unknown>
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  @@index([conversationId])
+  @@index([timestamp])
+}

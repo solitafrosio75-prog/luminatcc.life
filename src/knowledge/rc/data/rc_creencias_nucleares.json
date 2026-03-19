@@ -1,0 +1,104 @@
+{
+  "area_id": "rc_creencias_nucleares",
+  "nombre": "Creencias Nucleares (Core Beliefs)",
+  "descripcion": "Categorías de creencias nucleares disfuncionales, supuestos intermedios derivados y estrategias de modificación según el modelo de Beck",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Beck, A. T. (1967). Depression: Clinical, Experimental, and Theoretical Aspects",
+    "Young, J. E., Klosko, J. S. & Weishaar, M. E. (2003). Schema Therapy"
+  ],
+  "categorias": [
+    {
+      "id": "desamparo",
+      "nombre": "Desamparo / Incompetencia (Helplessness)",
+      "descripcion": "Creencias de incapacidad personal, fragilidad y falta de recursos para afrontar demandas.",
+      "creencias_ejemplo": [
+        "Soy incompetente",
+        "Soy débil",
+        "No puedo hacer nada bien",
+        "Soy un fracaso",
+        "Soy inadecuado",
+        "No soy lo suficientemente bueno"
+      ],
+      "supuestos_intermedios": [
+        "Debo hacer todo perfecto o confirmare que soy incompetente",
+        "Si pido ayuda, demuestra que no puedo solo",
+        "No debo cometer errores",
+        "Es terrible no poder manejar todo solo",
+        "Los errores son imperdonables",
+        "Necesitar ayuda es de debiles",
+        "Si hago todo perfecto soy aceptable; si cometo errores confirmo incompetencia",
+        "Si mantengo el control estoy seguro; si lo pierdo soy vulnerable"
+      ],
+      "estrategias_modificacion": [
+        "Diario de datos positivos: registrar evidencia diaria que contradiga la creencia",
+        "Continuo cognitivo: evaluar competencia en una escala en vez de todo-o-nada",
+        "Revisión de la historia vital: identificar logros y capacidades demostradas",
+        "Experimentos conductuales: probar la capacidad en área temida con predicciones medibles"
+      ]
+    },
+    {
+      "id": "desamor",
+      "nombre": "Desamor / Indignidad de afecto (Unlovability)",
+      "descripcion": "Creencias de no ser digno de afecto y expectativa cronica de rechazo o abandono.",
+      "creencias_ejemplo": [
+        "No soy digno de amor",
+        "Si me conocieran de verdad, me rechazarían",
+        "Soy fundamentalmente diferente a los demás",
+        "Nadie podría quererme tal como soy",
+        "Siempre seré abandonado"
+      ],
+      "supuestos_intermedios": [
+        "Debo complacer a todos para que me quieran",
+        "No debo mostrar mi verdadero yo",
+        "Debo anticipar necesidades de los demas",
+        "El rechazo es lo peor que puede pasar",
+        "Estar solo es insoportable",
+        "Las relaciones son fragiles y se pierden facilmente",
+        "Si complazco a todos me querran; si me muestro autentico me rechazaran",
+        "Si no conflictuo se mantiene la relacion; si expreso desacuerdo me abandonaran"
+      ],
+      "estrategias_modificacion": [
+        "Identificar y cuestionar la evidencia de la creencia con método socrático",
+        "Experimentos de auto-revelación gradual en relaciones seguras",
+        "Registro de señales de afecto y aceptación recibidas",
+        "Trabajo con experiencias tempranas que originaron la creencia"
+      ]
+    },
+    {
+      "id": "inutilidad",
+      "nombre": "Inutilidad / Falta de valor (Worthlessness)",
+      "descripcion": "Creencias de falta de valor personal, defecto global y no merecimiento.",
+      "creencias_ejemplo": [
+        "No valgo nada",
+        "Soy inferior a los demás",
+        "Soy una mala persona",
+        "No merezco cosas buenas",
+        "Soy defectuoso"
+      ],
+      "supuestos_intermedios": [
+        "Debo castigarme por mis fallos",
+        "No merezco disfrutar",
+        "Debo sacrificarme por los demas",
+        "Los demas son mejores que yo",
+        "No tiene sentido intentarlo",
+        "Merezco lo malo que me pasa",
+        "Si me sacrifico al menos sere util; si pienso en mi soy egoista e indigno",
+        "Si logro algo fue suerte; si fracaso confirma mi falta de valor"
+      ],
+      "estrategias_modificacion": [
+        "Examinar los orígenes de la creencia y su validez histórica vs. actual",
+        "Reatribución: ¿realmente esos eventos significan que no valgo?",
+        "Diario de contribuciones positivas y cualidades",
+        "Trabajo con la voz del 'crítico interno': ¿de quién es esa voz originalmente?"
+      ]
+    }
+  ],
+  "proceso_trabajo_creencias_nucleares": {
+    "fase_1": "Identificar la creencia nuclear mediante flecha descendente y patrones en los pensamientos automáticos",
+    "fase_2": "Psicoeducación: las creencias nucleares no son hechos, son aprendizajes tempranos que se mantienen por sesgo confirmatorio",
+    "fase_3": "Debilitar la creencia vieja: examinar evidencia, análisis de ventajas/desventajas",
+    "fase_4": "Construir la creencia nueva: formular alternativa más adaptativa",
+    "fase_5": "Fortalecer la creencia nueva: diario de datos positivos, experimentos conductuales, revisión histórica"
+  }
+}

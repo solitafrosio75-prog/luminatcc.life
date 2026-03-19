@@ -1,0 +1,111 @@
+{
+  "profile_id": "mindfulness_profile_v3",
+  "technique_id": "mindfulness",
+  "nombre": "Perfil Clinico de Mindfulness Terapeutico",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "reviewed_by": [
+    "equipo_tcc_lab",
+    "revision_tecnica_inicial"
+  ],
+  "resumen_clinico": "Intervencion basada en atencion plena para aumentar conciencia del momento presente, reducir reactividad automatica y mejorar regulacion emocional y cognitiva.",
+  "mecanismos_de_cambio": [
+    "desautomatizacion de respuestas reactivas",
+    "incremento de atencion sostenida y abierta",
+    "mejora de regulacion autonoma por respiracion consciente",
+    "aumento de metacognicion y descentramiento"
+  ],
+  "problemas_diana": [
+    "rumiacion",
+    "preocupacion_excesiva",
+    "reactividad_emocional",
+    "impulsividad_por_malestar",
+    "estres_cronico"
+  ],
+  "sintomas_diana": [
+    "ansiedad_persistente",
+    "tension_fisiologica",
+    "distraccion_cronica",
+    "sobrecarga_mental",
+    "autocritica_repetitiva"
+  ],
+  "poblaciones_objetivo": [
+    "adultos",
+    "adolescentes",
+    "casos_con_ansiedad_o_estres",
+    "personas_con_dificultad_de_regulacion_atencional"
+  ],
+  "prerequisitos": [
+    "encuadre terapeutico de practica gradual",
+    "consentimiento para ejercicios experienciales",
+    "objetivo clinico explicitado"
+  ],
+  "contraindicaciones": [
+    {
+      "id": "mind_ci_01",
+      "condicion": "Desorganizacion psicotica activa",
+      "tipo": "relativa",
+      "razon_clinica": "Ciertos ejercicios introspectivos pueden desestabilizar sin contencion previa.",
+      "alternativa_sugerida": "Estabilizacion inicial y ejercicios conductuales breves"
+    },
+    {
+      "id": "mind_ci_02",
+      "condicion": "Trauma no estabilizado con disociacion frecuente",
+      "tipo": "relativa",
+      "razon_clinica": "La focalizacion interna puede disparar activacion o desconexion si no se adapta.",
+      "alternativa_sugerida": "Mindfulness orientado externo y protocolo informado en trauma"
+    }
+  ],
+  "banderas_seguridad": [
+    "aumento de disociacion",
+    "activacion intensa mantenida tras practica",
+    "empeoramiento funcional por sobreexigencia meditativa"
+  ],
+  "requiere_derivacion_si": [
+    "riesgo_suicida_alto",
+    "sintomas_psicoticos_activos",
+    "descompensacion severa"
+  ],
+  "supervision": [
+    {
+      "id": "mind_sup_01",
+      "descripcion": "Supervision recomendada en trauma complejo o disociacion",
+      "requerido": true,
+      "contexto": "casos moderados a severos"
+    }
+  ],
+  "evidencia": {
+    "nivel_global": "alta",
+    "fuerza_recomendacion": "fuerte",
+    "poblaciones_validadas": [
+      "ansiedad_generalizada",
+      "estres_cronico",
+      "depresion_recurrente",
+      "dolor_cronico"
+    ],
+    "fuentes_clave": [
+      "Kabat-Zinn, J. (1990). Full Catastrophe Living",
+      "Hofmann et al. (2010). Meta-analysis of mindfulness-based therapy",
+      "Goldberg et al. (2018). Mindfulness interventions meta-analysis"
+    ],
+    "limitaciones": [
+      "beneficio depende de practica sostenida",
+      "requiere adaptacion en trauma y disociacion"
+    ]
+  },
+  "combinable_con": [
+    "reestructuracion_cognitiva",
+    "activacion_conductual",
+    "act",
+    "dialectico_conductual"
+  ],
+  "no_recomendada_con": [
+    "uso como evitacion espiritual",
+    "exigencia de control absoluto del pensamiento"
+  ],
+  "trace_sources": [
+    "src/knowledge/mindfulness/data/conocimiento.json",
+    "src/knowledge/mindfulness/data/tecnicas_especificas.json",
+    "src/knowledge/mindfulness/data/ejercicios_tareas.json"
+  ]
+}

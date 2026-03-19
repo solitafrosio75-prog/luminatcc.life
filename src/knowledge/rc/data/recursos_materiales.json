@@ -1,0 +1,44 @@
+{
+  "area_id": "recursos_materiales",
+  "nombre": "Recursos y Materiales para Reestructuración Cognitiva",
+  "descripcion": "Materiales de apoyo, manuales y recursos para el trabajo cognitivo",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Burns, D. D. (1980). Feeling Good",
+    "Leahy, R. L. (2003). Cognitive Therapy Techniques"
+  ],
+  "recursos": [
+    {
+      "id": "beck_2020",
+      "tipo": "manual_clinico",
+      "titulo": "Cognitive Behavior Therapy: Basics and Beyond (3rd ed.)",
+      "autor": "Beck, J. S.",
+      "descripcion": "Manual de referencia para terapeutas sobre la práctica de la TCC, con énfasis en conceptualización cognitiva y reestructuración.",
+      "uso_clinico": "Guía paso a paso para implementar RC: desde la conceptualización del caso hasta la modificación de creencias nucleares."
+    },
+    {
+      "id": "burns_1980",
+      "tipo": "libro_autoayuda",
+      "titulo": "Sentirse bien: Una nueva terapia contra las depresiones",
+      "autor": "Burns, D. D.",
+      "descripcion": "Libro de autoayuda basado en TCC. Incluye la lista clásica de 10 distorsiones cognitivas y ejercicios prácticos de reestructuración.",
+      "uso_clinico": "Lectura complementaria para pacientes. Útil para psicoeducación sobre distorsiones cognitivas."
+    },
+    {
+      "id": "leahy_2003",
+      "tipo": "manual_clinico",
+      "titulo": "Cognitive Therapy Techniques: A Practitioner's Guide",
+      "autor": "Leahy, R. L.",
+      "descripcion": "Compendio de más de 100 técnicas cognitivas organizadas por tipo de intervención.",
+      "uso_clinico": "Referencia rápida para seleccionar técnicas específicas según el tipo de distorsión o creencia a trabajar."
+    },
+    {
+      "id": "bennett_levy_2004",
+      "tipo": "manual_clinico",
+      "titulo": "Oxford Guide to Behavioural Experiments in Cognitive Therapy",
+      "autor": "Bennett-Levy, J. et al.",
+      "descripcion": "Guía completa sobre diseño e implementación de experimentos conductuales como herramienta de cambio cognitivo.",
+      "uso_clinico": "Diseño de experimentos conductuales adaptados a cada trastorno y tipo de creencia."
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "technique_id": "act",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "procedures": [
+    {
+      "procedure_id": "act_defusion_cognitiva",
+      "technique_id": "act",
+      "nombre": "Defusion Cognitiva Guiada",
+      "modalidad": "individual",
+      "clinical_goal": "Disminuir literalidad de pensamientos para reducir su impacto conductual.",
+      "indications": [
+        "fusion cognitiva",
+        "autocritica intensa",
+        "rumiacion"
+      ],
+      "expected_outcomes": [
+        "menor credibilidad automatica de pensamientos",
+        "aumento de distancia psicologica"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Pensamiento gatillo frecuente",
+          "tipo": "registro",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Identificar pensamiento dominante en primera persona",
+          "objetivo": "Definir material de trabajo"
+        },
+        {
+          "orden": 2,
+          "accion": "Reformular como evento mental con prefijo estoy teniendo el pensamiento",
+          "objetivo": "Reducir fusion"
+        },
+        {
+          "orden": 3,
+          "accion": "Practicar repeticion breve y observacion sin debate",
+          "objetivo": "Consolidar postura observadora"
+        }
+      ],
+      "success_criteria": [
+        "descenso subjetivo de fusion al menos 30 por ciento",
+        "uso espontaneo de lenguaje defusion en semana"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "desregulacion creciente no modulable"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "incremento de desesperanza"
+        ]
+      },
+      "evidence_level": "alta",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/knowledge/act/data/tecnicas_especificas.json"
+      ]
+    },
+    {
+      "procedure_id": "act_aceptacion_activa_malestar",
+      "technique_id": "act",
+      "nombre": "Aceptacion Activa del Malestar",
+      "modalidad": "individual",
+      "clinical_goal": "Aumentar disposicion a contactar emociones dificiles sin evitacion rigida.",
+      "indications": [
+        "evitacion experiencial",
+        "ansiedad por control de sintomas"
+      ],
+      "expected_outcomes": [
+        "mayor tolerancia al malestar",
+        "reduccion de conductas de escape"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Situacion evitada reciente",
+          "tipo": "contexto",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Nombrar emocion y sensaciones presentes con lenguaje descriptivo",
+          "objetivo": "Abrir contacto consciente"
+        },
+        {
+          "orden": 2,
+          "accion": "Practicar respiracion y expansion de espacio para la emocion",
+          "objetivo": "Sostener experiencia sin lucha"
+        },
+        {
+          "orden": 3,
+          "accion": "Elegir micro accion alineada a valor pese al malestar",
+          "objetivo": "Entrenar flexibilidad"
+        }
+      ],
+      "success_criteria": [
+        "ejecucion de una accion valiosa con malestar presente",
+        "disminucion de evitacion en contexto objetivo"
+      ],
+      "safety": {
+        "risk_level": "moderado",
+        "contraindicaciones": [
+          "crisis aguda no estabilizada"
+        ],
+        "stop_criteria": [
+          "escalada emocional sin recuperacion"
+        ],
+        "requiere_supervision": true,
+        "red_flags": [
+          "desregulacion persistente post sesion"
+        ]
+      },
+      "evidence_level": "alta",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/act/data/objetivos_clinicos.json"
+      ]
+    },
+    {
+      "procedure_id": "act_clarificacion_valores",
+      "technique_id": "act",
+      "nombre": "Clarificacion de Valores",
+      "modalidad": "individual",
+      "clinical_goal": "Definir direcciones vitales para guiar decisiones y compromisos conductuales.",
+      "indications": [
+        "desconexion de sentido",
+        "indecision cronica",
+        "estancamiento conductual"
+      ],
+      "expected_outcomes": [
+        "mayor claridad de prioridades",
+        "criterios concretos para toma de decisiones"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Areas vitales prioritarias",
+          "tipo": "registro",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Explorar areas clave y definir direccion valorada",
+          "objetivo": "Construir mapa de valores"
+        },
+        {
+          "orden": 2,
+          "accion": "Diferenciar valor de meta puntual",
+          "objetivo": "Evitar rigidizacion por objetivos"
+        },
+        {
+          "orden": 3,
+          "accion": "Seleccionar 1-2 acciones semanales consistentes",
+          "objetivo": "Traducir valor a conducta"
+        }
+      ],
+      "success_criteria": [
+        "declaracion de valores por al menos dos areas",
+        "plan conductual semanal alineado"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "bloqueo emocional intenso sostenido"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "autocritica extrema ante discrepancia valor-conducta"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/knowledge/act/data/objetivos_clinicos.json"
+      ]
+    },
+    {
+      "procedure_id": "act_accion_comprometida",
+      "technique_id": "act",
+      "nombre": "Accion Comprometida Gradual",
+      "modalidad": "individual",
+      "clinical_goal": "Incrementar conductas sostenidas alineadas a valores mediante metas graduales y revision de barreras.",
+      "indications": [
+        "inercia conductual",
+        "abandono de objetivos",
+        "evitacion por malestar"
+      ],
+      "expected_outcomes": [
+        "aumento de adherencia conductual",
+        "progreso semanal observable"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Objetivo semanal basado en valor",
+          "tipo": "registro",
+          "obligatorio": true
+        },
+        {
+          "nombre": "Plan de barreras y apoyos",
+          "tipo": "material",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Definir accion minima viable y criterio de logro",
+          "objetivo": "Facilitar inicio"
+        },
+        {
+          "orden": 2,
+          "accion": "Programar contexto, horario y recordatorios",
+          "objetivo": "Aumentar probabilidad de ejecucion"
+        },
+        {
+          "orden": 3,
+          "accion": "Revisar obstaculos y ajustar plan sin abandonar direccion",
+          "objetivo": "Sostener compromiso flexible"
+        }
+      ],
+      "success_criteria": [
+        "cumplimiento de al menos 70 por ciento de acciones planificadas",
+        "continuidad por dos semanas consecutivas"
+      ],
+      "safety": {
+        "risk_level": "moderado",
+        "contraindicaciones": [
+          "sobrecarga severa no estabilizada"
+        ],
+        "stop_criteria": [
+          "deterioro clinico sostenido"
+        ],
+        "requiere_supervision": true,
+        "red_flags": [
+          "agotamiento extremo por sobreexigencia"
+        ]
+      },
+      "evidence_level": "alta",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/act/data/ejercicios_tareas.json"
+      ]
+    }
+  ]
+}

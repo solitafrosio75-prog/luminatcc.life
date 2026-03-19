@@ -1,0 +1,88 @@
+{
+  "area_id": "recursos_materiales",
+  "nombre": "Recursos y Materiales para Mindfulness",
+  "descripcion": "Materiales psicoeducativos, audios y recursos bibliograficos para la practica de mindfulness clinico.",
+  "fuentes": [
+    "Kabat-Zinn, J. (2013). Full Catastrophe Living (revised ed.). Bantam Books.",
+    "Segal, Z. V. et al. (2013). MBCT for Depression (2nd ed.). Guilford Press.",
+    "Williams, M. & Penman, D. (2011). Mindfulness: A Practical Guide. Piatkus."
+  ],
+  "materiales_psicoeducativos": [
+    {
+      "id": "folleto_que_es_mindfulness",
+      "nombre": "Que es mindfulness: guia para pacientes",
+      "tipo": "folleto",
+      "contenido_clave": [
+        "Definicion: prestar atencion de manera intencional, en el momento presente y sin juzgar",
+        "Mindfulness NO es: vaciar la mente, relajacion, religion, escapar de problemas",
+        "Piloto automatico vs atencion consciente",
+        "Beneficios basados en evidencia",
+        "Mitos comunes desmentidos"
+      ],
+      "momento_uso": "Primera sesion de psicoeducacion"
+    },
+    {
+      "id": "folleto_actitudes_mindfulness",
+      "nombre": "Las 7 actitudes fundamentales de mindfulness",
+      "tipo": "folleto",
+      "contenido_clave": [
+        "No juzgar: observar sin etiquetar como bueno o malo",
+        "Paciencia: permitir que las cosas se desenvuelvan a su tiempo",
+        "Mente de principiante: ver cada experiencia como nueva",
+        "Confianza: confiar en la propia experiencia",
+        "No esforzarse: no tratar de lograr un estado especial",
+        "Aceptacion: ver las cosas como son, no como quisieras",
+        "Dejar ir: soltar la tendencia a aferrarse o rechazar"
+      ],
+      "momento_uso": "Primeras sesiones, reforzar a lo largo del programa"
+    },
+    {
+      "id": "diario_practica",
+      "nombre": "Diario de practica mindfulness",
+      "tipo": "hoja_de_trabajo",
+      "campos": [
+        "Fecha",
+        "Tipo de practica",
+        "Duracion",
+        "Que note durante la practica",
+        "Dificultades",
+        "Observaciones"
+      ],
+      "instrucciones": "Completar despues de cada practica formal. Traer a sesion para revision."
+    }
+  ],
+  "recursos_bibliograficos": [
+    {
+      "titulo": "Vivir con plenitud las crisis",
+      "autor": "Kabat-Zinn, J.",
+      "uso": "Texto fundamental para pacientes en programas MBSR"
+    },
+    {
+      "titulo": "Mindfulness: guia practica para encontrar la paz en un mundo frenetico",
+      "autor": "Williams, M. & Penman, D.",
+      "uso": "Programa de 8 semanas accesible para pacientes"
+    },
+    {
+      "titulo": "El camino del mindfulness hacia la autocompasion",
+      "autor": "Germer, C. K.",
+      "uso": "Para pacientes con autocritica severa y baja autoestima"
+    }
+  ],
+  "audios_guiados_recomendados": [
+    {
+      "practica": "Body scan",
+      "duracion": "20-45 min",
+      "nota": "Se recomienda que el terapeuta grabe audios personalizados o use recursos de programas validados"
+    },
+    {
+      "practica": "Meditacion sentada",
+      "duracion": "15-30 min",
+      "nota": "Progresion gradual de duracion"
+    },
+    {
+      "practica": "Espacio de respiracion 3 min",
+      "duracion": "3 min",
+      "nota": "Audio breve para uso de emergencia"
+    }
+  ]
+}

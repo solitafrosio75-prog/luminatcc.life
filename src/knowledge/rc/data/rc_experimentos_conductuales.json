@@ -1,0 +1,98 @@
+{
+  "area_id": "rc_experimentos_conductuales",
+  "nombre": "Experimentos Conductuales en Reestructuración Cognitiva",
+  "descripcion": "Diseño y ejecución de experimentos conductuales para poner a prueba creencias y pensamientos disfuncionales, generando evidencia experiencial",
+  "fuentes": [
+    "Bennett-Levy, J. et al. (2004). Oxford Guide to Behavioural Experiments in Cognitive Therapy",
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Rouf, K. et al. (2004). Devising effective behavioural experiments"
+  ],
+  "experimentos": [
+    {
+      "id": "exp_prediccion_vs_realidad",
+      "nombre": "Predicción vs. realidad",
+      "creencia_objetivo": "Cualquier creencia que genere una predicción verificable",
+      "descripcion": "El paciente registra una predicción basada en su creencia disfuncional, ejecuta la acción temida, y compara la predicción con el resultado real.",
+      "hipotesis": "Lo que predigo (basado en mi pensamiento distorsionado) no se corresponderá con lo que realmente ocurra.",
+      "procedimiento": [
+        "Identificar la predicción específica: ¿qué exactamente crees que va a pasar?",
+        "Cuantificar: ¿probabilidad estimada (0-100)?",
+        "Definir qué constituiría evidencia a favor y en contra",
+        "Ejecutar la acción (solo si es seguro y ético)",
+        "Registrar lo que realmente ocurrió",
+        "Comparar predicción vs. realidad",
+        "¿Qué concluyes?"
+      ],
+      "criterio_evaluacion": "La predicción se cumplió exactamente, parcialmente, o no se cumplió",
+      "ejemplo_clinico": "Creencia: si pregunto en clase, se reiran. Prediccion: 80% reaccion negativa. Resultado: sin reaccion negativa y respuesta util del profesor.",
+      "ejemplo": "Creencia: 'Si hago una pregunta en clase, todos pensarán que soy tonto'. Predicción: 80% se reirán o mostrarán desprecio. Resultado real: nadie reaccionó negativamente, el profesor agradeció la pregunta."
+    },
+    {
+      "id": "exp_encuesta",
+      "nombre": "Encuesta / survey",
+      "creencia_objetivo": "Creencias sobre lo que otros piensan, sienten o harían (normas sociales percibidas)",
+      "descripcion": "El paciente pregunta a personas de confianza sobre sus opiniones o experiencias para contrastar con sus suposiciones.",
+      "hipotesis": "Mis suposiciones sobre lo que otros piensan/harían no se corresponden con lo que realmente piensan/harían.",
+      "procedimiento": [
+        "Formular la creencia en forma de pregunta encuestable",
+        "Seleccionar 3-5 personas de confianza",
+        "Predecir qué dirán",
+        "Hacer la consulta real",
+        "Comparar predicciones con respuestas reales"
+      ],
+      "criterio_evaluacion": "Las respuestas reales coinciden con la predicción o difieren significativamente",
+      "ejemplo_clinico": "Creencia: soy el unico que se pone nervioso al exponer. Encuesta: 4 de 5 personas reportan nerviosismo similar.",
+      "ejemplo": "Creencia: 'Soy la única persona que se pone nerviosa en presentaciones'. Encuesta a 5 compañeros: 4 de 5 reportan nerviosismo en presentaciones."
+    },
+    {
+      "id": "exp_observacional",
+      "nombre": "Experimento observacional",
+      "creencia_objetivo": "Creencias sobre la frecuencia o universalidad de un fenómeno",
+      "descripcion": "El paciente observa sistemáticamente un comportamiento o evento en otros para contrastar con su creencia.",
+      "hipotesis": "Lo que creo que es universal o muy frecuente puede no serlo, o viceversa.",
+      "procedimiento": [
+        "Definir qué se va a observar y dónde",
+        "Predecir la frecuencia esperada",
+        "Observar y registrar durante un período definido",
+        "Comparar observación con predicción"
+      ],
+      "criterio_evaluacion": "La frecuencia observada coincide o difiere de la predicción",
+      "ejemplo_clinico": "Creencia: todos me miran si llego tarde. Observacion: solo 2 de 10 miran brevemente.",
+      "ejemplo": "Creencia: 'Todo el mundo me mira cuando entro tarde'. Observación: la próxima vez que alguien llegue tarde a una reunión, observar cuántos miran y por cuánto tiempo. Resultado: 2 de 10 miraron brevemente (<2 seg)."
+    },
+    {
+      "id": "exp_abandono_seguridad",
+      "nombre": "Abandono de conductas de seguridad",
+      "creencia_objetivo": "Creencias que se mantienen por conductas de evitación o seguridad ('Me fue bien PORQUE hice X')",
+      "descripcion": "Eliminar gradualmente las conductas de seguridad para probar que el resultado temido no depende de ellas.",
+      "hipotesis": "El resultado temido no ocurrirá incluso sin mi conducta de seguridad.",
+      "procedimiento": [
+        "Identificar la conducta de seguridad y la creencia que la sostiene",
+        "Predecir qué pasará sin la conducta de seguridad",
+        "Realizar la actividad SIN la conducta de seguridad (de forma gradual si es necesario)",
+        "Registrar lo que realmente ocurrió",
+        "¿La conducta de seguridad era realmente necesaria?"
+      ],
+      "criterio_evaluacion": "El resultado temido ocurrió o no ocurrió sin la conducta de seguridad",
+      "ejemplo_clinico": "Paciente deja de memorizar guion exacto y realiza presentacion con puntos clave; no ocurre bloqueo esperado.",
+      "ejemplo": "Conducta de seguridad: memorizar un guion palabra por palabra antes de hablar en público. Creencia: 'Si no lo memorizo, me quedaré en blanco'. Experimento: preparar solo los puntos principales. Resultado: la presentación fluyó bien, incluso más natural."
+    },
+    {
+      "id": "exp_actuar_como_si",
+      "nombre": "Actuar 'como si'",
+      "creencia_objetivo": "Creencias nucleares sobre uno mismo (soy incompetente, no soy digno de amor, etc.)",
+      "descripcion": "El paciente actúa durante un período breve 'como si' la creencia alternativa fuera cierta y observa los resultados.",
+      "hipotesis": "Si actúo basándome en la nueva creencia, los resultados serán diferentes (y probablemente mejores) que si actúo desde la creencia vieja.",
+      "procedimiento": [
+        "Formular la creencia vieja y la nueva alternativa",
+        "Definir: ¿cómo actuaría alguien que cree la alternativa?",
+        "Elegir una situación concreta para probarlo",
+        "Actuar 'como si' durante esa situación",
+        "Registrar: ¿qué pasó? ¿Cómo me sentí? ¿Cómo reaccionaron los demás?"
+      ],
+      "criterio_evaluacion": "Comparar los resultados de actuar desde la creencia vieja vs. la nueva",
+      "ejemplo_clinico": "Paciente dice no a una peticion no prioritaria; obtiene aceptacion sin rechazo interpersonal.",
+      "ejemplo": "Creencia vieja: 'Si digo que no, me rechazarán'. Creencia nueva: 'Puedo poner límites y las personas razonables lo respetarán'. Actuar 'como si': decir que no a una petición no prioritaria esta semana. Resultado: el compañero dijo 'vale, sin problema'."
+    }
+  ]
+}

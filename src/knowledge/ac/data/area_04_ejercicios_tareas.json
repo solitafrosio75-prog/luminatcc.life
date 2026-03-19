@@ -1,0 +1,99 @@
+{
+  "area_id": "ejercicios_tareas",
+  "nombre": "Ejercicios y Tareas",
+  "descripcion": "Ejercicios activos y graduados para romper el ciclo depresivo, con instrucciones detalladas para el terapeuta y el paciente",
+  "fuentes": [
+    "Lewinsohn et al. (1986). Controla tu Depresión",
+    "Martell et al. (2010). Behavioral Activation",
+    "Lejuez et al. (2011). BATD-R",
+    "Caballo (2007). Manual de técnicas de conducta"
+  ],
+  "ejercicios": [
+    {
+      "id": "ET01",
+      "nombre": "Monitoreo de Actividad (Línea Base)",
+      "tipo": "monitoreo",
+      "objetivo": "Establecer una línea base de actividad sin intervención, identificando patrones y relaciones actividad-ánimo",
+      "instrucciones": [
+        "Registrar durante 7 días todas las actividades realizadas, hora por hora",
+        "Anotar el estado de ánimo (1-10) después de cada actividad",
+        "No intentar cambiar nada: solo observar y registrar",
+        "Traer el registro completo a la siguiente sesión para análisis conjunto"
+      ],
+      "frecuencia": "Diario durante 7 días (sesiones 1-2)",
+      "ejemplo": "Lunes 9:00 - Quedarse en cama mirando el teléfono (ánimo: 2). Lunes 10:00 - Ducha (ánimo: 4). Lunes 11:00 - Sentarse en el sofá sin hacer nada (ánimo: 2)."
+    },
+    {
+      "id": "ET02",
+      "nombre": "Programación de Actividades Placer/Dominio",
+      "tipo": "programacion",
+      "objetivo": "Programar actividades específicas con puntuaciones de placer y dominio, rompiendo la inercia depresiva",
+      "instrucciones": [
+        "Seleccionar 2-3 actividades diarias que combinen placer y dominio",
+        "Escribirlas en la agenda con día y hora concretos",
+        "Empezar con actividades de baja dificultad e ir graduando",
+        "Registrar P/D real después de completarlas y comparar con la predicción"
+      ],
+      "frecuencia": "Semanal, aumentando gradualmente de 2-3 a 5-7 actividades/día",
+      "ejemplo": "Día 1: Paseo 15 min (P=7, D=3), Lavar platos (P=2, D=5). Día 2: Llamar a un amigo (P=6, D=4), Cocinar algo simple (P=5, D=6)."
+    },
+    {
+      "id": "ET03",
+      "nombre": "Descomposición de Tareas",
+      "tipo": "descomposicion",
+      "objetivo": "Romper metas grandes en microtareas manejables para evitar el abrumo y la parálisis",
+      "instrucciones": [
+        "Identificar una meta que parece abrumadora",
+        "Descomponerla en el mayor número posible de pasos pequeños",
+        "Ordenar los pasos de menor a mayor dificultad",
+        "Asignar cada paso a un día y hora específicos",
+        "Celebrar cada microtarea completada"
+      ],
+      "frecuencia": "Según necesidad, especialmente cuando el paciente expresa sentirse abrumado",
+      "ejemplo": "Meta: 'Buscar empleo' → (1) Actualizar CV (30 min), (2) Pedir a un amigo que lo revise, (3) Buscar 3 ofertas online, (4) Enviar 1 solicitud. Cada paso en un día diferente."
+    },
+    {
+      "id": "ET04",
+      "nombre": "Experimentos Conductuales",
+      "tipo": "experimento",
+      "objetivo": "Probar empíricamente si una actividad mejora el estado de ánimo, contrastando predicción vs. resultado real",
+      "instrucciones": [
+        "Formular una predicción: '¿Qué pasará si hago X?'",
+        "Realizar la actividad como un experimento (sin expectativas de éxito)",
+        "Registrar el resultado real: ánimo antes, durante y después",
+        "Comparar predicción vs. realidad y discutir en sesión"
+      ],
+      "frecuencia": "1-2 por semana a partir de sesión 5",
+      "ejemplo": "Predicción: 'Si llamo a un amigo, me sentiré peor porque no tengo nada interesante que decir'. Resultado: 'Llamé y me sentí un poco mejor (de 3 a 5). La conversación fluyó más de lo esperado.'"
+    },
+    {
+      "id": "ET05",
+      "nombre": "Hora de Preocuparse",
+      "tipo": "tarea_casa",
+      "objetivo": "Limitar la rumiación a un período controlado, liberando tiempo para la acción",
+      "instrucciones": [
+        "Asignar 15-20 minutos al día para preocuparse activamente",
+        "Elegir un lugar y hora fijos (nunca antes de dormir)",
+        "Fuera de ese período, anotar las preocupaciones en un papel y posponerlas",
+        "Cuando llegue la 'hora de preocuparse', revisarlas y preocuparse activamente",
+        "Notar que muchas preocupaciones ya no parecen tan urgentes"
+      ],
+      "frecuencia": "Diario, 15-20 minutos a la misma hora",
+      "ejemplo": "Durante el día aparece el pensamiento 'nunca voy a mejorar' → lo anoto en el papel. A las 18:00 reviso mis notas. Muchas ya no me preocupan tanto. Las que sí, las examino 15 minutos y luego paso a una actividad programada."
+    },
+    {
+      "id": "ET06",
+      "nombre": "Registro ABC Diario con Autorrecompensa",
+      "tipo": "tarea_casa",
+      "objetivo": "Mantener un análisis funcional continuo y reforzar la adherencia con autorrecompensas",
+      "instrucciones": [
+        "Completar al menos 1 registro ABC por día",
+        "Identificar si la conducta fue un TRAP o un TRAC",
+        "Después de completar el registro, aplicar una autorrecompensa",
+        "Traer los registros a sesión para revisión"
+      ],
+      "frecuencia": "Diario, desde sesión 2 hasta finalización",
+      "ejemplo": "A: Suena el despertador (7:00). B: Me quedo en la cama 2 horas (TRAP). C: Corto plazo=alivio; largo plazo=culpa y más depresión. Autorrecompensa por completar el registro: un café especial."
+    }
+  ]
+}

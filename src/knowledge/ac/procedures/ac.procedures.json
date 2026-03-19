@@ -1,0 +1,285 @@
+{
+  "technique_id": "ac",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "procedures": [
+    {
+      "procedure_id": "ac_programacion_actividades_pd",
+      "technique_id": "ac",
+      "nombre": "Programacion de Actividades P/D",
+      "modalidad": "individual",
+      "clinical_goal": "Incrementar activacion diaria mediante agenda graduada de actividades con puntuacion de placer y dominio",
+      "indications": [
+        "depresion con inactividad",
+        "anhedonia",
+        "retirada conductual"
+      ],
+      "expected_outcomes": [
+        "aumento de tasa de actividades completadas",
+        "mejora progresiva del estado de animo",
+        "incremento de percepcion de control"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Registro semanal de actividades",
+          "tipo": "registro",
+          "obligatorio": true
+        },
+        {
+          "nombre": "Agenda o planificador",
+          "tipo": "material",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Revisar actividades ejecutadas y puntajes de placer/dominio",
+          "objetivo": "Identificar patrones utiles y cuellos de botella"
+        },
+        {
+          "orden": 2,
+          "accion": "Seleccionar 2-3 actividades nuevas por dia con dificultad graduada",
+          "objetivo": "Aumentar activacion de forma sostenible"
+        },
+        {
+          "orden": 3,
+          "accion": "Especificar dia, hora, lugar y senal de inicio",
+          "objetivo": "Reducir ambiguedad y facilitar ejecucion"
+        },
+        {
+          "orden": 4,
+          "accion": "Ajustar plan en funcion de cumplimiento real",
+          "objetivo": "Mantener desafio realista evitando abrumo"
+        }
+      ],
+      "success_criteria": [
+        "cumplimiento de al menos 60 por ciento de actividades programadas",
+        "incremento de puntajes de dominio o placer durante 2 semanas"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [
+          "crisis suicida activa",
+          "episodio maniaco no estabilizado"
+        ],
+        "stop_criteria": [
+          "deterioro sostenido del animo tras la pauta",
+          "incumplimiento total por sobrecarga repetida"
+        ],
+        "requiere_supervision": true,
+        "red_flags": [
+          "abandono completo de autocuidado",
+          "escalada de desesperanza"
+        ]
+      },
+      "evidence_level": "alta",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/ac/data/area_06_tecnicas_especificas.json",
+        "src/knowledge/ac/data/area_13_actividades_por_problema.json"
+      ]
+    },
+    {
+      "procedure_id": "ac_microactivacion_anti_evitacion",
+      "technique_id": "ac",
+      "nombre": "Microactivacion Anti-Evitacion",
+      "modalidad": "individual",
+      "clinical_goal": "Romper patron de evitacion por baja energia usando tareas minimas de inicio",
+      "indications": [
+        "baja energia persistente",
+        "procrastinacion depresiva",
+        "evitacion experiencial"
+      ],
+      "expected_outcomes": [
+        "disminucion de latencia para iniciar acciones",
+        "reduccion de permanencia en cama o inactividad"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Lista de microtareas de 2 a 10 minutos",
+          "tipo": "registro",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Detectar trigger de evitacion y formular accion minima inmediata",
+          "objetivo": "Convertir intencion en comportamiento observable"
+        },
+        {
+          "orden": 2,
+          "accion": "Ejecutar microtarea sin negociar motivacion",
+          "objetivo": "Consolidar principio accion antes que ganas"
+        },
+        {
+          "orden": 3,
+          "accion": "Registrar efecto en animo y energia post tarea",
+          "objetivo": "Generar evidencia conductual correctiva"
+        }
+      ],
+      "success_criteria": [
+        "al menos una microtarea diaria durante 7 dias",
+        "reduccion de autorreporte de bloqueo conductual"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "fatiga fisica clinicamente relevante",
+          "empeoramiento abrupto del riesgo autolitico"
+        ],
+        "requiere_supervision": true,
+        "red_flags": [
+          "incapacidad total para iniciar incluso tarea minima"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/knowledge/ac/data/area_09_barreras.json",
+        "src/knowledge/ac/data/area_13_actividades_por_problema.json"
+      ]
+    },
+    {
+      "procedure_id": "ac_activacion_social_estructurada",
+      "technique_id": "ac",
+      "nombre": "Activacion Social Estructurada",
+      "modalidad": "mixta",
+      "clinical_goal": "Aumentar reforzamiento social progresivo para reducir aislamiento mantenedor de depresion",
+      "indications": [
+        "aislamiento social",
+        "perdida de red de apoyo",
+        "evitacion de interacciones"
+      ],
+      "expected_outcomes": [
+        "incremento de contactos sociales semanales",
+        "disminucion de soledad percibida"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Jerarquia de exposicion social",
+          "tipo": "registro",
+          "obligatorio": true
+        },
+        {
+          "nombre": "Contexto comunitario disponible",
+          "tipo": "contexto",
+          "obligatorio": false
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Construir jerarquia de interacciones de baja a alta dificultad",
+          "objetivo": "Dosificar reto social"
+        },
+        {
+          "orden": 2,
+          "accion": "Ejecutar primer nivel y registrar ansiedad y resultado real",
+          "objetivo": "Corregir predicciones evitativas"
+        },
+        {
+          "orden": 3,
+          "accion": "Consolidar repeticion hasta descenso de malestar",
+          "objetivo": "Aumentar tolerancia y competencia social"
+        },
+        {
+          "orden": 4,
+          "accion": "Escalar al siguiente nivel de la jerarquia",
+          "objetivo": "Expandir repertorio social reforzante"
+        }
+      ],
+      "success_criteria": [
+        "cumplimiento de al menos 3 interacciones sociales por semana",
+        "descenso de evitacion reportada en jerarquia"
+      ],
+      "safety": {
+        "risk_level": "moderado",
+        "contraindicaciones": [
+          "entorno interpersonal abusivo activo"
+        ],
+        "stop_criteria": [
+          "evento interpersonal de alto impacto sin recuperacion",
+          "escalada de ansiedad que impide funcionamiento basal"
+        ],
+        "requiere_supervision": true,
+        "red_flags": [
+          "victimizacion o violencia en contexto social"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/ac/data/area_06_tecnicas_especificas.json",
+        "src/knowledge/ac/data/area_13_actividades_por_problema.json"
+      ]
+    },
+    {
+      "procedure_id": "ac_experimento_actuar_como_si",
+      "technique_id": "ac",
+      "nombre": "Experimento Actuar Como Si",
+      "modalidad": "individual",
+      "clinical_goal": "Disminuir anhedonia y prediccion de no placer mediante pruebas conductuales breves",
+      "indications": [
+        "anhedonia",
+        "expectativas negativas rigidas sobre actividad"
+      ],
+      "expected_outcomes": [
+        "mayor discrepancia entre prediccion negativa y experiencia real",
+        "reactivacion progresiva de interes"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Actividad previamente placentera",
+          "tipo": "registro",
+          "obligatorio": true
+        },
+        {
+          "nombre": "Formato de prediccion versus resultado",
+          "tipo": "registro",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Cuantificar prediccion de disfrute antes de la actividad",
+          "objetivo": "Hacer verificable la expectativa"
+        },
+        {
+          "orden": 2,
+          "accion": "Realizar actividad por periodo breve prefijado",
+          "objetivo": "Obtener experiencia directa"
+        },
+        {
+          "orden": 3,
+          "accion": "Comparar prediccion con resultado observado",
+          "objetivo": "Actualizar creencias sobre capacidad de disfrute"
+        }
+      ],
+      "success_criteria": [
+        "diferencia positiva entre resultado y prediccion en al menos 2 ensayos",
+        "incremento de intencion de repetir actividad"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "frustracion intensa persistente sin posibilidad de ajuste",
+          "aumento de autodesprecio tras experimentos repetidos"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "conclusiones absolutistas de inutilidad"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/knowledge/ac/data/area_13_actividades_por_problema.json"
+      ]
+    }
+  ]
+}

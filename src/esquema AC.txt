@@ -1,0 +1,412 @@
+Documentación-patrón: Carpeta de Técnica Terapéutica — Sistema Knowledge Base
+
+1. Visión general de la arquitectura
+
+El sistema de Knowledge Base (KB) organiza el conocimiento clínico de técnicas terapéuticas en carpetas independientes, una por técnica. La carpeta ac/ (Activación Conductual) es la implementación de referencia. Cada carpeta de técnica es autocontenida y se conecta al sistema mediante un registry central por side-effect de importación.
+
+
+Principio clave: Cada técnica comparte exactamente la misma estructura de 13 áreas temáticas definidas en un enum KBArea. Esto garantiza homogeneidad total entre técnicas, permitiendo que la UI y el motor clínico trabajen con cualquier técnica sin conocer sus detalles internos.
+
+2.estructura de carpetas
+
+
+src/knowledge/<id_tecnica>/
+
+├── <id_tecnica>.manifest.ts  ← Manifiesto: metadatos + lazy loaders
+
+├── index.ts          ← Auto-registro en el registry central
+
+└── data/
+
+  ├── area_01_conocimiento.json
+
+  ├── area_02_objetivos_clinicos.json
+
+  ├── area_03_herramientas_evaluacion.json
+
+  ├── area_04_ejercicios_tareas.json
+
+  ├── area_05_recursos_materiales.json
+
+  ├── area_06_tecnicas_especificas.json
+
+  ├── area_07_estructura_sesiones.json
+
+  ├── area_08_valores_objetivos.json
+
+  ├── area_09_barreras.json
+
+  ├── area_10_habilidades_terapeuta.json
+
+  ├── area_11_areas_vitales.json
+
+  ├── area_12_sintomas_problemas.json
+
+  └── area_13_actividades_por_problema.json
+
+
+Convenciones de nombrado:
+
+
+Carpeta: ID corto en minúsculas (ej: ac, exposicion, ds, rc)
+
+Manifest: <id>.manifest.ts
+
+Index: siempre index.ts
+
+JSONs: siempre area_NN_<nombre_snake_case>.json con numeración 01-13
+
+
+3. Archivo index.ts — Auto-registro
+
+Propósito: Registrar la técnica en el registry central al ser importada.
+
+
+Patrón exacto:
+
+
+
+// <id>/index.ts — Auto-registro de la técnica <NombreTécnica>import { registerTechnique } from '../registry';import { <ID>_MANIFEST } from './<id>.manifest';registerTechnique(<ID>_MANIFEST);export { <ID>_MANIFEST };
+
+
+Reglas:
+
+
+    La constante exportada sigue la convención <ID_MAYÚSCULAS>_MANIFEST
+    El import de registerTechnique viene de '../registry'
+    La llamada a registerTechnique() se ejecuta como side-effect al importar
+    Se debe agregar la línea import './<id>'; en registry.ts para que el auto-registro ocurra
+
+
+4. Archivo <id>.manifest.ts — Manifiesto de técnica
+
+Propósito: Define los metadatos de la técnica y mapea las 13 áreas a imports dinámicos (lazy loading, un chunk Vite por área).
+
+patron exacto
+
+/**
+
+ * <id>.manifest.ts — Manifest de <NombreTécnica>
+
+ *
+
+ * Cada import() genera un chunk Vite separado en producción.
+
+ * En dev, Vite sirve el JSON directamente (instant).
+
+ */
+
+
+import { KBArea } from '../types/technique.types';
+
+import type { TechniqueManifest } from '../types/technique.types';
+
+
+export const <ID>_MANIFEST: TechniqueManifest = {
+
+ id: '<id>',          // Debe coincidir con TechniqueId
+
+ nombre: '<Nombre Completo>',
+
+ descripcion: '<Descripción clínica en 1-2 oraciones>',
+
+ version: '1.0.0',
+
+ fuentes_principales: [
+
+  // 3-6 fuentes bibliográficas principales (formato APA simplificado)
+
+  'Autor(es) (Año). Título del trabajo',
+
+ ],
+
+ areas: {
+
+  [KBArea.CONOCIMIENTO]:       () => import('./data/area_01_conocimiento.json'),
+
+  [KBArea.OBJETIVOS_CLINICOS]:    () => import('./data/area_02_objetivos_clinicos.json'),
+
+  [KBArea.HERRAMIENTAS_EVALUACION]: () => import('./data/area_03_herramientas_evaluacion.json'),
+
+  [KBArea.EJERCICIOS_TAREAS]:    () => import('./data/area_04_ejercicios_tareas.json'),
+
+  [KBArea.RECURSOS_MATERIALES]:   () => import('./data/area_05_recursos_materiales.json'),
+
+  [KBArea.TECNICAS_ESPECIFICAS]:   () => import('./data/area_06_tecnicas_especificas.json'),
+
+  [KBArea.ESTRUCTURA_SESIONES]:   () => import('./data/area_07_estructura_sesiones.json'),
+
+  [KBArea.VALORES_OBJETIVOS]:    () => import('./data/area_08_valores_objetivos.json'),
+
+  [KBArea.BARRERAS]:         () => import('./data/area_09_barreras.json'),
+
+  [KBArea.HABILIDADES_TERAPEUTA]:  () => import('./data/area_10_habilidades_terapeuta.json'),
+
+  [KBArea.AREAS_VITALES]:      () => import('./data/area_11_areas_vitales.json'),
+
+  [KBArea.SINTOMAS_PROBLEMAS]:    () => import('./data/area_12_sintomas_problemas.json'),
+
+  [KBArea.ACTIVIDADES_POR_PROBLEMA]: () => import('./data/area_13_actividades_por_problema.json'),
+
+ },
+
+};
+
+Campos del manifest:
+
+Campos del manifest:
+
+
+Campo / Tipo  /Obligatorio/  Descripción
+
+id  /TechniqueId / Sí  /ID corto. Debe estar declarado en el type union TechniqueId en technique.types.ts
+
+nombre/  string / Sí / Nombre completo legible
+
+descripcion/  string  /Sí  /Descripción clínica concisa
+
+version / string/ Sí / Semver
+
+fuentes_principales / string[] / Sí / 3-6 referencias bibliográficas clave
+
+areas / Record<KBArea, () => Promise<{default: unknown}>>  /Sí  /Las 13 áreas, todas obligatorias, como lazy loaders
+
+
+
+
+
+
+Prerrequisito: Antes de crear una técnica nueva, agregar su ID al type union en technique.types.ts:
+
+
+export type TechniqueId = 'ac' | 'exposicion' | 'ds' | 'rc' | '<nuevo_id>';
+
+
+
+5. Los 13 archivos JSON de datos — Esquemas detallados
+
+Cada JSON sigue un esquema específico. A continuación, la especificación exacta de cada uno:
+
+
+5.1. area_01_conocimiento.json — Fundamentos teóricos
+
+Propósito: Fundamentos teóricos, principios clave y evidencia científica de la técnica.
+
+
+
+{ "area_id": "area_01_conocimiento",      // Siempre este valor fijo "nombre": "Área de Conocimiento",       // Siempre este valor fijo "descripcion": "<texto descriptivo>", "fuentes": ["<ref1>", "<ref2>", ...],     // 4-8 fuentes específicas del área "fundamentos_teoricos": {  "definicion": "<párrafo: qué es la técnica, en qué se basa, cuál es su foco>",  "origenes_historicos": [   {    "autor": "<Autor (Año)>",    "aportacion": "<qué aportó este autor al desarrollo de la técnica>"   }   // 3-6 hitos históricos ordenados cronológicamente  ],  "modelo_explicativo": "<párrafo: cómo la técnica explica el problema que trata>",  "mecanismo_de_cambio": "<párrafo: cómo produce el cambio terapéutico>" }, "principios_clave": [  {   "principio": "<nombre del principio>",   "explicacion": "<explicación clínica detallada en 1-3 oraciones>"  }  // 4-6 principios fundamentales ], "evidencia_cientifica": {  "metaanalisis": ["<cita y hallazgo principal>", ...],  // 2-4 metaanálisis  "eficacia_comparativa": "<párrafo: cómo se compara con otros tratamientos>",  "poblaciones_estudiadas": ["<población1>", ...]     // 5-8 poblaciones }}
+
+Nivel de rigor exigido:
+
+
+La definicion debe ser técnica, precisa, mencionar el mecanismo principal
+
+Los origenes_historicos deben incluir autor real, año real, aportación verificable
+
+Los principios_clave deben nombrar conceptos técnicos de la técnica (no genéricos)
+
+La evidencia_cientifica debe citar metaanálisis reales con hallazgos concretos
+
+5.2. area_02_objetivos_clinicos.json — Indicaciones y contraindicaciones
+
+{
+
+ "area_id": "area_02_objetivos_clinicos",
+
+ "nombre": "Objetivos Clínicos",
+
+ "descripcion": "<texto>",
+
+ "fuentes": [...],
+
+
+ "indicaciones": [
+
+  {
+
+   "trastorno": "<nombre del trastorno o problema>",
+
+   "nivel_evidencia": "alta" | "moderada" | "baja",
+
+   "notas": "<detalles clínicos de por qué está indicado>"
+
+  }
+
+  // 5-10 indicaciones
+
+ ],
+
+
+ "contraindicaciones": [
+
+  {
+
+   "condicion": "<condición que contraindica>",
+
+   "razon": "<por qué está contraindicado — mecanismo clínico>",
+
+   "alternativa": "<qué hacer en su lugar>"
+
+  }
+
+  // 3-6 contraindicaciones
+
+ ]
+
+}
+
+
+Rigor: Cada indicación debe tener un nivel de evidencia honesto (alta/moderada/baja). Las contraindicaciones deben explicar el mecanismo de riesgo y ofrecer alternativa.
+
+
+5.3. area_03_herramientas_evaluacion.json — Instrumentos clínicos
+
+
+{ "area_id": "area_03_herramientas_evaluacion", "nombre": "Herramientas de Evaluación", "descripcion": "<texto>", "fuentes": [...], "herramientas": [  {   "id": "HE01",                 // Prefijo HE + número secuencial   "nombre": "<nombre del instrumento>",   "tipo": "registro" | "inventario" | "formulario" | "escala",   "proposito": "<para qué sirve clínicamente>",   "cuando_usar": "<en qué sesión o momento del tratamiento>",   "descripcion_formato": "<cómo es físicamente el instrumento>",   "variables": [                 // Opcional, solo si aplica    {     "nombre": "<nombre de variable>",     "tipo": "texto_libre" | "conteo" | "minutos" | "escala_0_10" | "subescala",     "instruccion": "<instrucción para el paciente>"    }   ],   "referencia_shared": "<id_area_shared>"     // Opcional: si vive en shared/  }  // 4-8 herramientas ]}
+
+
+Rigor: Los IDs son secuenciales con prefijo HE. Los tipos son una lista cerrada. cuando_usar debe anclar a sesiones concretas. Las variables especifican tipo de dato.
+
+
+5.4. area_04_ejercicios_tareas.json — Ejercicios activos
+
+
+{ "area_id": "area_04_ejercicios_tareas", "nombre": "Ejercicios y Tareas", "descripcion": "<texto>", "fuentes": [...], "ejercicios": [  {   "id": "ET01",               // Prefijo ET + secuencial   "nombre": "<nombre del ejercicio>",   "tipo": "monitoreo" | "programacion" | "descomposicion" | "experimento" | "tarea_casa",   "objetivo": "<qué se espera lograr clínicamente>",   "instrucciones": [             // Pasos concretos (4-6)    "<paso 1>",    "<paso 2>"   ],   "frecuencia": "<cuándo y con qué frecuencia se aplica>",   "ejemplo": "<ejemplo concreto y detallado de cómo se ve en la práctica>"  }  // 4-8 ejercicios ]}
+
+
+Rigor: Las instrucciones son pasos accionables, no declaraciones vagas. El ejemplo usa lenguaje concreto con datos numéricos. La frecuencia ancla a sesiones y periodicidad.
+
+
+5.5. area_05_recursos_materiales.json — Material de apoyo
+
+
+{ "area_id": "area_05_recursos_materiales", "nombre": "Recursos y Materiales Auxiliares", "descripcion": "<texto>", "fuentes": [...], "recursos": [  {   "id": "RM01",                // Prefijo RM + secuencial   "tipo": "manual" | "formulario" | "app" | "libro_autoayuda" | "audiovisual",   "titulo": "<título>",   "autor": "<autor o fuente>",   "descripcion": "<qué contiene o para qué sirve>",   "uso_clinico": "<cómo y cuándo usarlo en el contexto terapéutico>"  }  // 5-10 recursos ]}
+
+5.6. area_06_tecnicas_especificas.json — Técnicas conductuales
+
+
+{ "area_id": "area_06_tecnicas_especificas", "nombre": "Técnicas Específicas", "descripcion": "<texto>", "fuentes": [...], "tecnicas": [  {   "id": "TE01",               // Prefijo TE + secuencial   "nombre": "<nombre de la técnica>",   "descripcion": "<definición clínica>",   "cuando_usar": "<momento y condición de aplicación>",   "pasos": ["<paso1>", "<paso2>", ...],    // 4-6 pasos procedimentales   "ejemplo_clinico": "<viñeta clínica concreta>"  }  // 4-8 técnicas ]}
+
+Rigor: Los pasos son un protocolo procedimental, no principios generales. El ejemplo_clinico narra una situación realista con paciente.
+
+
+5.7. area_07_estructura_sesiones.json — Plan sesión a sesión
+
+
+{ "area_id": "area_07_estructura_sesiones", "nombre": "Estructura de Sesiones", "descripcion": "<texto>", "fuentes": [...], "total_sesiones": "<rango, ej: '10-12 sesiones'>", "frecuencia": "<ej: 'Semanal'>", "bloques": [  {   "nombre": "<nombre del bloque temático>",   "sesiones": "<rango, ej: '1-2'>",   "objetivos": ["<obj1>", "<obj2>", ...],       // 3-5 objetivos   "actividades_principales": ["<act1>", "<act2>", ...] // 4-6 actividades  }  // 3-5 bloques cubriendo todo el tratamiento ]}
+
+Rigor: Los bloques deben cubrir TODAS las sesiones del tratamiento. Cada bloque tiene objetivos medibles y actividades concretas ancladas a herramientas y ejercicios de las otras áreas.
+
+
+5.8. area_08_valores_objetivos.json — Valores y metas terapéuticas
+
+
+{ "area_id": "area_08_valores_objetivos", "nombre": "Valores y Objetivos", "descripcion": "<texto>", "fuentes": [...], "objetivos_terapeuticos": [  {   "objetivo": "<nombre (+ dimensión P/D si aplica)>",   "descripcion": "<qué se espera lograr, formulado en términos conductuales>"  }  // 3-6 objetivos ], "valores_nucleares": [  {   "valor": "<nombre del valor>",   "definicion": "<definición operacional anclada a la técnica>"  }  // 3-5 valores ]}
+
+5.9. area_09_barreras.json — Obstáculos previsibles
+
+
+{ "area_id": "area_09_barreras", "nombre": "Barreras Comúnmente Detectadas", "descripcion": "<texto>", "fuentes": [...], "barreras": [  {   "nombre": "<nombre de la barrera>",   "descripcion": "<descripción clínica del mecanismo de la barrera>",   "ejemplo_paciente": "<frase textual que diría un paciente — en primera persona, entre comillas>",   "estrategia_manejo": "<párrafo: cómo abordarla con pasos concretos>"  }  // 4-8 barreras ]}
+
+Rigor: El ejemplo_paciente es una cita directa realista. La estrategia_manejo nombra técnicas concretas del repertorio de la técnica.
+
+
+5.10. area_10_habilidades_terapeuta.json — Competencias del terapeuta
+
+
+{ "area_id": "area_10_habilidades_terapeuta", "nombre": "Habilidades y Destrezas del Terapeuta", "descripcion": "<texto>", "fuentes": [...], "habilidades": [  {   "nombre": "<nombre de la habilidad>",   "descripcion": "<qué implica esta habilidad>",   "importancia": "<por qué es crítica para ESTA técnica en particular>",   "como_desarrollar": "<acciones concretas para entrenar la habilidad>"  }  // 4-8 habilidades ]}
+
+5.11. area_11_areas_vitales.json — Dominios de vida
+
+
+{ "area_id": "area_11_areas_vitales", "nombre": "Áreas Vitales", "descripcion": "<texto>", "fuentes": [...], "areas_vitales": [  {   "nombre": "<nombre del área vital>",   "descripcion": "<qué abarca esta área>",   "actividades_ejemplo": [    "<actividad concreta 1>",    "<actividad concreta 2>"    // 4-8 actividades ejemplo   ]  }  // 4-6 áreas vitales ]}
+
+5.12. area_12_sintomas_problemas.json — Cuadros clínicos
+
+
+{ "area_id": "area_12_sintomas_problemas", "nombre": "Síntomas y Problemas", "descripcion": "<texto>", "fuentes": [...], "trastornos": [  {   "nombre": "<nombre del trastorno>",   "sintomas_principales": ["<síntoma1>", "<síntoma2>", ...], // 5-10 síntomas   "como_se_manifiesta_en_conducta": "<párrafo: descripción conductual observable>",   "foco_intervencion": "<párrafo: qué se trabaja y cómo con esta técnica>"  }  // 2-5 trastornos ]}
+
+Rigor: Los sintomas_principales deben basarse en criterios diagnósticos reales (DSM/CIE). como_se_manifiesta_en_conducta describe conductas observables, no estados internos vagos.
+
+
+5.13. area_13_actividades_por_problema.json — Menú de actividades jerarquizadas
+
+
+{ "area_id": "area_13_actividades_por_problema", "nombre": "Actividades Recomendadas por Tipo de Problema", "descripcion": "<texto>", "fuentes": [...], "problemas": [  {   "nombre": "<nombre del problema>",   "principios_intervencion": [    "<principio1>",                // 4-6 principios   ],   "actividades": [    {     "nombre": "<categoría de actividad>",     "descripcion": "<qué tipo de actividad es>",     "justificacion": "<base empírica o mecanismo de cambio>",     "jerarquia": [      {       "nivel": 1,       "actividad": "<actividad más fácil>",       "dificultad": 1             // Escala 1-10      },      {       "nivel": 2,       "actividad": "<siguiente nivel>",       "dificultad": 3      }      // 4-8 niveles de jerarquía     ]    }    // 3-6 categorías de actividades   ]  }  // 1-4 problemas ]}
+
+Rigor: Las jerarquías son verdaderas graduaciones (no listas arbitrarias). La dificultad es numérica 1-10 y debe ser coherente con el nivel. La justificacion explica POR QUÉ esa actividad funciona para ESE problema.
+
+
+6. Convenciones transversales de calidad
+
+Aspecto  Requisito
+
+Fuentes  Cada JSON tiene su propio array fuentes con 3-6 referencias reales verificables
+
+IDs de ítems  Prefijo de 2 letras del área + número secuencial: HE01, ET03, TE05, RM02
+
+Lenguaje  Español técnico-clínico. Sin jerga innecesaria pero sin simplificación excesiva
+
+Ejemplos  Siempre concretos, con datos numéricos, pacientes ficticios realistas
+
+Anclaje temporal  Ejercicios, herramientas y técnicas deben indicar en qué sesión se usan
+
+No duplicación  Si un instrumento es genérico (BDI-II, etc.), se referencia con referencia_shared en vez de duplicar
+
+area_id  Siempre coincide exactamente con el valor del enum KBArea correspondiente
+
+nombre  Siempre coincide con el label humano en KB_AREA_LABELS
+
+
+7. Integración con el sistema — Checklist para nueva técnica
+
+Agregar el ID al type union TechniqueId en technique.types.ts
+
+Crear la carpeta src/knowledge/<id>/
+
+Crear data/ con los 13 JSONs (todos obligatorios, todos siguiendo los esquemas de arriba)
+
+Crear <id>.manifest.ts con metadatos y lazy loaders
+
+Crear index.ts con auto-registro
+
+Agregar import './<id>'; en registry.ts
+
+Validar que el tipo de areas en el manifest cubre los 13 KBArea
+
+8. Ejemplo de consistencia interna (cross-references)
+
+La carpeta ac/ demuestra cómo los JSONs se referencian entre sí de forma coherente:
+
+
+Área 07 (sesiones) nombra herramientas del Área 03 ("Aplicar BDI-II y BADS")
+
+Área 07 programa ejercicios del Área 04 ("Iniciar monitoreo de actividad")
+
+Área 09 (barreras) nombra técnicas del Área 06 ("Implementar Hora de Preocuparse", "EHS")
+
+Área 13 (actividades) implementa la graduación teórica descrita en el Área 01 (principios)
+
+Área 03 referencia al shared para instrumentos genéricos ("referencia_shared": "inventarios_generales")
+
+Esta red de referencias cruzadas asegura que la KB funcione como un sistema integrado, no como piezas sueltas.
+
+
+Reviewed todo list management
+
+Esta documentación cubre:
+
+
+Estructura de carpetas exacta con convenciones de nombrado
+
+Los 3 archivos TypeScript (index.ts, manifest.ts, tipos) con el código patrón literal
+
+Los 13 esquemas JSON con cada campo, tipo, cardinalidad y reglas de validación
+
+Nivel de rigor exigido por campo (fuentes reales, IDs secuenciales, anclaje a sesiones, ejemplos concretos con datos numéricos)
+
+Convenciones transversales (idioma, prefijos, cross-references)
+
+Checklist de integración paso a paso para crear una técnica nueva
+
+

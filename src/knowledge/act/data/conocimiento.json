@@ -1,0 +1,87 @@
+{
+  "area_id": "conocimiento",
+  "nombre": "Conocimiento y Fundamentos de ACT",
+  "descripcion": "Bases teóricas del contextualismo funcional y la flexibilidad psicológica como modelo transdiagnóstico",
+  "fuentes": [
+    "Hayes, Strosahl & Wilson (2012). Acceptance and Commitment Therapy: The Process and Practice of Mindful Change, 2nd ed.",
+    "Hayes (2004). Acceptance and commitment therapy, relational frame theory, and the third wave of behavioral and cognitive therapies",
+    "Luciano & Valdivia (2006). La terapia de aceptación y compromiso (ACT): Fundamentos, características y evidencia",
+    "Luoma, Hayes & Walser (2007). Learning ACT: An Acceptance and Commitment Therapy Skills Training Manual for Therapists",
+    "Harris (2009). ACT Made Simple: An Easy-to-Read Primer on Acceptance and Commitment Therapy",
+    "Wilson & Luciano (2002). Terapia de Aceptación y Compromiso: Un tratamiento conductual orientado a los valores"
+  ],
+  "fundamentos_teoricos": {
+    "definicion": "ACT (Terapia de Aceptación y Compromiso) es una terapia contextual de tercera generación fundamentada en el contextualismo funcional y la Teoría de Marcos Relacionales (RFT). Su objetivo central es aumentar la flexibilidad psicológica: la capacidad de contactar con el momento presente de manera plena y consciente, y según lo que la situación permita, cambiar o persistir en la conducta al servicio de los valores personales elegidos. ACT no busca reducir los síntomas directamente, sino cambiar la relación funcional que la persona establece con sus experiencias internas.",
+    "origenes_historicos": [
+      {
+        "autor": "B.F. Skinner",
+        "aportacion": "Análisis funcional del comportamiento verbal y la conducta gobernada por reglas, bases del contextualismo funcional que sustenta ACT"
+      },
+      {
+        "autor": "Steven C. Hayes",
+        "aportacion": "Creador de ACT y de la Teoría de Marcos Relacionales (RFT). Identificó la evitación experiencial como proceso transdiagnóstico central del sufrimiento psicológico"
+      },
+      {
+        "autor": "Kelly G. Wilson",
+        "aportacion": "Desarrolló la clarificación de valores como componente central de ACT y creó instrumentos de evaluación como el VLQ (Valued Living Questionnaire)"
+      },
+      {
+        "autor": "Kirk D. Strosahl",
+        "aportacion": "Integración de ACT en atención primaria y desarrollo de protocolos breves (Focused ACT), ampliando su aplicabilidad clínica"
+      },
+      {
+        "autor": "M. Carmen Luciano",
+        "aportacion": "Pionera de ACT en el mundo hispanohablante, vinculación rigurosa entre RFT y práctica clínica de ACT en español"
+      }
+    ],
+    "modelo_explicativo": "El sufrimiento psicológico surge de la inflexibilidad psicológica, un estado en el que la persona queda atrapada en patrones rígidos de respuesta ante sus experiencias internas. Los tres pilares de la inflexibilidad son: (1) fusión cognitiva — creer literalmente el contenido de los pensamientos y actuar como si fueran verdades absolutas; (2) evitación experiencial — intentar controlar, suprimir o eliminar pensamientos, emociones y sensaciones desagradables, lo cual paradójicamente las amplifica; y (3) desconexión de los valores — perder contacto con lo que realmente importa para la persona, viviendo en piloto automático o en función del alivio inmediato del malestar.",
+    "mecanismo_de_cambio": "ACT opera mediante seis procesos interrelacionados organizados en el modelo del hexaflex: aceptación, defusión cognitiva, contacto con el momento presente, yo-como-contexto, valores y acción comprometida. Estos procesos se agrupan en dos grandes ejes: procesos de apertura (aceptación y defusión) y procesos de compromiso (valores y acción comprometida), con el mindfulness (momento presente y yo-como-contexto) como eje central que los conecta. El cambio terapéutico no requiere modificar el contenido de los pensamientos o reducir las emociones, sino alterar su función: que dejen de controlar la conducta y permitan actuar en dirección a los valores."
+  },
+  "principios_clave": [
+    {
+      "principio": "Contextualismo funcional",
+      "explicacion": "Filosofía de base de ACT. Analiza las conductas (incluido el pensamiento) en función de su contexto y sus consecuencias, no por su forma o contenido. La pregunta clínica clave no es '¿este pensamiento es verdadero o falso?', sino '¿es útil para vivir la vida que quieres?'."
+    },
+    {
+      "principio": "Evitación experiencial como proceso patológico central",
+      "explicacion": "Los intentos sistemáticos de controlar, suprimir o evitar experiencias internas (pensamientos, emociones, recuerdos, sensaciones) constituyen el núcleo transdiagnóstico del sufrimiento. La evitación experiencial genera un efecto paradójico: cuanto más se intenta no pensar o no sentir algo, más presente está. Además, restringe progresivamente el repertorio conductual."
+    },
+    {
+      "principio": "Fusión cognitiva",
+      "explicacion": "Cuando una persona se fusiona con sus pensamientos, los experimenta como verdades literales que deben obedecerse, en lugar de como eventos mentales transitorios. La fusión hace que los pensamientos dominen la conducta: 'Si pienso que soy un fracasado, debo serlo y actúo como tal'."
+    },
+    {
+      "principio": "Valores como dirección vital",
+      "explicacion": "Los valores no son metas alcanzables ni objetivos que se logran, sino direcciones vitales elegidas que dan sentido, propósito y vitalidad a la conducta. Se viven momento a momento en cada acción. Son como el norte en una brújula: nunca se llega al norte, pero siempre se puede caminar hacia él."
+    },
+    {
+      "principio": "Acción comprometida",
+      "explicacion": "La terapia busca que el paciente realice patrones de acción efectivos y vinculados a sus valores, incluso cuando esto implique contacto con experiencias internas difíciles. La disposición a experimentar malestar al servicio de los valores es un indicador central de flexibilidad psicológica."
+    },
+    {
+      "principio": "Desesperanza creativa",
+      "explicacion": "Estrategia terapéutica inicial que ayuda al paciente a reconocer, desde su propia experiencia, que las estrategias de control del malestar que ha utilizado no han funcionado a largo plazo (aunque sí a corto plazo). Esta toma de conciencia abre espacio para explorar alternativas radicalmente diferentes."
+    }
+  ],
+  "evidencia_cientifica": {
+    "metaanalisis": [
+      "A-Tjak et al. (2015): Metaanálisis de 39 ECAs — ACT eficaz para ansiedad, depresión, adicciones, dolor crónico y estrés con tamaño del efecto moderado (g = 0.57)",
+      "Gloster et al. (2020): Revisión sistemática de 20 años de investigación — evidencia sólida para trastornos de ansiedad, depresión y dolor crónico",
+      "Ruiz (2012): Revisión de la base empírica de ACT — resultados favorables en 16 condiciones clínicas distintas",
+      "Hacker, Stone & MacBeth (2016): Metaanálisis de ACT para ansiedad y depresión — eficacia comparable a TCC con ventajas en procesos de cambio"
+    ],
+    "eficacia_comparativa": "ACT muestra eficacia comparable a la TCC tradicional en la mayoría de los trastornos, con ventajas específicas en dolor crónico, adicciones y condiciones donde la evitación experiencial es un factor mantenedor central. Su enfoque transdiagnóstico permite abordar comorbilidad sin necesidad de protocolos separados. El mecanismo de cambio (flexibilidad psicológica) se ha validado como mediador en múltiples estudios.",
+    "poblaciones_estudiadas": [
+      "Adultos con trastornos de ansiedad (TAG, fobia social, TEPT)",
+      "Depresión mayor y recurrente",
+      "Dolor crónico (fibromialgia, lumbalgia, cefaleas)",
+      "Adicciones (sustancias, tabaco, alcohol)",
+      "Estrés laboral y burnout profesional",
+      "Trastornos de alimentación (anorexia, bulimia)",
+      "Psicosis (como intervención complementaria)",
+      "Adolescentes con problemas emocionales",
+      "Pacientes oncológicos (ajuste al diagnóstico)",
+      "Epilepsia y enfermedades crónicas"
+    ]
+  }
+}

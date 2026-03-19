@@ -1,0 +1,45 @@
+{
+  "session_plan_id": "ac_sesion_1",
+  "numero_sesion": 1,
+  "fecha": "2026-03-15",
+  "objetivos": [
+    "Presentación y motivo de consulta",
+    "Psicoeducación sobre modelo AC",
+    "Asignación de monitoreo de actividad"
+  ],
+  "bloques": [
+    {
+      "nombre": "Revisión de tareas",
+      "contenido": "No aplica (primera sesión)"
+    },
+    {
+      "nombre": "Contenido principal",
+      "contenido": "Psicoeducación sobre modelo AC"
+    },
+    {
+      "nombre": "Asignación de tarea",
+      "contenido": "Monitoreo de actividad diaria en formato ABC"
+    }
+  ],
+  "tareas_asignadas": [
+    {
+      "tarea_id": "monitoreo_actividad",
+      "instrucciones": "Registrar actividades diarias en formato ABC",
+      "fecha_limite": "2026-03-21"
+    }
+  ],
+  "inventarios_aplicados": [
+    {
+      "inventario": "BDI-II",
+      "resultado": "Moderado"
+    }
+  ],
+  "feedback_paciente": "Motivación alta para iniciar el tratamiento",
+  "referencias": [
+    {
+      "tipo": "guía",
+      "referencia": "NICE Depression Guideline 2022",
+      "doi": "10.1016/S0140-6736(22)01237-2"
+    }
+  ]
+}

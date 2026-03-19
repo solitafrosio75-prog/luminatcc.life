@@ -1,0 +1,68 @@
+{
+  "area_id": "habilidades_entrevista",
+  "nombre": "Habilidades de Entrevista Clínica",
+  "descripcion": "Competencias transversales de entrevista terapéutica aplicables a cualquier orientación y técnica",
+  "fuentes": [
+    "Cormier & Cormier (2000). Estrategias de Entrevista para Terapeutas",
+    "Miller & Rollnick (2013). Motivational Interviewing",
+    "Rogers (1961). On Becoming a Person"
+  ],
+  "habilidades": [
+    {
+      "nombre": "Escucha activa",
+      "categoria": "escucha",
+      "descripcion": "Prestar atención completa al mensaje verbal y no verbal del paciente, comunicando comprensión a través de la postura, contacto visual y respuestas mínimas.",
+      "ejemplo": "Mantener contacto visual, asentir, usar respuestas como 'mmhm', 'entiendo', 'continúa'.",
+      "cuando_usar": "En toda la sesión, especialmente al inicio y cuando el paciente comparte experiencias emocionalmente cargadas."
+    },
+    {
+      "nombre": "Reflejo simple",
+      "categoria": "reflejo",
+      "descripcion": "Devolver al paciente el contenido o emoción de lo que acaba de expresar, demostrando que se ha escuchado y comprendido.",
+      "ejemplo": "Paciente: 'No puedo con nada'. Terapeuta: 'Sientes que todo te supera en este momento.'",
+      "cuando_usar": "Cuando el paciente expresa emociones o describe situaciones importantes. Para validar sin aconsejar prematuramente."
+    },
+    {
+      "nombre": "Reflejo amplificado",
+      "categoria": "reflejo",
+      "descripcion": "Exagerar ligeramente lo que el paciente expresa para provocar una corrección que revele la ambivalencia o matice la posición.",
+      "ejemplo": "Paciente: 'No me sirve de nada ir a caminar'. Terapeuta: 'Así que caminar es completamente inútil para ti y nunca te ha aportado nada.' Paciente: 'Bueno, no es que nunca... a veces me siento algo mejor.'",
+      "cuando_usar": "Cuando el paciente usa pensamiento todo-o-nada. Con cuidado para no parecer sarcástico."
+    },
+    {
+      "nombre": "Preguntas abiertas",
+      "categoria": "pregunta",
+      "descripcion": "Formular preguntas que inviten a una respuesta elaborada, no a un 'sí' o 'no'. Favorecen la exploración del paciente.",
+      "ejemplo": "'¿Cómo fue tu semana?' en lugar de '¿Tuviste buena semana?'. '¿Qué te impidió salir a caminar?' en lugar de '¿No pudiste salir?'",
+      "cuando_usar": "Para explorar experiencias, identificar patrones y fomentar la narrativa del paciente."
+    },
+    {
+      "nombre": "Preguntas socráticas",
+      "categoria": "pregunta",
+      "descripcion": "Preguntas guiadas que ayudan al paciente a llegar a conclusiones por sí mismo, en lugar de que el terapeuta las imponga.",
+      "ejemplo": "'¿Qué evidencia tienes de que no mejorarás nunca?' '¿Ha habido algún momento esta semana en que te sentiste aunque sea un poco mejor? ¿Qué estabas haciendo?'",
+      "cuando_usar": "Para cuestionar creencias disfuncionales y guiar descubrimiento guiado."
+    },
+    {
+      "nombre": "Validación emocional",
+      "categoria": "rapport",
+      "descripcion": "Comunicar al paciente que sus emociones son comprensibles dada su situación, sin juzgar ni intentar cambiarlas.",
+      "ejemplo": "'Es comprensible que te sientas agotado. Llevas semanas luchando contra esto y eso requiere mucha energía.'",
+      "cuando_usar": "Siempre antes de intervenir. Especialmente cuando el paciente expresa frustración, vergüenza o desesperanza."
+    },
+    {
+      "nombre": "Confrontación empática",
+      "categoria": "confrontacion",
+      "descripcion": "Señalar discrepancias entre lo que el paciente dice, hace o valora, de forma respetuosa y sin juzgar.",
+      "ejemplo": "'Por un lado dices que tu familia es lo más importante, y por otro llevas tres semanas sin llamar a tu madre. ¿Qué crees que está pasando ahí?'",
+      "cuando_usar": "Cuando hay discrepancia entre valores declarados y conducta. Con alianza terapéutica establecida."
+    },
+    {
+      "nombre": "Resumen",
+      "categoria": "escucha",
+      "descripcion": "Sintetizar los puntos principales de lo que el paciente ha comunicado, organizando la información y verificando comprensión.",
+      "ejemplo": "'Si entiendo bien: esta semana completaste 3 de las 5 actividades, te fue bien con los paseos pero evitaste la llamada a tu hermano porque te dio ansiedad. ¿Es correcto?'",
+      "cuando_usar": "Al final de bloques temáticos, transiciones y al cierre de sesión."
+    }
+  ]
+}

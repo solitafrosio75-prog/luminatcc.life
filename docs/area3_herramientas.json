@@ -1,0 +1,234 @@
+{
+  "area": 3,
+  "nombre": "Herramientas Clínicas",
+  "descripcion": "Plantillas, formularios, registros y herramientas prácticas para la aplicación de la DS",
+  "elementos": [
+    {
+      "id": "HER-001",
+      "tipo": "plantilla",
+      "titulo": "Plantilla de Jerarquía de Ansiedad",
+      "descripcion": "Formulario para construir y registrar la jerarquía de ansiedad del paciente",
+      "campos": [
+        {"campo": "nombre_paciente", "tipo": "texto"},
+        {"campo": "tema_jerarquia", "tipo": "texto", "ejemplo": "Miedo a hablar en público"},
+        {"campo": "fecha_construccion", "tipo": "fecha"},
+        {"campo": "fecha_ultima_revision", "tipo": "fecha"},
+        {"campo": "items", "tipo": "lista", "estructura": {
+          "numero_item": "entero (1-15)",
+          "titulo_corto": "texto (nombre del ítem)",
+          "descripcion_escena": "texto largo (descripción sensorial completa)",
+          "usa_inicial": "entero 0-100",
+          "usa_actual": "entero 0-100",
+          "estado": "pendiente | en_proceso | desensibilizado",
+          "sesion_superado": "entero (número de sesión)",
+          "notas": "texto"
+        }}
+      ],
+      "instrucciones": "Completar con el paciente. Verificar: saltos ≤15 USA, primer ítem ≤10 USA, último ítem = 100 USA, 10-15 ítems total. Para cada ítem, elaborar descripción sensorial con detalles visuales, auditivos, táctiles y olfativos."
+    },
+    {
+      "id": "HER-002",
+      "tipo": "plantilla",
+      "titulo": "Registro de Sesión de Desensibilización",
+      "descripcion": "Registro que el terapeuta completa durante cada sesión de DS",
+      "campos": [
+        {"campo": "sesion_numero", "tipo": "entero"},
+        {"campo": "fecha", "tipo": "fecha"},
+        {"campo": "calidad_relajacion_inicial", "tipo": "escala 1-10"},
+        {"campo": "presentaciones", "tipo": "lista", "estructura": {
+          "item_numero": "entero",
+          "presentacion_numero": "entero (1-6)",
+          "duracion_seg": "entero",
+          "señal_ansiedad": "boolean",
+          "usa_reportado": "entero 0-100",
+          "notas_observacion": "texto"
+        }},
+        {"campo": "items_desensibilizados_hoy", "tipo": "lista de enteros"},
+        {"campo": "item_ultimo_trabajado", "tipo": "entero"},
+        {"campo": "tarea_para_casa", "tipo": "texto"},
+        {"campo": "observaciones_generales", "tipo": "texto"}
+      ]
+    },
+    {
+      "id": "HER-003",
+      "tipo": "plantilla",
+      "titulo": "Autorregistro de Exposición en Vivo",
+      "descripcion": "Bitácora que el paciente lleva durante la exposición en vivo entre sesiones",
+      "campos": [
+        {"campo": "fecha", "tipo": "fecha"},
+        {"campo": "situacion_expuesta", "tipo": "texto"},
+        {"campo": "item_jerarquia_correspondiente", "tipo": "entero"},
+        {"campo": "duracion_total_min", "tipo": "entero"},
+        {"campo": "registros_periodicos", "tipo": "lista", "estructura": {
+          "minuto": "entero (0, 5, 10, 15...)",
+          "usa": "entero 0-100",
+          "sensaciones_pensamientos": "texto",
+          "tecnica_aplicada": "texto"
+        }},
+        {"campo": "usa_maximo", "tipo": "entero"},
+        {"campo": "usa_final", "tipo": "entero"},
+        {"campo": "habituacion_lograda", "tipo": "boolean", "criterio": "USA final ≤ 50% del USA máximo"},
+        {"campo": "conductas_seguridad_detectadas", "tipo": "texto"},
+        {"campo": "autoevaluacion", "tipo": "texto"}
+      ],
+      "ejemplo_completado": {
+        "situacion": "Sentarme en el centro del aula vacía donde daré la charla",
+        "registros": [
+          {"minuto": 0, "usa": 65, "sensaciones": "Nudo en el estómago", "tecnica": "Respiración diafragmática"},
+          {"minuto": 5, "usa": 50, "sensaciones": "Sigue ahí, pero soportable", "tecnica": "Observación sensorial"},
+          {"minuto": 10, "usa": 30, "sensaciones": "Me aburro un poco", "tecnica": "Permanecer en el sitio"},
+          {"minuto": 15, "usa": 15, "sensaciones": "Ya no me importa estar aquí", "tecnica": "Habituación completada"}
+        ]
+      }
+    },
+    {
+      "id": "HER-004",
+      "tipo": "guion",
+      "titulo": "Guion de Relajación Progresiva (16 Grupos)",
+      "descripcion": "Script completo para el entrenamiento en relajación progresiva de Jacobson",
+      "grupos_musculares": [
+        {"grupo": 1, "zona": "Mano y antebrazo dominante", "instruccion_tension": "Cierra el puño con fuerza", "duracion_tension": "5-7 seg"},
+        {"grupo": 2, "zona": "Mano y antebrazo no dominante", "instruccion_tension": "Cierra el puño con fuerza", "duracion_tension": "5-7 seg"},
+        {"grupo": 3, "zona": "Bíceps dominante", "instruccion_tension": "Flexiona el brazo llevando el puño al hombro", "duracion_tension": "5-7 seg"},
+        {"grupo": 4, "zona": "Bíceps no dominante", "instruccion_tension": "Flexiona el brazo llevando el puño al hombro", "duracion_tension": "5-7 seg"},
+        {"grupo": 5, "zona": "Frente", "instruccion_tension": "Levanta las cejas lo más alto posible", "duracion_tension": "5-7 seg"},
+        {"grupo": 6, "zona": "Ojos y nariz", "instruccion_tension": "Cierra los ojos con fuerza y arruga la nariz", "duracion_tension": "5-7 seg"},
+        {"grupo": 7, "zona": "Mandíbula y lengua", "instruccion_tension": "Aprieta los dientes y presiona la lengua contra el paladar", "duracion_tension": "5-7 seg"},
+        {"grupo": 8, "zona": "Cuello", "instruccion_tension": "Inclina la cabeza hacia atrás presionando contra el respaldo", "duracion_tension": "5-7 seg"},
+        {"grupo": 9, "zona": "Hombros", "instruccion_tension": "Sube los hombros hacia las orejas", "duracion_tension": "5-7 seg"},
+        {"grupo": 10, "zona": "Pecho y respiración", "instruccion_tension": "Inhala profundamente y mantén", "duracion_tension": "5-7 seg"},
+        {"grupo": 11, "zona": "Espalda", "instruccion_tension": "Arquea la espalda hacia adelante", "duracion_tension": "5-7 seg"},
+        {"grupo": 12, "zona": "Abdomen", "instruccion_tension": "Contrae el abdomen como si fueras a recibir un golpe", "duracion_tension": "5-7 seg"},
+        {"grupo": 13, "zona": "Muslo dominante", "instruccion_tension": "Extiende la pierna y tensa el muslo", "duracion_tension": "5-7 seg"},
+        {"grupo": 14, "zona": "Muslo no dominante", "instruccion_tension": "Extiende la pierna y tensa el muslo", "duracion_tension": "5-7 seg"},
+        {"grupo": 15, "zona": "Pantorrilla dominante", "instruccion_tension": "Flexiona el pie hacia arriba (dorsiflexión)", "duracion_tension": "5-7 seg"},
+        {"grupo": 16, "zona": "Pantorrilla no dominante", "instruccion_tension": "Flexiona el pie hacia arriba (dorsiflexión)", "duracion_tension": "5-7 seg"}
+      ],
+      "instrucciones_generales": "Para cada grupo: (1) Dirigir atención al grupo muscular. (2) Tensar durante 5-7 seg. (3) Soltar de golpe. (4) Notar la diferencia entre tensión y relajación durante 20-30 seg. (5) Repetir si es necesario. Duración total: 20-25 min primera vez, 10-15 min con práctica."
+    },
+    {
+      "id": "HER-005",
+      "tipo": "guion",
+      "titulo": "Guion de Relajación Abreviada (4 Grupos)",
+      "descripcion": "Versión condensada para uso rápido en situaciones reales",
+      "grupos": [
+        {"grupo": "Brazos", "instruccion": "Tensa ambos puños y brazos a la vez", "duracion": "7 seg tensión, 30 seg relajación"},
+        {"grupo": "Cara", "instruccion": "Arruga toda la cara: frente, ojos, nariz, boca", "duracion": "7 seg tensión, 30 seg relajación"},
+        {"grupo": "Tronco", "instruccion": "Inspira profundo, sube hombros, tensa abdomen", "duracion": "7 seg tensión, 30 seg relajación"},
+        {"grupo": "Piernas", "instruccion": "Extiende piernas, tensa muslos y flexiona pies", "duracion": "7 seg tensión, 30 seg relajación"}
+      ],
+      "duracion_total": "5 minutos"
+    },
+    {
+      "id": "HER-006",
+      "tipo": "guion",
+      "titulo": "Guion de Respiración Cuadrada",
+      "descripcion": "Protocolo de respiración diafragmática controlada como respuesta incompatible alternativa",
+      "pasos": [
+        {"fase": "Inhalar", "duracion": "4 segundos", "instruccion": "Inspira lentamente por la nariz llenando el abdomen"},
+        {"fase": "Mantener", "duracion": "4 segundos", "instruccion": "Retén el aire sin tensión"},
+        {"fase": "Exhalar", "duracion": "4 segundos", "instruccion": "Exhala lentamente por la boca vaciando el abdomen"},
+        {"fase": "Esperar", "duracion": "4 segundos", "instruccion": "Pausa natural antes de la siguiente inhalación"}
+      ],
+      "repeticiones": "8-12 ciclos completos",
+      "indicaciones": "Ideal para frenar hiperventilación en pánico. Puede usarse como respuesta incompatible en DS cuando la relajación progresiva no es viable."
+    },
+    {
+      "id": "HER-007",
+      "tipo": "plantilla",
+      "titulo": "Ficha de Descripción Sensorial del Ítem",
+      "descripcion": "Plantilla para elaborar la descripción multimodal de cada ítem de la jerarquía",
+      "campos": {
+        "item_numero": "entero",
+        "titulo": "texto",
+        "usa_asignado": "entero 0-100",
+        "canal_visual": "texto (¿Qué ves? Personas, objetos, colores, iluminación, movimiento)",
+        "canal_auditivo": "texto (¿Qué oyes? Voces, ruidos ambientales, silencios)",
+        "canal_tactil_propioceptivo": "texto (¿Qué sientes en el cuerpo? Temperatura, texturas, peso, posición)",
+        "canal_olfativo": "texto (¿Qué hueles? Olores del entorno)",
+        "frase_clave": "texto (Frase breve que resume la escena para el paciente)"
+      },
+      "ejemplo": {
+        "item_numero": 5,
+        "titulo": "Esperando tu turno en el auditorio",
+        "usa_asignado": 70,
+        "canal_visual": "La nuca de la persona de delante. La madera del atril al fondo brillando bajo los focos. Unas 20 personas, movimiento suave de sus cabezas.",
+        "canal_auditivo": "Zumbido suave del aire acondicionado. Voz rítmica y lejana del orador actual. Clic de un bolígrafo, roce de un papel.",
+        "canal_tactil_propioceptivo": "Silla un poco rígida en la espalda. Peso de las carpetas sobre las piernas. Temperatura fresca, aire frío en las manos.",
+        "canal_olfativo": "Olor típico de sala cerrada, un poco a polvo y a café de la pausa anterior.",
+        "frase_clave": "Estás sentado esperando tu turno"
+      }
+    },
+    {
+      "id": "HER-008",
+      "tipo": "plantilla",
+      "titulo": "Contrato de Exposición en Vivo",
+      "descripcion": "Documento que establece las condiciones de la tarea de exposición entre sesiones",
+      "campos": {
+        "situacion": "texto (descripción concreta de la exposición)",
+        "duracion_minima": "texto (ej: 'Hasta que USA baje al 50% del pico, mínimo 15 minutos')",
+        "conductas_prohibidas": [
+          "Usar móvil como distracción",
+          "Escuchar música o podcasts",
+          "Tomar ansiolíticos antes",
+          "Ir acompañado (salvo que el protocolo lo indique)",
+          "Sentarse cerca de la salida",
+          "Llevar 'amuletos' de seguridad"
+        ],
+        "conductas_obligatorias": [
+          "Llevar autorregistro de exposición",
+          "Anotar USA cada 5 minutos",
+          "Aplicar técnica de relajación/respiración si USA >70",
+          "Permanecer hasta completar habituación"
+        ],
+        "firma_paciente": "firma",
+        "firma_terapeuta": "firma",
+        "fecha": "fecha"
+      }
+    },
+    {
+      "id": "HER-009",
+      "tipo": "plantilla",
+      "titulo": "Hoja de Progreso del Tratamiento",
+      "descripcion": "Resumen visual del avance a lo largo de las sesiones",
+      "campos": {
+        "sesiones": "lista de sesiones con: fecha, ítems trabajados, ítems superados, USA máximo tolerado, observaciones",
+        "grafico_progreso": "eje X = sesiones, eje Y = ítem más alto desensibilizado (USA)",
+        "porcentaje_jerarquia_completada": "calculado",
+        "exposiciones_en_vivo_realizadas": "lista con fecha y resultado"
+      }
+    },
+    {
+      "id": "HER-010",
+      "tipo": "herramienta",
+      "titulo": "Cronómetro de Sesión DS",
+      "descripcion": "Tiempos de referencia para la conducción de la sesión",
+      "tiempos": {
+        "relajacion_inicial": "3-5 minutos hasta señal del paciente",
+        "presentacion_item_primera": "15-20 segundos",
+        "presentacion_item_segunda": "25-30 segundos",
+        "presentacion_item_tercera": "50-60 segundos",
+        "pausa_relajacion_entre_items": "40-50 segundos mínimo",
+        "pausa_relajacion_tras_ansiedad": "60-90 segundos",
+        "pausa_relajacion_cambio_item": "60-90 segundos (insistir en relajación)",
+        "duracion_total_ds_activa": "30-45 minutos",
+        "sesion_completa_con_comentarios": "50-60 minutos"
+      }
+    },
+    {
+      "id": "HER-011",
+      "tipo": "herramienta",
+      "titulo": "Tarjetas de Autoinstrucciones para Exposición",
+      "descripcion": "Frases que el paciente lleva consigo durante la exposición en vivo",
+      "tarjetas": [
+        "La ansiedad es desagradable pero no peligrosa. Pasará.",
+        "No escapes. Deja que la curva baje.",
+        "Siente la ansiedad y quédate ahí. Tu cerebro está aprendiendo.",
+        "Cada minuto que aguantas, tu sistema nervioso se recalibra.",
+        "La evitación es el combustible del miedo. La exposición es el antídoto.",
+        "Respira: 4 segundos dentro, 4 fuera. Tu cuerpo sabe calmarse.",
+        "Ya lo hiciste en imaginación. Ahora es la versión real y va a funcionar igual."
+      ]
+    }
+  ]
+}

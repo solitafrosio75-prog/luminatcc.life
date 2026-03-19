@@ -1,0 +1,43 @@
+[
+    {
+        "term": "Abolición",
+        "definition": "Incapacidad para iniciar actividades dirigidas a un fin y persistir en ellas. Cuando es suficientemente grave para ser considerada patológica, la abolición es generalizada e impide que el sujeto complete diferentes tipos de actividades (p. ej., el trabajo, las tareas intelectuales, el autocuidado)."
+    },
+    {
+        "term": "Activación",
+        "definition": "Estado fisiológico y psicológico de estar despierto o reactivo a los estímulos."
+    },
+    {
+        "term": "Adicción sin sustancia",
+        "definition": "Trastorno del comportamiento (también llamada adicción conductual) no relacionado con una sustancia de abuso, que comparte algunas características con la adicción inducida por sustancias."
+    },
+    {
+        "term": "Acceso de cólera",
+        "definition": "Arrebato emocional (también llamado berrinche), que se asocia generalmente a los niños con malestar emocional, y por lo general se caracteriza por terquedad, lloros, gritos, vociferación, resistencia a los intentos de pacificación y, en algunos casos, golpes. Se puede perder el control físico y la persona puede ser incapaz de permanecer quieto, e incluso aunque se cumpla el 'objetivo' de la persona, no se la puede calmar."
+    },
+    {
+        "term": "Afecto",
+        "definition": "Patrón de comportamientos observables, que es la expresión de los sentimientos experimentados subjetivamente (emoción). Tristeza, alegría y cólera son ejemplos usuales de afecto. A diferencia del humor, que concierne a un 'clima' emocional más generalizado y persistente, el término afecto se refiere a cambios más fluctuantes en el 'tiempo' emocional. Lo que se considera gama normal de la expresión del afecto varía considerablemente tanto entre culturas diferentes como dentro de cada una de ellas. Los trastornos del afecto incluyen las siguientes modalidades:"
+    },
+    {
+        "term": "Aplanado",
+        "definition": "Ausencia o casi ausencia de cualquier signo de expresión afectiva."
+    },
+    {
+        "term": "Embotado",
+        "definition": "Reducción significativa de la intensidad de la expresión emocional."
+    },
+    {
+        "term": "Inapropiado",
+        "definition": "Discordancia entre la expresión afectiva y el contenido del habla o la ideación."
+    },
+    {
+        "term": "Lábil",
+        "definition": "Variabilidad anormal en el afecto, con cambios repetidos, rápidos y bruscos de la expresión afectiva."
+    },
+    {
+        "term": "Restringido o constreñido",
+        "definition": "Reducción ligera de la gama y la intensidad de la expresión emocional."
+    }
+    // ...continúa para todos los términos del glosario.txt...
+]

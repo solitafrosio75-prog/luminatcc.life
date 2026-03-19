@@ -1,0 +1,137 @@
+{
+  "area_id": "act_hexaflex",
+  "nombre": "Hexaflex — Los 6 Procesos de Flexibilidad Psicológica",
+  "descripcion": "Modelo central de ACT: seis procesos interrelacionados de flexibilidad e inflexibilidad psicológica organizados en el hexaflex.",
+  "fuentes": [
+    "Hayes, S. C., Strosahl, K. D. & Wilson, K. G. (2012). Acceptance and Commitment Therapy (2nd ed.). Guilford Press.",
+    "Hayes, S. C., Luoma, J. B., Bond, F. W., Masuda, A. & Lillis, J. (2006). ACT: Model, processes and outcomes. Behaviour Research and Therapy, 44(1), 1-25.",
+    "Harris, R. (2009). ACT Made Simple. New Harbinger Publications."
+  ],
+  "procesos": [
+    {
+      "id": "aceptacion",
+      "nombre": "Aceptación",
+      "polo_inflexible": "Evitación experiencial",
+      "polo_flexible": "Aceptación activa",
+      "descripcion": "Disposición activa a experimentar pensamientos, emociones y sensaciones sin intentar cambiarlos, controlarlos o evitarlos. No es resignación pasiva sino apertura voluntaria a la experiencia completa.",
+      "indicadores_inflexibilidad": [
+        "Supresión emocional sistemática",
+        "Uso de sustancias para evitar malestar",
+        "Evitación de situaciones que generan emociones difíciles",
+        "Distracción compulsiva ante pensamientos no deseados",
+        "Somatización como expresión de emociones no procesadas"
+      ],
+      "estrategias": [
+        "Ejercicio de expansión: hacer espacio a las emociones en el cuerpo",
+        "Metáfora de las arenas movedizas: luchar intensifica el problema",
+        "Práctica de willingness escalonada desde intensidad baja",
+        "Observación de la emoción sin intentar cambiarla"
+      ],
+      "ejemplo_clinico": "Paciente con ansiedad social que evita reuniones. Se trabaja aceptación del nerviosismo como experiencia natural, permitiendo asistir a reuniones CON la ansiedad presente."
+    },
+    {
+      "id": "defusion",
+      "nombre": "Defusión Cognitiva",
+      "polo_inflexible": "Fusión cognitiva",
+      "polo_flexible": "Defusión cognitiva",
+      "descripcion": "Cambiar la relación con los pensamientos: verlos como eventos mentales pasajeros en lugar de verdades literales que deben obedecerse.",
+      "indicadores_inflexibilidad": [
+        "Creer literalmente todo lo que piensa la mente",
+        "Obedecer pensamientos como si fueran órdenes",
+        "Rumiación: engancharse repetidamente con pensamientos",
+        "Actuar según reglas verbales rígidas",
+        "Confundir tener un pensamiento con que sea verdad"
+      ],
+      "estrategias": [
+        "Prefijo: Estoy teniendo el pensamiento de que...",
+        "Repetición de palabras hasta perder significado emocional",
+        "Agradecer a la mente por el pensamiento",
+        "Cantar el pensamiento con melodía absurda",
+        "Visualización: hojas en el río, nubes en el cielo"
+      ],
+      "ejemplo_clinico": "Paciente deprimido fusionado con Soy un fracaso. Mediante defusión aprende a decir Mi mente me está contando la historia de que soy un fracaso. El pensamiento sigue pero ya no controla su conducta."
+    },
+    {
+      "id": "momento_presente",
+      "nombre": "Contacto con el Momento Presente",
+      "polo_inflexible": "Dominancia del pasado conceptualizado o futuro temido",
+      "polo_flexible": "Contacto flexible con el aquí y ahora",
+      "descripcion": "Atender de manera consciente y no evaluativa a lo que está ocurriendo en el momento presente, tanto interna como externamente.",
+      "indicadores_inflexibilidad": [
+        "Vivir en piloto automático",
+        "Rumiación sobre el pasado",
+        "Preocupación constante por el futuro",
+        "Desconexión de la experiencia sensorial directa"
+      ],
+      "estrategias": [
+        "Ejercicio de los 5 sentidos: notar 5 cosas que ves, 4 que tocas, 3 que oyes, 2 que hueles, 1 que saboreas",
+        "Anclaje a la respiración: 3 respiraciones conscientes",
+        "Etiquetado experiencial: nombrar lo que se observa sin juzgar",
+        "Práctica de atención plena durante actividades rutinarias"
+      ],
+      "ejemplo_clinico": "Paciente con ansiedad generalizada que vive anticipando catástrofes. Se practica regresar al momento presente usando anclajes sensoriales concretos."
+    },
+    {
+      "id": "yo_como_contexto",
+      "nombre": "Yo-como-Contexto",
+      "polo_inflexible": "Yo-como-contenido (apego a la autoimagen)",
+      "polo_flexible": "Yo-como-contexto (observador estable)",
+      "descripcion": "Contactar con un sentido de sí mismo como el contexto en el que ocurren las experiencias, no como el contenido de esas experiencias.",
+      "indicadores_inflexibilidad": [
+        "Identificarse rígidamente con roles: SOY depresivo",
+        "Amenaza ante cambios de autoimagen",
+        "Fusión con autodescripciones negativas",
+        "No distinguir entre tener una experiencia y SER esa experiencia"
+      ],
+      "estrategias": [
+        "Metáfora del cielo: las emociones son el clima, tú eres el cielo",
+        "Ejercicio del observador: observar pensamientos desde posición de testigo",
+        "Metáfora del tablero de ajedrez: tú no eres las piezas, eres el tablero",
+        "Continuidad temporal: conectar con el yo que ha estado presente en todas las experiencias"
+      ],
+      "ejemplo_clinico": "Paciente con depresión crónica fusionado con Soy un fracasado. Se trabaja contactar con el yo-observador que ha presenciado momentos de éxito y fracaso."
+    },
+    {
+      "id": "valores",
+      "nombre": "Valores",
+      "polo_inflexible": "Falta de claridad, desconexión o valores impuestos",
+      "polo_flexible": "Claridad de valores elegidos como guía de acción",
+      "descripcion": "Direcciones de vida elegidas libremente que dan sentido y propósito. Los valores no son metas (que se alcanzan) sino brújulas (que orientan continuamente).",
+      "indicadores_inflexibilidad": [
+        "No saber qué es importante más allá de aliviar el malestar",
+        "Vivir según valores de otros sin cuestionarlos",
+        "Confundir metas con valores",
+        "Pliance: seguir reglas por aprobación social",
+        "Desconexión entre lo que se dice valorar y lo que se hace"
+      ],
+      "estrategias": [
+        "Bulls Eye: mapa visual de distancia entre vida actual y valores",
+        "Ejercicio del funeral: qué te gustaría que dijeran de ti",
+        "Brújula de valores: explorar dominios vitales",
+        "Preguntas de clarificación: qué harías si nadie te juzgara"
+      ],
+      "ejemplo_clinico": "Paciente con burnout que trabaja 14 horas diarias. Al clarificar valores descubre que estar presente para mi familia es más importante que éxito profesional."
+    },
+    {
+      "id": "accion_comprometida",
+      "nombre": "Acción Comprometida",
+      "polo_inflexible": "Inacción, impulsividad o evitación persistente",
+      "polo_flexible": "Patrones de acción al servicio de los valores",
+      "descripcion": "Conductas concretas alineadas con los valores elegidos, realizadas incluso en presencia de malestar psicológico.",
+      "indicadores_inflexibilidad": [
+        "Esperar a sentirse motivado para actuar",
+        "Procrastinación crónica",
+        "Patrones de acción impulsiva que alejan de valores",
+        "Abandonar compromisos ante el primer obstáculo"
+      ],
+      "estrategias": [
+        "Micro-acciones comprometidas: pasos mínimos hoy",
+        "SMART goals al servicio de valores",
+        "Compromiso público de acción",
+        "Disposición a fallar y recomprometerse",
+        "Choice Point: identificar momentos de elección hacia/lejos"
+      ],
+      "ejemplo_clinico": "Paciente con depresión y aislamiento. Valor: conexión. Acción comprometida: enviar un mensaje a un amigo HOY, sin esperar sentir ganas."
+    }
+  ]
+}

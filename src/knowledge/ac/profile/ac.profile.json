@@ -1,0 +1,131 @@
+{
+  "profile_id": "ac_profile_v3",
+  "technique_id": "ac",
+  "nombre": "Perfil Clinico de Activacion Conductual",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "reviewed_by": [
+    "equipo_tcc_lab",
+    "revision_tecnica_inicial"
+  ],
+  "resumen_clinico": "Intervencion conductual estructurada para depresion y problemas asociados a evitacion, orientada a incrementar contacto con reforzadores positivos y restaurar patrones de accion valiosos.",
+  "mecanismos_de_cambio": [
+    "incremento de reforzamiento positivo contingente",
+    "reduccion de evitacion experiencial",
+    "ruptura del ciclo inactividad-malestar",
+    "aumento de actividades de dominio y placer",
+    "aprendizaje por accion antes que por motivacion"
+  ],
+  "problemas_diana": [
+    "depresion_mayor",
+    "distimia",
+    "anhedonia",
+    "apatia_cronica",
+    "duelo_complicado",
+    "depresion_con_ansiedad"
+  ],
+  "sintomas_diana": [
+    "inactividad",
+    "aislamiento_social",
+    "rumiacion",
+    "evitacion",
+    "baja_energia",
+    "perdida_de_interes"
+  ],
+  "poblaciones_objetivo": [
+    "adultos",
+    "adolescentes",
+    "adultos_mayores",
+    "depresion_posparto_con_adaptaciones"
+  ],
+  "prerequisitos": [
+    "acuerdo terapeutico sobre tareas entre sesiones",
+    "definicion de microobjetivos realistas",
+    "monitoreo basico de estado de animo y actividad",
+    "plan de seguridad si existe riesgo autolitico"
+  ],
+  "contraindicaciones": [
+    {
+      "id": "ac_ci_01",
+      "condicion": "Riesgo suicida inminente",
+      "tipo": "absoluta",
+      "razon_clinica": "La prioridad es contencion y seguridad inmediata antes de programacion de actividades.",
+      "alternativa_sugerida": "Protocolo de crisis y estabilizacion intensiva"
+    },
+    {
+      "id": "ac_ci_02",
+      "condicion": "Psicosis activa no estabilizada",
+      "tipo": "absoluta",
+      "razon_clinica": "Compromete la capacidad para planificar y sostener tareas con analisis funcional confiable.",
+      "alternativa_sugerida": "Estabilizacion psiquiatrica previa e intervencion adaptada"
+    },
+    {
+      "id": "ac_ci_03",
+      "condicion": "Trastorno bipolar sin estabilizacion del estado de animo",
+      "tipo": "relativa",
+      "razon_clinica": "Una sobreactivacion puede aumentar riesgo de descompensacion maniforme.",
+      "alternativa_sugerida": "Aplicacion gradual con monitoreo estrecho y coordinacion psiquiatrica"
+    }
+  ],
+  "banderas_seguridad": [
+    "incremento sostenido de desesperanza",
+    "abandono total de autocuidado",
+    "empeoramiento marcado tras tareas minimas",
+    "activacion agitada compatible con viraje"
+  ],
+  "requiere_derivacion_si": [
+    "riesgo_suicida_alto",
+    "sintomas_psicoticos_activos",
+    "sospecha_de_episodio_maniaco",
+    "consumo_severo_no_controlado"
+  ],
+  "supervision": [
+    {
+      "id": "ac_sup_01",
+      "descripcion": "Supervision recomendada en casos con comorbilidad severa o alta evitacion cronica",
+      "requerido": true,
+      "contexto": "depresion moderada-grave con deterioro funcional"
+    },
+    {
+      "id": "ac_sup_02",
+      "descripcion": "Revisar semanalmente graduacion de tareas para evitar abrumo y fracaso acumulado",
+      "requerido": true,
+      "contexto": "fases iniciales de activacion"
+    }
+  ],
+  "evidencia": {
+    "nivel_global": "alta",
+    "fuerza_recomendacion": "fuerte",
+    "poblaciones_validadas": [
+      "depresion_mayor",
+      "adultos_mayores_con_depresion",
+      "depresion_comorbida_con_ansiedad"
+    ],
+    "fuentes_clave": [
+      "Martell, Dimidjian & Herman-Dunn (2010). Behavioral Activation for Depression",
+      "Dimidjian et al. (2006). Randomized trial of behavioral activation",
+      "Ekers et al. (2014). Cochrane review behavioral activation"
+    ],
+    "limitaciones": [
+      "requiere adherencia a tareas conductuales entre sesiones",
+      "necesita adaptaciones en entornos con escasos reforzadores disponibles"
+    ]
+  },
+  "combinable_con": [
+    "reestructuracion_cognitiva",
+    "exposicion",
+    "entrenamiento_habilidades_sociales",
+    "mindfulness"
+  ],
+  "no_recomendada_con": [
+    "prescripcion de tareas intensas sin graduacion",
+    "intervencion aislada en crisis no estabilizada"
+  ],
+  "trace_sources": [
+    "src/knowledge/ac/data/area_01_conocimiento.json",
+    "src/knowledge/ac/data/area_02_objetivos_clinicos.json",
+    "src/knowledge/ac/data/area_06_tecnicas_especificas.json",
+    "src/knowledge/ac/data/area_09_barreras.json",
+    "src/knowledge/ac/data/area_13_actividades_por_problema.json"
+  ]
+}

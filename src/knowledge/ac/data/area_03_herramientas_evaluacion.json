@@ -1,0 +1,83 @@
+{
+  "area_id": "herramientas_evaluacion",
+  "nombre": "Herramientas de Evaluación",
+  "descripcion": "Instrumentos clínicos específicos para evaluar, monitorizar y ajustar la intervención de Activación Conductual",
+  "fuentes": [
+    "Barraca & Pérez-Álvarez (2015)",
+    "Kanter et al. (2007). BADS",
+    "Beck et al. (1996). BDI-II",
+    "Caballo (2007). Manual de técnicas de conducta"
+  ],
+  "herramientas": [
+    {
+      "id": "HE01",
+      "nombre": "Línea Base (LB) de Actividad",
+      "tipo": "registro",
+      "proposito": "Registro preintervención de frecuencia e intensidad de conductas para establecer punto de comparación",
+      "cuando_usar": "Sesiones 1-2, antes de iniciar la programación de actividades",
+      "descripcion_formato": "Tabla de 7 días registrando: Día | Frecuencia de actividades | Duración | Contexto (antecedente/consecuente)",
+      "variables": [
+        { "nombre": "Actividad", "tipo": "texto_libre", "instruccion": "Describir brevemente qué hizo" },
+        { "nombre": "Frecuencia", "tipo": "conteo", "instruccion": "Número de veces que realizó la actividad" },
+        { "nombre": "Duración", "tipo": "minutos", "instruccion": "Tiempo dedicado a la actividad" },
+        { "nombre": "Contexto", "tipo": "texto_libre", "instruccion": "Qué precedió y qué siguió a la actividad" }
+      ]
+    },
+    {
+      "id": "HE02",
+      "nombre": "Inventario de Depresión de Beck (BDI-II)",
+      "tipo": "inventario",
+      "proposito": "Medir síntomas depresivos globales para seguimiento semanal",
+      "cuando_usar": "Aplicar en sesión 1 y repetir semanalmente para tracking de progreso",
+      "descripcion_formato": "21 ítems con puntuación 0-3 cada uno. Puntuación total 0-63.",
+      "referencia_shared": "inventarios_generales"
+    },
+    {
+      "id": "HE03",
+      "nombre": "Agenda Placer/Dominio (P/D)",
+      "tipo": "formulario",
+      "proposito": "Puntuar el nivel de placer y dominio experimentado en cada actividad diaria",
+      "cuando_usar": "Desde sesión 3, como parte del monitoreo semanal de actividades programadas",
+      "descripcion_formato": "Formulario diario donde cada actividad se puntúa en dos dimensiones: Placer (0-10) y Dominio (0-10)",
+      "variables": [
+        { "nombre": "Placer (P)", "tipo": "escala_0_10", "instruccion": "Grado de disfrute experimentado durante la actividad" },
+        { "nombre": "Dominio (D)", "tipo": "escala_0_10", "instruccion": "Grado de control o competencia percibida al realizar la actividad" }
+      ]
+    },
+    {
+      "id": "HE04",
+      "nombre": "Brújula de Valores",
+      "tipo": "formulario",
+      "proposito": "Identificar áreas vitales prioritarias y detectar desequilibrios entre valores y conducta actual",
+      "cuando_usar": "Sesiones 3-4, para guiar la selección de actividades alineadas con valores",
+      "descripcion_formato": "Gráfico circular con áreas vitales (familia, trabajo, ocio, salud, etc.). El paciente puntúa importancia vs. nivel de acción actual en cada área."
+    },
+    {
+      "id": "HE05",
+      "nombre": "Escala de Activación Conductual para Depresión (BADS)",
+      "tipo": "escala",
+      "proposito": "Medir específicamente niveles de activación y evitación en el contexto de la depresión",
+      "cuando_usar": "Sesiones 1, 5 y 10 para evaluar progreso en activación conductual",
+      "descripcion_formato": "25 ítems que miden: Activación, Evitación/Rumiación, Deterioro laboral/escolar, Deterioro social. Escala Likert 0-6.",
+      "variables": [
+        { "nombre": "Activación", "tipo": "subescala", "instruccion": "Nivel de activación general" },
+        { "nombre": "Evitación/Rumiación", "tipo": "subescala", "instruccion": "Grado de evitación y rumiación" },
+        { "nombre": "Deterioro laboral/escolar", "tipo": "subescala", "instruccion": "Impacto en área laboral" },
+        { "nombre": "Deterioro social", "tipo": "subescala", "instruccion": "Impacto en relaciones sociales" }
+      ]
+    },
+    {
+      "id": "HE06",
+      "nombre": "Registro ABC (Antecedente-Comportamiento-Consecuente)",
+      "tipo": "registro",
+      "proposito": "Mapear ciclos de inactividad y evitación mediante análisis funcional",
+      "cuando_usar": "Desde sesión 2, como tarea para casa continua",
+      "descripcion_formato": "Tabla de tres columnas: A (situación/estímulo que precede) | B (conducta realizada o evitada) | C (consecuencia a corto y largo plazo)",
+      "variables": [
+        { "nombre": "Antecedente (A)", "tipo": "texto_libre", "instruccion": "¿Qué estaba pasando justo antes? ¿Qué pensaste o sentiste?" },
+        { "nombre": "Comportamiento (B)", "tipo": "texto_libre", "instruccion": "¿Qué hiciste o dejaste de hacer?" },
+        { "nombre": "Consecuente (C)", "tipo": "texto_libre", "instruccion": "¿Qué pasó después? ¿Cómo te sentiste a corto y largo plazo?" }
+      ]
+    }
+  ]
+}

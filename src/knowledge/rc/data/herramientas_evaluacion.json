@@ -1,0 +1,53 @@
+{
+  "area_id": "herramientas_evaluacion",
+  "nombre": "Herramientas de Evaluación para Reestructuración Cognitiva",
+  "descripcion": "Instrumentos de evaluación y autoregistro propios del trabajo cognitivo",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Leahy, R. L. (2003). Cognitive Therapy Techniques",
+    "Burns, D. D. (1980). Feeling Good"
+  ],
+  "herramientas": [
+    {
+      "id": "registro_pensamiento_3col",
+      "nombre": "Registro de Pensamiento de 3 Columnas",
+      "tipo": "autoregistro",
+      "proposito": "Identificar la conexión situación-pensamiento-emoción como primer paso del trabajo cognitivo",
+      "cuando_usar": "Fase inicial de la terapia, cuando el paciente aún no diferencia pensamientos de emociones",
+      "descripcion_formato": "Formato con tres columnas: Situación (qué pasó), Pensamiento automático (qué pensé), Emoción (qué sentí y con qué intensidad 0-100)"
+    },
+    {
+      "id": "registro_pensamiento_7col",
+      "nombre": "Registro de Pensamiento de 7 Columnas (RPD)",
+      "tipo": "autoregistro",
+      "proposito": "Registro completo para identificar, evaluar y reestructurar pensamientos automáticos",
+      "cuando_usar": "Cuando el paciente ya domina el registro de 3 columnas y está preparado para el trabajo de reestructuración completo",
+      "descripcion_formato": "7 columnas: Situación, Emoción (0-100), Pensamiento automático, Evidencia a favor, Evidencia en contra, Pensamiento alternativo, Resultado (re-evaluación emocional 0-100)"
+    },
+    {
+      "id": "flecha_descendente",
+      "nombre": "Técnica de Flecha Descendente",
+      "tipo": "formulario",
+      "proposito": "Identificar creencias nucleares subyacentes a los pensamientos automáticos",
+      "cuando_usar": "Cuando se detectan patrones recurrentes de pensamientos automáticos que sugieren creencias profundas",
+      "descripcion_formato": "Serie de preguntas '¿Y eso qué significaría?' que descienden desde el pensamiento automático hasta la creencia nuclear"
+    },
+    {
+      "id": "drs",
+      "nombre": "Escala de Actitudes Disfuncionales (DAS)",
+      "tipo": "escala",
+      "proposito": "Evaluar la presencia e intensidad de supuestos y creencias disfuncionales",
+      "cuando_usar": "Evaluación inicial y seguimiento del cambio en creencias a lo largo de la terapia",
+      "descripcion_formato": "Escala de 40 ítems que evalúa actitudes disfuncionales en dimensiones como aprobación, logro, autonomía. Respuesta tipo Likert.",
+      "referencia_shared": "das_40"
+    },
+    {
+      "id": "atq",
+      "nombre": "Cuestionario de Pensamientos Automáticos (ATQ-30)",
+      "tipo": "inventario",
+      "proposito": "Medir la frecuencia de pensamientos automáticos negativos asociados a depresión",
+      "cuando_usar": "Evaluación de línea base y seguimiento de progreso en reducción de pensamientos negativos",
+      "descripcion_formato": "30 ítems con frecuencia de pensamientos negativos en la última semana. Escala 1-5."
+    }
+  ]
+}

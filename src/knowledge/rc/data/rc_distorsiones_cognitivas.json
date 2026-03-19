@@ -1,0 +1,108 @@
+{
+  "area_id": "rc_distorsiones_cognitivas",
+  "nombre": "Catálogo de Distorsiones Cognitivas",
+  "descripcion": "Lista completa de distorsiones cognitivas (errores de pensamiento) identificadas en terapia cognitiva, con definiciones, ejemplos y preguntas socráticas para cada una",
+  "fuentes": [
+    "Burns, D. D. (1980). Feeling Good: The New Mood Therapy",
+    "Beck, A. T. (1976). Cognitive Therapy and the Emotional Disorders",
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond"
+  ],
+  "distorsiones": [
+    {
+      "id": "pensamiento_todo_o_nada",
+      "nombre": "Pensamiento todo-o-nada (dicotómico)",
+      "definicion": "Ver las situaciones en solo dos categorías extremas en lugar de un continuo. Blanco o negro, sin grises.",
+      "ejemplo": "Paciente que saca un 8 en un examen: 'Si no saco un 10, soy un fracaso'. No hay posibilidad intermedia.",
+      "pregunta_socratica": "Si un amigo tuyo sacara esa nota, ¿lo considerarías un fracaso? ¿Hay algún punto intermedio entre perfecto y fracaso?",
+      "trastornos_asociados": ["Depresión", "Perfeccionismo", "TLP"]
+    },
+    {
+      "id": "catastrofizacion",
+      "nombre": "Catastrofización",
+      "definicion": "Predecir el peor resultado posible sin considerar otros desenlaces más probables. Magnificar la probabilidad y gravedad de eventos negativos.",
+      "ejemplo": "Paciente con dolor de cabeza: 'Seguro es un tumor cerebral'. Paciente ante presentación: 'Va a ser un desastre total'.",
+      "pregunta_socratica": "¿Cuántas veces has predicho algo catastrófico y realmente ocurrió? ¿Qué es lo más probable que pase (no lo peor)?",
+      "trastornos_asociados": ["Ansiedad generalizada", "Pánico", "Hipocondría"]
+    },
+    {
+      "id": "sobregeneralizacion",
+      "nombre": "Sobregeneralización",
+      "definicion": "Extraer una conclusión general a partir de un único evento o una evidencia mínima. Uso de 'siempre', 'nunca', 'todo', 'nadie'.",
+      "ejemplo": "Tras una cita fallida: 'Nunca voy a encontrar pareja'. Tras un error en el trabajo: 'Siempre lo arruino todo'.",
+      "pregunta_socratica": "¿Realmente SIEMPRE pasa eso? ¿Puedes pensar en alguna vez que haya sido diferente?",
+      "trastornos_asociados": ["Depresión", "Ansiedad"]
+    },
+    {
+      "id": "filtro_mental",
+      "nombre": "Filtro mental (abstracción selectiva)",
+      "definicion": "Enfocarse exclusivamente en un detalle negativo de la situación, ignorando el contexto positivo o neutral.",
+      "ejemplo": "Recibir 20 evaluaciones positivas y 1 negativa en el trabajo y rumiar solo sobre la negativa.",
+      "pregunta_socratica": "¿Qué otras cosas ocurrieron en esa situación que no estás teniendo en cuenta? Si miraras el panorama completo, ¿qué verías?",
+      "trastornos_asociados": ["Depresión", "Ansiedad"]
+    },
+    {
+      "id": "descalificacion_positivo",
+      "nombre": "Descalificación de lo positivo",
+      "definicion": "Rechazar experiencias positivas insistiendo en que 'no cuentan' por alguna razón. Transforma lo neutral o positivo en negativo.",
+      "ejemplo": "Ante un cumplido: 'Lo dice por compromiso'. Ante un logro: 'Cualquiera lo habría hecho, no tiene mérito'.",
+      "pregunta_socratica": "¿Si alguien más recibiera ese cumplido, pensarías que 'no cuenta'? ¿Qué evidencia tienes de que no es sincero?",
+      "trastornos_asociados": ["Depresión", "Baja autoestima"]
+    },
+    {
+      "id": "lectura_de_mente",
+      "nombre": "Lectura de mente",
+      "definicion": "Asumir que sabemos lo que otros piensan o sienten sin evidencia suficiente, generalmente atribuyéndoles juicios negativos.",
+      "ejemplo": "'Mi jefe piensa que soy incompetente'. 'Seguro están hablando mal de mí'.",
+      "pregunta_socratica": "¿Cómo sabes lo que está pensando? ¿Le has preguntado? ¿Hay alguna otra cosa que podría estar pensando?",
+      "trastornos_asociados": ["Fobia social", "Ansiedad", "Paranoia"]
+    },
+    {
+      "id": "adivinacion_futuro",
+      "nombre": "Adivinación del futuro (error del adivino)",
+      "definicion": "Predecir que las cosas saldrán mal y tratar esa predicción como un hecho establecido.",
+      "ejemplo": "'Sé que no voy a aprobar'. 'No tiene sentido ir a la entrevista, no me van a contratar'.",
+      "pregunta_socratica": "¿Realmente puedes predecir el futuro? ¿Cuántas veces tus predicciones negativas se han cumplido vs. no?",
+      "trastornos_asociados": ["Depresión", "Ansiedad", "Evitación"]
+    },
+    {
+      "id": "magnificacion_minimizacion",
+      "nombre": "Magnificación/Minimización",
+      "definicion": "Exagerar la importancia de los eventos negativos (propios o ajenos) y minimizar la importancia de los positivos (propios).",
+      "ejemplo": "Magnificar un pequeño error y minimizar un logro importante. 'El error fue terrible (magnificación) pero la presentación en general no fue gran cosa (minimización)'.",
+      "pregunta_socratica": "Si le pasara esto a otra persona, ¿le darías la misma importancia? ¿Estás midiendo con la misma vara lo negativo y lo positivo?",
+      "trastornos_asociados": ["Depresión", "Ansiedad", "Baja autoestima"]
+    },
+    {
+      "id": "razonamiento_emocional",
+      "nombre": "Razonamiento emocional",
+      "definicion": "Tomar las propias emociones como prueba de la realidad. 'Lo siento, luego es verdad'.",
+      "ejemplo": "'Me siento inútil, por lo tanto soy inútil'. 'Siento ansiedad, por lo tanto hay peligro real'.",
+      "pregunta_socratica": "¿El hecho de sentir algo lo convierte en verdad? ¿Alguna vez has sentido algo muy fuerte que resultó no ser cierto?",
+      "trastornos_asociados": ["Depresión", "Ansiedad", "Pánico", "TOC"]
+    },
+    {
+      "id": "deberia",
+      "nombre": "Afirmaciones 'debería' (imperativos)",
+      "definicion": "Reglas rígidas sobre cómo deberían ser las cosas, uno mismo o los demás. Generan culpa (dirigidos a uno mismo) o frustración (dirigidos a otros).",
+      "ejemplo": "'Debería ser capaz de manejar esto sin ayuda'. 'La gente debería ser más considerada'. 'No debería sentirme así'.",
+      "pregunta_socratica": "¿De dónde viene esa regla? ¿Es realista? ¿Le exigirías lo mismo a un amigo? ¿Qué pasaría si cambiaras 'debería' por 'me gustaría'?",
+      "trastornos_asociados": ["Depresión", "Ansiedad", "Perfeccionismo", "Ira"]
+    },
+    {
+      "id": "etiquetado",
+      "nombre": "Etiquetado",
+      "definicion": "Asignarse a uno mismo o a otros una etiqueta global negativa en lugar de describir la conducta específica. Es una sobregeneralización extrema.",
+      "ejemplo": "En vez de 'cometí un error': 'Soy un idiota'. En vez de 'no me fue bien en esta tarea': 'Soy un incompetente'.",
+      "pregunta_socratica": "¿Te define completamente como persona un solo evento? ¿Usarías esa etiqueta para describir a un amigo en la misma situación?",
+      "trastornos_asociados": ["Depresión", "Baja autoestima", "Ira"]
+    },
+    {
+      "id": "personalizacion",
+      "nombre": "Personalización",
+      "definicion": "Atribuirse la responsabilidad de eventos negativos que no están enteramente bajo el propio control, o asumir que los eventos se relacionan con uno mismo.",
+      "ejemplo": "'Mi hijo sacó mala nota, soy una mala madre'. 'Mi amigo está de mal humor, debe ser por algo que hice'.",
+      "pregunta_socratica": "¿Qué otros factores pudieron influir en este resultado? ¿Qué porcentaje de responsabilidad es realmente tuyo?",
+      "trastornos_asociados": ["Depresión", "Culpa", "Ansiedad"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tarea_id": "registro_ABC",
+  "tipo": "Registro ABC",
+  "instrucciones": "Completar el registro ABC para cada situación problemática.",
+  "criterios_cumplimiento": "Registrar al menos 3 situaciones en la semana.",
+  "fecha_limite": "2026-03-21",
+  "feedback": "",
+  "relacion_session_plan": 2,
+  "evidencia": [
+    {
+      "tipo": "RCT",
+      "referencia": "Martell et al. 2010",
+      "doi": "10.1037/12057-000"
+    }
+  ]
+}

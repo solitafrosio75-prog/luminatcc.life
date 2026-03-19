@@ -1,0 +1,118 @@
+{
+  "area_id": "tecnicas_especificas",
+  "nombre": "Técnicas Específicas de ACT",
+  "descripcion": "Técnicas clínicas organizadas por proceso del hexaflex para el desarrollo de la flexibilidad psicológica",
+  "fuentes": [
+    "Hayes, Strosahl & Wilson (2012). Acceptance and Commitment Therapy, 2nd ed.",
+    "Harris (2009). ACT Made Simple",
+    "Luoma, Hayes & Walser (2007). Learning ACT",
+    "Stoddard & Afari (2014). The Big Book of ACT Metaphors",
+    "Wilson & Luciano (2002). Terapia de Aceptación y Compromiso"
+  ],
+  "tecnicas": [
+    {
+      "id": "TE01",
+      "nombre": "Defusión cognitiva: Nombrar historias",
+      "descripcion": "Técnica verbal de defusión que consiste en etiquetar los patrones de pensamiento recurrentes como 'historias' que la mente cuenta, reduciendo su literalidad y poder de control sobre la conducta. Al nombrar la historia ('Ah, ahí está otra vez la historia de que soy un fracasado'), el paciente adopta la perspectiva de observador en lugar de estar atrapado dentro del contenido.",
+      "cuando_usar": "Cuando el paciente presenta fusión con narrativas recurrentes sobre sí mismo, los demás o el futuro. Especialmente útil con pensamientos autocríticos repetitivos, predicciones catastróficas o historias de victimización.",
+      "pasos": [
+        "Identificar el pensamiento o narrativa recurrente que domina al paciente (ej.: 'Soy un fracasado', 'Nadie me quiere')",
+        "Pedir al paciente que nombre esa narrativa como una historia: 'Así que tu mente te está contando la historia de que eres un fracasado. Vamos a ponerle nombre: la Historia del Fracasado'",
+        "Practicar el etiquetado: cada vez que aparezca el pensamiento, decir internamente 'Ahí está otra vez la Historia del Fracasado' o 'Mi mente me está contando la historia de...'",
+        "Explorar: '¿Es esta una historia nueva o la mente te la viene contando hace tiempo? ¿Cuántas veces la has escuchado?'",
+        "Notar el efecto: '¿Qué pasa cuando nombras la historia en vez de estar dentro de ella? ¿Cambia algo en cómo te sientes o en lo que puedes hacer?'",
+        "Asignar como tarea: durante la semana, cada vez que note el pensamiento, etiquetarlo como 'la Historia de...' y anotar si cambió algo"
+      ],
+      "ejemplo_clinico": "Un paciente con depresión repite constantemente 'No valgo para nada, siempre arruino todo'. El terapeuta le invita a nombrarla: 'Parece que tu mente te está contando la vieja Historia de No Valgo Para Nada. ¿La conoces? ¿Cuántos años lleva tu mente contándotela?'. El paciente sonríe: 'Desde los 15'. Terapeuta: 'Entonces es una historia con mucha antigüedad. ¿Y te ha sido útil creerla a pie juntillas todos estos años?'."
+    },
+    {
+      "id": "TE02",
+      "nombre": "Defusión cognitiva: Repetición de palabras (técnica de Titchener)",
+      "descripcion": "Técnica experiencial basada en el efecto de saciación semántica. Al repetir una palabra angustiante en voz alta muchas veces seguidas, pierde su significado emocional y se experimenta como un mero sonido. Demuestra experiencialmente que las palabras no son lo que dicen representar.",
+      "cuando_usar": "Cuando el paciente está fusionado con una palabra o etiqueta autoaplicada que genera intenso malestar (ej.: 'fracasado', 'inútil', 'gordo', 'loco'). No usar con palabras conectadas a trauma agudo sin preparación previa.",
+      "pasos": [
+        "Elegir una palabra neutra para demostración (ej.: 'leche'). Pedir al paciente que diga 'leche' y note lo que le viene a la mente (imagen, sabor, color)",
+        "Ahora pedir que repita 'leche' en voz alta lo más rápido posible durante 30-45 segundos",
+        "Preguntar: '¿Qué pasó con la imagen de la leche? ¿Sigue siendo leche o ahora es solo un sonido raro?'",
+        "Explicar: 'Las palabras son solo sonidos a los que les hemos dado significado. Cuando las repetimos, el significado se desvanece y queda solo el sonido'",
+        "Ahora elegir una palabra autodestructiva del paciente (ej.: 'fracasado'). Primero notar qué evoca al decirla una vez",
+        "Repetir la palabra angustiante durante 30-45 segundos a ritmo rápido. Observar cómo el impacto emocional disminuye"
+      ],
+      "ejemplo_clinico": "Una paciente con trastorno alimentario se describe como 'gorda' con enorme carga emocional. Tras la demostración con 'leche', repite 'gorda' rápidamente durante 40 segundos. Al terminar, reporta: 'Ya no suena a nada, es como un ruido'. Terapeuta: 'Exacto. La palabra sigue ahí, pero ha perdido su poder. ¿Qué pasaría si pudieras relacionarte con esa palabra así de libre?'."
+    },
+    {
+      "id": "TE03",
+      "nombre": "Aceptación: Expansión (hacer espacio)",
+      "descripcion": "Técnica de aceptación emocional que guía al paciente a observar y expandirse para hacer espacio a emociones difíciles en el cuerpo, en lugar de luchar contra ellas o intentar eliminarlas. Se basa en la metáfora de que las emociones son como visitantes que necesitan espacio, no una puerta cerrada.",
+      "cuando_usar": "Cuando el paciente presenta evitación experiencial de emociones específicas (ansiedad, tristeza, ira, vergüenza). Útil cuando la estrategia de control ha fracasado y el paciente está dispuesto a probar algo diferente.",
+      "pasos": [
+        "Pedir al paciente que identifique la emoción difícil que está presente ahora o que traiga a la mente una situación que la active",
+        "Guiar la atención al cuerpo: '¿Dónde sientes esa emoción en tu cuerpo? Observa la zona con curiosidad'",
+        "Explorar la sensación: '¿Qué forma tiene? ¿Qué tamaño? Si tuviera un color, ¿cuál sería? ¿Tiene temperatura? ¿Se mueve o está quieta?'",
+        "Invitar a respirar hacia esa zona: 'Imagina que tu respiración puede llegar hasta ese lugar. Con cada respiración, crea un poco más de espacio alrededor de esa sensación'",
+        "Soltar la lucha: 'No estás intentando que desaparezca ni que cambie. Simplemente le estás haciendo espacio, como si abrieras la puerta a un visitante inesperado'",
+        "Observar los cambios: '¿Qué pasa cuando dejas de luchar y simplemente le haces espacio? ¿Cambia la sensación? ¿Cambia tu relación con ella?'"
+      ],
+      "ejemplo_clinico": "Un paciente con ansiedad social localiza la ansiedad como una presión en el pecho, 'del tamaño de una pelota de tenis, roja y caliente'. Al respirar hacia ella y hacer espacio, reporta que la pelota se hace más pequeña sin haberla empujado. Terapeuta: 'No la eliminaste. Solo dejaste de apretar. Cuando dejamos de luchar, a menudo la emoción se regula sola'."
+    },
+    {
+      "id": "TE04",
+      "nombre": "Contacto con el momento presente: Ejercicio de los 5 sentidos",
+      "descripcion": "Técnica de anclaje al presente que utiliza los cinco sentidos para sacar al paciente de la rumiación o la anticipación ansiosa y conectarlo con su experiencia directa aquí y ahora. Desarrolla la habilidad de contactar con el momento presente como base para la flexibilidad psicológica.",
+      "cuando_usar": "Cuando el paciente está atrapado en rumiación sobre el pasado o anticipación ansiosa del futuro. Útil como ejercicio de apertura de sesión, como técnica de regulación en momentos de crisis, y como práctica diaria de mindfulness.",
+      "pasos": [
+        "Invitar al paciente a pausar y orientar la atención al momento presente: 'Vamos a hacer una pausa y conectar con lo que está pasando aquí y ahora'",
+        "Vista: 'Nombra 5 cosas que puedas ver en este momento. No las juzgues, solo nótalas'",
+        "Oído: 'Ahora cierra los ojos y nombra 4 sonidos que puedas escuchar, incluyendo los más sutiles'",
+        "Tacto: 'Nota 3 sensaciones táctiles: la textura de tu ropa, la temperatura del aire, el contacto con la silla'",
+        "Olfato: 'Identifica 2 olores que puedas percibir ahora mismo'",
+        "Gusto: 'Nota 1 sabor presente en tu boca en este instante'"
+      ],
+      "ejemplo_clinico": "Una paciente llega a sesión con ansiedad intensa por una presentación laboral al día siguiente. Está completamente inmersa en escenarios catastróficos. Tras el ejercicio de 5 sentidos, reporta: 'Me había olvidado de que estoy aquí, sentada en esta silla. La presentación es mañana, no ahora'. Esto permite trabajar sobre la diferencia entre el peligro real (ahora, aquí) y el peligro construido por la mente."
+    },
+    {
+      "id": "TE05",
+      "nombre": "Yo-como-contexto: Metáfora del cielo y el clima",
+      "descripcion": "Técnica de perspectiva que utiliza la metáfora del cielo para facilitar la experiencia del yo-como-contexto: el cielo (yo observador) siempre está ahí, sin cambios, mientras que el clima (pensamientos, emociones, sensaciones) cambia constantemente. Permite desidentificarse del contenido mental sin negarlo.",
+      "cuando_usar": "Cuando el paciente se identifica rígidamente con sus estados emocionales o pensamientos ('SOY depresivo', 'SOY ansioso'). Útil para pacientes que sienten que sus problemas definen su identidad completa.",
+      "pasos": [
+        "Introducir la metáfora: 'Imagina que tú eres el cielo. Tus pensamientos, emociones y sensaciones son el clima: a veces hay sol, a veces tormenta, a veces nubes grises'",
+        "Explorar: 'Cuando hay una tormenta terrible, ¿desaparece el cielo? ¿O la tormenta pasa y el cielo sigue ahí?'",
+        "Conectar con la experiencia: 'Has pasado por muchas tormentas emocionales en tu vida. Tormentas de tristeza, de ansiedad, de rabia. Y sin embargo, aquí estás. La parte de ti que observa todo eso sigue intacta'",
+        "Practicar la perspectiva: 'Cuando notes una emoción intensa, prueba a decirte: estoy notando que el clima ahora es tormentoso, pero yo soy el cielo'",
+        "Diferenciar: 'Hay una diferencia entre decir SOY un fracasado y decir estoy teniendo el pensamiento de que soy un fracasado. La primera te atrapa en el clima; la segunda te devuelve al cielo'"
+      ],
+      "ejemplo_clinico": "Un paciente con depresión dice 'Soy una persona triste, siempre he sido así y siempre lo seré'. El terapeuta introduce la metáfora: 'Si fueras solo tristeza, ¿cómo es que puedes contarme chistes a veces? ¿Cómo es que ayer disfrutaste jugando con tu hija? Quizá eres el cielo y la tristeza es una nube que ahora ocupa mucho espacio, pero no eres la nube'."
+    },
+    {
+      "id": "TE06",
+      "nombre": "Clarificación de valores: La brújula de vida",
+      "descripcion": "Técnica estructurada para identificar y clarificar los valores del paciente en los principales dominios vitales. Utiliza la metáfora de la brújula para distinguir valores (dirección) de metas (destino), ayudando al paciente a reconocer qué es lo que realmente importa en su vida.",
+      "cuando_usar": "En las sesiones dedicadas a valores (típicamente sesiones 6-8). Cuando el paciente está desconectado de sus valores, confunde valores con metas, o vive según valores impuestos por otros en lugar de los propios.",
+      "pasos": [
+        "Presentar la metáfora: 'Los valores son como el norte en una brújula. Nunca llegas al norte, pero siempre puedes caminar en esa dirección. Las metas son como las montañas en el camino: se alcanzan y se dejan atrás'",
+        "Explorar dominios: presentar las áreas vitales (relaciones, trabajo, ocio, salud, crecimiento, comunidad) y preguntar: '¿Qué tipo de persona quieres ser en esta área? No qué quieres conseguir, sino cómo quieres comportarte'",
+        "Diferenciar valores de metas: 'Ser un padre cariñoso y presente es un valor. Ir al partido de fútbol de tu hijo el sábado es una meta al servicio de ese valor'",
+        "Chequear autenticidad: '¿Este valor es tuyo o es algo que otros esperan de ti? Si nadie te estuviera mirando, ¿seguirías eligiendo esto?'",
+        "Evaluar vitalidad: '¿Cuándo fue la última vez que actuaste según este valor? ¿Cómo te sentiste? ¿Qué te impide hacerlo más?'",
+        "Crear el mapa: escribir los valores elegidos para cada dominio como direcciones de la brújula personal"
+      ],
+      "ejemplo_clinico": "Una paciente ejecutiva descubre que su valor principal es 'calidez en las relaciones' pero lleva años priorizando 'éxito profesional' que resultó ser un valor impuesto por su familia. Al darse cuenta, entiende por qué sus logros laborales no le producen satisfacción: está escalando la montaña equivocada. La brújula se reorienta hacia acciones de conexión interpersonal."
+    },
+    {
+      "id": "TE07",
+      "nombre": "Acción comprometida: Compromisos SMART al servicio de valores",
+      "descripcion": "Técnica que traduce los valores clarificados en acciones concretas, medibles y graduadas. Se integra con el modelo de valores de ACT: cada acción es un paso en la dirección del valor, no una meta que deba alcanzarse perfectamente. Incluye manejo de barreras anticipadas.",
+      "cuando_usar": "Después de la clarificación de valores (sesiones 8-12). Cuando el paciente tiene valores claros pero no logra traducirlos en conducta. Cuando hay una brecha entre lo que el paciente dice que le importa y lo que realmente hace.",
+      "pasos": [
+        "Seleccionar un valor prioritario y el dominio vital al que pertenece",
+        "Generar acciones posibles: '¿Qué podrías hacer esta semana que fuera un paso, aunque sea pequeño, en la dirección de ese valor?'",
+        "Hacer la acción SMART: específica (qué exactamente), medible (cómo sabrás que lo hiciste), alcanzable (realista para esta semana), relevante (conectada al valor) y temporal (cuándo exactamente)",
+        "Anticipar barreras: '¿Qué podría impedirte hacerlo? ¿Qué pensamientos o emociones podrían aparecer para disuadirte? ¿Qué harás cuando aparezcan?'",
+        "Evaluar disposición: 'Del 0 al 10, ¿cuán dispuesto/a estás a hacer esto, incluyendo las emociones difíciles que puedan surgir? Si es menos de 7, ajustemos la acción'",
+        "Compromiso público: 'Te pido que te comprometas a hacer esto. No como una promesa de resultado, sino como un compromiso de intentarlo con disposición'"
+      ],
+      "ejemplo_clinico": "Un paciente con agorafobia tiene el valor de 'aventura y descubrimiento'. En lugar de una meta ambiciosa, se compromete a una micro-acción: caminar hasta la panadería del barrio (3 minutos) una vez esta semana. Barrera anticipada: 'mi mente me dirá que me va a dar un ataque de pánico'. Plan: 'Agradeceré a mi mente por el aviso y caminaré con la ansiedad, como llevar un equipaje incómodo pero no peligroso'. Disposición: 8/10."
+    }
+  ]
+}

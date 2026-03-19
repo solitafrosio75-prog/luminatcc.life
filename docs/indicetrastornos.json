@@ -1,0 +1,1822 @@
+[
+    {
+        "id": "292.81",
+        "nombre": "Delirium por intoxicación con fenciclidina"
+    },
+    {
+        "id": "292.81",
+        "nombre": "Delirium por intoxicación con inhalantes"
+    },
+    {
+        "id": "292.81",
+        "nombre": "Delirium por intoxicación con opiáceos"
+    },
+    {
+        "id": "292.81",
+        "nombre": "Delirium por intoxicación con otros alucinógenos"
+    },
+    {
+        "id": "292.81",
+        "nombre": "Delirium por intoxicación con sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.81",
+        "nombre": "Delirium por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.82",
+        "nombre": "Trastorno neurocognitivo mayor inducido por inhalantes"
+    },
+    {
+        "id": "292.82",
+        "nombre": "Trastorno neurocognitivo mayor inducido por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.82",
+        "nombre": "Trastorno neurocognitivo mayor inducido por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno bipolar y trastorno relacionado inducido por anfetaminas (u otro estimulante)"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno bipolar y trastorno relacionado inducido por cocaína"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno bipolar y trastorno relacionado inducido por fenciclidina"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno bipolar y trastorno relacionado inducido por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno bipolar y trastornos relacionados inducidos por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno bipolar y trastornos relacionados inducidos por otros alucinógenos"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno depresivo inducido por anfetaminas (u otro estimulante)"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno depresivo inducido por cocaína"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno de ansiedad inducido por inhalantes"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno depresivo inducido por fenciclidina"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno depresivo inducido por opiáceos"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno depresivo inducido por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno depresivo inducido por otros alucinógenos"
+    },
+    {
+        "id": "292.84",
+        "nombre": "Trastorno depresivo inducido por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.85",
+        "nombre": "Trastorno del sueño inducido por anfetaminas (u otro estimulante)"
+    },
+    {
+        "id": "292.85",
+        "nombre": "Trastorno del sueño inducido por cafeína"
+    },
+    {
+        "id": "292.85",
+        "nombre": "Trastorno del sueño inducido por cannabis"
+    },
+    {
+        "id": "292.85",
+        "nombre": "Trastorno del sueño inducido por cocaína"
+    },
+    {
+        "id": "292.85",
+        "nombre": "Trastorno del sueño inducido por opiáceos"
+    },
+    {
+        "id": "292.85",
+        "nombre": "Trastorno del sueño inducido por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.85",
+        "nombre": "Trastorno del sueño inducido por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.85",
+        "nombre": "Trastorno del sueño inducido por tabaco"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Disfunción sexual inducida por anfetaminas (u otro estimulante)"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Distunción sexual inducida por cocaina"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Disfunción sexual inducida por opiáceos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Disfunción sexual inducida por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Disfunción sexual inducida por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por anfetaminas u otro estimulante"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por cannabis"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por cocaína"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por fenciclidina"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por inhalantes"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por opiáceos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por otros alucinógenos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Intoxicación por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por anfetaminas (u otro estimulante)"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por cafeína"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por cannabis"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por cocaína"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por fenciclidina"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por inhalantes"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por opiáceos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por otros alucinógenos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno de ansiedad inducido por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno neurocognitivo leve inducido por inhalantes"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno neurocognitivo leve inducido por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno neurocognitivo leve inducido por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno obsesivo-compulsivo y trastornos relacionados inducidos por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno obsesivo-compulsivo y trastornos relacionados inducidos por anfetaminas (u otro estimulante)"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno obsesivo-compulsivo y trastornos relacionados inducidos por cocaína"
+    },
+    {
+        "id": "292.89",
+        "nombre": "Trastorno perceptivo persistente por alucinógenos"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno psicótico inducido por anfetaminas (u otro estimulante)"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno psicótico inducido por cannabis"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno psicótico inducido por cocaína"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno psicótico inducido por fenciclidina"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno psicótico inducido por inhalantes"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno psicótico inducido por otras sustancias (o sustancias desconocidas)"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno psicótico inducido por otros alucinógenos"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno psicótico inducido por sedantes, hipnóticos o ansiolíticos"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con el cannabis no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con el tabaco no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con la cafeína no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con la fenciclidina no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con los alucinógenos no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con los estimulantes no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con los inhalantes no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con los opiáceos no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con los sedantes, hipnóticos o ansiolíticos no especificado"
+    },
+    {
+        "id": "292.9",
+        "nombre": "Trastorno relacionado con otras sustancias (o sustancias desconocidas) no especificado"
+    },
+    {
+        "id": "293.0",
+        "nombre": "Delirium debido a etiologías múltiples"
+    },
+    {
+        "id": "293.0",
+        "nombre": "Delirium debido a otra afección médica"
+    },
+    {
+        "id": "293.81",
+        "nombre": "Trastorno psicótico debido a otra afección médica, con delirios"
+    },
+    {
+        "id": "293.82",
+        "nombre": "Trastorno psicótico debido a otra afección médica, con alucinaciones"
+    },
+    {
+        "id": "293.83",
+        "nombre": "Trastorno bipolar y trastorno relacionado debido a otra afección médica"
+    },
+    {
+        "id": "293.83",
+        "nombre": "Trastorno depresivo debido a otra afección médica"
+    },
+    {
+        "id": "293.84",
+        "nombre": "Trastorno de ansiedad debido a otra afección médica"
+    },
+    {
+        "id": "293.89",
+        "nombre": "Catatonia asociada a otro trastorno mental (especificador de catatonia)"
+    },
+    {
+        "id": "293.89",
+        "nombre": "Catatonia no especificada"
+    },
+    {
+        "id": "293.89",
+        "nombre": "Trastorno catatónico debido a otra afección médica"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a enfermedad de Huntington, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a enfermedad por priones, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a etiologías múltiples, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a infección por VIH, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a otra afección médica, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a un traumatismo cerebral, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor con cuerpos de Lewy posible, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor probable con cuerpos de Lewy, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a la enfermedad de Alzheimer posible, con alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor probable debido a la enfermedad de Alzheimer, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a una degeneración del lóbulo frontotemporal posible, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor debido a una degeneración del lóbulo frontotemporal probable, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor posiblemente debido a la enfermedad de Parkinson, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.10",
+        "nombre": "Trastorno neurocognitivo mayor probablemente debido a enfermedad de Parkinson, sin alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a una degeneración del lóbulo frontotemporal posible, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a una degeneración del lóbulo frontotemporal probable, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a etiologías múltiples, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a infección por VIH, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a la enfermedad de Huntington, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a la enfermedad por priones, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a un traumatismo cerebral, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a otra afección médica, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor con cuerpos de Lewy posible, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor con cuerpos de Lewy probable, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a la enfermedad de Alzheimer posible, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor debido a la enfermedad de Alzheimer probable, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor posiblemente debido a la enfermedad de Parkinson, con alteración del comportamiento"
+    },
+    {
+        "id": "294.11",
+        "nombre": "Trastorno neurocognitivo mayor probablemente debido a la enfermedad de Parkinson, con alteración del comportamiento"
+    },
+    {
+        "id": "294.8",
+        "nombre": "Otro trastorno mental especificado debido a otra afección médica"
+    },
+    {
+        "id": "294.8",
+        "nombre": "Trastorno obsesivo-compulsivo y trastornos relacionados debidos a otra afección médica"
+    },
+    {
+        "id": "294.9",
+        "nombre": "Trastorno mental no especificado debido a otra afección médica"
+    },
+    {
+        "id": "295.40",
+        "nombre": "Trastorno esquizofreniforme"
+    },
+    {
+        "id": "295.70",
+        "nombre": "Trastorno esquizoafectivo, tipo bipolar"
+    },
+    {
+        "id": "295.70",
+        "nombre": "Trastorno esquizoafectivo, tipo depresivo"
+    },
+    {
+        "id": "295.90",
+        "nombre": "Esquizofrenia"
+    },
+    {
+        "id": "296.20",
+        "nombre": "Trastorno depresivo mayor, episodio único, no especificado"
+    },
+    {
+        "id": "296.21",
+        "nombre": "Trastorno depresivo mayor, episodio único, leve"
+    },
+    {
+        "id": "296.22",
+        "nombre": "Trastorno depresivo mayor, episodio único, moderado"
+    },
+    {
+        "id": "296.23",
+        "nombre": "Trastorno depresivo mayor, episodio único, grave"
+    },
+    {
+        "id": "296.24",
+        "nombre": "Trastorno depresivo mayor, episodio único, con características psicóticas"
+    },
+    {
+        "id": "296.25",
+        "nombre": "Trastorno depresivo mayor, episodio único, en remisión parcial"
+    },
+    {
+        "id": "296.26",
+        "nombre": "Trastorno depresivo mayor, episodio único, en remisión total"
+    },
+    {
+        "id": "296.30",
+        "nombre": "Trastorno depresivo mayor, episodio recurrente, no especificado"
+    },
+    {
+        "id": "296.31",
+        "nombre": "Trastorno depresivo mayor, episodio recurrente, leve"
+    },
+    {
+        "id": "296.32",
+        "nombre": "Trastorno depresivo mayor, episodio recurrente, moderado"
+    },
+    {
+        "id": "296.33",
+        "nombre": "Trastomo depresivo mayor, episodio recurrente, grave"
+    },
+    {
+        "id": "296.34",
+        "nombre": "Trastorno depresivo mayor, episodio recurrente, con características psicóticas"
+    },
+    {
+        "id": "296.35",
+        "nombre": "Trastorno depresivo mayor, episodio recurrente, en remisión parcial"
+    },
+    {
+        "id": "296.36",
+        "nombre": "Trastorno depresivo mayor, episodio recurrente, en remisión total"
+    },
+    {
+        "id": "296.40",
+        "nombre": "Trastorno bipolar I, episodio hipomaníaco actual o más reciente"
+    },
+    {
+        "id": "296.40",
+        "nombre": "Trastorno bipolar I, episodio hipomaníaco actual o más reciente, no especificado"
+    },
+    {
+        "id": "296.40",
+        "nombre": "Trastorno bipolar I, episodio maríaco actual o más reciente, no especificado"
+    },
+    {
+        "id": "296.41",
+        "nombre": "Trastorno bipolar I, episodio maníaco actual o más reciente, leve"
+    },
+    {
+        "id": "296.42",
+        "nombre": "Trastorno bipolar I, episodio maníaco actual o más reciente, moderado"
+    },
+    {
+        "id": "296.43",
+        "nombre": "Trastorno bipolar I, episodio maníaco actual o más reciente, grave"
+    },
+    {
+        "id": "296.44",
+        "nombre": "Trastorno bipolar I, episodio maníaco actual o más reciente, con características psicóticas"
+    },
+    {
+        "id": "296.45",
+        "nombre": "Trastorno bipolar I, episodio hipomaníaco actual o más reciente, en remisión parcial"
+    },
+    {
+        "id": "296.45",
+        "nombre": "Trastorno bipolar I, episodio maníaco actual o más reciente, en remisión parcial"
+    },
+    {
+        "id": "296.46",
+        "nombre": "Trastorno bipolar I, episodio hipomaníaco actual o más reciente, en remisión total"
+    },
+    {
+        "id": "296.46",
+        "nombre": "Trastorno bipolar I, episodio maníaco actual o más reciente, en remisión total"
+    },
+    {
+        "id": "296.50",
+        "nombre": "Trastorno bipolar I, episodio depresivo actual o más reciente, no especificado"
+    },
+    {
+        "id": "296.51",
+        "nombre": "Trastorno bipolar I, episodio depresivo actual o más reciente, leve"
+    },
+    {
+        "id": "296.52",
+        "nombre": "Trastorno bipolar I, episodio depresivo actual o más reciente, moderado"
+    },
+    {
+        "id": "296.53",
+        "nombre": "Trastorno bipolar I, episodio depresivo actual o más reciente, grave"
+    },
+    {
+        "id": "296.54",
+        "nombre": "Trastorno bipolar I, episodio depresivo actual o más reciente, con características psicóticas"
+    },
+    {
+        "id": "296.55",
+        "nombre": "Trastorno bipolar I, episodio depresivo actual o más reciente, en remisión parcial"
+    },
+    {
+        "id": "296.56",
+        "nombre": "Trastorno bipolar I, episodio depresivo actual o más reciente, en remisión total"
+    },
+    {
+        "id": "296.7",
+        "nombre": "Trastorno bipolar I, episodio no especificado actual o más reciente"
+    },
+    {
+        "id": "296.80",
+        "nombre": "Trastorno bipolar sin especificar y trastorno relacionado"
+    },
+    {
+        "id": "296.89",
+        "nombre": "Otro trastorno bipolar y trastorno relacionado especificados"
+    },
+    {
+        "id": "296.89",
+        "nombre": "Trastorno bipolar II"
+    },
+    {
+        "id": "296.99",
+        "nombre": "Trastorno de desregulación perturbador del estado de ánimo"
+    },
+    {
+        "id": "297.1",
+        "nombre": "Trastorno delirante"
+    },
+    {
+        "id": "298.8",
+        "nombre": "Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico"
+    },
+    {
+        "id": "298.8",
+        "nombre": "Trastorno psicótico breve"
+    },
+    {
+        "id": "298.9",
+        "nombre": "Trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico"
+    },
+    {
+        "id": "299.00",
+        "nombre": "Trastorno del espectro autista"
+    },
+    {
+        "id": "300.00",
+        "nombre": "Otro trastorno de ansiedad no especificado"
+    },
+    {
+        "id": "300.01",
+        "nombre": "Trastorno de pánico"
+    },
+    {
+        "id": "300.02",
+        "nombre": "Trastorno de ansiedad generalizada"
+    },
+    {
+        "id": "300.09",
+        "nombre": "Otro trastorno de ansiedad especificado"
+    },
+    {
+        "id": "300.11",
+        "nombre": "Trastorno de conversión (trastorno de síntomas neurológicos funcionales)"
+    },
+    {
+        "id": "300.12",
+        "nombre": "Amnesia disociativa"
+    },
+    {
+        "id": "300.13",
+        "nombre": "Amnesia disociativa, con fuga disociativa"
+    },
+    {
+        "id": "300.14",
+        "nombre": "Trastorno de identidad disociativo"
+    },
+    {
+        "id": "300.15",
+        "nombre": "Otro trastorno disociativo especificado"
+    },
+    {
+        "id": "300.15",
+        "nombre": "Trastorno disociativo no especificado"
+    },
+    {
+        "id": "300.19",
+        "nombre": "Trastorno facticio"
+    },
+    {
+        "id": "300.22",
+        "nombre": "Agorafobia"
+    },
+    {
+        "id": "300.23",
+        "nombre": "Trastorno de ansiedad social (fobia social)"
+    },
+    {
+        "id": "300.29",
+        "nombre": "Fobia específica, animal"
+    },
+    {
+        "id": "300.29",
+        "nombre": "Fobia específica, entorno natural"
+    },
+    {
+        "id": "300.29",
+        "nombre": "Fobia especifica, otra"
+    },
+    {
+        "id": "300.29",
+        "nombre": "Fobia específica, sangre-inyección-lesión"
+    },
+    {
+        "id": "300.29",
+        "nombre": "Fobia específica, situacional"
+    },
+    {
+        "id": "300.3",
+        "nombre": "Otros trastornos obsesivo-compulsivos y trastornos relacionados especificados"
+    },
+    {
+        "id": "300.3",
+        "nombre": "Trastorno de acumulación"
+    },
+    {
+        "id": "300.3",
+        "nombre": "Trastorno obsesivo-compulsivo"
+    },
+    {
+        "id": "300.3",
+        "nombre": "Trastorno obsesivo-compulsivo y trastornos relacionados no especificados"
+    },
+    {
+        "id": "300.4",
+        "nombre": "Trastorno depresivo persistente (distimia)"
+    },
+    {
+        "id": "300.6",
+        "nombre": "Trastorno de despersonalización/desrealización"
+    },
+    {
+        "id": "300.7",
+        "nombre": "Trastorno de ansiedad por enfermedad"
+    },
+    {
+        "id": "300.7",
+        "nombre": "Trastorno dismórfico corporal"
+    },
+    {
+        "id": "300.82",
+        "nombre": "Trastorno de síntomas somáticos"
+    },
+    {
+        "id": "300.82",
+        "nombre": "Trastorno de síntomas somáticos y trastornos relacionados no especificado"
+    },
+    {
+        "id": "300.89",
+        "nombre": "Otro trastorno de síntomas somáticos y trastornos relacionados especificados"
+    },
+    {
+        "id": "300.9",
+        "nombre": "Otro trastorno mental especificado"
+    },
+    {
+        "id": "300.9",
+        "nombre": "Trastorno mental no especificado"
+    },
+    {
+        "id": "301.0",
+        "nombre": "Trastorno de la personalidad paranoide"
+    },
+    {
+        "id": "301.13",
+        "nombre": "Trastorno ciclotímico"
+    },
+    {
+        "id": "301.20",
+        "nombre": "Trastorno de la personalidad esquizoide"
+    },
+    {
+        "id": "301.22",
+        "nombre": "Trastorno de la personalidad esquizotípica"
+    },
+    {
+        "id": "301.4",
+        "nombre": "Trastorno de la personalidad obsesivo-compulsiva"
+    },
+    {
+        "id": "301.50",
+        "nombre": "Trastorno de la personalidad histriónica"
+    },
+    {
+        "id": "301.6",
+        "nombre": "Trastorno de la personalidad dependiente"
+    },
+    {
+        "id": "301.7",
+        "nombre": "Trastorno de la personalidad antisocial"
+    },
+    {
+        "id": "301.81",
+        "nombre": "Trastorno de la personalidad narcisista"
+    },
+    {
+        "id": "301.82",
+        "nombre": "Trastorno de la personalidad evitativa"
+    },
+    {
+        "id": "301.83",
+        "nombre": "Trastorno de la personalidad límite"
+    },
+    {
+        "id": "301.89",
+        "nombre": "Otro trastorno de la personalidad especificado"
+    },
+    {
+        "id": "301.9",
+        "nombre": "Trastorno de la personalidad no especificado"
+    },
+    {
+        "id": "302.2",
+        "nombre": "Trastorno de pedofilia"
+    },
+    {
+        "id": "302.3",
+        "nombre": "Trastorno de travestismo"
+    },
+    {
+        "id": "302.4",
+        "nombre": "Trastorno de exhibicionismo"
+    },
+    {
+        "id": "302.6",
+        "nombre": "Disforia de género en niños"
+    },
+    {
+        "id": "302.6",
+        "nombre": "Disforia de género no especificada"
+    },
+    {
+        "id": "302.6",
+        "nombre": "Otra disforia de género especificada"
+    },
+    {
+        "id": "302.70",
+        "nombre": "Disfunción sexual no especificada"
+    },
+    {
+        "id": "302.71",
+        "nombre": "Trastorno de deseo sexual hipoactivo en el varón"
+    },
+    {
+        "id": "302.72",
+        "nombre": "Trastorno del interés/excitación sexual femenino"
+    },
+    {
+        "id": "302.72",
+        "nombre": "Trastorno eréctil"
+    },
+    {
+        "id": "302.73",
+        "nombre": "Trastorno orgasmico femenino"
+    },
+    {
+        "id": "302.74",
+        "nombre": "Eyaculación retardada"
+    },
+    {
+        "id": "302.75",
+        "nombre": "Eyaculación prematura (precoz)"
+    },
+    {
+        "id": "302.76",
+        "nombre": "Trastorno de dolor génito-pélvico/penetración"
+    },
+    {
+        "id": "302.79",
+        "nombre": "Otra disfunción sexual especificada"
+    },
+    {
+        "id": "302.81",
+        "nombre": "Trastorno de fetichismo"
+    },
+    {
+        "id": "302.82",
+        "nombre": "Trastorno de voyeurismo"
+    },
+    {
+        "id": "302.83",
+        "nombre": "Trastorno de masoquismo sexual"
+    },
+    {
+        "id": "302.84",
+        "nombre": "Trastorno de sadismo sexual"
+    },
+    {
+        "id": "302.85",
+        "nombre": "Disforia de género en adolescentes y adultos"
+    },
+    {
+        "id": "302.89",
+        "nombre": "Otro trastorno parafílico especificado"
+    },
+    {
+        "id": "302.89",
+        "nombre": "Trastorno de frotteurismo"
+    },
+    {
+        "id": "302.9",
+        "nombre": "Trastorno parafílico no especificado"
+    },
+    {
+        "id": "303.00",
+        "nombre": "Intoxicación por alcohol"
+    },
+    {
+        "id": "303.90",
+        "nombre": "Trastorno por consumo de alcohol, grave"
+    },
+    {
+        "id": "303.90",
+        "nombre": "Trastorno por consumo de alcohol, moderado"
+    },
+    {
+        "id": "304.00",
+        "nombre": "Trastorno por consumo de opiáceos, grave"
+    },
+    {
+        "id": "304.00",
+        "nombre": "Trastorno por consumo de opiáceos, moderado"
+    },
+    {
+        "id": "304.10",
+        "nombre": "Trastorno por consumo de sedantes, hipnóticos o ansiolíticos, grave"
+    },
+    {
+        "id": "304.10",
+        "nombre": "Trastorno por consumo de sedantes, hipnóticos o ansiolíticos, moderado"
+    },
+    {
+        "id": "304.20",
+        "nombre": "Trastorno por consumo de cocaína, grave"
+    },
+    {
+        "id": "304.20",
+        "nombre": "Trastorno por consumo de cocaína, moderado"
+    },
+    {
+        "id": "304.30",
+        "nombre": "Trastorno por consumo de cannabis, grave"
+    },
+    {
+        "id": "304.30",
+        "nombre": "Trastorno por consumo de cannabis, moderado"
+    },
+    {
+        "id": "304.40",
+        "nombre": "Trastorno por consumo de sustancias anfetamínicas, grave"
+    },
+    {
+        "id": "304.40",
+        "nombre": "Trastorno por consumo de sustancias anfetamínicas, moderado"
+    },
+    {
+        "id": "304.40",
+        "nombre": "Trastorno por uso de otro estimulante o un estimulante no especificado, grave"
+    },
+    {
+        "id": "304.40",
+        "nombre": "Trastorno por uso de otro estimulante o un estimulante no especificado, moderado"
+    },
+    {
+        "id": "304.50",
+        "nombre": "Trastorno por consumo de otros alucinógenos, grave"
+    },
+    {
+        "id": "304.50",
+        "nombre": "Trastorno por consumo de otros alucinógenos, moderado"
+    },
+    {
+        "id": "304.60",
+        "nombre": "Trastorno por consumo de inhalantes, moderado"
+    },
+    {
+        "id": "304.60",
+        "nombre": "Trastorno por consumo de fenciclidina, grave"
+    },
+    {
+        "id": "304.60",
+        "nombre": "Trastorno por consumo de fenciclidina, moderado"
+    },
+    {
+        "id": "304.60",
+        "nombre": "Trastorno por consumo de inhalantes, grave"
+    },
+    {
+        "id": "304.90",
+        "nombre": "Trastorno por consumo de otra sustancia (o sustancia desconocida), grave"
+    },
+    {
+        "id": "304.90",
+        "nombre": "Trastorno por consumo de otra sustancia (o sustancia desconocida), moderado"
+    },
+    {
+        "id": "305.00",
+        "nombre": "Trastorno por consumo de alcohol, leve"
+    },
+    {
+        "id": "305.1",
+        "nombre": "Trastorno por consumo de tabaco, grave"
+    },
+    {
+        "id": "305.1",
+        "nombre": "Trastorno por consumo de tabaco, leve"
+    },
+    {
+        "id": "305.1",
+        "nombre": "Trastorno por consumo de tabaco, moderado"
+    },
+    {
+        "id": "305.20",
+        "nombre": "Trastorno por consumo de cannabis, leve"
+    },
+    {
+        "id": "305.30",
+        "nombre": "Trastorno por consumo de otros alucinógenos, leve"
+    },
+    {
+        "id": "305.40",
+        "nombre": "Trastorno por consumo de sedantes, hipnóticos o ansiolíticos, leve"
+    },
+    {
+        "id": "305.50",
+        "nombre": "Trastorno por consumo de opiáceos, leve"
+    },
+    {
+        "id": "305.60",
+        "nombre": "Trastorno por consumo de cocaína, leve"
+    },
+    {
+        "id": "305.70",
+        "nombre": "Trastorno por consumo de otro estimulante o un estimulante no especificado, leve"
+    },
+    {
+        "id": "305.70",
+        "nombre": "Trastorno por consumo de sustancias anfetamínicas, leve"
+    },
+    {
+        "id": "305.90",
+        "nombre": "Intoxicación por cafeína"
+    },
+    {
+        "id": "305.90",
+        "nombre": "Trastorno por consumo de fenciclidina, leve"
+    },
+    {
+        "id": "305.90",
+        "nombre": "Trastorno por consumo de inhalantes, leve"
+    },
+    {
+        "id": "305.90",
+        "nombre": "Trastorno por consumo de otras sustancias (o sustancia desconocida), leve"
+    },
+    {
+        "id": "307.0",
+        "nombre": "Trastorno de la fluidez de inicio en el adulto"
+    },
+    {
+        "id": "307.1",
+        "nombre": "Anorexia nerviosa"
+    },
+    {
+        "id": "307.20",
+        "nombre": "Otro trastorno de tics especificado"
+    },
+    {
+        "id": "307.20",
+        "nombre": "Trastorno de tics no especificado"
+    },
+    {
+        "id": "307.21",
+        "nombre": "Trastorno de tic transitorio"
+    },
+    {
+        "id": "307.22",
+        "nombre": "Trastorno de tics motores o vocales persistente (crónico)"
+    },
+    {
+        "id": "307.23",
+        "nombre": "Trastorno de la Tourette"
+    },
+    {
+        "id": "307.3",
+        "nombre": "Trastorno de movimientos estereotipados"
+    },
+    {
+        "id": "307.42",
+        "nombre": "Trastorno de insomnio"
+    },
+    {
+        "id": "307.44",
+        "nombre": "Trastorno de hipersomnia"
+    },
+    {
+        "id": "307.45",
+        "nombre": "Trastornos del ritmo circadiano de sueño-vigilia, tipo asociado a turnos laborales"
+    },
+    {
+        "id": "307.45",
+        "nombre": "Trastornos del ritmo circadiano de sueño-vigilia, tipo de fases de sueño avanzadas"
+    },
+    {
+        "id": "307.45",
+        "nombre": "Trastornos del ritmo circadiano de sueño-vigilia, tipo de fases de sueño retrasadas"
+    },
+    {
+        "id": "307.45",
+        "nombre": "Trastornos del ritmo circadiano de sueño-vigilia, tipo de sueño-vigilia irregular"
+    },
+    {
+        "id": "307.45",
+        "nombre": "Trastornos del ritmo circadiano de sueño-vigilia, tipo de sueño-vigilia no ajustado a las 24 horas"
+    },
+    {
+        "id": "307.45",
+        "nombre": "Trastornos del ritmo circadiano de sueno-vigilia, tipo no especificado"
+    },
+    {
+        "id": "307.46",
+        "nombre": "Trastorno del despertar del sueño no REM, tipo con sonambulismo"
+    },
+    {
+        "id": "307.46",
+        "nombre": "Trastorno del despertar del sueño no REM, tipo con terrores nocturnos"
+    },
+    {
+        "id": "307.47",
+        "nombre": "Trastorno de pesadillas"
+    },
+    {
+        "id": "307.50",
+        "nombre": "Trastorno de la conducta alimentaria y de la ingesta de alimentos no especificado"
+    },
+    {
+        "id": "307.51",
+        "nombre": "Bulimia nerviosa"
+    },
+    {
+        "id": "307.51",
+        "nombre": "Trastorno de atracones"
+    },
+    {
+        "id": "307.52",
+        "nombre": "Pica"
+    },
+    {
+        "id": "307.53",
+        "nombre": "Trastorno de rumiación"
+    },
+    {
+        "id": "307.59",
+        "nombre": "Otro trastorno de la conducta alimentaria y de la ingesta de alimentos especificado"
+    },
+    {
+        "id": "307.59",
+        "nombre": "Trastorno de evitación/restricción de la ingesta de alimentos"
+    },
+    {
+        "id": "307.6",
+        "nombre": "Enuresis"
+    },
+    {
+        "id": "307.7",
+        "nombre": "Encopresis"
+    },
+    {
+        "id": "307.9",
+        "nombre": "Trastorno de la comunicación no especificado"
+    },
+    {
+        "id": "308.3",
+        "nombre": "Trastomo de estrés agudo"
+    },
+    {
+        "id": "309.0",
+        "nombre": "Trastornos de adaptación, con estado de ánimo deprimido"
+    },
+    {
+        "id": "309.21",
+        "nombre": "Trastorno de ansiedad por separación"
+    },
+    {
+        "id": "309.24",
+        "nombre": "Trastornos de adaptación, con ansiedad"
+    },
+    {
+        "id": "309.28",
+        "nombre": "Trastornos de adaptación, con ansiedad mixta y estado de ánimo deprimido"
+    },
+    {
+        "id": "309.3",
+        "nombre": "Trastornos de adaptación, con alteración de la conducta"
+    },
+    {
+        "id": "309.4",
+        "nombre": "Trastornos de adaptación, con alteración mixta de las emociones y la conducta"
+    },
+    {
+        "id": "309.81",
+        "nombre": "Trastorno de estrés postraumático"
+    },
+    {
+        "id": "309.89",
+        "nombre": "Otro trastorno relacionado con traumas y factores de estrés especificado"
+    },
+    {
+        "id": "309.9",
+        "nombre": "Otro trastorno relacionado con trauma y factores de estrés no especificado"
+    },
+    {
+        "id": "309.9",
+        "nombre": "Trastornos de adaptación, sin especificar"
+    },
+    {
+        "id": "310.1",
+        "nombre": "Cambio de la personalidad debido a otra afección medica"
+    },
+    {
+        "id": "311",
+        "nombre": "Otro trastorno depresivo especificado"
+    },
+    {
+        "id": "311",
+        "nombre": "Otro trastorno depresivo no especificado"
+    },
+    {
+        "id": "312.31",
+        "nombre": "Juego patológico"
+    },
+    {
+        "id": "312.32",
+        "nombre": "Cleptomanía"
+    },
+    {
+        "id": "312.33",
+        "nombre": "Piromanía"
+    },
+    {
+        "id": "312.34",
+        "nombre": "Trastorno explosivo intermitente"
+    },
+    {
+        "id": "312.39",
+        "nombre": "Tricotilomanía (trastorno de arrancarse el pelo)"
+    },
+    {
+        "id": "312.81",
+        "nombre": "Trastorno de conducta, tipo de inicio infantil"
+    },
+    {
+        "id": "312.82",
+        "nombre": "Trastorno de conducta, tipo de inicio adolescente"
+    },
+    {
+        "id": "312.89",
+        "nombre": "Otro trastorno disruptivo, del control de los impulsos y de la conducta especificado"
+    },
+    {
+        "id": "312.89",
+        "nombre": "Trastorno de conducta, tipo de inicio no especificado"
+    },
+    {
+        "id": "312.9",
+        "nombre": "Trastorno disruptivo, del control de los impulsos y de la conducta, no especificado"
+    },
+    {
+        "id": "313.23",
+        "nombre": "Mutismo selectivo"
+    },
+    {
+        "id": "313.81",
+        "nombre": "Trastorno negativista desafante"
+    },
+    {
+        "id": "313.89",
+        "nombre": "Trastorno de apego reactivo"
+    },
+    {
+        "id": "313.89",
+        "nombre": "Trastorno de relación social desinhibida"
+    },
+    {
+        "id": "314.00",
+        "nombre": "Trastorno por déficit de atención/hiperactividad, presentación predominante con falta de atención"
+    },
+    {
+        "id": "314.01",
+        "nombre": "Trastorno por déficit de atención/hiperactividad no especificado"
+    },
+    {
+        "id": "314.01",
+        "nombre": "Trastorno por déficit de atención/hiperactividad, presentación combinada"
+    },
+    {
+        "id": "314.01",
+        "nombre": "Trastorno por déficit de atención/hiperactividad, presentación predominante hiperactiva/impulsiva"
+    },
+    {
+        "id": "315.00",
+        "nombre": "Trastorno específico del aprendizaje, con dificultad en la lectura"
+    },
+    {
+        "id": "315.1",
+        "nombre": "Trastorno específico del aprendizaje, con dificultad matemática"
+    },
+    {
+        "id": "315.2",
+        "nombre": "Trastorno específico del aprendizaje, con dificultad en la expresión escrita"
+    },
+    {
+        "id": "315.32",
+        "nombre": "Trastorno del lenguaje"
+    },
+    {
+        "id": "315.35",
+        "nombre": "Trastorno de fluidez de inicio en la infancia (tartamudeo)"
+    },
+    {
+        "id": "315.39",
+        "nombre": "Trastorno de la comunicación social (pragmático)"
+    },
+    {
+        "id": "315.39",
+        "nombre": "Trastorno fonológico"
+    },
+    {
+        "id": "315.4",
+        "nombre": "Trastorno del desarrollo de la coordinación"
+    },
+    {
+        "id": "315.8",
+        "nombre": "Otro trastorno del neurodesarrollo especificado"
+    },
+    {
+        "id": "315.8",
+        "nombre": "Retraso global del desarrollo"
+    },
+    {
+        "id": "315.9",
+        "nombre": "Trastorno del neurodesarrollo no especificado"
+    },
+    {
+        "id": "316",
+        "nombre": "Factores psicológicos que influyen en otras afecciones médicas"
+    },
+    {
+        "id": "317",
+        "nombre": "Discapacidad intelectual (trastorno del desarrollo intelectual), leve"
+    },
+    {
+        "id": "318.0",
+        "nombre": "Discapacidad intelectual (trastorno del desarrollo intelectual), moderado"
+    },
+    {
+        "id": "318.1",
+        "nombre": "Discapacidad intelectual (trastorno del desarrollo intelectual), grave"
+    },
+    {
+        "id": "318.2",
+        "nombre": "Discapacidad intelectual (trastorno del desarrollo intelectual), profundo"
+    },
+    {
+        "id": "319",
+        "nombre": "Discapacidad intelectual no especificada (trastorno del desarrollo intelectual)"
+    },
+    {
+        "id": "327.21",
+        "nombre": "Apnea central del sueño, apnea central del sueño idiopática"
+    },
+    {
+        "id": "327.23",
+        "nombre": "Apnea e hipopnea obstructiva del sueño"
+    },
+    {
+        "id": "327.24",
+        "nombre": "Hipoventilación relacionada con el sueño, hipoventilación idiopática"
+    },
+    {
+        "id": "327.25",
+        "nombre": "Hipoventilación relacionada con el sueño, hipoventilación alveolar central congénita"
+    },
+    {
+        "id": "327.26",
+        "nombre": "Hipoventilación relacionada con el sueño, hipoventilación concurrente relacionada con el sueño"
+    },
+    {
+        "id": "327.42",
+        "nombre": "Trastorno del comportamiento del sueño REM"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo frontotemporal leve"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve con cuerpos de Lewy"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve debido a etiologías múltiples"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve debido a la enfermedad de Alzheimer"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve debido a la enfermedad de Parkinson"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve debido a la enfermedad Huntington"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve debido a la enfermedad por priones"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve debido a la infección por el VIH"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve debido a otra afección médica"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo leve debido a un traumatismo cerebral"
+    },
+    {
+        "id": "331.83",
+        "nombre": "Trastorno neurocognitivo vascular leve"
+    },
+    {
+        "id": "332.1",
+        "nombre": "Parkinsonismo inducido por neurolépticos"
+    },
+    {
+        "id": "332.1",
+        "nombre": "Parkinsonismo inducido por otros medicamentos"
+    },
+    {
+        "id": "333.1",
+        "nombre": "Temblor postural inducido por medicamentos"
+    },
+    {
+        "id": "333.72",
+        "nombre": "Distonía aguda inducida por medicamentos"
+    },
+    {
+        "id": "333.72",
+        "nombre": "Distonía tardía"
+    },
+    {
+        "id": "333.85",
+        "nombre": "Discinesia tardía"
+    },
+    {
+        "id": "333.92",
+        "nombre": "Síndrome neuroléptico maligno"
+    },
+    {
+        "id": "333.94",
+        "nombre": "Síndrome de las piernas inquietas"
+    },
+    {
+        "id": "333.99",
+        "nombre": "Acatisia aguda inducida por medicamentos"
+    },
+    {
+        "id": "333.99",
+        "nombre": "Acatisia tardía"
+    },
+    {
+        "id": "333.99",
+        "nombre": "Otro trastorno motor inducido por medicamentos"
+    },
+    {
+        "id": "347.00",
+        "nombre": "Ataxia cerebelosa autosómica dominante, sordera y narcolepsia"
+    },
+    {
+        "id": "347.00",
+        "nombre": "Narcolepsia autosómica dominante, obesidad y diabetes de tipo 2"
+    },
+    {
+        "id": "347.00",
+        "nombre": "Narcolepsia sin cataplejía pero con deficiencia de hipocretina"
+    },
+    {
+        "id": "347.01",
+        "nombre": "Narcolepsia con cataplejía pero sin deficiencia de hipocretina"
+    },
+    {
+        "id": "347.10",
+        "nombre": "Narcolepsia secundaria a otra afección médica"
+    },
+    {
+        "id": "625.4",
+        "nombre": "Trastorno disfórico premenstrual"
+    },
+    {
+        "id": "698.4",
+        "nombre": "Trastorno de excoriación (rascarse la piel)"
+    },
+    {
+        "id": "780.09",
+        "nombre": "Otro delirium especificado"
+    },
+    {
+        "id": "780.09",
+        "nombre": "Delirium no especificado"
+    },
+    {
+        "id": "780.52",
+        "nombre": "Otro trastorno de insomnio especificado"
+    },
+    {
+        "id": "780.52",
+        "nombre": "Trastorno de insomnio no especificado"
+    },
+    {
+        "id": "780.54",
+        "nombre": "Otro trastorno de hipersomnia especificado"
+    },
+    {
+        "id": "780.54",
+        "nombre": "Trastorno de hipersomnia no especificado"
+    },
+    {
+        "id": "780.57",
+        "nombre": "Apnea central del sueño con consumo concurrente de opiáceos"
+    },
+    {
+        "id": "780.59",
+        "nombre": "Otro trastorno del sueño-vigilia especificado"
+    },
+    {
+        "id": "780.59",
+        "nombre": "Trastorno del sueño-vigilia no especificado"
+    },
+    {
+        "id": "786.04",
+        "nombre": "Apnea central del sueño, respiración de Cheyne-Stokes"
+    },
+    {
+        "id": "787.60",
+        "nombre": "Otro trastorno de la excreción especificado, con síntomas fecales"
+    },
+    {
+        "id": "787.60",
+        "nombre": "Trastorno de la excreción no especificado, con síntomas fecales"
+    },
+    {
+        "id": "788.30",
+        "nombre": "Trastorno de la excreción no especificado, con síntomas urinarios"
+    },
+    {
+        "id": "788.39",
+        "nombre": "Otro trastorno de la excreción especificado, con síntomas urinarios"
+    },
+    {
+        "id": "799.59",
+        "nombre": "Trastorno neurocognitivo no especificado"
+    },
+    {
+        "id": "995.20",
+        "nombre": "Otro efecto adverso de medicamentos, hallazgo inicial/ulterior/secuelas"
+    },
+    {
+        "id": "995.29",
+        "nombre": "Síndrome de suspensión de los antidepresivos, hallazgo inicial/ulterior/secuelas"
+    },
+    {
+        "id": "995.51",
+        "nombre": "Maltrato psicológico infantil, confirmado/sospechado"
+    },
+    {
+        "id": "995.52",
+        "nombre": "Negligencia infantil, confirmada/sospechada"
+    },
+    {
+        "id": "995.53",
+        "nombre": "Abuso sexual infantil, confirmado/sospechado"
+    },
+    {
+        "id": "995.54",
+        "nombre": "Maltrato físico infantil, confirmado/sospechado"
+    },
+    {
+        "id": "995.81",
+        "nombre": "Maltrato físico del adulto / Violencia física por cónyuge, confirmado/sospechado"
+    },
+    {
+        "id": "995.82",
+        "nombre": "Maltrato psicológico del adulto / por cónyuge, confirmado/sospechado"
+    },
+    {
+        "id": "995.83",
+        "nombre": "Abuso sexual del adulto / Violencia sexual por cónyuge, confirmado/sospechado"
+    },
+    {
+        "id": "995.85",
+        "nombre": "Negligencia por parte del cónyuge o la pareja, confirmada/sospechada"
+    },
+    {
+        "id": "V15.41",
+        "nombre": "Historia personal de maltrato físico/abuso sexual infantil o violencia física/sexual por cónyuge"
+    },
+    {
+        "id": "V15.42",
+        "nombre": "Historia personal de maltrato psicológico/negligencia infantil o por cónyuge"
+    },
+    {
+        "id": "V15.49",
+        "nombre": "Otra historia personal de trauma psicológico"
+    },
+    {
+        "id": "V15.59",
+        "nombre": "Historia personal de autolesión"
+    },
+    {
+        "id": "V15.81",
+        "nombre": "Incumplimiento del tratamiento médico"
+    },
+    {
+        "id": "V15.89",
+        "nombre": "Otros factores de riesgo personal"
+    },
+    {
+        "id": "V40.31",
+        "nombre": "Vagabundeo asociado a un trastorno mental"
+    },
+    {
+        "id": "V60.0",
+        "nombre": "Personas sin hogar"
+    },
+    {
+        "id": "V60.1",
+        "nombre": "Alojamiento inadecuado"
+    },
+    {
+        "id": "V60.2",
+        "nombre": "Falta de alimentos, ingresos bajos, pobreza o seguro insuficiente"
+    },
+    {
+        "id": "V60.3",
+        "nombre": "Problema relacionado con vivir solo"
+    },
+    {
+        "id": "V60.6",
+        "nombre": "Problema relacionado con la vida en una residencia institucional"
+    },
+    {
+        "id": "V60.9",
+        "nombre": "Problema de vivienda o económico no especificado"
+    },
+    {
+        "id": "V61.03",
+        "nombre": "Ruptura familiar por separación o divorcio"
+    },
+    {
+        "id": "V61.10",
+        "nombre": "Relación conflictiva con el cónyuge o la pareja"
+    },
+    {
+        "id": "V61.11",
+        "nombre": "Visita salud mental víctima maltrato/violencia por cónyuge"
+    },
+    {
+        "id": "V61.12",
+        "nombre": "Visita salud mental autor maltrato/violencia hacia cónyuge"
+    },
+    {
+        "id": "V61.20",
+        "nombre": "Problema de relación entre padres e hijos"
+    },
+    {
+        "id": "V61.21",
+        "nombre": "Visita salud mental víctima maltrato/abuso/negligencia infantil (parental o no)"
+    },
+    {
+        "id": "V61.22",
+        "nombre": "Visita salud mental autor maltrato/abuso/negligencia infantil parental"
+    },
+    {
+        "id": "V61.29",
+        "nombre": "Niño afectado por relación parental conflictiva"
+    },
+    {
+        "id": "V61.8",
+        "nombre": "Problema de relación con hermanos / Educación lejos de padres / Emoción expresada"
+    },
+    {
+        "id": "V62.21",
+        "nombre": "Problema relacionado con el estado actual de despliegue militar"
+    },
+    {
+        "id": "V62.22",
+        "nombre": "Historia personal de despliegue militar / Exposición a catástrofe o guerra"
+    },
+    {
+        "id": "V62.29",
+        "nombre": "Otro problema relacionado con el empleo"
+    },
+    {
+        "id": "V62.3",
+        "nombre": "Problema académico o educativo"
+    },
+    {
+        "id": "V62.4",
+        "nombre": "Rechazo social / Dificultad aculturación / Blanco de discriminación"
+    },
+    {
+        "id": "V62.5",
+        "nombre": "Encarcelamiento / Excarcelación / Circunstancias legales"
+    },
+    {
+        "id": "V62.82",
+        "nombre": "Duelo no complicado"
+    },
+    {
+        "id": "V62.83",
+        "nombre": "Visita salud mental autor maltrato infantil no parental o abuso adulto"
+    },
+    {
+        "id": "V62.89",
+        "nombre": "Funcionamiento intelectual límite / Problema religioso o espiritual / Fase de la vida"
+    },
+    {
+        "id": "V62.9",
+        "nombre": "Problema no especificado relacionado con circunstancias psicosociales"
+    },
+    {
+        "id": "V63.9",
+        "nombre": "No disponibilidad o acceso a centros de asistencia sanitaria"
+    },
+    {
+        "id": "V65.2",
+        "nombre": "Simulación"
+    },
+    {
+        "id": "V65.49",
+        "nombre": "Asesoramiento sexual"
+    },
+    {
+        "id": "V69.9",
+        "nombre": "Problema relacionado con el estilo de vida"
+    },
+    {
+        "id": "V71.01",
+        "nombre": "Comportamiento antisocial del adulto"
+    },
+    {
+        "id": "V71.02",
+        "nombre": "Comportamiento antisocial infantil o adolescente"
+    },
+    {
+        "id": "V71.09",
+        "nombre": "Otro comportamiento antisocial"
+    },
+    {
+        "id": "V71.09",
+        "nombre": "Comportamiento antisocial no especificado"
+    },
+    {
+        "id": "V71.5",
+        "nombre": "Examen de salud mental para otros propósitos"
+    },
+    {
+        "id": "V71.6",
+        "nombre": "Examen de salud mental para propósitos administrativos"
+    },
+    {
+        "id": "V71.7",
+        "nombre": "Examen de salud mental para propósitos legales"
+    },
+    {
+        "id": "V71.8",
+        "nombre": "Examen de salud mental para otros propósitos específicos"
+    },
+    {
+        "id": "V71.9",
+        "nombre": "Examen de salud mental para propósitos no especificados"
+    }
+]

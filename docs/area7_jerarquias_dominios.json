@@ -1,0 +1,163 @@
+{
+  "area": 7,
+  "nombre": "Jerarquías Tipo y Dominios de Estímulos",
+  "descripcion": "Jerarquías modelo organizadas por tipo de fobia/problema, con ítems tipo y gradientes de ansiedad. Equivalente funcional al Área 7 de AC (Valores/Áreas Vitales): el mapa de contenidos sobre el que se trabaja.",
+  "elementos": [
+    {
+      "id": "JER-001",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Miedo a Hablar en Público",
+      "factor_ISRA": "F1 (Evaluación)",
+      "gradientes": ["temporal (cuánto falta)", "audiencia (número de personas)", "formalidad (contexto)"],
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Estar en casa escribiendo el esquema de lo que vas a decir"},
+        {"num": 2, "usa": 25, "descripcion": "Entrar en la sala vacía donde darás la charla mañana"},
+        {"num": 3, "usa": 35, "descripcion": "Practicar frente a un espejo tú solo"},
+        {"num": 4, "usa": 50, "descripcion": "Hablar frente a tu pareja o un amigo de confianza"},
+        {"num": 5, "usa": 70, "descripcion": "Estar sentado esperando tu turno mientras el orador anterior habla"},
+        {"num": 6, "usa": 85, "descripcion": "Ponerte de pie y caminar hacia el atril frente a 20 personas"},
+        {"num": 7, "usa": 100, "descripcion": "Empezar a hablar y notar que alguien en la primera fila bosteza"}
+      ],
+      "fuente": "Documento universitario: DS aplicada"
+    },
+    {
+      "id": "JER-002",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Miedo a la Hostilidad / Interacción Social",
+      "factor_ISRA": "F2 (Interpersonal)",
+      "gradientes": ["intimidad (desconocido → pareja)", "intensidad de la hostilidad", "contexto social"],
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Estar en una fiesta con compañeras de trabajo"},
+        {"num": 2, "usa": 20, "descripcion": "Críticas por parte de compañeros de trabajo"},
+        {"num": 3, "usa": 30, "descripcion": "Críticas por parte de miembros de la familia"},
+        {"num": 4, "usa": 40, "descripcion": "Decir al jefe que el error se debe a instrucciones equivocadas de otro"},
+        {"num": 5, "usa": 50, "descripcion": "Tener una entrevista con un representante del Consejo Industrial"},
+        {"num": 6, "usa": 60, "descripcion": "Subir a recibir un premio ante una asamblea"},
+        {"num": 7, "usa": 70, "descripcion": "Pronunciar un discurso a los empleados en una fiesta"},
+        {"num": 8, "usa": 80, "descripcion": "Hablar con un hombre al que acaban de presentarte en una reunión"},
+        {"num": 9, "usa": 90, "descripcion": "Ser telefoneada por un hombre desconocido"},
+        {"num": 10, "usa": 100, "descripcion": "Encuentro inesperado con un desconocido en casa de un familiar"}
+      ],
+      "fuente": "Wolpe (1958). Caso 7: Señorita T."
+    },
+    {
+      "id": "JER-003",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Miedo a la Muerte y sus Detalles",
+      "factor_ISRA": "F3 (Fóbica)",
+      "gradientes": ["distancia física", "intensidad del estímulo", "cercanía personal"],
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Ver una ambulancia a lo lejos"},
+        {"num": 2, "usa": 20, "descripcion": "Ver un hospital desde fuera"},
+        {"num": 3, "usa": 30, "descripcion": "Estar en el interior de un hospital"},
+        {"num": 4, "usa": 40, "descripcion": "Leer una esquela mortuoria de una persona mayor"},
+        {"num": 5, "usa": 50, "descripcion": "Pasar en coche cerca de un cementerio"},
+        {"num": 6, "usa": 60, "descripcion": "Pasar delante de una agencia funeraria"},
+        {"num": 7, "usa": 70, "descripcion": "Ver un funeral desde la distancia"},
+        {"num": 8, "usa": 80, "descripcion": "Leer una esquela de un joven fallecido de un ataque al corazón"},
+        {"num": 9, "usa": 90, "descripcion": "Estar presente en un entierro"},
+        {"num": 10, "usa": 100, "descripcion": "Ver a un ser querido en su féretro"}
+      ],
+      "fuente": "Wolpe (1958). Caso 7: Señorita T."
+    },
+    {
+      "id": "JER-004",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Miedo a Heridas y Sufrimiento (Sangre-Inyecciones-Daño)",
+      "factor_ISRA": "F3 (Fóbica)",
+      "gradientes": ["gravedad de la lesión", "cercanía/implicación personal", "tipo de estímulo"],
+      "items": [
+        {"num": 1, "usa": 10, "descripcion": "Un escolar recibe una palmada"},
+        {"num": 2, "usa": 20, "descripcion": "Sangrado nasal leve (epistaxis)"},
+        {"num": 3, "usa": 30, "descripcion": "Una pequeña herida facial sangrando ligeramente"},
+        {"num": 4, "usa": 40, "descripcion": "Ver a un animal muerto recientemente por enfermedad natural"},
+        {"num": 5, "usa": 50, "descripcion": "Ver a un animal atropellado por un coche"},
+        {"num": 6, "usa": 55, "descripcion": "Una antigua herida sin cicatrizar, pequeña"},
+        {"num": 7, "usa": 65, "descripcion": "Ver a un paciente en cama con respiración entrecortada"},
+        {"num": 8, "usa": 70, "descripcion": "Ver un cuerpo humano muerto"},
+        {"num": 9, "usa": 75, "descripcion": "Inyectar una droga a un animal"},
+        {"num": 10, "usa": 80, "descripcion": "Diseccionar un animal"},
+        {"num": 11, "usa": 85, "descripcion": "Ver a una persona recibir una inyección"},
+        {"num": 12, "usa": 90, "descripcion": "Una herida abierta sangrando en la cara"},
+        {"num": 13, "usa": 95, "descripcion": "Una extremidad fracturada sin tratar"},
+        {"num": 14, "usa": 100, "descripcion": "Idea de un útero siendo raspado quirúrgicamente"}
+      ],
+      "fuente": "Wolpe (1958). Caso 8: Señor L."
+    },
+    {
+      "id": "JER-005",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Celos Patológicos / Ansiedad Interpersonal de Pareja",
+      "factor_ISRA": "F2 (Interpersonal)",
+      "gradientes": ["nivel de amenaza percibida", "intimidad del competidor", "conducta de la pareja"],
+      "items": [
+        {"num": 1, "usa": 15, "descripcion": "La pareja dice que un actor famoso es guapo"},
+        {"num": 2, "usa": 25, "descripcion": "La pareja dice que un conocido lejano es simpático"},
+        {"num": 3, "usa": 35, "descripcion": "La pareja dice que un amigo cercano es simpático"},
+        {"num": 4, "usa": 45, "descripcion": "La pareja dice que el mejor amigo es simpático"},
+        {"num": 5, "usa": 55, "descripcion": "La pareja conversa animadamente con un hombre en una fiesta"},
+        {"num": 6, "usa": 65, "descripcion": "La pareja llega tarde a una cita"},
+        {"num": 7, "usa": 75, "descripcion": "Un hombre acerca su silla a la de la pareja"},
+        {"num": 8, "usa": 85, "descripcion": "Un conocido abraza efusivamente a la pareja"},
+        {"num": 9, "usa": 95, "descripcion": "La pareja está a solas con un hombre en una habitación"},
+        {"num": 10, "usa": 100, "descripcion": "La pareja muestra interés activo por otro hombre"}
+      ],
+      "fuente": "Wolpe (1958). Caso 9: Señor E."
+    },
+    {
+      "id": "JER-006",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Miedo a Síntomas Corporales (Hipocondría / Pánico)",
+      "factor_ISRA": "F4 (Vida Cotidiana) + Interoceptivo",
+      "gradientes": ["gravedad percibida del síntoma", "localización", "asociación con enfermedad grave"],
+      "items": [
+        {"num": 1, "usa": 15, "descripcion": "Dolor leve en la mano (herida antigua)"},
+        {"num": 2, "usa": 25, "descripcion": "Disnea leve después de un esfuerzo"},
+        {"num": 3, "usa": 35, "descripcion": "Entumecimiento u hormigueo en las yemas de los dedos"},
+        {"num": 4, "usa": 45, "descripcion": "Temblor de manos perceptible"},
+        {"num": 5, "usa": 55, "descripcion": "Zumbidos en los oídos"},
+        {"num": 6, "usa": 65, "descripcion": "Dolor en la parte superior de la cabeza"},
+        {"num": 7, "usa": 75, "descripcion": "Dolor en el hombro izquierdo y la espalda"},
+        {"num": 8, "usa": 85, "descripcion": "Dolores penetrantes en el pecho y abdomen"},
+        {"num": 9, "usa": 100, "descripcion": "Extrasístoles (palpitaciones irregulares)"}
+      ],
+      "fuente": "Wolpe (1958). Caso 7: Señorita T."
+    },
+    {
+      "id": "JER-007",
+      "tipo": "jerarquia_modelo",
+      "titulo": "Miedo a Violencia y Gritos",
+      "factor_ISRA": "F2 (Interpersonal) + F3 (Fóbica)",
+      "gradientes": ["distancia", "nivel de violencia", "implicación personal"],
+      "items": [
+        {"num": 1, "usa": 20, "descripcion": "Un niño al que se le grita"},
+        {"num": 2, "usa": 35, "descripcion": "Una disputa entre desconocidos al otro lado de la calle"},
+        {"num": 3, "usa": 50, "descripcion": "Una disputa en la familia"},
+        {"num": 4, "usa": 60, "descripcion": "Un cliente entra llorando con dolor abdominal"},
+        {"num": 5, "usa": 70, "descripcion": "Un perro golpeado que ladra de dolor"},
+        {"num": 6, "usa": 80, "descripcion": "El padre gimiendo de dolor en la habitación contigua"},
+        {"num": 7, "usa": 90, "descripcion": "Hombres dándose puñetazos en la calle, siendo el único testigo"},
+        {"num": 8, "usa": 100, "descripcion": "Un paciente de hospital gimiendo de dolor sin poder verlo"}
+      ],
+      "fuente": "Wolpe (1958). Caso 8: Señor L."
+    },
+    {
+      "id": "JER-008",
+      "tipo": "guia",
+      "titulo": "Gradientes para Construir Jerarquías",
+      "contenido": {
+        "distancia_espacial": "De lejos a cerca del estímulo temido",
+        "distancia_temporal": "Mucho tiempo antes → momento inmediato",
+        "intensidad": "Estímulo leve → estímulo intenso",
+        "cantidad": "Un elemento → muchos elementos",
+        "familiaridad": "Personas conocidas y seguras → desconocidos",
+        "control": "Situación controlable → incontrolable",
+        "compañia": "Acompañado → solo",
+        "escape_disponible": "Escape fácil → sin escape posible",
+        "duracion": "Exposición breve → prolongada",
+        "tipo_presentacion": "Palabra → foto → vídeo → realidad"
+      },
+      "regla_oro": "Cada salto entre ítems debe estar entre 5-15 USA. Si el salto es mayor de 15, crear un ítem intermedio combinando gradientes diferentes."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "integration_id": "inv_001",
+  "session_id": "ac_sesion_1",
+  "inventarios_aplicados": [
+    "BDI-II",
+    "BADS"
+  ],
+  "resultados": [
+    {
+      "inventario": "BDI-II",
+      "resultado": "Moderado"
+    },
+    {
+      "inventario": "BADS",
+      "resultado": "Bajo"
+    }
+  ],
+  "fecha": "2026-03-14",
+  "observaciones": "Resultados integrados en el plan de sesión."
+}

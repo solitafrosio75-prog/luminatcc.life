@@ -1,0 +1,74 @@
+{
+  "area_id": "ejercicios_tareas",
+  "nombre": "Ejercicios y Tareas de Reestructuración Cognitiva",
+  "descripcion": "Ejercicios terapéuticos y tareas para casa orientados al trabajo cognitivo",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Leahy, R. L. (2003). Cognitive Therapy Techniques",
+    "Bennett-Levy, J. et al. (2004). Oxford Guide to Behavioural Experiments"
+  ],
+  "ejercicios": [
+    {
+      "id": "registro_diario_pensamientos",
+      "nombre": "Registro diario de pensamientos automáticos",
+      "tipo": "registro_pensamiento",
+      "objetivo": "Desarrollar la habilidad de identificar pensamientos automáticos en situaciones cotidianas",
+      "instrucciones": [
+        "Cuando notes un cambio emocional (empeoramiento del ánimo, ansiedad, irritación), detente",
+        "Registra la situación: ¿Qué estaba pasando? ¿Dónde? ¿Con quién?",
+        "Identifica el pensamiento: ¿Qué pasó por mi mente justo antes del cambio emocional?",
+        "Registra la emoción y su intensidad (0-100)",
+        "No intentes cambiar el pensamiento todavía, solo obsérvalo"
+      ],
+      "frecuencia": "Diario, al menos 1-2 registros por día",
+      "ejemplo": "Situación: Mi jefe no me saludó al llegar. Pensamiento: 'Está enfadado conmigo, seguro hice algo mal'. Emoción: Ansiedad 70/100."
+    },
+    {
+      "id": "reestructuracion_guiada",
+      "nombre": "Reestructuración guiada con evidencia",
+      "tipo": "reestructuracion",
+      "objetivo": "Evaluar los pensamientos automáticos usando evidencia objetiva y generar alternativas",
+      "instrucciones": [
+        "Selecciona un pensamiento automático registrado previamente",
+        "Lista evidencia A FAVOR del pensamiento (hechos, no interpretaciones)",
+        "Lista evidencia EN CONTRA del pensamiento",
+        "¿Existe una explicación alternativa más equilibrada?",
+        "Escribe el pensamiento alternativo",
+        "Re-evalúa la intensidad emocional (0-100)"
+      ],
+      "frecuencia": "2-3 veces por semana con pensamientos registrados",
+      "ejemplo": "Pensamiento: 'Soy un fracaso total'. Evidencia a favor: Suspendí un examen. Evidencia en contra: Aprobé los otros 4, tengo trabajo estable, mis amigos me valoran. Alternativa: 'Suspender un examen no me convierte en un fracaso como persona'. Ansiedad: de 85 a 40."
+    },
+    {
+      "id": "identificacion_distorsiones",
+      "nombre": "Identificación de distorsiones cognitivas",
+      "tipo": "psicoeducacion",
+      "objetivo": "Aprender a reconocer los patrones de pensamiento distorsionado en la vida diaria",
+      "instrucciones": [
+        "Revisa la lista de distorsiones cognitivas",
+        "Toma un pensamiento automático de tu registro",
+        "¿Se ajusta a alguna distorsión? (puede ser más de una)",
+        "Nombra la distorsión y explica por qué encaja",
+        "¿Cómo reformularías el pensamiento sin esa distorsión?"
+      ],
+      "frecuencia": "Semanal, revisando los registros acumulados",
+      "ejemplo": "Pensamiento: 'Si no saco un 10, no vale la pena'. Distorsión: Pensamiento todo-o-nada. Reformulación: 'Un 7 también refleja esfuerzo y aprendizaje'."
+    },
+    {
+      "id": "experimento_conductual",
+      "nombre": "Diseño de experimento conductual",
+      "tipo": "experimento_conductual",
+      "objetivo": "Probar empíricamente las predicciones basadas en creencias disfuncionales",
+      "instrucciones": [
+        "Identifica una creencia o predicción específica a probar",
+        "Formula una hipótesis clara y comprobable",
+        "Diseña un experimento concreto (qué vas a hacer, cuándo, dónde)",
+        "Define los criterios de evaluación antes de realizarlo",
+        "Realiza el experimento y registra lo que ocurrió realmente",
+        "Compara el resultado con tu predicción inicial"
+      ],
+      "frecuencia": "1 por semana, diseñado en sesión y ejecutado entre sesiones",
+      "ejemplo": "Creencia: 'Si digo que no a una petición, la gente se enfadará y me rechazará'. Experimento: Declinar una invitación social esta semana. Predicción: Se enfadarán y dejarán de hablarme. Resultado real: Dijeron 'vale, otra vez será' sin problema."
+    }
+  ]
+}

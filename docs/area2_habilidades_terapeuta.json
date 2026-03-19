@@ -1,0 +1,98 @@
+{
+  "area": 2,
+  "nombre": "Habilidades del Terapeuta",
+  "descripcion": "Competencias clínicas necesarias para la aplicación correcta de la DS: entrevista, construcción de jerarquías, conducción de sesiones, manejo de problemas",
+  "elementos": [
+    {
+      "id": "HAB-001",
+      "tipo": "habilidad",
+      "titulo": "Evaluación Inicial y Análisis Funcional",
+      "contenido": "El terapeuta debe identificar: (1) estímulos evocadores principales (internos y externos), (2) respuestas evocadas en los tres canales (cognitivo, fisiológico, motor), (3) factores de mantenimiento (evitación, conductas de seguridad), (4) recursos del paciente (capacidad de relajación, capacidad imaginativa, motivación). Usar el ISRA para determinar el perfil de desincronía. Aplicar FSS-III si se necesita un mapa amplio de miedos. Construir el modelo estímulos evocadores → respuestas evocadas.",
+      "fuente": "Labrador (2008); Miguel Tobal y Cano Vindel (1986)"
+    },
+    {
+      "id": "HAB-002",
+      "tipo": "habilidad",
+      "titulo": "Construcción Colaborativa de la Jerarquía",
+      "contenido": "Procedimiento: (1) Tormenta de ideas donde el paciente señala situaciones ansiógenas. (2) Anotar cada situación en tarjetas. (3) Volver sobre cada una para precisarla: hacerla realista, concreta, relevante, como una 'fotografía' completa. (4) Cuantificar cada ítem en USA 0-100. (5) Ordenar de menor a mayor. (6) Verificar que no hay saltos >15 USA. (7) Técnica de anclajes: pedir primero el ítem de 100 USA, luego uno de ~10 USA, luego uno de ~50 USA, e ir intercalando. (8) Enviar al paciente a elaborar jerarquía propia en casa. (9) En sesión siguiente, fusionar ambas jerarquías en la definitiva.",
+      "fuente": "Labrador (2008). Cap. 9"
+    },
+    {
+      "id": "HAB-003",
+      "tipo": "habilidad",
+      "titulo": "Entrenamiento del Paciente en Relajación",
+      "contenido": "El paciente debe alcanzar relajación profunda en menos de 5 minutos antes de iniciar la DS. Protocolo progresivo: Sesión 1-2: Relajación progresiva de 16 grupos musculares (brazos, frente, ojos, mandíbula, cuello, hombros, espalda, abdomen, muslos, piernas). Sesión 3-4: Condensar a 4 grupos (brazos, cara, tronco, piernas). Sesión 5+: Relajación por evocación (sin tensión previa). Alternativa rápida: Respiración diafragmática cuadrada (4-4-4-4). En niños: usar imágenes emotivas positivas en lugar de relajación muscular.",
+      "fuente": "Labrador (2008). Cap. 7; Documento universitario"
+    },
+    {
+      "id": "HAB-004",
+      "tipo": "habilidad",
+      "titulo": "Evaluación de la Capacidad Imaginativa",
+      "contenido": "Antes de proceder a la DS imaginaria, verificar tres aspectos: (a) El paciente imagina con viveza y realismo las situaciones de cada ítem. Pedir detalles: cómo va vestido, si hace sol, colores, texturas. (b) Las situaciones imaginadas producen la ansiedad especificada (la imagen evoca la emoción). (c) El mero hecho de imaginar no produce ya ansiedad por sí mismo. Entrenamiento: pasar de recordar escenas reales recientes → modificar detalles → crear escenas nuevas → abordar ítems de la jerarquía. Si el ~5% de pacientes no evoca ansiedad con la imagen, probar verbalización de las escenas.",
+      "fuente": "Labrador (2008). Cap. 9; Wolpe (1958). Cap. 9"
+    },
+    {
+      "id": "HAB-005",
+      "tipo": "habilidad",
+      "titulo": "Inmersión Sensorial Multimodal",
+      "contenido": "Técnica para que la visualización sea máximamente eficaz. El terapeuta debe describir cada ítem activando los 4 canales sensoriales: (1) VISTA: detalles específicos del entorno, personas, objetos, iluminación. (2) OÍDO: sonidos ambientales, voces, ruidos específicos. (3) TACTO/PROPIOCEPCIÓN: sensaciones corporales, temperatura, peso, textura de la silla, ropa. (4) OLFATO: olores del entorno. Usar tono de voz pausado, grave y rítmico (4 segundos por frase) para inducir estado de hipnosis ligera. La escena debe ser 'una película en 4K, no una foto fija'.",
+      "fuente": "Documento universitario: Inmersión sensorial en DS"
+    },
+    {
+      "id": "HAB-006",
+      "tipo": "habilidad",
+      "titulo": "Conducción de la Sesión de Desensibilización",
+      "contenido": "Esquema de sesión: RELAJACIÓN → PRESENTACIÓN-ÍTEM → PAUSA-RELAJACIÓN → PRESENTACIÓN-ÍTEM → PAUSA-RELAJACIÓN... Tiempos: Relajación inicial hasta señal del paciente (dedo índice). Primera presentación del ítem: 15-20 seg. Si no hay ansiedad, pausa de relajación 40-50 seg. Segunda presentación: 25-30 seg. Tercera presentación: 50-60 seg. Si hay ansiedad (paciente levanta dedo): detener imagen inmediatamente, volver a relajación más prolongada. Criterio de superación: 3 presentaciones consecutivas sin ansiedad. En sesión tipo (30-45 min reales de DS): se desensibilizan 3-4 ítems.",
+      "fuente": "Labrador (2008). Cap. 9; Wolpe (1958). Cap. 9"
+    },
+    {
+      "id": "HAB-007",
+      "tipo": "habilidad",
+      "titulo": "Manejo de Problemas con un Ítem",
+      "contenido": "Si tras 4 presentaciones consecutivas el paciente sigue reportando ansiedad: (1) Volver a relajación. (2) Presentar el ítem anterior (que no produce ansiedad). (3) Finalizar la DS de esa sesión. (4) Analizar con el paciente qué ocurrió. Causas posibles: distancia excesiva entre ítems (crear ítem intermedio), el paciente imaginó algo diferente a la escena acordada, desconcentración o problema momentáneo, necesidad de reorganizar la jerarquía. Una vez identificado el problema, se puede retomar la DS incluso en la misma sesión.",
+      "fuente": "Labrador (2008). Cap. 9"
+    },
+    {
+      "id": "HAB-008",
+      "tipo": "habilidad",
+      "titulo": "Continuidad entre Sesiones",
+      "contenido": "Al inicio de cada nueva sesión: (1) Constatar que los últimos ítems trabajados siguen desensibilizados presentando el último ítem de la sesión anterior. (2) Si no produce ansiedad en la primera presentación: progresar al siguiente sin repetir. (3) Si produce ansiedad: trabajarlo como cualquier ítem problemático. Para tareas entre sesiones: el paciente solo debe exponerse a estímulos de nivel jerárquico inferior a los desensibilizados (regla: 2 ítems por debajo del último desensibilizado). Esto previene la re-sensibilización.",
+      "fuente": "Labrador (2008). Cap. 9"
+    },
+    {
+      "id": "HAB-009",
+      "tipo": "habilidad",
+      "titulo": "Diseño de Exposición en Vivo (Transferencia)",
+      "contenido": "Para pasar de la imaginación a la vida real: (1) Seleccionar ítems ya superados en imaginación (2 niveles por debajo del último desensibilizado). (2) Diseñar el 'Contrato de Exposición': duración mínima (hasta que USA baje al 50%), prohibición de evitación cognitiva (no móvil, no música), sentarse en posición que no facilite escape. (3) Entregar autorregistro de exposición. (4) Identificar y eliminar 'conductas de seguridad' encubiertas: quedarse cerca de la puerta, llevar ansiolíticos 'por si acaso', ir acompañado.",
+      "fuente": "Documento universitario: Protocolo de exposición en vivo"
+    },
+    {
+      "id": "HAB-010",
+      "tipo": "habilidad",
+      "titulo": "Gestión de Señales del Paciente",
+      "contenido": "Establecer sistema de señales antes de iniciar: (1) Levantar dedo índice derecho = he conseguido relajarme, estoy listo. (2) Levantar dedo índice derecho durante ítem = siento ansiedad significativa (>10 USA). Wolpe observó que los pacientes casi nunca levantan la mano por perturbaciones leves, por lo que también se puede usar: tras la tercera presentación decir 'si su reacción ha disminuido, no haga nada; en caso contrario, levante la mano'. También observar señales no verbales: movimientos finos de dedos, tensión facial, cambios en respiración.",
+      "fuente": "Wolpe (1958). Cap. 9"
+    },
+    {
+      "id": "HAB-011",
+      "tipo": "habilidad",
+      "titulo": "Uso Terapéutico de la Voz",
+      "contenido": "Durante la DS el terapeuta modula su voz como herramienta de inducción: tono pausado y grave, ritmo de aproximadamente 4 segundos por frase, volumen constante y suave. Las instrucciones de relajación se dan con cadencia descendente. Las descripciones de ítems se dan con tono neutro pero envolvente. Las indicaciones de corte ('deja de imaginar') se dan con tono más firme pero no brusco. El refuerzo al superar un ítem se da con tono cálido y afirmativo.",
+      "fuente": "Documento universitario: Inmersión sensorial"
+    },
+    {
+      "id": "HAB-012",
+      "tipo": "habilidad",
+      "titulo": "Secuenciación del Tratamiento Completo",
+      "contenido": "Fase 1 (Sesiones 1-3): Evaluación, análisis funcional, aplicación de inventarios (ISRA, FSS-III), psicoeducación sobre el modelo, inicio del entrenamiento en relajación. Fase 2 (Sesiones 3-5): Completar entrenamiento en relajación, construir jerarquía de ansiedad, entrenar imaginación. Fase 3 (Sesiones 5-10): Sesiones de DS propiamente dichas (3-4 ítems por sesión). Fase 4 (Sesiones 8-12): Inicio de exposición en vivo paralela, tareas para casa de exposición graduada. Fase 5 (Sesiones 10-15): Consolidación, prevención de recaídas, generalización a todas las situaciones relevantes.",
+      "fuente": "Labrador (2008); Wolpe (1958); Síntesis clínica"
+    },
+    {
+      "id": "HAB-013",
+      "tipo": "habilidad",
+      "titulo": "Errores Comunes a Evitar",
+      "contenido": "1. Avanzar demasiado rápido en la jerarquía: forzar la exposición genera sensibilización. 2. Mala relajación: sin respuesta incompatible eficaz, la DS es simplemente una exposición imaginaria mal hecha. 3. Falta de realismo sensorial: descripciones vagas no activan la amígdala. 4. Presentar estímulos demasiado fuertes prematuramente: puede aumentar la sensibilidad y producir retrocesos importantes. 5. No verificar entre sesiones que los ítems siguen desensibilizados. 6. Enviar al paciente a exponerse en vivo a niveles superiores a los desensibilizados.",
+      "fuente": "Wolpe (1958); Labrador (2008); Documento universitario"
+    }
+  ]
+}

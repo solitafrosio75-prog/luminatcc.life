@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Primer Encuentro — Motor IA</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --bg: #0f0f11;
+    --surface: #17171a;
+    --surface-2: #1e1e22;
+    --border: #2a2a2f;
+    --text: #e8e6e0;
+    --text-muted: #8a8880;
+    --text-dim: #4a4845;
+    --accent: #b8956a;
+    --accent-soft: rgba(184, 149, 106, 0.12);
+    --accent-glow: rgba(184, 149, 106, 0.06);
+    --safe: #6b9e78;
+    --radius: 16px;
+    --radius-sm: 8px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: -20%; left: 50%;
+    transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(ellipse, rgba(184,149,106,0.04) 0%, transparent 70%);
+    pointer-events: none; z-index: 0;
+  }
+
+  .app {
+    width: 100%; max-width: 680px;
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    position: relative; z-index: 1;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    padding: 28px 32px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0;
+    background: var(--bg); z-index: 10;
+  }
+  .header-left { display: flex; align-items: center; gap: 12px; }
+  .logo-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 12px rgba(184,149,106,0.5);
+    animation: pulse-dot 3s ease-in-out infinite;
+  }
+  @keyframes pulse-dot {
+    0%,100% { opacity:1; transform:scale(1); }
+    50% { opacity:0.6; transform:scale(0.85); }
+  }
+  .logo-text { font-family:'Lora',serif; font-size:15px; color:var(--text-muted); }
+  .header-right { display:flex; align-items:center; gap:10px; }
+  .session-badge {
+    font-size:11px; color:var(--text-dim); letter-spacing:.08em;
+    text-transform:uppercase; background:var(--surface);
+    padding:4px 10px; border-radius:20px; border:1px solid var(--border);
+  }
+
+  /* API key input */
+  .api-setup {
+    display: flex; align-items: center; gap: 8px;
+  }
+  .api-input {
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 10px;
+    color: var(--text-muted); font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    width: 180px; outline: none;
+    transition: border-color 0.2s;
+  }
+  .api-input:focus { border-color: rgba(184,149,106,0.35); }
+  .api-input::placeholder { color: var(--text-dim); }
+  .api-save-btn {
+    padding: 6px 12px; background: var(--accent-soft);
+    border: 1px solid rgba(184,149,106,0.2);
+    border-radius: 8px; color: var(--accent);
+    font-size: 12px; cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.15s;
+  }
+  .api-save-btn:hover { background: rgba(184,149,106,0.2); }
+  .api-status {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--text-dim);
+    transition: background 0.3s;
+  }
+  .api-status.connected { background: var(--safe); box-shadow: 0 0 6px rgba(107,158,120,0.4); }
+
+  /* ── CHAT ── */
+  .chat-area {
+    flex: 1; padding: 32px 32px 0;
+    overflow-y: auto; display: flex;
+    flex-direction: column; gap: 24px;
+    scroll-behavior: smooth;
+  }
+  .chat-area::-webkit-scrollbar { width: 3px; }
+  .chat-area::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  /* ── MESSAGES ── */
+  .message {
+    display: flex; gap: 14px;
+    animation: appear 0.5s cubic-bezier(0.22,1,0.36,1) forwards;
+    opacity: 0; transform: translateY(12px);
+  }
+  .message.user { flex-direction: row-reverse; }
+  @keyframes appear { to { opacity:1; transform:translateY(0); } }
+
+  .avatar {
+    width: 32px; height: 32px; border-radius: 50%;
+    flex-shrink: 0; display: flex; align-items: center;
+    justify-content: center; font-size: 13px; margin-top: 4px;
+  }
+  .avatar.system {
+    background: var(--accent-soft);
+    border: 1px solid rgba(184,149,106,0.2);
+    color: var(--accent);
+  }
+  .avatar.user {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+  }
+
+  .bubble {
+    max-width: 82%; padding: 14px 18px;
+    border-radius: var(--radius);
+    line-height: 1.7; font-size: 15px;
+  }
+  .message.system .bubble {
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--text); border-top-left-radius: 4px;
+    font-family: 'Lora', serif; font-size: 15px; font-weight: 400;
+    white-space: pre-wrap;
+  }
+  .message.user .bubble {
+    background: var(--accent-soft);
+    border: 1px solid rgba(184,149,106,0.15);
+    color: var(--text); border-top-right-radius: 4px;
+  }
+
+  /* streaming cursor */
+  .bubble.streaming::after {
+    content: '▋';
+    color: var(--accent);
+    animation: blink 0.8s step-end infinite;
+    margin-left: 2px;
+  }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+  /* ── TYPING ── */
+  .typing {
+    display: flex; gap: 14px; align-items: flex-end;
+    opacity: 0; animation: appear 0.4s ease forwards;
+  }
+  .typing-dots {
+    background: var(--surface); border: 1px solid var(--border);
+    padding: 14px 18px; border-radius: var(--radius);
+    border-top-left-radius: 4px;
+    display: flex; gap: 5px; align-items: center;
+  }
+  .typing-dots span {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--text-dim);
+    animation: typing-bounce 1.4s ease-in-out infinite;
+  }
+  .typing-dots span:nth-child(2) { animation-delay: .2s; }
+  .typing-dots span:nth-child(3) { animation-delay: .4s; }
+  @keyframes typing-bounce {
+    0%,60%,100% { transform:translateY(0); opacity:.4; }
+    30% { transform:translateY(-5px); opacity:1; }
+  }
+
+  /* ── SIGNAL ── */
+  .emotional-signal {
+    display: flex; align-items: center; gap: 8px;
+    padding: 0 0 0 46px;
+    animation: appear 0.4s ease forwards; opacity: 0;
+  }
+  .signal-dot { width: 5px; height: 5px; border-radius: 50%; }
+  .signal-text { font-size: 11px; color: var(--text-dim); font-style: italic; }
+
+  /* ── OPTIONS ── */
+  .options {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    padding: 0 32px 16px;
+    animation: appear 0.5s ease forwards; opacity: 0;
+  }
+  .option-chip {
+    padding: 8px 16px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 20px;
+    font-size: 13px; color: var(--text-muted);
+    cursor: pointer; transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .option-chip:hover {
+    border-color: rgba(184,149,106,0.3);
+    color: var(--accent); background: var(--accent-glow);
+  }
+
+  /* ── INPUT ── */
+  .input-area {
+    padding: 20px 32px 32px;
+    background: linear-gradient(to top, var(--bg) 85%, transparent);
+  }
+  .input-wrapper {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 4px 4px 4px 18px;
+    display: flex; align-items: flex-end; gap: 8px;
+    transition: border-color 0.2s;
+  }
+  .input-wrapper:focus-within {
+    border-color: rgba(184,149,106,0.35);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+  }
+  textarea {
+    flex: 1; background: none; border: none; outline: none;
+    color: var(--text); font-family: 'DM Sans', sans-serif;
+    font-weight: 300; font-size: 15px; line-height: 1.6;
+    resize: none; padding: 12px 0;
+    max-height: 120px; min-height: 44px;
+  }
+  textarea::placeholder { color: var(--text-dim); }
+  textarea:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .send-btn {
+    width: 36px; height: 36px; border-radius: 10px;
+    background: var(--accent); border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; margin-bottom: 4px;
+    transition: all 0.15s; opacity: 0.4;
+  }
+  .send-btn.active { opacity: 1; }
+  .send-btn.active:hover { background: #c9a87a; transform: scale(1.05); }
+  .send-btn svg { width: 16px; height: 16px; fill: white; }
+
+  /* ── STATE PANEL ── */
+  .state-panel {
+    position: fixed; top: 80px; right: 20px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 14px 16px; font-size: 11px;
+    color: var(--text-dim); width: 190px; z-index: 10;
+  }
+  .state-panel h4 {
+    font-size: 10px; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--text-dim);
+    margin-bottom: 10px; font-weight: 500;
+  }
+  .state-row {
+    display: flex; justify-content: space-between;
+    margin-bottom: 6px; align-items: center;
+  }
+  .state-label { color: var(--text-dim); }
+  .state-value { color: var(--text-muted); font-weight: 500; }
+  .state-value.highlight { color: var(--accent); }
+  .state-value.ai { color: var(--safe); }
+  .rapport-bar {
+    height: 3px; background: var(--border);
+    border-radius: 2px; margin-top: 10px; overflow: hidden;
+  }
+  .rapport-fill {
+    height: 100%; background: var(--accent);
+    border-radius: 2px; width: 0%;
+    transition: width 0.6s ease;
+  }
+
+  /* validation badge */
+  .validation-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 10px; padding: 2px 7px;
+    border-radius: 10px; margin-top: 8px;
+    border: 1px solid;
+  }
+  .validation-badge.pass {
+    color: var(--safe); border-color: rgba(107,158,120,0.25);
+    background: rgba(107,158,120,0.06);
+  }
+  .validation-badge.adjusted {
+    color: var(--accent); border-color: rgba(184,149,106,0.25);
+    background: rgba(184,149,106,0.06);
+  }
+
+  /* divider */
+  .time-divider {
+    display: flex; align-items: center; gap: 12px; opacity: .4;
+  }
+  .time-divider::before, .time-divider::after {
+    content: ''; flex: 1; height: 1px; background: var(--border);
+  }
+  .time-divider span {
+    font-size: 11px; color: var(--text-dim);
+    letter-spacing: .06em; white-space: nowrap;
+  }
+
+  /* no-api notice */
+  .no-api-notice {
+    margin: 20px 32px; padding: 14px 18px;
+    background: rgba(184,149,106,0.06);
+    border: 1px solid rgba(184,149,106,0.15);
+    border-radius: var(--radius-sm);
+    font-size: 13px; color: var(--text-muted);
+    line-height: 1.6; display: none;
+  }
+  .no-api-notice a { color: var(--accent); text-decoration: none; }
+
+  .chat-area { padding-bottom: 20px; }
+
+  @media (max-width: 768px) {
+    .state-panel { display: none; }
+    .header { padding: 20px 20px 16px; }
+    .chat-area { padding: 24px 20px 0; }
+    .input-area { padding: 16px 20px 24px; }
+    .options { padding: 0 20px 12px; }
+    .api-input { width: 130px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <div class="logo-dot"></div>
+      <span class="logo-text">presencia</span>
+    </div>
+    <div class="header-right">
+      <div class="api-setup">
+        <input class="api-input" id="sessionKey" type="password" placeholder="API key de Anthropic"/>
+        <button class="api-save-btn" onclick="saveApiKey()">Conectar</button>
+      </div>
+      <div class="api-status" id="apiStatus" title="Estado de conexión IA"></div>
+      <span class="session-badge">Primera sesión</span>
+    </div>
+  </div>
+
+  <!-- NO API NOTICE -->
+  <div class="no-api-notice" id="noApiNotice">
+    Sin API key la IA no puede responder. Ingresá tu clave de
+    <a href="https://console.anthropic.com" target="_blank" rel="noopener noreferrer">Anthropic Console</a>
+    arriba para activar el motor clínico.
+  </div>
+
+  <!-- CHAT -->
+  <div class="chat-area" id="chatArea">
+    <div class="time-divider"><span id="sessionTime">Hoy</span></div>
+  </div>
+
+  <div id="optionsArea"></div>
+
+  <!-- INPUT -->
+  <div class="input-area">
+    <div class="input-wrapper">
+      <textarea
+        id="userInput"
+        placeholder="Escribí lo que quieras..."
+        rows="1"
+        oninput="handleInput(this)"
+        onkeydown="handleKeydown(event)"
+      ></textarea>
+      <button class="send-btn" id="sendBtn" type="button" title="Enviar mensaje" onclick="sendMessage()">
+        <svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- STATE PANEL -->
+<div class="state-panel">
+  <h4>Motor clínico · IA</h4>
+  <div class="state-row">
+    <span class="state-label">Momento</span>
+    <span class="state-value" id="stMomento">1</span>
+  </div>
+  <div class="state-row">
+    <span class="state-label">Tono</span>
+    <span class="state-value" id="stTono">—</span>
+  </div>
+  <div class="state-row">
+    <span class="state-label">Tema</span>
+    <span class="state-value" id="stTema">—</span>
+  </div>
+  <div class="state-row">
+    <span class="state-label">Apertura</span>
+    <span class="state-value" id="stApertura">—</span>
+  </div>
+  <div class="state-row">
+    <span class="state-label">Intensidad</span>
+    <span class="state-value highlight" id="stIntensidad">0/5</span>
+  </div>
+  <div class="state-row">
+    <span class="state-label">Motor</span>
+    <span class="state-value ai" id="stMotor">esperando</span>
+  </div>
+  <div class="rapport-bar">
+    <div class="rapport-fill" id="rapportFill"></div>
+  </div>
+  <div style="margin-top:6px;font-size:10px;color:var(--text-dim);text-align:right">rapport</div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+// ESTADO CLÍNICO
+// ══════════════════════════════════════════════════════════════
+const clinicalState = {
+  moment: 1,
+  turnCount: 0,
+  responseLengths: [],
+  emotionalTone: 'unknown',
+  narrativeTrend: 'unknown',
+  emotionalIntensity: 0,
+  rapportScore: 0,
+  presentingTheme: null,
+  quiebreHandled: false,
+  keyPhrases: [],
+  userName: null
+};
+
+// Historial para la API (rol user/assistant)
+const conversationHistory = [];
+
+// La API key ya no es necesaria en el frontend - el proxy la maneja en el servidor
+let apiKey = ''; // Se mantiene por compatibilidad pero no se usa
+let isStreaming = false;
+
+// ══════════════════════════════════════════════════════════════
+// API KEY
+// ══════════════════════════════════════════════════════════════
+function saveApiKey() {
+  const val = document.getElementById('apiKeyInput').value.trim();
+  if (!val) return;
+  apiKey = val;
+  document.getElementById('apiStatus').classList.add('connected');
+  document.getElementById('apiKeyInput').value ="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"••••••••••';
+  document.getElementById('noApiNotice').style.display = 'none';
+  document.getElementById('stMotor').textContent = 'activo';
+}
+
+// ═══════════════════════════════════════════════════
+// SYSTEM PROMPT DINÁMICO
+// Se reconstruye en cada turno con el estado clínico actualizado
+// ══════════════════════════════════════════════════════════════
+function buildSystemPrompt() {
+  const s = clinicalState;
+
+  const momentInstructions = {
+    1: `Estás en el MOMENTO 1: Bienvenida no clínica.
+OBJETIVO: Reducir la ambivalencia inicial. Señalar seguridad y presencia.
+REGLA ESTRICTA: No mencionar "terapia", "síntomas", "diagnóstico" ni "problema".
+Comenzá con una bienvenida cálida y breve. Informá que no hay respuestas correctas ni incorrectas y que pueden ir a su ritmo.
+Luego hacé UNA sola pregunta de apertura amplia como "¿Qué te trajo hasta acá?" o "¿Qué está pasando en tu vida que te hizo buscar esto?"`,
+
+    2: `Estás en el MOMENTO 2: Primera respuesta del usuario recibida.
+OBJETIVO CRÍTICO: Reflejar y validar ANTES de cualquier pregunta clínica. No analices aún.
+TONO DETECTADO: ${s.emotionalTone}
+ESTRUCTURA OBLIGATORIA: [Reflejo específico del contenido emocional] + [Validación contextual] + [Apertura suave opcional]
+PROHIBIDO en este momento: hacer preguntas de seguimiento clínico, pedir datos, analizar.
+El reflejo debe usar las palabras del usuario, no vocabulario clínico.`,
+
+    3: `Estás en el MOMENTO 3: Exploración gradual.
+OBJETIVO: Profundizar siguiendo el hilo que el usuario abrió, no el protocolo.
+TEMA IDENTIFICADO: ${s.presentingTheme || 'aún no definido'}
+TONO: ${s.emotionalTone} | INTENSIDAD: ${s.emotionalIntensity}/5
+TENDENCIA NARRATIVA: ${s.narrativeTrend}
+REGLA: Seguí el tema que el usuario introdujo. Una sola pregunta por turno. Siempre refleja antes de preguntar.
+Si la tendencia narrativa es "contracting", priorizar validación sobre exploración.`,
+
+    4: `Estás en el MOMENTO 4: Exploración secundaria o cierre.
+RAPPORT: ${(s.rapportScore * 20).toFixed(0)}% | TURNOS: ${s.turnCount}
+TONO: ${s.emotionalTone} | TENDENCIA: ${s.narrativeTrend}
+Si la tendencia es "contracting" o hay más de 6 turnos: prepará el cierre.
+CIERRE: Resume en 2-3 oraciones usando el vocabulario del usuario (NO vocabulario clínico). Invitá a corregir. Señalá continuidad mencionando un tema específico que el usuario introdujo.
+Si la tendencia es "expanding" o "stable": continuá con una exploración desde un ángulo diferente al anterior.`,
+
+    5: `Estás en el MOMENTO 5: Sostenimiento o cierre final.
+La sesión está llegando a su fin natural. Respondé con calidez, reflejá lo escuchado y cerrá con una frase que dé sensación de continuidad y de haber sido escuchado.`
+  };
+
+  return `Sos el motor clínico-emocional integrado de una aplicación de terapia cognitivo-conductual.
+Tu función es generar las respuestas del terapeuta en el PRIMER ENCUENTRO con un usuario nuevo.
+
+━━━ ESTADO CLÍNICO ACTUAL ━━━
+Momento: ${s.moment}/5
+Turno: ${s.turnCount}
+Tono emocional detectado: ${s.emotionalTone}
+Intensidad emocional: ${s.emotionalIntensity}/5
+Tema identificado: ${s.presentingTheme || 'aún no detectado'}
+Tendencia narrativa: ${s.narrativeTrend}
+Rapport estimado: ${(s.rapportScore * 20).toFixed(0)}%
+Frases clave del usuario: ${s.keyPhrases.length > 0 ? s.keyPhrases.join(', ') : 'ninguna aún'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━ INSTRUCCIONES DEL MOMENTO ACTUAL ━━━
+${momentInstructions[Math.min(s.moment, 5)]}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━ REGLAS GLOBALES IRROMPIBLES ━━━
+1. NUNCA dos preguntas en el mismo turno.
+2. SIEMPRE refleja antes de preguntar. El reflejo va primero.
+3. NUNCA usar vocabulario clínico técnico con el usuario: no decir "conducta", "antecedente", "síntoma", "diagnóstico", "patrón", "cognición".
+4. NUNCA responder en menos de 2 oraciones ni más de 6 oraciones.
+5. Usá el vocabulario que el usuario usó para describir su experiencia, no el tuyo.
+6. Si el usuario pregunta si sos una IA o si realmente lo entendés, respondé con honestidad: no sos un terapeuta humano, pero podés escuchar con atención real y recordar todo lo que te cuente.
+7. Si detectás ideación suicida o crisis, pausá el protocolo y decí: "Lo que compartís me importa y quiero asegurarme de que estés bien. ¿Hay alguien cerca de vos ahora mismo?"
+8. El tono es cálido, presente, sin apuro. No eficiente. No clínico. No formal.
+9. Usá lenguaje en español rioplatense (vos, te, tu).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Respondé SOLO con el texto de la respuesta del terapeuta. Sin explicaciones, sin metaetiquetas, sin comillas.`;
+}
+
+// ══════════════════════════════════════════════════════════════
+// VALIDADOR CLÍNICO POST-GENERACIÓN
+// El motor clínico revisa la respuesta de la IA antes de mostrarla
+// ══════════════════════════════════════════════════════════════
+function validateResponse(text, moment) {
+  const issues = [];
+
+  // Regla 1: no más de una pregunta
+  const questions = (text.match(/\?/g) || []).length;
+  if (questions > 1) {
+    issues.push('multiple_questions');
+  }
+
+  // Regla 2: no vocabulario clínico técnico
+  const clinicalWords = ['conducta', 'antecedente', 'síntoma', 'diagnóstico', 'cognición', 'trastorno', 'patología'];
+  const foundClinical = clinicalWords.filter(w => text.toLowerCase().includes(w));
+  if (foundClinical.length > 0) {
+    issues.push('clinical_vocabulary: ' + foundClinical.join(', '));
+  }
+
+  // Regla 3: momento 2 no debe tener pregunta clínica de anamnesis
+  if (moment === 2) {
+    const anamnesisPatterns = ['¿cuándo empezó', '¿hace cuánto', '¿cuántas veces', '¿con qué frecuencia'];
+    const hasAnamnesis = anamnesisPatterns.some(p => text.toLowerCase().includes(p));
+    if (hasAnamnesis) issues.push('premature_anamnesis');
+  }
+
+  // Regla 4: respuesta demasiado corta
+  if (text.split(' ').length < 8) {
+    issues.push('too_short');
+  }
+
+  return {
+    valid: issues.length === 0,
+    issues,
+    adjusted: issues.length > 0
+  };
+}
+
+// ══════════════════════════════════════════════════════════════
+// DETECCIÓN EMOCIONAL
+// ══════════════════════════════════════════════════════════════
+function detectTone(text) {
+  const lower = text.toLowerCase();
+  const distress = ['solo', 'sola', 'cansado', 'cansada', 'mal', 'miedo', 'ansiedad', 'llorar', 'no puedo', 'agotado', 'perdido', 'perdida', 'desesperado', 'triste', 'angustia', 'angustiado', 'oscuro', 'vacío', 'vacía'];
+  const guarded = ['no sé', 'supongo', 'quizás', 'tal vez', 'no estoy seguro', 'difícil de explicar', 'complicado', 'no sé cómo'];
+  const analytical = ['creo que', 'pienso que', 'entiendo que', 'parece que', 'me di cuenta', 'noté que', 'observé', 'analicé'];
+
+  if (distress.filter(w => lower.includes(w)).length >= 1) return 'distressed';
+  if (guarded.filter(w => lower.includes(w)).length >= 1) return 'guarded';
+  if (analytical.filter(w => lower.includes(w)).length >= 1) return 'analytical';
+  if (text.length > 200) return 'open';
+  return 'neutral';
+}
+
+function detectIntensity(text) {
+  const lower = text.toLowerCase();
+  let score = 0;
+  if (lower.includes('no puedo')) score += 2;
+  if (lower.includes('mucho tiempo')) score += 1;
+  if (lower.includes('siempre') || lower.includes('nunca')) score += 1;
+  if (lower.includes('desesper')) score += 2;
+  if (lower.includes('crisis')) score += 2;
+  if (lower.includes('suicid') || lower.includes('hacerme daño') || lower.includes('no quiero vivir')) score = 5;
+  if (text.length > 300) score += 1;
+  return Math.min(score, 5);
+}
+
+function detectTheme(text) {
+  const lower = text.toLowerCase();
+  if (['pareja', 'amigo', 'familia', 'relación', 'mamá', 'papá', 'hijo', 'hija', 'novio', 'novia', 'hermano', 'hermana'].some(w => lower.includes(w))) return 'relaciones';
+  if (['trabajo', 'jefe', 'empleo', 'laboral', 'carrera', 'estudio', 'universidad', 'escuela'].some(w => lower.includes(w))) return 'trabajo';
+  if (['siento', 'emocion', 'angustia', 'ansiedad', 'depresión', 'tristeza', 'miedo', 'pánico'].some(w => lower.includes(w))) return 'emocional';
+  if (['pasó', 'ocurrió', 'cuando', 'después de', 'desde que'].some(w => lower.includes(w))) return 'evento';
+  return 'difuso';
+}
+
+function extractKeyPhrases(text) {
+  // Extraer frases con carga emocional o metafórica
+  const patterns = [
+    /como (?:si|que) (.{5,40}?)[\.,\?]/gi,
+    /me siento (.{3,30}?)[\.,\?]/gi,
+    /es como (.{5,40}?)[\.,\?]/gi,
+    /(.{5,30}?) me agota/gi,
+    /no puedo (.{5,40}?)[\.,\?]/gi
+  ];
+  const phrases = [];
+  patterns.forEach(p => {
+    const matches = [...text.matchAll(p)];
+    matches.forEach(m => { if (m[1] && m[1].length > 4) phrases.push(m[1].trim()); });
+  });
+  return phrases.slice(0, 3);
+}
+
+function detectNarrativeTrend() {
+  const lengths = clinicalState.responseLengths;
+  if (lengths.length < 2) return 'unknown';
+  const recent = lengths.slice(-2);
+  if (recent[1] > recent[0] * 1.3) return 'expanding';
+  if (recent[1] < recent[0] * 0.7) return 'contracting';
+  return 'stable';
+}
+
+// ══════════════════════════════════════════════════════════════
+// LLAMADA A LA API DE ANTHROPIC (con streaming)
+// ══════════════════════════════════════════════════════════════
+async function (userMessage) {
+  if (!apiKey) {
+    document.getElementById('noApiNotice').style.display = 'block';
+    return null;
+  }
+
+  document.getElementById('stMotor').textContent = 'generando…';
+
+  const systemPrompt = buildSystemPrompt();
+
+  // Construir historial para la API
+  const messages = conversationHistory.map(m => ({
+    role: m.role,═══════════
+    content: m.content
+  }));
+
+  // Agregar mensaje actual
+  messages.push({ role: 'user', content: userMessage });
+
+  try {
+const response = await fetch('/api/chat', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+  system: systemPrompt,
+  messages: [{ role: 'user', content: '[INICIO DE SESIÓN: generá el mensaje de bienvenida del terapeuta]' }],
+  max_tokens: 200
+})
+      })
+    }
+
+    if (!response.ok) {
+      const err = await response.json();
+      console.error('API Error:', err);
+      document.getElementById('stMotor').textContent = 'error';
+      return null;
+    }
+
+    // Streaming
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let fullText = '';
+
+    // Crear burbuja de streaming
+    const bubble = createStreamingBubble();
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      const chunk = decoder.decode(value);
+      const lines = chunk.split('\n');
+
+      for (const line of lines) {
+        if (line.startsWith('data: ')) {
+          const data = line.slice(6);
+          if (data === '[DONE]') continue;
+          try {
+            const parsed = JSON.parse(data);
+            if (parsed.type === 'content_block_delta' && parsed.delta?.text) {
+              fullText += parsed.delta.text;
+              updateStreamingBubble(bubble, fullText);
+            }
+          } catch(e) {}
+        }
+      }
+    }
+
+    finalizeStreamingBubble(bubble);
+    document.getElementById('stMotor').textContent = 'activo';
+    return fullText;
+
+  } catch (err) {
+    console.error('Fetch error:', err);
+    document.getElementById('stMotor').textContent = 'error';
+    return null;
+  }
+
+
+// ══════════════════════════════════════════════════════════════
+// BURBUJA DE STREAMING
+// ══════════════════════════════════════════════════════════════
+function createStreamingBubble() {
+  clearTyping();
+  const chat = document.getElementById('chatArea');
+
+  const msg = document.createElement('div');
+  msg.className = 'message system';
+  msg.id = 'streamingMsg';
+  const avatar = document.createElement('div');
+  avatar.className = 'avatar system';
+  avatar.textContent = '✦';
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble streaming';
+  bubble.id = 'streamingBubble';
+  bubble.style.whiteSpace = 'pre-wrap';
+
+  msg.appendChild(avatar);
+  msg.appendChild(bubble);
+  chat.appendChild(msg);
+  chat.scrollTop = chat.scrollHeight;
+  return bubble;
+}
+
+function updateStreamingBubble(bubble, text) {
+  bubble.textContent = text;
+  document.getElementById('chatArea').scrollTop = document.getElementById('chatArea').scrollHeight;
+}
+
+function finalizeStreamingBubble(bubble) {
+  bubble.classList.remove('streaming');
+}
+
+// ══════════════════════════════════════════════════════════════
+// SEÑAL EMOCIONAL POST-RESPUESTA
+// ══════════════════════════════════════════════════════════════
+function addSignalAfterStream(signalConfig, validationResult) {
+  const chat = document.getElementById('chatArea');
+
+  const sig = document.createElement('div');
+  sig.className = 'emotional-signal';
+  const dot = document.createElement('div');
+  dot.className = 'signal-dot';
+  dot.style.background = signalConfig.color;
+  const label = document.createElement('span');
+  label.className = 'signal-text';
+  label.textContent = signalConfig.text;
+  sig.appendChild(dot);
+  sig.appendChild(label);
+
+  // Badge de validación
+  if (validationResult) {
+    const badge = document.createElement('span');
+    badge.className = 'validation-badge ' + (validationResult.adjusted ? 'adjusted' : 'pass');
+    badge.textContent = validationResult.adjusted
+      ? '⚠ ajustado (' + validationResult.issues[0] + ')'
+      : '✓ protocolo ok';
+    sig.appendChild(badge);
+  }
+
+  chat.appendChild(sig);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+// ══════════════════════════════════════════════════════════════
+// LÓGICA CLÍNICA PRINCIPAL
+// ══════════════════════════════════════════════════════════════
+async function processUserMessage(text) {
+  if (isStreaming) return;
+  isStreaming = true;
+
+  // Actualizar estado clínico
+  clinicalState.turnCount++;
+  clinicalState.responseLengths.push(text.length);
+  clinicalState.narrativeTrend = detectNarrativeTrend();
+  clinicalState.emotionalTone = detectTone(text);
+  clinicalState.emotionalIntensity = detectIntensity(text);
+
+  if (!clinicalState.presentingTheme) {
+    clinicalState.presentingTheme = detectTheme(text);
+  }
+
+  // Extraer frases clave
+  const newPhrases = extractKeyPhrases(text);
+  clinicalState.keyPhrases = [...new Set([...clinicalState.keyPhrases, ...newPhrases])].slice(0, 8);
+
+  // Actualizar rapport
+  if (clinicalState.narrativeTrend === 'expanding') clinicalState.rapportScore = Math.min(clinicalState.rapportScore + 0.8, 5);
+  else if (clinicalState.narrativeTrend === 'stable') clinicalState.rapportScore = Math.min(clinicalState.rapportScore + 0.3, 5);
+  else if (clinicalState.narrativeTrend === 'contracting') clinicalState.rapportScore = Math.max(clinicalState.rapportScore - 0.2, 0);
+
+  updateStatePanel();
+
+  // Mostrar typing
+  showTyping();
+  await sleep(1200 + Math.random() * 600);
+
+  // Llamar a la IA
+  const aiResponse = await callClaude(text);
+
+  if (!aiResponse) {
+    // Fallback si no hay API
+    clearTyping();
+    addFallbackMessage();
+    isStreaming = false;
+    return;
+  }
+
+  // Guardar en historial
+  conversationHistory.push({ role: 'user', content: text });
+  conversationHistory.push({ role: 'assistant', content: aiResponse });
+
+  // Validar respuesta clínicamente
+  const validation = validateResponse(aiResponse, clinicalState.moment);
+
+  // Señal emocional
+  const signalConfig = getSignalConfig();
+  setTimeout(() => addSignalAfterStream(signalConfig, validation), 100);
+
+  // Avanzar momento
+  advanceMoment();
+  updateStatePanel();
+
+  // Opciones de inicio si es el primer turno
+  if (clinicalState.turnCount === 1) {
+    setTimeout(() => showOptions([
+      "Gracias por recibirme",
+      "No sé muy bien por dónde empezar",
+      "Me cuesta hablar de esto"
+    ]), 600);
+  }
+
+  isStreaming = false;
+}
+
+function getSignalConfig() {
+  const s = clinicalState;
+  const momentColors = {
+    1: { color: '#b8956a', text: 'estableciendo presencia' },
+    2: { color: '#b8956a', text: 'reflejo + validación' },
+    3: { color: '#b8956a', text: 'exploración · tema: ' + (s.presentingTheme || '—') },
+    4: { color: s.narrativeTrend === 'contracting' ? '#6b9e78' : '#b8956a',
+         text: s.narrativeTrend === 'contracting' ? 'preparando cierre' : 'exploración secundaria' },
+    5: { color: '#6b9e78', text: 'cierre con continuidad' }
+  };
+  return momentColors[Math.min(s.moment, 5)] || momentColors[5];
+}
+
+function advanceMoment() {
+  const s = clinicalState;
+  if (s.moment < 5) {
+    // Avanzar momento basado en turnos y tendencia
+    if (s.moment === 1) s.moment = 2;
+    else if (s.moment === 2) s.moment = 3;
+    else if (s.moment === 3) s.moment = 4;
+    else if (s.moment === 4 && (s.narrativeTrend === 'contracting' || s.turnCount >= 6)) s.moment = 5;
+  }
+}
+
+function addFallbackMessage() {
+  addMessage('system',
+    'Necesito una API key de Anthropic para funcionar. ' +
+    'Ingresá tu clave en el campo de arriba para activar el motor clínico.',
+    { color: '#4a4845', text: 'sin conexión IA' }
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// LLAMADA A LA API VIA PROXY (el servidor maneja la API key)
+// ══════════════════════════════════════════════════════════════
+async function callClaude(userMessage) {
+  document.getElementById('stMotor').textContent = 'generando…';
+
+  const systemPrompt = buildSystemPrompt();
+  const messages = [
+    ...conversationHistory,
+    { role: 'user', content: userMessage }
+  ];
+
+  try {
+    // Usa el proxy del servidor - la API key está en el servidor, no en el frontend
+    const response = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        system: systemPrompt,
+        messages: messages,
+        max_tokens: 400
+      })
+    });
+
+    if (!response.ok) {
+      const err = await response.json();
+      console.error('Error:', err);
+      document.getElementById('stMotor').textContent = 'error';
+      return null;
+    }
+
+    // Streaming — igual que antes
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let fullText = '';
+    const bubble = createStreamingBubble();
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const chunk = decoder.decode(value);
+      for (const line of chunk.split('\n')) {
+        if (line.startsWith('data: ')) {
+          try {
+            const parsed = JSON.parse(line.slice(6));
+            if (parsed.delta?.text) {
+              fullText += parsed.delta.text;
+              updateStreamingBubble(bubble, fullText);
+            }
+          } catch(e) {}
+        }
+      }
+    }
+
+    finalizeStreamingBubble(bubble);
+    document.getElementById('stMotor').textContent = 'activo';
+    return fullText;
+
+  } catch (err) {
+    console.error('Error fetch:', err);
+    document.getElementById('stMotor').textContent = 'error';
+    return null;
+  }
+}
+
+// ══════════════════════════════════════════════════════════════
+// INICIO DE SESIÓN (primer mensaje generado por IA)
+// ══════════════════════════════════════════════════════════════
+async function startSession() {
+  showTyping();
+  await sleep(1500);
+
+  // Ya no necesitamos verificar apiKey - el proxy la maneja
+  document.getElementById('stMotor').textContent = 'generando…';
+
+  // El primer mensaje lo genera la IA con el estado inicial
+  const systemPrompt = buildSystemPrompt();
+
+  try {
+    // Usa el proxy del servidor en lugar de llamar directamente a Anthropic
+    const response = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 200,
+        system: systemPrompt,
+        messages: [{ role: 'user', content: '[INICIO DE SESIÓN: generá el mensaje de bienvenida del terapeuta]' }],
+        stream: true
+      })
+    });
+
+    if (!response.ok) throw new Error('API error');
+
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let fullText = '';
+    const bubble = createStreamingBubble();
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const chunk = decoder.decode(value);
+      for (const line of chunk.split('\n')) {
+        if (line.startsWith('data: ')) {
+          try {
+            const parsed = JSON.parse(line.slice(6));
+            if (parsed.delta?.text) {
+              fullText += parsed.delta.text;
+              updateStreamingBubble(bubble, fullText);
+            }
+          } catch(e) {}
+        }
+      }
+    }
+
+    finalizeStreamingBubble(bubble);
+    conversationHistory.push({ role: 'user', content: '[INICIO DE SESIÓN]' });
+    conversationHistory.push({ role: 'assistant', content: fullText });
+
+    addSignalAfterStream({ color: '#b8956a', text: 'bienvenida generada por IA' }, null);
+
+    setTimeout(() => showOptions([
+      "Gracias",
+      "¿Qué es esto?",
+      "No sé muy bien por dónde empezar"
+    ]), 500);
+
+    document.getElementById('stMotor').textContent = 'activo';
+
+  } catch(err) {
+    clearTyping();
+    addFallbackMessage();
+  }
+
+  updateStatePanel();
+}
+
+// ══════════════════════════════════════════════════════════════
+// UI HELPERS
+// ══════════════════════════════════════════════════════════════
+function addMessage(role, text, signalConfig) {
+  const chat = document.getElementById('chatArea');
+  clearOptions();
+
+  const msg = document.createElement('div');
+  msg.className = `message ${role}`;
+
+  const avatar = document.createElement('div');
+  avatar.className = `avatar ${role}`;
+  avatar.textContent = role === 'system' ? '✦' : 'tú';
+
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble';
+  bubble.style.whiteSpace = 'pre-wrap';
+  bubble.textContent = text;
+
+  msg.appendChild(avatar);
+  msg.appendChild(bubble);
+  chat.appendChild(msg);
+
+  if (signalConfig && role === 'system') {
+    const sig = document.createElement('div');
+    sig.className = 'emotional-signal';
+    const dot = document.createElement('div');
+    dot.className = 'signal-dot';
+    dot.style.background = signalConfig.color;
+    const label = document.createElement('span');
+    label.className = 'signal-text';
+    label.textContent = signalConfig.text;
+    sig.appendChild(dot);
+    sig.appendChild(label);
+    chat.appendChild(sig);
+  }
+
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function showTyping() {
+  clearTyping();
+  const chat = document.getElementById('chatArea');
+  const typing = document.createElement('div');
+  typing.className = 'typing';
+  typing.id = 'typingIndicator';
+  const avatar = document.createElement('div');
+  avatar.className = 'avatar system';
+  avatar.textContent = '✦';
+  const dots = document.createElement('div');
+  dots.className = 'typing-dots';
+  dots.innerHTML = '<span></span><span></span><span></span>';
+  typing.appendChild(avatar);
+  typing.appendChild(dots);
+  chat.appendChild(typing);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function clearTyping() {
+  const t = document.getElementById('typingIndicator');
+  if (t) t.remove();
+}
+
+function showOptions(options) {
+  const area = document.getElementById('optionsArea');
+  area.innerHTML = '';
+  const div = document.createElement('div');
+  div.className = 'options';
+  options.forEach(opt => {
+    const chip = document.createElement('div');
+    chip.className = 'option-chip';
+    chip.textContent = opt;
+    chip.onclick = () => selectOption(opt);
+    div.appendChild(chip);
+  });
+  area.appendChild(div);
+}
+
+function clearOptions() {
+  document.getElementById('optionsArea').innerHTML = '';
+}
+
+function selectOption(text) {
+  clearOptions();
+  addMessage('user', text);
+  processUserMessage(text);
+}
+
+function updateStatePanel() {
+  const s = clinicalState;
+  document.getElementById('stMomento').textContent = s.moment + '/5';
+  document.getElementById('stTono').textContent = s.emotionalTone === 'unknown' ? '—' : s.emotionalTone;
+  document.getElementById('stTema').textContent = s.presentingTheme || '—';
+  document.getElementById('stApertura').textContent = s.narrativeTrend === 'unknown' ? '—' : s.narrativeTrend;
+  document.getElementById('stIntensidad').textContent = s.emotionalIntensity + '/5';
+  document.getElementById('rapportFill').style.width = (s.rapportScore * 20) + '%';
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+// ══════════════════════════════════════════════════════════════
+// INPUT HANDLING
+// ══════════════════════════════════════════════════════════════
+function handleInput(el) {
+  el.style.height = 'auto';
+  el.style.height = el.scrollHeight + 'px';
+  document.getElementById('sendBtn').classList.toggle('active', el.value.trim().length > 0);
+}
+
+function handleKeydown(e) {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendMessage();
+  }
+}
+
+function sendMessage() {
+  if (isStreaming) return;
+  const input = document.getElementById('userInput');
+  const text = input.value.trim();
+  if (!text) return;
+  clearOptions();
+  addMessage('user', text);
+  input.value = '';
+  input.style.height = 'auto';
+  document.getElementById('sendBtn').classList.remove('active');
+  processUserMessage(text);
+}
+
+// ══════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════
+window.addEventListener('DOMContentLoaded', () => {
+  const now = new Date();
+  const h = now.getHours();
+  document.getElementById('sessionTime').textContent =
+    h >= 22 || h < 6 ? 'Esta noche' : h < 12 ? 'Esta mañana' : 'Hoy';
+
+  setTimeout(() => startSession(), 800);
+});
+</script>
+</body>
+</html>

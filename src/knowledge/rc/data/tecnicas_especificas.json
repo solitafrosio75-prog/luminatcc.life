@@ -1,0 +1,84 @@
+{
+  "area_id": "tecnicas_especificas",
+  "nombre": "Técnicas Específicas de Reestructuración Cognitiva",
+  "descripcion": "Técnicas concretas del trabajo cognitivo: diálogo socrático, reatribución, descatastrofización, continuo cognitivo",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Leahy, R. L. (2003). Cognitive Therapy Techniques",
+    "Padesky, C. A. (1993). Socratic Questioning"
+  ],
+  "tecnicas": [
+    {
+      "id": "dialogo_socratico",
+      "nombre": "Diálogo Socrático",
+      "descripcion": "Serie de preguntas guiadas que ayudan al paciente a evaluar sus pensamientos desde una perspectiva más objetiva, sin que el terapeuta imponga la conclusión.",
+      "cuando_usar": "Siempre que se trabaje con pensamientos automáticos en sesión. Es la técnica central de la RC.",
+      "pasos": [
+        "Identificar el pensamiento automático (hot thought)",
+        "Preguntar por la evidencia: '¿Qué evidencia tienes de que eso es así?'",
+        "Explorar alternativas: '¿Hay otra forma de ver esta situación?'",
+        "Evaluar consecuencias: '¿Qué es lo peor/mejor/más probable que podría pasar?'",
+        "Explorar utilidad: '¿Te ayuda pensar así? ¿Qué efecto tiene?'",
+        "Sintetizar: '¿Cómo reformularías este pensamiento?'"
+      ],
+      "ejemplo_clinico": "Paciente: 'Mi compañero no me contestó el mensaje, me odia'. Terapeuta: '¿Qué evidencia tienes de que te odia?... ¿Alguna vez tú has tardado en contestar sin que fuera por odio?... ¿Qué otra explicación podría haber?'"
+    },
+    {
+      "id": "descatastrofizacion",
+      "nombre": "Descatastrofización",
+      "descripcion": "Evaluación realista de la probabilidad y gravedad real del escenario temido, y de la capacidad de afrontamiento del paciente.",
+      "cuando_usar": "Pensamientos catastróficos, sobrestimación de la probabilidad de daño, ansiedad anticipatoria.",
+      "pasos": [
+        "Identificar la catástrofe temida: '¿Qué es lo peor que podría pasar?'",
+        "Evaluar probabilidad real: '¿Cuán probable es realmente (0-100%)?'",
+        "Considerar el peor escenario: 'Si realmente ocurriera, ¿qué harías?'",
+        "Evaluar afrontamiento: '¿Has manejado situaciones difíciles antes?'",
+        "¿Qué es lo más probable que pase en realidad?"
+      ],
+      "ejemplo_clinico": "Paciente con ansiedad por presentación: 'Me voy a quedar en blanco y todos se van a reír'. Trabajo: probabilidad real ~5%, peor caso: pierdo el hilo un momento y miro mis notas, audiencia probablemente ni lo nota."
+    },
+    {
+      "id": "reatribucion",
+      "nombre": "Reatribución",
+      "descripcion": "Redistribuir la responsabilidad o causalidad que el paciente se atribuye en exceso, considerando todos los factores que contribuyeron al evento.",
+      "cuando_usar": "Autoculpa excesiva, sobrepersonalización, atribución interna global de eventos negativos.",
+      "pasos": [
+        "Identificar la atribución: '¿A qué atribuyes lo que pasó?'",
+        "Listar TODOS los factores que pudieron contribuir",
+        "Asignar un porcentaje de responsabilidad a cada factor",
+        "Reevaluar: '¿Cuál es tu porcentaje real de responsabilidad?'",
+        "Formular atribución más equilibrada"
+      ],
+      "ejemplo_clinico": "Paciente: 'El proyecto fracasó por mi culpa'. Factores: recorte presupuestario (40%), cambio de requisitos del cliente (30%), mi parte del código (15%), retraso del proveedor (15%). Responsabilidad real: 15%, no 100%."
+    },
+    {
+      "id": "continuo_cognitivo",
+      "nombre": "Continuo Cognitivo",
+      "descripcion": "Sustituir el pensamiento dicotómico (todo-o-nada) por una evaluación en un continuo o escala, matizando la realidad.",
+      "cuando_usar": "Pensamiento polarizado, categorizaciones absolutas ('siempre', 'nunca', 'total'), perfeccionismo.",
+      "pasos": [
+        "Identificar la categorización dicotómica",
+        "Crear una escala de 0 a 100 para esa dimensión",
+        "Situar la realidad en el continuo con evidencia",
+        "¿Dónde se situarían otras personas que conoces?",
+        "Reformular el pensamiento en términos de grado"
+      ],
+      "ejemplo_clinico": "Pensamiento: 'Soy un idiota total'. Continuo de inteligencia 0-100. ¿Dónde me sitúo realmente considerando que terminé la carrera, resuelvo problemas en el trabajo, etc.? Probablemente un 65-70, no un 0."
+    },
+    {
+      "id": "analisis_ventajas_desventajas",
+      "nombre": "Análisis de Ventajas y Desventajas",
+      "descripcion": "Evaluar los costes y beneficios de mantener un pensamiento o creencia disfuncional frente a adoptar una alternativa más adaptativa.",
+      "cuando_usar": "Resistencia al cambio cognitivo, cuando el paciente se 'aferra' a una creencia por algún beneficio percibido.",
+      "pasos": [
+        "Escribir el pensamiento/creencia actual",
+        "Listar ventajas de mantenerlo",
+        "Listar desventajas de mantenerlo",
+        "Escribir el pensamiento alternativo",
+        "Listar ventajas y desventajas de la alternativa",
+        "Comparar ambos análisis"
+      ],
+      "ejemplo_clinico": "Creencia: 'Debo ser perfecto en todo'. Ventajas: me esfuerzo mucho. Desventajas: ansiedad constante, nunca satisfecho, procrastino por miedo a fallar, agotamiento. La alternativa 'hacer las cosas bien dentro de lo razonable' tiene más beneficios a largo plazo."
+    }
+  ]
+}

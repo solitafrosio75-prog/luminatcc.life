@@ -1,0 +1,327 @@
+{
+  "technique_id": "rc",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "procedures": [
+    {
+      "procedure_id": "rc_dialogo_socratico",
+      "technique_id": "rc",
+      "nombre": "Dialogo Socratico",
+      "modalidad": "individual",
+      "clinical_goal": "Cuestionar pensamientos automaticos disfuncionales y generar alternativas mas ajustadas a evidencia",
+      "indications": [
+        "distorsiones cognitivas activas",
+        "interpretaciones rigidas",
+        "rumiacion"
+      ],
+      "expected_outcomes": [
+        "reduccion de conviccion en pensamiento automatico",
+        "aumento de flexibilidad cognitiva"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Pensamiento automatico objetivo",
+          "tipo": "registro",
+          "obligatorio": true,
+          "detalle": "frase concreta asociada a malestar"
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Precisar el pensamiento automatico central",
+          "objetivo": "Delimitar hipotesis cognitiva a evaluar"
+        },
+        {
+          "orden": 2,
+          "accion": "Explorar evidencia a favor y en contra",
+          "objetivo": "Reducir sesgo confirmatorio"
+        },
+        {
+          "orden": 3,
+          "accion": "Generar explicaciones alternativas",
+          "objetivo": "Ampliar repertorio interpretativo"
+        },
+        {
+          "orden": 4,
+          "accion": "Sintetizar pensamiento alternativo",
+          "objetivo": "Formular conclusion funcional"
+        }
+      ],
+      "success_criteria": [
+        "descenso de conviccion de al menos 20 puntos sobre 100",
+        "paciente formula alternativa en lenguaje propio"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [
+          "desregulacion extrema sin contencion"
+        ],
+        "stop_criteria": [
+          "incremento sostenido de activacion sin recuperacion",
+          "desorganizacion cognitiva aguda"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "autodesprecio extremo con ideacion de muerte"
+        ]
+      },
+      "evidence_level": "alta",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/rc/data/tecnicas_especificas.json"
+      ]
+    },
+    {
+      "procedure_id": "rc_descatastrofizacion",
+      "technique_id": "rc",
+      "nombre": "Descatastrofizacion",
+      "modalidad": "individual",
+      "clinical_goal": "Corregir sobreestimacion de amenaza y fortalecer percepcion de afrontamiento",
+      "indications": [
+        "catastrofizacion",
+        "ansiedad anticipatoria"
+      ],
+      "expected_outcomes": [
+        "reduccion de probabilidad subjetiva de desastre",
+        "incremento de autoeficacia percibida"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Escenario temido",
+          "tipo": "registro",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Definir peor escenario temido",
+          "objetivo": "Hacer explicita la prediccion catastrofica"
+        },
+        {
+          "orden": 2,
+          "accion": "Estimar probabilidad realista",
+          "objetivo": "Cuantificar sesgo de amenaza"
+        },
+        {
+          "orden": 3,
+          "accion": "Explorar recursos de afrontamiento",
+          "objetivo": "Activar memoria de eficacia previa"
+        },
+        {
+          "orden": 4,
+          "accion": "Formular escenario mas probable",
+          "objetivo": "Reemplazar pronostico extremo"
+        }
+      ],
+      "success_criteria": [
+        "disminucion de ansiedad anticipatoria reportada",
+        "escenario alternativo mas realista formulado"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "escalada de angustia sin estabilizacion"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "contenido de dano inminente a si mismo o terceros"
+        ]
+      },
+      "evidence_level": "alta",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/rc/data/tecnicas_especificas.json"
+      ]
+    },
+    {
+      "procedure_id": "rc_reatribucion",
+      "technique_id": "rc",
+      "nombre": "Reatribucion",
+      "modalidad": "individual",
+      "clinical_goal": "Reducir autoculpa excesiva mediante analisis multicausal",
+      "indications": [
+        "personalizacion",
+        "culpa desproporcionada"
+      ],
+      "expected_outcomes": [
+        "distribucion causal mas equilibrada",
+        "descenso de culpa patologica"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Evento problema",
+          "tipo": "registro",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Listar factores causales posibles",
+          "objetivo": "Romper causalidad unica autocentrada"
+        },
+        {
+          "orden": 2,
+          "accion": "Asignar pesos porcentuales",
+          "objetivo": "Cuantificar aporte real de cada factor"
+        },
+        {
+          "orden": 3,
+          "accion": "Reformular responsabilidad personal",
+          "objetivo": "Ajustar atribucion a evidencia"
+        }
+      ],
+      "success_criteria": [
+        "paciente reduce atribucion personal global",
+        "aumento de discurso contextualizado"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "aparicion de autoagresion verbal intensa"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "culpa delirante"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/rc/data/tecnicas_especificas.json"
+      ]
+    },
+    {
+      "procedure_id": "rc_continuo_cognitivo",
+      "technique_id": "rc",
+      "nombre": "Continuo Cognitivo",
+      "modalidad": "individual",
+      "clinical_goal": "Transformar evaluaciones dicotomicas en juicios graduales",
+      "indications": [
+        "pensamiento todo o nada",
+        "perfeccionismo clinico"
+      ],
+      "expected_outcomes": [
+        "mayor tolerancia a matices",
+        "menor autoevaluacion extrema"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Dimension a evaluar",
+          "tipo": "registro",
+          "obligatorio": true,
+          "detalle": "ejemplo: competencia, valor personal, desempeno"
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Definir escala 0-100",
+          "objetivo": "Crear marco gradual de evaluacion"
+        },
+        {
+          "orden": 2,
+          "accion": "Ubicar autoevaluacion y ejemplos de referencia",
+          "objetivo": "Anclar juicio en criterios observables"
+        },
+        {
+          "orden": 3,
+          "accion": "Reformular conclusion en terminos de grado",
+          "objetivo": "Reducir absolutismo"
+        }
+      ],
+      "success_criteria": [
+        "discurso menos absoluto",
+        "autoevaluacion mas proporcional a evidencia"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "incremento de desregulacion sin recuperacion"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "autodesprecio severo persistente"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/knowledge/rc/data/tecnicas_especificas.json"
+      ]
+    },
+    {
+      "procedure_id": "rc_experimento_prediccion_realidad",
+      "technique_id": "rc",
+      "nombre": "Experimento Conductual Prediccion vs Realidad",
+      "modalidad": "individual",
+      "clinical_goal": "Contrastar creencias mediante evidencia experiencial directa",
+      "indications": [
+        "conviccion alta en pensamiento disfuncional",
+        "discrepancia entre comprension racional y cambio emocional"
+      ],
+      "expected_outcomes": [
+        "reduccion de conviccion en creencia problema",
+        "aprendizaje correctivo basado en experiencia"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Prediccion cuantificada",
+          "tipo": "registro",
+          "obligatorio": true
+        },
+        {
+          "nombre": "Contexto seguro de prueba",
+          "tipo": "contexto",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Definir prediccion especifica y probabilidad",
+          "objetivo": "Hacer falsable la hipotesis"
+        },
+        {
+          "orden": 2,
+          "accion": "Ejecutar conducta de prueba",
+          "objetivo": "Obtener datos observables"
+        },
+        {
+          "orden": 3,
+          "accion": "Comparar resultado real con prediccion",
+          "objetivo": "Actualizar creencia con evidencia"
+        }
+      ],
+      "success_criteria": [
+        "prediccion no confirmada total o parcialmente",
+        "reformulacion cognitiva posterior al experimento"
+      ],
+      "safety": {
+        "risk_level": "moderado",
+        "contraindicaciones": [
+          "riesgo alto no estabilizado"
+        ],
+        "stop_criteria": [
+          "activacion intensa que excede ventana de tolerancia",
+          "conducta de riesgo emergente"
+        ],
+        "requiere_supervision": true,
+        "red_flags": [
+          "ideacion suicida activa",
+          "disociacion marcada"
+        ]
+      },
+      "evidence_level": "alta",
+      "intensidad": "alta",
+      "trace_sources": [
+        "src/knowledge/rc/data/rc_experimentos_conductuales.json"
+      ]
+    }
+  ]
+}

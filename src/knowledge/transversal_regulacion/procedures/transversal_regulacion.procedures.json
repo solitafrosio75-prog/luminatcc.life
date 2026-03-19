@@ -1,0 +1,188 @@
+{
+  "technique_id": "transversal_regulacion",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "procedures": [
+    {
+      "procedure_id": "tx_autocompasion_validacion",
+      "technique_id": "transversal_regulacion",
+      "nombre": "Pausa de Autocompasion",
+      "modalidad": "autoaplicada",
+      "clinical_goal": "Reducir autocritica y estabilizar tono emocional con lenguaje amable.",
+      "indications": [
+        "autocritica intensa",
+        "culpa y verguenza"
+      ],
+      "expected_outcomes": [
+        "descenso de hostilidad interna",
+        "aumento de autorregulacion emocional"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Frase de validacion personal",
+          "tipo": "material",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Nombrar el malestar actual sin juicio",
+          "objetivo": "Activar conciencia emocional"
+        },
+        {
+          "orden": 2,
+          "accion": "Aplicar lenguaje compasivo en segunda persona",
+          "objetivo": "Reducir autocritica reactiva"
+        },
+        {
+          "orden": 3,
+          "accion": "Definir una accion minima de cuidado",
+          "objetivo": "Traducir compasion a conducta"
+        }
+      ],
+      "success_criteria": [
+        "reduccion subjetiva de autocritica",
+        "ejecucion de accion minima de cuidado"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "incremento de disociacion",
+          "empeoramiento abrupto de desesperanza"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "autodesprecio extremo persistente"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/services/tccEngineKnowledgeV3Bridge.ts"
+      ]
+    },
+    {
+      "procedure_id": "tx_observacion_mindful_3m",
+      "technique_id": "transversal_regulacion",
+      "nombre": "Observacion Mindful Breve",
+      "modalidad": "autoaplicada",
+      "clinical_goal": "Reducir fusion cognitiva observando pensamientos sin reaccion automatica.",
+      "indications": [
+        "rumiacion",
+        "sobrecarga mental"
+      ],
+      "expected_outcomes": [
+        "mayor distancia cognitiva",
+        "disminucion de reactividad"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Temporizador de 3 minutos",
+          "tipo": "material",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Focalizar en respiracion y sensaciones corporales",
+          "objetivo": "Anclar atencion"
+        },
+        {
+          "orden": 2,
+          "accion": "Etiquetar pensamiento como evento mental",
+          "objetivo": "Disminuir fusion cognitiva"
+        },
+        {
+          "orden": 3,
+          "accion": "Cerrar con retorno voluntario a tarea prioritaria",
+          "objetivo": "Restablecer funcionamiento"
+        }
+      ],
+      "success_criteria": [
+        "descenso de impulso rumiativo",
+        "retorno efectivo a tarea"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [
+          "disociacion activa"
+        ],
+        "stop_criteria": [
+          "aumento de desconexion"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "ansiedad creciente sin recuperacion"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/services/tccEngineKnowledgeV3Bridge.ts"
+      ]
+    },
+    {
+      "procedure_id": "tx_hora_preocupacion",
+      "technique_id": "transversal_regulacion",
+      "nombre": "Hora de Preocupacion",
+      "modalidad": "autoaplicada",
+      "clinical_goal": "Contener rumiacion asignando un bloque temporal acotado para preocupaciones.",
+      "indications": [
+        "preocupacion difusa",
+        "bloqueo por sobrepensamiento"
+      ],
+      "expected_outcomes": [
+        "menor interferencia diurna por preocupacion",
+        "mejor control temporal de rumiacion"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Registro breve de preocupaciones",
+          "tipo": "registro",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Definir franja fija diaria para preocuparse",
+          "objetivo": "Acotar ventana cognitiva"
+        },
+        {
+          "orden": 2,
+          "accion": "Aparcar preocupacion fuera de franja con nota breve",
+          "objetivo": "Reducir secuestro atencional"
+        },
+        {
+          "orden": 3,
+          "accion": "Al finalizar, elegir una accion concreta de cierre",
+          "objetivo": "Evitar prolongacion rumiativa"
+        }
+      ],
+      "success_criteria": [
+        "disminucion del tiempo total de preocupacion espontanea",
+        "mejora percibida en foco funcional"
+      ],
+      "safety": {
+        "risk_level": "moderado",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "insomnio creciente",
+          "escalada de malestar sin control"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "desesperanza o ideacion autolesiva"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/services/tccEngineKnowledgeV3Bridge.ts"
+      ]
+    }
+  ]
+}

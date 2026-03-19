@@ -1,0 +1,40 @@
+{
+  "procedure_id": "ac_psicoeducacion",
+  "nombre": "Psicoeducación sobre modelo AC",
+  "indicaciones": [
+    "Paciente sin experiencia previa en TCC",
+    "Fase inicial"
+  ],
+  "contraindicaciones": [
+    "Paciente con deterioro cognitivo severo"
+  ],
+  "pasos": [
+    {
+      "orden": 1,
+      "descripcion": "Explicar el modelo de activación-conducta",
+      "evidencia": [
+        {
+          "tipo": "guía"
+        }
+      ]
+    },
+    {
+      "orden": 2,
+      "descripcion": "Ejemplo práctico con caso simulado",
+      "evidencia": [
+        {
+          "tipo": "estudio"
+        }
+      ]
+    }
+  ],
+  "criterios_seguridad": [
+    "No iniciar si hay riesgo suicida activo"
+  ],
+  "nivel_evidencia": "A",
+  "referencias": [
+    {
+      "tipo": "metaanálisis"
+    }
+  ]
+}

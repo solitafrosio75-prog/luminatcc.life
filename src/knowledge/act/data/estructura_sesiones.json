@@ -1,0 +1,112 @@
+{
+  "area_id": "estructura_sesiones",
+  "nombre": "Estructura de Sesiones de ACT",
+  "descripcion": "Organización temporal del tratamiento ACT en bloques terapéuticos, con objetivos y actividades principales por fase",
+  "fuentes": [
+    "Hayes, Strosahl & Wilson (2012). Acceptance and Commitment Therapy, 2nd ed.",
+    "Harris (2009). ACT Made Simple",
+    "Luoma, Hayes & Walser (2007). Learning ACT",
+    "Strosahl, Robinson & Gustavsson (2012). Brief Interventions for Radical Change: Principles and Practice of Focused Acceptance and Commitment Therapy",
+    "Wilson & Luciano (2002). Terapia de Aceptación y Compromiso"
+  ],
+  "total_sesiones": "8-16 sesiones (flexible según complejidad del caso; protocolos breves de Focused ACT pueden ser 4-6 sesiones)",
+  "frecuencia": "Semanal preferentemente. Quincenal aceptable en fases avanzadas de consolidación.",
+  "bloques": [
+    {
+      "nombre": "Bloque 1: Evaluación y Desesperanza Creativa",
+      "sesiones": "Sesiones 1-2",
+      "objetivos": [
+        "Establecer alianza terapéutica desde la postura ACT: igualdad, apertura, compasión",
+        "Realizar evaluación funcional del problema: identificar patrones de evitación experiencial, fusión cognitiva y desconexión de valores",
+        "Administrar instrumentos de medida (AAQ-II, CompACT, CFQ, Bull's Eye)",
+        "Introducir la desesperanza creativa: que el paciente contacte experiencialmente con el hecho de que sus estrategias de control del malestar no han funcionado a largo plazo",
+        "Establecer el consentimiento informado y la formulación compartida del caso en términos de flexibilidad/inflexibilidad"
+      ],
+      "actividades_principales": [
+        "Entrevista funcional centrada en evitación experiencial: '¿Qué has hecho para intentar controlar o eliminar tus emociones difíciles? ¿Ha funcionado a largo plazo?'",
+        "Metáfora del hombre en el hoyo: cavar más profundo con la pala (estrategias de control) no te saca del hoyo",
+        "Metáfora del tira y afloja con el monstruo: soltar la cuerda en lugar de seguir tirando",
+        "Administración de AAQ-II, CFQ y Bull's Eye como línea base",
+        "Inventario de costes de la evitación: '¿Qué has dejado de hacer en tu vida por intentar no sentirte mal?'"
+      ]
+    },
+    {
+      "nombre": "Bloque 2: Defusión Cognitiva y Aceptación",
+      "sesiones": "Sesiones 3-5",
+      "objetivos": [
+        "Desarrollar habilidades de defusión cognitiva: aprender a observar los pensamientos como eventos mentales, no como verdades literales",
+        "Introducir la aceptación como alternativa a la evitación experiencial: disposición a tener experiencias internas difíciles al servicio de los valores",
+        "Practicar la distinción entre contenido mental y la función que cumple",
+        "Experimentar que los pensamientos y emociones pueden estar presentes sin controlar la conducta"
+      ],
+      "actividades_principales": [
+        "Ejercicio de manos como pensamientos: fusión vs. defusión experiencial",
+        "Técnica de repetición de palabras (Titchener): desacralizar palabras angustiantes",
+        "Nombrar historias: 'Ahí está otra vez la Historia de...'",
+        "Agradecer a la mente: 'Gracias, mente, por ese pensamiento tan creativo'",
+        "Ejercicio de expansión/hacer espacio a emociones difíciles",
+        "Hojas en el río: colocar pensamientos en hojas y observar cómo flotan",
+        "Metáfora de la radio: la mente es como una radio que emite contenido constantemente; no puedes apagarla pero puedes elegir si bailas al ritmo de esa música"
+      ]
+    },
+    {
+      "nombre": "Bloque 3: Contacto con el Momento Presente y Yo-como-Contexto",
+      "sesiones": "Sesiones 6-7",
+      "objetivos": [
+        "Desarrollar la capacidad de atención plena al momento presente como base de todos los demás procesos ACT",
+        "Facilitar la experiencia del yo-como-contexto: la perspectiva observadora que es mayor que cualquier pensamiento, emoción o rol",
+        "Diferenciar el yo-como-contenido (identificación con roles, etiquetas, historias) del yo-como-contexto (el espacio de conciencia que observa todo)",
+        "Integrar los procesos de apertura (defusión, aceptación) con los procesos de centramiento (momento presente, yo-contexto)"
+      ],
+      "actividades_principales": [
+        "Ejercicio de los 5 sentidos: anclaje multisensorial al presente",
+        "Metáfora del cielo y el clima: tú eres el cielo, las emociones son el clima",
+        "Ejercicio del tablero de ajedrez: tú no eres las piezas (pensamientos, emociones) sino el tablero que las contiene",
+        "Práctica de noticing: 'Noto que estoy teniendo el pensamiento de...', 'Noto que estoy sintiendo...'",
+        "Ejercicio del observador: visualización guiada recorriendo cambios a lo largo de la vida mientras la perspectiva observadora permanece constante",
+        "Práctica informal de mindfulness: actividades cotidianas con atención plena"
+      ]
+    },
+    {
+      "nombre": "Bloque 4: Valores y Acción Comprometida",
+      "sesiones": "Sesiones 8-12",
+      "objetivos": [
+        "Clarificar los valores personales del paciente en los principales dominios vitales",
+        "Diferenciar valores (dirección) de metas (destino) y de deseos o sentimientos",
+        "Traducir los valores en acciones concretas, graduadas y medibles",
+        "Desarrollar el compromiso con la acción incluso en presencia de malestar",
+        "Integrar todos los procesos del hexaflex: actuar según valores (acción comprometida) con pensamientos difíciles (defusión), emociones incómodas (aceptación), en el momento presente (atención plena), desde la perspectiva del yo-observador (yo-contexto)"
+      ],
+      "actividades_principales": [
+        "Ejercicio del funeral/epitafio: visualización para contactar con valores profundos",
+        "Brújula de vida: exploración de valores en todos los dominios vitales",
+        "Diana de valores (Bull's Eye): evaluación visual de la distancia entre valores y conducta actual",
+        "Choice Point: mapeo de situaciones difíciles con movimientos hacia/lejos de valores",
+        "Diseño de planes de acción comprometida con criterios SMART",
+        "Anticipación y manejo de barreras internas y externas",
+        "Micro-acciones comprometidas diarias: pequeños pasos en dirección de valores",
+        "Revisión semanal de coherencia valores-acción: '¿Qué hiciste esta semana que te acercó a tus valores? ¿Qué te alejó?'"
+      ]
+    },
+    {
+      "nombre": "Bloque 5: Consolidación y Prevención de Recaídas",
+      "sesiones": "Sesiones 13-16",
+      "objetivos": [
+        "Consolidar las habilidades de flexibilidad psicológica adquiridas a lo largo del tratamiento",
+        "Revisar y reforzar el progreso en cada proceso del hexaflex",
+        "Desarrollar un plan personalizado de mantenimiento y prevención de recaídas",
+        "Normalizar la recaída como parte del proceso: volver a caer en la inflexibilidad es esperable, lo importante es notarlo y regresar a la flexibilidad",
+        "Preparar el cierre terapéutico con una revisión de valores y compromisos a largo plazo"
+      ],
+      "actividades_principales": [
+        "Revisión del hexaflex personal: comparar evaluación inicial con la actual en cada proceso",
+        "Comparación de Bull's Eye pre y post tratamiento: visualizar el acercamiento a los valores",
+        "Readministración de AAQ-II, CompACT y CFQ para medición de resultados",
+        "Creación de plan de mantenimiento: 'Cuando note que mi mente me engancha, puedo... Cuando note que estoy evitando, puedo...'",
+        "Carta al yo futuro: escribir una carta para leer en momentos difíciles, recordando los aprendizajes de terapia",
+        "Identificación de señales de alarma: '¿Qué indicadores te dirán que estás volviendo a la inflexibilidad?'",
+        "Programación de sesiones de seguimiento (1 mes, 3 meses, 6 meses)"
+      ]
+    }
+  ]
+}

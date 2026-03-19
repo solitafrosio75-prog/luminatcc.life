@@ -1,0 +1,80 @@
+{
+  "area_id": "objetivos_clinicos",
+  "nombre": "Objetivos Clínicos de ACT",
+  "descripcion": "Indicaciones terapéuticas, nivel de evidencia y contraindicaciones de la Terapia de Aceptación y Compromiso",
+  "fuentes": [
+    "Hayes, Strosahl & Wilson (2012). Acceptance and Commitment Therapy, 2nd ed.",
+    "A-Tjak et al. (2015). A meta-analysis of the efficacy of acceptance and commitment therapy",
+    "Gloster et al. (2020). The empirical status of acceptance and commitment therapy: A review of meta-analyses",
+    "Ruiz (2012). Acceptance and Commitment Therapy (ACT): Empirical evidence of the third wave"
+  ],
+  "indicaciones": [
+    {
+      "trastorno": "Evitación experiencial crónica (transdiagnóstico)",
+      "nivel_evidencia": "alta",
+      "notas": "ACT fue diseñada específicamente para abordar la evitación experiencial como proceso patológico central. Eficaz cuando el paciente presenta un patrón persistente de evitar pensamientos, emociones o situaciones que restringe su vida."
+    },
+    {
+      "trastorno": "Trastornos de ansiedad (TAG, fobia social, pánico, TEPT)",
+      "nivel_evidencia": "alta",
+      "notas": "Metaanálisis muestran eficacia comparable a TCC. ACT es especialmente útil cuando la ansiedad se mantiene por evitación experiencial y fusión con pensamientos catastróficos. No busca reducir la ansiedad sino cambiar la relación con ella."
+    },
+    {
+      "trastorno": "Depresión mayor y recurrente",
+      "nivel_evidencia": "alta",
+      "notas": "Evidencia robusta en múltiples ECAs. ACT aborda la rumiación como fusión cognitiva y la inactividad como evitación experiencial. Especialmente indicada en depresión con componente de desconexión de valores."
+    },
+    {
+      "trastorno": "Dolor crónico (fibromialgia, lumbalgia, cefaleas)",
+      "nivel_evidencia": "alta",
+      "notas": "Una de las áreas con mayor evidencia para ACT. No busca eliminar el dolor sino aumentar la funcionalidad y calidad de vida en presencia del dolor. La aceptación del dolor reduce el sufrimiento secundario y la catastrofización."
+    },
+    {
+      "trastorno": "Adicciones (sustancias, tabaco, alcohol)",
+      "nivel_evidencia": "moderada",
+      "notas": "El consumo se conceptualiza como evitación experiencial (consumir para no sentir). ACT trabaja la disposición a experimentar craving sin actuar sobre él y reconectar con valores que den alternativa funcional al consumo."
+    },
+    {
+      "trastorno": "Estrés laboral y burnout",
+      "nivel_evidencia": "moderada",
+      "notas": "Protocolos de ACT aplicados en contextos organizacionales muestran mejoras en bienestar psicológico y rendimiento. Especialmente útil cuando el burnout se asocia a desconexión de valores profesionales y evitación de experiencias laborales."
+    },
+    {
+      "trastorno": "Trastornos de la conducta alimentaria",
+      "nivel_evidencia": "moderada",
+      "notas": "ACT aborda la fusión con pensamientos sobre imagen corporal y la evitación experiencial de emociones mediante restricción o purga. Complementa protocolos específicos de TCA."
+    },
+    {
+      "trastorno": "Psicosis (como intervención complementaria)",
+      "nivel_evidencia": "emergente",
+      "notas": "Estudios preliminares prometedores en reducción de rehospitalización y mejora de funcionamiento. ACT no disputa el contenido de las alucinaciones sino que trabaja la relación funcional con ellas. Siempre como complemento a farmacoterapia."
+    }
+  ],
+  "contraindicaciones": [
+    {
+      "condicion": "Crisis suicida aguda con riesgo inminente",
+      "razon": "El paciente requiere intervención de crisis inmediata y estabilización antes de cualquier trabajo terapéutico centrado en valores. La exploración de valores en estado de crisis puede intensificar la desesperanza si el paciente percibe una brecha insalvable.",
+      "alternativa": "Protocolo de crisis y evaluación de riesgo suicida. Una vez estabilizado, ACT puede integrarse como parte del plan de tratamiento, abordando la desesperanza desde la desesperanza creativa."
+    },
+    {
+      "condicion": "Psicosis activa desorganizada",
+      "razon": "La desorganización del pensamiento impide la participación en ejercicios experienciales y metafóricos que requieren capacidad de perspectiva y abstracción. La fusión con contenido delirante activo hace imposible trabajar defusión.",
+      "alternativa": "Estabilización farmacológica primero. ACT puede incorporarse en fase de mantenimiento o recuperación, cuando el paciente puede participar en los ejercicios experienciales."
+    },
+    {
+      "condicion": "Deterioro cognitivo severo (demencia moderada-severa)",
+      "razon": "ACT requiere capacidad de abstracción para comprender metáforas, realizar ejercicios de perspectiva y mantener la distinción entre yo-como-contenido y yo-como-contexto. El deterioro cognitivo severo limita esta capacidad.",
+      "alternativa": "Intervenciones conductuales directas más simples. Para deterioro leve, se pueden adaptar metáforas ACT a versiones más concretas y experienciales."
+    },
+    {
+      "condicion": "Paciente en búsqueda exclusiva de eliminación de síntomas",
+      "razon": "No es una contraindicación absoluta, pero si el paciente insiste rígidamente en eliminar sus síntomas y rechaza cualquier alternativa, ACT puede generar frustración inicial. La desesperanza creativa debe manejarse con sensibilidad.",
+      "alternativa": "Comenzar con psicoeducación sobre la agenda de control y trabajar la desesperanza creativa de forma gradual. Si persiste el rechazo, considerar TCC tradicional como puente hacia ACT posterior."
+    },
+    {
+      "condicion": "Trauma agudo no estabilizado",
+      "razon": "La exposición experiencial a emociones intensas en ACT requiere que el paciente tenga un mínimo de estabilidad emocional y regulación. En trauma agudo, los ejercicios de aceptación pueden resultar retraumatizantes.",
+      "alternativa": "Estabilización y regulación emocional primero (técnicas de grounding, seguridad). ACT puede integrarse una vez que el paciente tenga recursos de regulación básicos."
+    }
+  ]
+}

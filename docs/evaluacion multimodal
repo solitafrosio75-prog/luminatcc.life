@@ -1,0 +1,136 @@
+Evaluación Multimodal y Diagnóstico en TCC: Arquitectura Completa
+Por qué "multimodal" y no simplemente "evaluación"
+Antes de entrar en la estructura, necesitas entender el fundamento filosófico que da nombre a todo esto. La palabra "multimodal" no es solo un adjetivo bonito: viene directamente del modelo de Lazarus (1976, 1981), quien demostró que los resultados duraderos en terapia están en proporción directa al número de modalidades que el terapeuta evalúa e interviene. La mayoría de los terapeutas, señalaba Lazarus, solo manejan una o dos modalidades según sus preferencias personales. Eso no es terapia de calidad, es terapia sesgada.
+La premisa de fondo es que los problemas humanos son multidimensionales y multicausales. Un terapeuta que solo ve cogniciones, o solo conductas, o solo emociones, está viendo una parte del sistema. La evaluación multimodal exige ver el sistema completo antes de tocar nada.
+
+Estructura General del Proceso Evaluativo
+La evaluación no es una fase que "termina" para dar paso al tratamiento. Cormier & Cormier lo articulan de forma muy clara: la recogida de información y la confirmación de hipótesis no finaliza automáticamente después de las primeras sesiones, continúa a lo largo de toda la terapia. Esta distinción es clínica y arquitectónicamente fundamental.
+Dicho esto, el proceso tiene una forma recognoscible que puede describirse en capas:
+
+CAPA 1: El Establecimiento del Vínculo como Prerequisito Evaluativo
+Esto es lo que los manuales suelen omitir o reducir a "crear rapport", como si fuera un trámite. Es en realidad una condición de validez de toda la evaluación.
+La lógica es la siguiente: si el paciente no confía en el terapeuta, la información que proporcione estará sesgada, filtrada, incompleta o directamente falsa. Un paciente que no se siente seguro minimizará síntomas por deseabilidad social, exagerará por miedo a no ser tomado en serio, o simplemente callará lo más importante.
+El rapport, tal como lo define Lazarus, es una relación óptima entre terapeuta y usuario que resulta indispensable para motivar al paciente a asistir a sesiones posteriores, dándole la sensación de que es escuchado y comprendido. Y el manual de entrevista conductual es muy específico: los primeros minutos del primer encuentro son el momento donde ambos se evalúan mutuamente, y la primera impresión impacta toda la relación posterior.
+Esto tiene una implicación directa para la app: no se puede lanzar directamente al interrogatorio clínico. El sistema debe tener un momento inicial de establecimiento relacional antes de proceder a recoger datos.
+
+CAPA 2: La Historia Clínica y los Datos de Entrada
+Una vez establecido el vínculo mínimo necesario, la primera recogida formal de información implica:
+Datos sociodemográficos básicos: nombre, edad, estado civil, ocupación, situación familiar, y lo que el manual llama "antecedentes médicos y psicológicos relevantes". Esto no es burocracia, es información que determina el contexto del problema.
+Historia del problema: Aquí comienza algo crucial que los manuales describen con detalle. La entrevista conductual recomienda un orden muy específico: empezar pidiendo al paciente que describa la última vez que ocurrió el problema, no la primera ni la más intensa. La razón es técnica: los detalles de un episodio reciente son más accesibles, menos distorsionados por el tiempo, y permiten obtener información situacional concreta que el análisis funcional necesita.
+El examen del estado mental: Si tras las primeras interacciones el terapeuta tiene dudas sobre el estado psiquiátrico del paciente o sospecha un trastorno orgánico, Cormier & Cormier indican que debe realizarse antes de continuar. Sus categorías son: aspecto general, estado de ánimo y afecto, percepción, procesos del pensamiento, nivel de conciencia, orientación en el tiempo, memoria y control de impulsos. Los trastornos de conciencia y orientación son señales de alerta de deterioro orgánico que requieren derivación neurológica.
+
+CAPA 3: La Entrevista Directa de Evaluación — Las 11 Categorías
+Este es el núcleo del proceso. Cormier & Cormier articulan un sistema de 11 categorías que el terapeuta debe cubrir con cada paciente. La clave es entender que no son un formulario a rellenar en orden secuencial, sino un mapa de carreteras. El terapeuta las atraviesa siguiendo el hilo natural del discurso del paciente, cubriendo todas, pero no de forma mecánica.
+Categoría 1 — Explicación del propósito de la evaluación
+Antes de preguntar, el terapeuta explica qué está haciendo y por qué. Esto tiene una función terapéutica en sí misma: convierte al paciente de objeto pasivo de diagnóstico en participante activo del proceso. El paciente que entiende por qué se le pregunta sobre antecedentes coopera más y filtra menos la información.
+Categoría 2 — Identificación del tipo de problemas
+El terapeuta ayuda al paciente a articular "la imagen total" de su problemática, no solo el motivo de consulta declarado. Esto es importante porque con frecuencia el problema presentado inicialmente no es el problema central. El terapeuta necesita explorar todos los aspectos primarios y secundarios.
+Categoría 3 — Priorización y selección de problemas
+Con múltiples problemas identificados, terapeuta y paciente acuerdan un orden de prioridad y seleccionan el área inicial de trabajo. Esto tiene implicaciones prácticas: atacar demasiados frentes simultáneamente es ineficaz. El criterio de priorización no es solo la urgencia subjetiva del paciente, sino también la que tiene mayor interferencia funcional, la que bloquea el tratamiento de otras áreas, o la que el paciente está más dispuesto a trabajar.
+Categorías 4, 5 y 6 — El análisis funcional del problema: El modelo ABC
+Estas tres categorías forman el corazón del análisis conductual y deben entenderse juntas.
+La Categoría 4 define la conducta problema en sus seis componentes simultáneos:
+
+Afectivo: qué emociones están presentes
+Somático: qué sensaciones corporales ocurren
+Conductual: qué hace o deja de hacer la persona
+Cognitivo: qué piensa, qué imágenes mentales tiene
+Contextual: en qué situaciones, lugares, momentos ocurre
+Relacional: cómo afecta o involucra a otras personas
+
+La Categoría 5 explora los antecedentes: todo lo que ocurre antes de la conducta problema y que aumenta o disminuye la probabilidad de que aparezca. Pueden ser:
+
+Antecedentes afectivos (qué sentimientos precedían al problema)
+Antecedentes somáticos (molestias físicas que lo preceden)
+Antecedentes conductuales (patrones de conducta que lo desencadenan)
+Antecedentes cognitivos (pensamientos o imágenes que lo provocan)
+Antecedentes contextuales (cuándo, dónde, bajo qué circunstancias)
+Antecedentes relacionales (qué personas o relaciones del pasado lo preceden)
+
+La Categoría 6 explora las consecuencias: todo lo que ocurre después de la conducta problema. Aquí es donde el terapeuta entiende por qué el problema se mantiene. Una conducta problemática que persiste en el tiempo no persiste por inercia, persiste porque tiene consecuencias que la refuerzan (atención, evitación de algo desagradable, alivio de tensión, control del entorno). Esta es la diferencia entre describir un problema y comprenderlo funcionalmente.
+Categoría 7 — Logros secundarios
+Esta categoría merece especial atención porque es clínicamente sofisticada y frecuentemente ignorada. Los logros secundarios son los beneficios encubiertos o no reconocidos que el paciente obtiene del problema. Un ejemplo del manual: un niño con miedo puede encontrar en ese miedo una forma de protección en sus relaciones con personas desconocidas. Eliminar el síntoma sin entender estos logros secundarios puede empeorar el problema o generar síntomas sustitutos.
+El terapeuta indaga con preguntas como: "¿Hay algo que consigues gracias a este problema que sería difícil de conseguir de otra manera?". Es probable que el paciente no tenga conciencia de estos logros, por lo que el terapeuta debe inferirlos también de los datos del análisis funcional.
+Categoría 8 — Soluciones previas
+Qué ha intentado ya el paciente para resolver el problema, y con qué resultado. Esto tiene valor doble: muestra qué no funcionó (y por tanto, qué estrategias no repetir), y a veces revela soluciones parciales que el paciente no reconoce como tales y que pueden ampliarse.
+Categoría 9 — Destrezas de manejo del cliente
+Qué recursos, habilidades, fortalezas y mecanismos de afrontamiento ya posee el paciente. Esta categoría se opone explícitamente a una visión exclusivamente patológica del paciente. En TCC, los recursos del paciente no son secundarios, son herramientas terapéuticas activas. Un terapeuta que no los identifica está obligado a construir todo desde cero cuando podría apoyarse en lo que ya existe.
+Categoría 10 — Percepciones del cliente sobre su problema
+Cómo entiende el paciente su propio problema: a qué lo atribuye, qué teoría tiene sobre sus causas, qué cree que lo mantiene. Esto es fundamental por dos razones. Primero, las atribuciones del paciente son datos clínicos de primer orden: un paciente que atribuye todo a causas externas tiene un perfil diferente al que se responsabiliza en exceso. Segundo, para diseñar la psicoeducación el terapeuta necesita saber desde qué modelo explicativo parte el paciente para construir un puente hacia el modelo TCC.
+Categoría 11 — Intensidad, frecuencia y duración del problema
+Cuantificación del problema. Aquí se establece la línea base: con qué frecuencia ocurre, cuánto dura cada episodio, y qué nivel de intensidad alcanza. Cormier & Cormier son honestos al señalar que muchos pacientes no conocen con exactitud estos datos en el momento de la entrevista, y que la información más precisa generalmente emerge después de que el paciente ha comenzado a autorregistrar su conducta.
+
+CAPA 4: El Modelo de Conceptualización Multimodal — BASIC ID
+Una vez recogida la información de las 11 categorías, el terapeuta necesita un marco para integrarla. El más completo disponible en la bibliografía es el modelo BASIC ID de Lazarus, que organiza la evaluación en siete modalidades interactivas:
+B — Conducta (Behavior): excesos y déficits conductuales. Qué hace demasiado, qué deja de hacer.
+A — Afecto (Affect): presencia, ausencia o distorsión de emociones.
+S — Sensación (Sensation): experiencias sensoriales, molestias físicas, respuestas fisiológicas.
+I — Capacidad Imaginativa (Imagery): imágenes mentales recurrentes, sueños, fantasías que pueden funcionar como antecedentes o consecuencias.
+C — Cognición (Cognition): pensamientos automáticos, creencias intermedias, creencias nucleares, distorsiones cognitivas. Cormier & Cormier identifican tres patrones cognitivos especialmente frecuentes: la autoevaluación negativa, el perfeccionismo y las atribuciones externas.
+I — Relaciones Interpersonales (Interpersonal): calidad de las relaciones significativas, patrones de interacción, habilidades sociales. Esta modalidad puede evaluarse no solo por autoinforme sino por la observación directa de cómo el paciente se relaciona con el propio terapeuta.
+D — Fármacos/Biología (Drugs/Biology): estado general de salud, medicación, sueño, nutrición, ejercicio, factores neurológicos. Esta modalidad no psicológica puede afectar todas las demás y su omisión es un error clínico grave.
+La regla de Lazarus es que ninguna modalidad puede tratarse de forma aislada porque todas interactúan. Un pensamiento dispara una emoción que produce una sensación que genera una conducta que afecta una relación. El terapeuta que ve solo una parte interviene en un sistema que no comprende.
+
+CAPA 5: Los Inventarios Estandarizados — Cómo se usan realmente
+Aquí es donde los manuales suelen ser más superficiales y los criterios de evaluación que tienes en el proyecto llenan ese vacío con precisión. El especialista no "aplica tests". Utiliza instrumentos de medida con criterios interpretativos específicos:
+Criterio de Gravedad (Puntos de Corte): El BDI-II clasifica la depresión en cuatro rangos (0–13 mínima, 14–19 leve, 20–28 moderada, 29–63 grave). Pero la lectura clínica va más allá del rango: un paciente en 28 que lleva tres semanas subiendo es funcionalmente diferente a uno en 28 que lleva tres semanas bajando. La tendencia importa tanto como el número.
+Criterio de Ítems Críticos (Riesgo): El terapeuta no lee el puntaje total primero. Lee primero los ítems de riesgo. En el BDI-II el ítem 9 (ideación suicida) tiene prioridad absoluta sobre el puntaje global. Un ítem 9 marcado con 2 o 3 activa un protocolo de seguridad con independencia de que el total sea bajo. Los ítems neurovegetativos (sueño, apetito, fatiga) son señales de posible causa médica o necesidad de psiquiatría.
+Criterio de Consistencia y Validez: El terapeuta evalúa si el paciente respondió con honestidad. Las señales de deseabilidad social (todo en cero), simulación (todo al máximo) o contradicción entre el test y la conducta observable durante la entrevista, son datos clínicos en sí mismos que requieren exploración directa.
+Criterio de Línea Base y Cambio Clínicamente Significativo: Los inventarios se aplican en múltiples momentos, no solo al inicio. La diferencia entre cambio estadístico y cambio funcional es crucial: bajar de 40 a 35 en el BDI es estadísticamente significativo pero el paciente sigue en rango grave y funcionalmente no ha mejorado.
+Criterio de Diagnóstico Diferencial: La ansiedad y la depresión se solapan sintomáticamente. El BAI se focaliza en lo fisiológico (sudoración, temblor) y el BDI en lo cognitivo (culpa, inutilidad). Si un paciente puntúa alto en ambos, el terapeuta utiliza los datos para determinar qué tratar primero: la ansiedad si impide concentrarse en las tareas de depresión, o viceversa.
+Criterio de Conceptualización (El "por qué"): Este es el uso más sofisticado. El terapeuta no mira el puntaje total sino los ítems individualmente altos. Si en una escala de ansiedad social el ítem "evito situaciones" es el más elevado, el foco será la exposición. Si "temo que me juzguen" es el más elevado, el foco será la reestructuración cognitiva. El inventario no solo mide, orienta la intervención.
+
+CAPA 6: El Análisis Funcional de la Conducta (AFC) — De los datos a las hipótesis
+Con toda la información de las capas anteriores, el terapeuta realiza el AFC. Este proceso tiene características que la bibliografía señala explícitamente y que son importantes no romantizar:
+El AFC es hipotético: es una construcción del terapeuta basada en su observación, no una verdad objetiva. Puede estar equivocado y debe estar abierto a revisión.
+Es incompleto: a medida que avanza la terapia, se agregan o eliminan variables que mejoran la explicación del problema.
+Es dinámico: la alteración de una variable cambia la conducta problema.
+Refleja los sesgos del clínico: los sesgos teóricos del terapeuta afectan qué variables incluye y cómo las conecta. Esto es una limitación que el profesional ético reconoce.
+El modelo de referencia es el E-O-R-K-C de Kanfer y Saslow (1969):
+
+E: Estímulos antecedentes (eventos que preceden a la conducta con relación funcional)
+O: Organismo (variables biológicas, historia de aprendizaje, repertorios conductuales previos)
+R: Respuesta (la conducta problema en sus dimensiones)
+K: Contingencias (la relación entre la respuesta y sus consecuencias)
+C: Consecuencias (eventos posteriores que mantienen o debilitan la conducta)
+
+El resultado del AFC no es un diagnóstico DSM. Es un mapa de hipótesis causales sobre qué origina, qué mantiene y qué podría modificar la conducta problema. El DSM tiene valor como referencia de características típicas de un trastorno que el terapeuta puede usar para hacer preguntas que el paciente no ha mencionado espontáneamente, pero no puede ser el sustituto del análisis funcional.
+
+CAPA 7: El Diagnóstico Multiaxial — Su función real
+La bibliografía es cuidadosa al señalar que el diagnóstico DSM/CIE es una parte de la evaluación, no su objetivo central. Su valor específico es:
+Proporcionar información sobre características típicas de un síndrome clínico (edad de inicio esperada, variables asociadas, factores de riesgo) que el terapeuta puede usar para completar áreas que el paciente no reportó espontáneamente.
+Comunicarse de forma estandarizada con otros profesionales de salud.
+Identificar posibles causas orgánicas que el trastorno podría estar enmascarando (el caso del "exhibicionista" en la bibliografía con hipoglucemia subyacente es el ejemplo más elocuente de esto).
+Lo que el diagnóstico DSM no puede hacer es especificar los objetivos terapéuticos ni seleccionar las estrategias de intervención, porque no dice nada sobre los antecedentes y consecuencias específicas que mantienen el problema en este paciente particular.
+
+CAPA 8: La Definición de Metas Terapéuticas
+Esta es la última capa de la evaluación antes de diseñar el tratamiento, y es también una de las más técnicas. La bibliografía distingue con precisión entre selección de metas y definición de metas.
+La selección implica:
+
+Explicar al paciente el propósito de tener metas
+Pedir que especifique cambios positivos deseados (no lo que quiere dejar de sentir, sino lo que quiere lograr)
+Verificar que la meta implica cambios en el paciente, no en otros
+Evaluar si la meta es realista
+Explorar ventajas y desventajas de conseguirla
+Acordar una meta inicial de trabajo
+
+La definición operativa de cada meta tiene ocho componentes:
+
+Definir las conductas manifiestas y encubiertas asociadas (qué hará, pensará o sentirá de forma diferente)
+Determinar las condiciones: dónde, cuándo y con quién ocurrirá la conducta meta
+Establecer el nivel de cambio requerido (cuánto, con qué frecuencia)
+Secuenciar por dificultad y tiempo
+Identificar obstáculos previsibles
+Identificar recursos necesarios
+Establecer el sistema de revisión de progreso
+
+La razón por la que la definición operativa es tan importante es que las metas vagamente formuladas no pueden evaluarse. "Quiero sentirme mejor" no es una meta terapéutica, es un deseo. "Salir de casa al menos tres veces por semana sin comprobación compulsiva antes de hacerlo" es una meta que puede medirse, monitorizarse y ajustarse.
+
+El proceso completo sintetizado: De la primera sesión a la formulación de caso
+Para que quede clara la arquitectura temporal, el proceso completo tiene esta forma en la práctica real:
+La primera sesión establece el vínculo, recoge datos sociodemográficos básicos, identifica el motivo de consulta principal y hace una primera delimitación de la conducta problema. El terapeuta introduce autorregistros como tarea para obtener datos de frecuencia, duración e intensidad que el paciente no conoce en ese momento.
+Las siguientes una a tres sesiones completan las 11 categorías de la entrevista, aplican los inventarios estandarizados relevantes (BDI, BAI u otros según la presentación), e identifican las modalidades BASIC ID afectadas.
+Con esa información completa, el terapeuta construye la formulación de caso: el AFC que integra antecedentes, conductas problema en sus seis componentes, consecuencias y logros secundarios, en el marco del modelo E-O-R-K-C. A partir de esa formulación se definen las metas y se seleccionan las estrategias.
+La evaluación, sin embargo, no termina aquí. Los inventarios se vuelven a aplicar periódicamente durante el tratamiento para medir el cambio clínicamente significativo y ajustar el plan si los datos muestran que el modelo explicativo inicial necesita ser revisado.
+
+El proceso de evaluación y formulación de caso es un proceso iterativo, no lineal. La información nueva que emerge durante la terapia puede modificar la comprensión del problema, lo que a su vez puede cambiar las metas y estrategias. El terapeuta debe estar abierto a esta evolución y no aferrarse rígidamente a la formulación inicial.

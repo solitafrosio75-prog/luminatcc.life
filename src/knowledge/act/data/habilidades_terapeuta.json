@@ -1,0 +1,48 @@
+{
+  "area_id": "habilidades_terapeuta",
+  "nombre": "Habilidades del Terapeuta ACT",
+  "descripcion": "Competencias clínicas específicas del terapeuta ACT, incluyendo postura terapéutica, uso de metáforas y modelado de flexibilidad.",
+  "fuentes": [
+    "Luoma, J. B. et al. (2007). Learning ACT. New Harbinger.",
+    "Hayes, S. C. et al. (2012). ACT (2nd ed.). Guilford Press.",
+    "Villatte, M., Villatte, J. L. & Hayes, S. C. (2016). Mastering the Clinical Conversation. Guilford Press."
+  ],
+  "habilidades": [
+    {
+      "nombre": "Postura de igualdad",
+      "descripcion": "El terapeuta ACT trabaja desde una posición de igualdad: ambos tienen mentes que generan fusión y evitación. El terapeuta modela vulnerabilidad y apertura.",
+      "importancia": "Reduce la jerarquía terapéutica y normaliza las luchas humanas. El paciente siente que no está roto sino humano.",
+      "como_desarrollar": "Práctica personal de ACT. Autorrevelación selectiva de experiencias propias con fusión o evitación. Supervisión enfocada en procesos propios del terapeuta."
+    },
+    {
+      "nombre": "Uso de metáforas clínicas",
+      "descripcion": "Las metáforas son la herramienta principal de comunicación en ACT. Transmiten conceptos experienciales de forma vivencial, no intelectual.",
+      "importancia": "Las metáforas evitan la trampa de la explicación lógica (que añade más lenguaje al problema). Comunican a nivel experiencial, no verbal-literal.",
+      "como_desarrollar": "Estudiar el catálogo de metáforas ACT (Stoddard & Afari, 2014). Practicar crear metáforas propias adaptadas al contexto del paciente. Supervisar la precisión funcional de la metáfora."
+    },
+    {
+      "nombre": "Modelado de apertura experiencial",
+      "descripcion": "El terapeuta demuestra estar dispuesto a experimentar incomodidad en sesión. Si surge emoción, no la evita ni la intelectualiza.",
+      "importancia": "El paciente aprende por observación: si el terapeuta puede estar con emociones difíciles, yo también puedo.",
+      "como_desarrollar": "Práctica personal de mindfulness y aceptación. Tolerar silencios emocionales en sesión. No rescatar al paciente del malestar prematuramente."
+    },
+    {
+      "nombre": "Flexibilidad de agenda",
+      "descripcion": "Seguir el proceso del paciente en lugar del protocolo rígido. Si surge un momento de flexibilidad/inflexibilidad, abordarlo aunque no esté en el plan de sesión.",
+      "importancia": "ACT es un modelo basado en procesos, no en sesiones numeradas. La rigidez del terapeuta contradice el mensaje de flexibilidad.",
+      "como_desarrollar": "Manejar la ansiedad propia ante la falta de estructura. Desarrollar radar para detectar procesos ACT en tiempo real. Supervisión con grabaciones de sesiones."
+    },
+    {
+      "nombre": "Guía experiencial vs. didáctica",
+      "descripcion": "Priorizar ejercicios vivenciales sobre explicaciones teóricas. ACT se aprende haciendo, no entendiendo intelectualmente.",
+      "importancia": "La comprensión intelectual de ACT puede ser otra forma de evitación experiencial. El cambio ocurre en la experiencia directa, no en la explicación.",
+      "como_desarrollar": "Mantener ratio 70% experiencial / 30% didáctico. Cada concepto se introduce con un ejercicio, no con una explicación. Practicar la pregunta: ¿puedo mostrar esto en lugar de explicarlo?"
+    },
+    {
+      "nombre": "Manejo de la propia evitación",
+      "descripcion": "Detectar cuándo el terapeuta evita temas difíciles, cambia de tema ante emociones intensas, o intelectualiza para no sentir.",
+      "importancia": "La evitación del terapeuta modela evitación en el paciente. Es la barrera más común y menos visible.",
+      "como_desarrollar": "Terapia personal basada en ACT. Supervisión con foco en evitación terapéutica. Auto-monitoreo: ¿por qué cambié de tema en ese momento?"
+    }
+  ]
+}

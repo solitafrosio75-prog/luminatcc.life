@@ -1,0 +1,17 @@
+{
+  "decision_id": "dec_001",
+  "session_id": "ac_sesion_1",
+  "decisiones": [
+    "Cambiar técnica a exposición",
+    "Derivar por riesgo suicida"
+  ],
+  "fecha": "2026-03-14",
+  "justificacion": "Paciente no responde a activación conductual.",
+  "referencias": [
+    {
+      "tipo": "guía",
+      "referencia": "NICE Depression Guideline 2022",
+      "doi": "10.1016/S0140-6736(22)01237-2"
+    }
+  ]
+}

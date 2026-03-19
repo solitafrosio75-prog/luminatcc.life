@@ -1,0 +1,126 @@
+{
+  "profile_id": "rc_profile_v3",
+  "technique_id": "rc",
+  "nombre": "Perfil Clínico de Reestructuración Cognitiva",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "reviewed_by": [
+    "equipo_tcc_lab",
+    "revision_tecnica_inicial"
+  ],
+  "resumen_clinico": "Intervención cognitiva estructurada orientada a identificar, evaluar y modificar pensamientos automáticos, supuestos intermedios y creencias nucleares que mantienen malestar emocional y conductual.",
+  "mecanismos_de_cambio": [
+    "reevaluacion de evidencia",
+    "descentrado cognitivo",
+    "disminucion de distorsiones cognitivas",
+    "actualizacion de creencias nucleares",
+    "aprendizaje experiencial mediante experimentos conductuales"
+  ],
+  "problemas_diana": [
+    "depresion_mayor_leve_moderada",
+    "ansiedad_generalizada",
+    "trastorno_panico",
+    "fobia_social",
+    "toc_como_complemento",
+    "tept_como_componente_cognitivo"
+  ],
+  "sintomas_diana": [
+    "rumiacion",
+    "catastrofizacion",
+    "autocritica_excesiva",
+    "lectura_de_mente",
+    "pensamiento_dicotomico",
+    "intolerancia_incertidumbre"
+  ],
+  "poblaciones_objetivo": [
+    "adultos",
+    "adolescentes",
+    "pacientes_con_capacidad_reflexiva_basica"
+  ],
+  "prerequisitos": [
+    "capacidad minima de introspeccion",
+    "alianza terapeutica funcional",
+    "estabilizacion inicial en caso de crisis aguda",
+    "comprension del modelo cognitivo basico"
+  ],
+  "contraindicaciones": [
+    {
+      "id": "rc_ci_01",
+      "condicion": "Psicosis activa con nula conciencia de enfermedad",
+      "tipo": "absoluta",
+      "razon_clinica": "No hay condiciones para evaluar pensamientos como hipotesis y contrastar evidencia de forma estable.",
+      "alternativa_sugerida": "Estabilizacion psiquiatrica y abordaje adaptado para psicosis"
+    },
+    {
+      "id": "rc_ci_02",
+      "condicion": "Deterioro cognitivo significativo",
+      "tipo": "relativa",
+      "razon_clinica": "Puede comprometer memoria de trabajo y razonamiento necesario para tareas de reestructuracion.",
+      "alternativa_sugerida": "Intervenciones conductuales y apoyos externos de compensacion"
+    },
+    {
+      "id": "rc_ci_03",
+      "condicion": "Riesgo suicida inminente",
+      "tipo": "absoluta",
+      "razon_clinica": "La prioridad clinica es seguridad y contencion, no trabajo cognitivo profundo.",
+      "alternativa_sugerida": "Protocolo de crisis, plan de seguridad y derivacion urgente"
+    }
+  ],
+  "banderas_seguridad": [
+    "incremento brusco de desesperanza",
+    "desregulacion emocional persistente durante sesion",
+    "ideacion suicida activa",
+    "desconexion de realidad"
+  ],
+  "requiere_derivacion_si": [
+    "riesgo_suicida_alto",
+    "sintomas_psicoticos_no_controlados",
+    "consumo_agudo_de_sustancias"
+  ],
+  "supervision": [
+    {
+      "id": "rc_sup_01",
+      "descripcion": "Supervision clinica recomendada para trabajo de creencias nucleares complejas",
+      "requerido": true,
+      "contexto": "casos con comorbilidad severa o trauma complejo"
+    },
+    {
+      "id": "rc_sup_02",
+      "descripcion": "Monitoreo de riesgo en cada sesion cuando hay historia de ideacion suicida",
+      "requerido": true,
+      "contexto": "depresion moderada-grave"
+    }
+  ],
+  "evidencia": {
+    "nivel_global": "alta",
+    "fuerza_recomendacion": "fuerte",
+    "poblaciones_validadas": [
+      "depresion_mayor",
+      "trastornos_de_ansiedad",
+      "adolescentes_con_ansiedad_depresion"
+    ],
+    "fuentes_clave": [
+      "Beck, A. T. (1976). Cognitive Therapy and the Emotional Disorders",
+      "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+      "Hofmann et al. (2012). The efficacy of cognitive behavioral therapy: A review of meta-analyses"
+    ],
+    "limitaciones": [
+      "menor aplicabilidad en crisis desorganizada",
+      "requiere adherencia a tareas intersesion"
+    ]
+  },
+  "combinable_con": [
+    "activacion_conductual",
+    "exposicion",
+    "entrenamiento_regulacion_emocional",
+    "mindfulness"
+  ],
+  "no_recomendada_con": [
+    "uso_exclusivo_en_crisis_no_estabilizada"
+  ],
+  "trace_sources": [
+    "src/knowledge/rc/data/conocimiento.json",
+    "src/knowledge/rc/data/objetivos_clinicos.json",
+    "src/knowledge/rc/data/tecnicas_especificas.json"
+  ]
+}

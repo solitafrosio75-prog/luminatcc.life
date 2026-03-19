@@ -1,0 +1,97 @@
+{
+  "area_id": "tecnicas_especificas",
+  "nombre": "Técnicas Específicas",
+  "descripcion": "Técnicas conductuales efectivas utilizadas dentro del protocolo de Activación Conductual",
+  "fuentes": [
+    "Martell et al. (2010)",
+    "Caballo (2007). Manual de técnicas de conducta",
+    "Lewinsohn (1974)",
+    "Wolpe (1958). Psychotherapy by Reciprocal Inhibition"
+  ],
+  "tecnicas": [
+    {
+      "id": "TE01",
+      "nombre": "Programación de Actividades (Agenda P/D)",
+      "descripcion": "Planificación estructurada de actividades diarias puntuadas por Placer y Dominio para romper la inercia depresiva",
+      "cuando_usar": "Desde sesión 3, como técnica central de toda la intervención",
+      "pasos": [
+        "Revisar el monitoreo de actividad de la semana anterior",
+        "Identificar actividades que generaron mayor P y D",
+        "Programar 2-3 actividades nuevas por día, graduando dificultad",
+        "Escribir en agenda con día, hora y lugar específicos",
+        "Revisar cumplimiento y ajustar en la siguiente sesión"
+      ],
+      "ejemplo_clinico": "Paciente con depresión mayor que pasa la mayor parte del día en cama. Se programa: Lunes 10:00 ducha + vestirse (D=6), 11:00 paseo 10min (P=5, D=4), 14:00 cocinar algo simple (D=7)."
+    },
+    {
+      "id": "TE02",
+      "nombre": "Entrenamiento en Habilidades Sociales (EHS)",
+      "descripcion": "Desarrollo de competencias sociales cuando el aislamiento es un factor clave en el mantenimiento de la depresión",
+      "cuando_usar": "Cuando el análisis funcional revela déficit en habilidades sociales como factor de mantenimiento",
+      "pasos": [
+        "Evaluar habilidades sociales actuales (iniciar conversación, pedir ayuda, etc.)",
+        "Modelado por el terapeuta de la habilidad objetivo",
+        "Ensayo conductual (role-playing) en sesión",
+        "Feedback y ajuste",
+        "Tarea para casa: practicar la habilidad en contexto real y registrar"
+      ],
+      "ejemplo_clinico": "Paciente que evita llamar a amigos por miedo al rechazo. Se practica en sesión cómo iniciar una llamada breve. Tarea: llamar a un amigo esta semana y registrar el resultado."
+    },
+    {
+      "id": "TE03",
+      "nombre": "Relajación Progresiva de Jacobson",
+      "descripcion": "Técnica de tensión-relajación muscular como respuesta incompatible a la ansiedad que bloquea la activación",
+      "cuando_usar": "Cuando la ansiedad comórbida impide al paciente iniciar actividades programadas",
+      "pasos": [
+        "Explicar la lógica: tensión → relajación como opuesto a la ansiedad",
+        "Guiar la tensión-relajación grupo por grupo muscular (16 → 7 → 4 grupos)",
+        "Practicar en sesión (15-20 minutos)",
+        "Asignar práctica diaria en casa con audio guiado",
+        "Integrar como paso previo a actividades difíciles"
+      ],
+      "ejemplo_clinico": "Paciente que experimenta ansiedad al salir de casa. Practica relajación 10 min antes de cada paseo programado."
+    },
+    {
+      "id": "TE04",
+      "nombre": "Economía de Fichas",
+      "descripcion": "Sistema de reforzamiento positivo donde el cumplimiento de actividades genera puntos canjeables por recompensas",
+      "cuando_usar": "Cuando la motivación intrínseca es muy baja y se necesitan reforzadores extrínsecos para iniciar el cambio",
+      "pasos": [
+        "Acordar una lista de actividades-objetivo con puntos asignados",
+        "Definir un menú de recompensas canjeables por puntos",
+        "El paciente registra actividades completadas y acumula puntos",
+        "Canjear puntos por recompensas acordadas",
+        "Retirar gradualmente los reforzadores extrínsecos a medida que aparecen los intrínsecos"
+      ],
+      "ejemplo_clinico": "Cada actividad P/D completada = 1 punto. Cada 10 puntos = una comida especial, un episodio de serie favorita o un baño largo."
+    },
+    {
+      "id": "TE05",
+      "nombre": "Condicionamiento Encubierto (Imaginación de Éxito)",
+      "descripcion": "Uso de la imaginación guiada para visualizar el éxito en actividades programadas antes de realizarlas",
+      "cuando_usar": "Como preparación antes de actividades que generan anticipación negativa",
+      "pasos": [
+        "Identificar la actividad que genera anticipación negativa",
+        "Guiar al paciente en imaginación: verse realizando la actividad exitosamente",
+        "Incluir detalles sensoriales (qué ve, oye, siente)",
+        "Imaginar la satisfacción posterior al completarla",
+        "Proceder a realizar la actividad real"
+      ],
+      "ejemplo_clinico": "Antes de ir al gimnasio: 'Imagínate llegando, cambiándote, empezando con la bicicleta estática. Te sientes cansado pero capaz. Al terminar, sales con más energía de la que tenías al entrar.'"
+    },
+    {
+      "id": "TE06",
+      "nombre": "Exposición Graduada",
+      "descripcion": "Aproximación progresiva a situaciones evitadas por la depresión, utilizando una jerarquía de dificultad",
+      "cuando_usar": "Cuando la evitación de situaciones específicas mantiene el ciclo depresivo",
+      "pasos": [
+        "Construir una jerarquía de situaciones evitadas (0-10 dificultad)",
+        "Comenzar por el nivel más bajo de la jerarquía",
+        "Realizar la exposición con duración suficiente para que la ansiedad disminuya",
+        "Registrar ánimo antes, durante y después",
+        "Avanzar al siguiente nivel cuando el actual genere malestar mínimo"
+      ],
+      "ejemplo_clinico": "Jerarquía para aislamiento social: (1) Saludar al vecino, (2) Comprar en tienda con interacción, (3) Tomar café con un amigo, (4) Asistir a reunión grupal."
+    }
+  ]
+}

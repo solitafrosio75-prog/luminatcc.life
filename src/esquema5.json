@@ -1,0 +1,43 @@
+{
+    "session_numero": 1,
+    "objetivos": [
+        "Presentación",
+        "Motivo de consulta",
+        "Psicoeducación"
+    ],
+    "bloques": [
+        {
+            "nombre": "Inicio",
+            "contenido": "Saludo, contextualización",
+            "evidencia": [
+                {
+                    "tipo": "guía",
+                    "referencia": "APA Practice Guidelines 2021",
+                    "doi": "10.1176/appi.books.9780890424841"
+                }
+            ]
+        }
+    ],
+    "techniques_aplicadas": [
+        {
+            "aplicacion_id": "ac_psicoeducacion_1",
+            "procedure_id": "ac_psicoeducacion"
+        }
+    ],
+    "tareas_asignadas": [
+        {
+            "tarea_id": "monitoreo_actividad"
+        }
+    ],
+    "criterios_exito": [
+        "Paciente comprende el modelo AC",
+        "Completa monitoreo de actividad"
+    ],
+    "referencias": [
+        {
+            "tipo": "metaanálisis",
+            "referencia": "Cuijpers et al. 2013",
+            "doi": "10.1016/j.cpr.2013.03.009"
+        }
+    ]
+}

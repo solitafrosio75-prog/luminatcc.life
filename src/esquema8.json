@@ -1,0 +1,21 @@
+{
+    "session_numero": 1,
+    "incidente_id": "crisis_suicida_20260314",
+    "tipo": "crisis",
+    "descripcion": "Paciente reporta ideación suicida en ítem 9 BDI-II",
+    "momento": "Inicio de sesión",
+    "accion_tomada": "Activación protocolo de crisis, bloqueo de intervenciones técnicas",
+    "criterios_derivacion": [
+        "Ítem 9 BDI-II >= 2",
+        "Contraindicaciones en ac_profile.json"
+    ],
+    "referencias": [
+        {
+            "tipo": "guía",
+            "referencia": "APA Practice Guidelines 2021",
+            "doi": "10.1176/appi.books.9780890424841"
+        }
+    ],
+    "fecha": "2026-03-14",
+    "responsable": "Sistema TCC-Lab"
+}

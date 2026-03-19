@@ -1,0 +1,48 @@
+{
+  "area_id": "barreras",
+  "nombre": "Barreras Comúnmente Detectadas",
+  "descripcion": "Obstáculos frecuentes en el proceso de Activación Conductual y estrategias para manejarlos",
+  "fuentes": [
+    "Martell et al. (2010)",
+    "Lejuez et al. (2011)",
+    "Barraca & Pérez-Álvarez (2015)"
+  ],
+  "barreras": [
+    {
+      "nombre": "Evitación por baja energía",
+      "descripcion": "El paciente reporta 'No tengo energía' como razón para no realizar actividades. El refuerzo negativo (alivio de no hacer nada) perpetúa el ciclo.",
+      "ejemplo_paciente": "'No puedo salir a caminar, estoy agotado. Mejor me quedo en la cama y mañana lo intento.'",
+      "estrategia_manejo": "Validar el cansancio pero recordar que la energía viene después de la acción, no antes. Reducir la actividad a una microtarea (vestirse, salir al balcón 2 min). Usar el registro ABC para mostrar que quedarse en cama empeora el ánimo."
+    },
+    {
+      "nombre": "Falta de reforzadores en el entorno",
+      "descripcion": "El entorno del paciente es pobre en fuentes de reforzamiento positivo (aislamiento geográfico, pobreza, soledad, ambiente aversivo).",
+      "ejemplo_paciente": "'No tengo amigos cerca, no tengo dinero para hacer nada, vivo solo.'",
+      "estrategia_manejo": "Explorar reforzadores de bajo coste o gratuitos (naturaleza, bibliotecas, grupos comunitarios). Trabajar con EHS para expandir red social. Considerar actividades domésticas que generen dominio."
+    },
+    {
+      "nombre": "Creencia 'debo sentirme motivado primero'",
+      "descripcion": "El paciente cree que debe esperar a sentirse motivado antes de actuar. Esta creencia irracional paraliza la acción.",
+      "ejemplo_paciente": "'Cuando me sienta mejor, empezaré a hacer cosas. No tiene sentido forzarme.'",
+      "estrategia_manejo": "Psicoeducación directa: 'La motivación sigue a la acción, no al revés'. Usar analogías (el atleta no espera tener ganas de entrenar). Mostrar evidencia del registro donde actividades mejoraron el ánimo pese a no tener ganas."
+    },
+    {
+      "nombre": "Sobrecarga de tareas (abrumo)",
+      "descripcion": "Las tareas asignadas son demasiado ambiciosas, causan frustración y refuerzan la sensación de incompetencia.",
+      "ejemplo_paciente": "'Me puse a limpiar toda la casa y no pude terminar. Soy un desastre, no puedo con nada.'",
+      "estrategia_manejo": "Reducir drásticamente la dificultad. Usar descomposición de tareas. Celebrar cada microtarea. Recordar: 'mejor hacer poco que no hacer nada'. Ajustar la programación para que sea realista."
+    },
+    {
+      "nombre": "Rumiación que bloquea la acción",
+      "descripcion": "El paciente queda atrapado en ciclos de pensamiento repetitivo sobre problemas, impidiendo la puesta en marcha de actividades.",
+      "ejemplo_paciente": "'Paso horas pensando en por qué estoy así y no logro moverme a hacer nada.'",
+      "estrategia_manejo": "Implementar 'Hora de Preocuparse'. Usar la acción como antídoto directo a la rumiación. Técnica: cuando note que rumia, levantarse inmediatamente y hacer algo (3 minutos de cualquier actividad)."
+    },
+    {
+      "nombre": "Ganancia secundaria de la inactividad",
+      "descripcion": "El entorno refuerza la inactividad (cuidadores que hacen todo por el paciente, evitación de responsabilidades, atención extra).",
+      "ejemplo_paciente": "El paciente no sale de la cama y su pareja le trae comida, le limpia la casa y no le exige nada.",
+      "estrategia_manejo": "Psicoeducación con la familia/pareja sobre el modelo AC. Involucrar al cuidador como co-terapeuta. Graduar la retirada del apoyo compensatorio a medida que el paciente aumenta actividad."
+    }
+  ]
+}

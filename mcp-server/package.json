@@ -1,0 +1,18 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "description": "Este es un servidor básico de Model Context Protocol (MCP) creado con Node.js.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  },
+  "devDependencies": {}
+}

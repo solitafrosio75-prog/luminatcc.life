@@ -1,0 +1,17 @@
+{
+  "incident_id": "eth_001",
+  "session_id": "ac_sesion_1",
+  "tipo": "Crisis suicida",
+  "descripcion": "Paciente reporta ideación suicida activa.",
+  "fecha": "2026-03-14",
+  "acciones_tomadas": [
+    "Derivación inmediata",
+    "Bloqueo de intervención técnica"
+  ],
+  "referencias": [
+    {
+      "tipo": "protocolo",
+      "referencia": "Protocolo Crisis UNAM 2023"
+    }
+  ]
+}

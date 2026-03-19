@@ -1,0 +1,254 @@
+{
+  "technique_id": "mindfulness",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "procedures": [
+    {
+      "procedure_id": "mindfulness_mindful_breathing",
+      "technique_id": "mindfulness",
+      "nombre": "Respiracion Consciente",
+      "modalidad": "individual",
+      "clinical_goal": "Regular activacion fisiologica y estabilizar atencion en el presente.",
+      "indications": [
+        "ansiedad aguda leve a moderada",
+        "sobrecarga mental",
+        "reactividad inicial"
+      ],
+      "expected_outcomes": [
+        "reduccion de tension",
+        "mayor claridad atencional"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Escala de activacion inicial",
+          "tipo": "escala",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Guiar foco en respiracion natural durante 2-3 minutos",
+          "objetivo": "Anclar atencion"
+        },
+        {
+          "orden": 2,
+          "accion": "Detectar distracciones y volver sin juicio",
+          "objetivo": "Entrenar retorno flexible"
+        },
+        {
+          "orden": 3,
+          "accion": "Cerrar con registro breve de cambio fisiologico",
+          "objetivo": "Consolidar aprendizaje"
+        }
+      ],
+      "success_criteria": [
+        "descenso subjetivo de activacion",
+        "capacidad de recuperar foco al menos 3 veces"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "mareo persistente",
+          "aumento abrupto de ansiedad"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "hiperventilacion"
+        ]
+      },
+      "evidence_level": "alta",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/knowledge/mindfulness/data/tecnicas_especificas.json"
+      ]
+    },
+    {
+      "procedure_id": "mindfulness_body_scan",
+      "technique_id": "mindfulness",
+      "nombre": "Body Scan Terapeutico",
+      "modalidad": "individual",
+      "clinical_goal": "Incrementar conciencia interoceptiva y reducir desconexion corporal.",
+      "indications": [
+        "tension muscular cronica",
+        "desconexion somatica",
+        "estres sostenido"
+      ],
+      "expected_outcomes": [
+        "mejor deteccion de senales corporales",
+        "reduccion de rigidez fisica"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Contexto seguro de practica",
+          "tipo": "contexto",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Recorrer atencion por regiones corporales en secuencia",
+          "objetivo": "Ampliar registro somatico"
+        },
+        {
+          "orden": 2,
+          "accion": "Nombrar sensaciones sin evaluar",
+          "objetivo": "Reducir juicio automatico"
+        },
+        {
+          "orden": 3,
+          "accion": "Integrar respiracion lenta en zonas de mayor tension",
+          "objetivo": "Favorecer regulacion"
+        }
+      ],
+      "success_criteria": [
+        "identificacion de al menos 3 zonas de tension",
+        "descenso parcial de malestar corporal"
+      ],
+      "safety": {
+        "risk_level": "moderado",
+        "contraindicaciones": [
+          "disociacion activa no estabilizada"
+        ],
+        "stop_criteria": [
+          "desconexion intensa",
+          "activacion emocional no recuperable"
+        ],
+        "requiere_supervision": true,
+        "red_flags": [
+          "aumento de disociacion"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/mindfulness/data/ejercicios_tareas.json"
+      ]
+    },
+    {
+      "procedure_id": "mindfulness_urge_surfing",
+      "technique_id": "mindfulness",
+      "nombre": "Urge Surfing",
+      "modalidad": "individual",
+      "clinical_goal": "Aumentar tolerancia a impulsos sin actuar automaticamente.",
+      "indications": [
+        "impulsividad",
+        "craving",
+        "conducta de escape"
+      ],
+      "expected_outcomes": [
+        "incremento del tiempo entre impulso y accion",
+        "reduccion de respuestas automaticas"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Impulso objetivo identificado",
+          "tipo": "registro",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Identificar inicio, pico y descenso del impulso",
+          "objetivo": "Normalizar dinamica temporal"
+        },
+        {
+          "orden": 2,
+          "accion": "Observar sensaciones asociadas como ola cambiante",
+          "objetivo": "Desacoplar urgencia y accion"
+        },
+        {
+          "orden": 3,
+          "accion": "Elegir respuesta alternativa al descenso del pico",
+          "objetivo": "Consolidar autocontrol"
+        }
+      ],
+      "success_criteria": [
+        "demora conductual de al menos 5 minutos",
+        "al menos una respuesta alternativa ejecutada"
+      ],
+      "safety": {
+        "risk_level": "moderado",
+        "contraindicaciones": [
+          "riesgo conductual agudo"
+        ],
+        "stop_criteria": [
+          "escalada de riesgo",
+          "perdida de control inminente"
+        ],
+        "requiere_supervision": true,
+        "red_flags": [
+          "conducta autolesiva inminente"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "media",
+      "trace_sources": [
+        "src/knowledge/mindfulness/data/tecnicas_especificas.json"
+      ]
+    },
+    {
+      "procedure_id": "mindfulness_present_moment_anchor",
+      "technique_id": "mindfulness",
+      "nombre": "Anclaje al Momento Presente",
+      "modalidad": "individual",
+      "clinical_goal": "Interrumpir rumiacion y preocupacion mediante orientacion sensorial externa.",
+      "indications": [
+        "rumiacion",
+        "preocupacion anticipatoria",
+        "dispersión atencional"
+      ],
+      "expected_outcomes": [
+        "reduccion de bucles mentales",
+        "retorno funcional a tarea actual"
+      ],
+      "required_inputs": [
+        {
+          "nombre": "Contexto ambiental disponible",
+          "tipo": "contexto",
+          "obligatorio": true
+        }
+      ],
+      "steps": [
+        {
+          "orden": 1,
+          "accion": "Aplicar secuencia sensorial 5-4-3-2-1 adaptada",
+          "objetivo": "Reorientar atencion a estimulos presentes"
+        },
+        {
+          "orden": 2,
+          "accion": "Registrar cambio en carga mental",
+          "objetivo": "Medir efecto inmediato"
+        },
+        {
+          "orden": 3,
+          "accion": "Retomar actividad prioritaria durante 3-5 minutos",
+          "objetivo": "Generalizar utilidad"
+        }
+      ],
+      "success_criteria": [
+        "disminucion de rumiacion reportada",
+        "retorno a conducta objetivo"
+      ],
+      "safety": {
+        "risk_level": "bajo",
+        "contraindicaciones": [],
+        "stop_criteria": [
+          "activacion emocional intensa no modulable"
+        ],
+        "requiere_supervision": false,
+        "red_flags": [
+          "desconexion mantenida"
+        ]
+      },
+      "evidence_level": "moderada",
+      "intensidad": "baja",
+      "trace_sources": [
+        "src/knowledge/mindfulness/data/ejercicios_tareas.json"
+      ]
+    }
+  ]
+}

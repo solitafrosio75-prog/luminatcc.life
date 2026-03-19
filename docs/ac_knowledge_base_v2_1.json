@@ -1,0 +1,2963 @@
+{
+  "metadata": {
+    "nombre": "Base de Conocimiento - Activación Conductual (AC) v2.0",
+    "version": "2.0.0",
+    "fecha_creacion": "2026-02-25",
+    "estructura": "8 áreas temáticas organizadas para implementación funcional en app tcc-lab",
+    "fuentes_bibliograficas": [
+      {
+        "id": "barraca_perez_2015",
+        "referencia": "Barraca, J. y Pérez-Álvarez, M. (2015). Activación Conductual para el tratamiento de la depresión. Madrid: Síntesis.",
+        "tipo": "libro_manual"
+      },
+      {
+        "id": "barraca_2016",
+        "referencia": "Barraca, J. (2016). La Activación Conductual en la práctica: técnicas, organización de la intervención, dificultades y variantes. Análisis y Modificación de Conducta, 42(165-166), 15-33.",
+        "tipo": "articulo_cientifico"
+      },
+      {
+        "id": "martell_2010",
+        "referencia": "Martell, C. R., Dimidjian, S., & Herman-Dunn, R. (2010). Behavioral Activation for Depression: A Clinician's Guide. New York: Guilford.",
+        "tipo": "manual_clinico"
+      },
+      {
+        "id": "lejuez_2011",
+        "referencia": "Lejuez, C. W., Hopko, D. R., Acierno, R., Daughters, S. B., & Pagoto, S. L. (2011). Ten year revision of the brief behavioral activation treatment for depression. Behavior Modification, 35, 111-161.",
+        "tipo": "manual_protocolo"
+      },
+      {
+        "id": "jacobson_2001",
+        "referencia": "Jacobson, N. S., Martell, C. R., & Dimidjian, S. (2001). Behavioral activation treatment for depression: Returning to contextual roots. Clinical Psychology: Science and Practice, 8, 255-270.",
+        "tipo": "articulo_fundacional"
+      },
+      {
+        "id": "dimidjian_2006",
+        "referencia": "Dimidjian, S., Hollon, S. D., Dobson, K. S., et al. (2006). Randomized trial of behavioral activation, cognitive therapy, and antidepressant medication in the acute treatment of adults with major depression. Journal of Consulting and Clinical Psychology, 74(4), 658-670.",
+        "tipo": "ensayo_clinico"
+      },
+      {
+        "id": "cormier_cormier",
+        "referencia": "Cormier, W. H. y Cormier, L. S. Estrategias de entrevista para terapeutas: habilidades básicas e intervenciones cognitivo-conductuales.",
+        "tipo": "manual_habilidades_terapeuticas"
+      }
+    ],
+    "areas_tematicas": [
+      "1. Área de Conocimiento (fundamentos teóricos, principios, evidencia)",
+      "2. Habilidades y Destrezas del Terapeuta AC",
+      "3. Herramientas Terapéuticas",
+      "4. Inventarios y Cuestionarios Clínicos",
+      "5. Recursos Psicoeducativos para Pacientes",
+      "6. Ejercicios y Técnicas AC",
+      "7. Lista de Valores y Áreas Vitales",
+      "8. Actividades Recomendadas por Tipo de Problema"
+    ],
+    "descripcion": "Base de datos clínica reestructurada en 8 áreas temáticas para implementación funcional en app tcc-lab. Integra conocimientos, técnicas, herramientas, inventarios, recursos psicoeducativos, ejercicios, valores y actividades recomendadas según la bibliografía científica de referencia."
+  },
+  "area_1_conocimiento": {
+    "nombre": "Área de Conocimiento",
+    "descripcion": "Fundamentos teóricos, principios clave y evidencia científica de la Activación Conductual",
+    "fundamentos_teoricos": {
+      "definicion_ac": "La Activación Conductual (AC) es un tratamiento estructurado, parsimonioso y con fuerte apoyo empírico para la depresión. Propone que el cambio conductual —no el cambio cognitivo— es el motor principal del cambio terapéutico. El foco está en aumentar el contacto del paciente con fuentes de reforzamiento positivo contingente a la respuesta del entorno, rompiendo el ciclo depresivo de evitación y retirada.",
+      "origenes_historicos": [
+        {
+          "autor": "Ferster (1973)",
+          "aportacion": "Primer análisis funcional de la depresión. Identificó que la depresión se caracteriza por una reducción de conductas reforzadas positivamente y un aumento de conductas de evitación y escape. No se trata de lo que la persona siente, sino de lo que hace o deja de hacer en su contexto."
+        },
+        {
+          "autor": "Lewinsohn (1974)",
+          "aportacion": "Desarrolló el modelo de reforzamiento positivo contingente a la respuesta: la depresión resulta de una baja tasa de reforzamiento positivo contingente a la conducta del sujeto. Tres factores: pocos eventos potencialmente reforzantes disponibles en el ambiente, pocas habilidades para obtener reforzamiento, y exceso de experiencias aversivas."
+        },
+        {
+          "autor": "Jacobson et al. (1996)",
+          "aportacion": "Estudio de desmantelamiento de la Terapia Cognitiva de Beck. Descubrieron que el componente de activación conductual solo era tan eficaz como la terapia cognitiva completa. Este hallazgo fue el impulso decisivo para desarrollar la AC como tratamiento independiente."
+        },
+        {
+          "autor": "Martell, Addis y Jacobson (2001)",
+          "aportacion": "Publicaron el primer manual de Activación Conductual como tratamiento completo e independiente para la depresión (AC), incorporando conceptos contextuales y funcionales."
+        },
+        {
+          "autor": "Lejuez, Hopko y Hopko (2001)",
+          "aportacion": "Desarrollaron el Tratamiento de Activación Conductual para la Depresión (TACD), versión breve y altamente estructurada, más centrada en valores y áreas vitales."
+        }
+      ],
+      "dos_protocolos_principales": {
+        "AC_Martell": {
+          "nombre_completo": "Activación Conductual (AC) de Martell, Dimidjian y Herman-Dunn",
+          "caracteristicas": "Más flexible y extenso. Énfasis en el análisis funcional de la evitación. Usa protocolos TRAP/TRAC. Incluye manejo de rumiación mediante mindfulness. Más adaptable a diferentes poblaciones y problemas. Entre 20-24 sesiones típicas.",
+          "publicacion_referencia": "Martell et al. (2010). Behavioral Activation for Depression: A Clinician's Guide."
+        },
+        "TACD_Lejuez": {
+          "nombre_completo": "Tratamiento de Activación Conductual para la Depresión (TACD) de Lejuez y Hopko",
+          "caracteristicas": "Más estructurado y breve. Centrado en valores y áreas vitales como guía para seleccionar actividades. Protocolo altamente manualizado con pasos claros. Uso de jerarquía de dificultad de actividades. Entre 8-15 sesiones típicas. Incluye contratos conductuales con personas de apoyo.",
+          "publicacion_referencia": "Lejuez et al. (2011). Ten year revision of the brief behavioral activation treatment for depression."
+        },
+        "nota_integracion": "Ambos protocolos son complementarios y en la práctica clínica se suelen integrar elementos de ambos. Esta base de conocimiento integra lo mejor de cada uno."
+      },
+      "modelo_explicativo_depresion": {
+        "descripcion": "La depresión se entiende como resultado de una interacción disfuncional entre la persona y su contexto, no como un déficit interno del individuo.",
+        "ciclo_depresivo": {
+          "paso_1": "Ocurre un evento vital adverso o un cambio significativo en el entorno (pérdida de empleo, ruptura, mudanza, enfermedad, etc.)",
+          "paso_2": "La persona reduce progresivamente sus actividades habituales y su contacto con fuentes de reforzamiento positivo",
+          "paso_3": "Se instalan conductas de evitación que proporcionan alivio a corto plazo (reforzamiento negativo) pero mantienen el problema",
+          "paso_4": "La reducción de actividad disminuye la probabilidad de obtener reforzamiento positivo del entorno",
+          "paso_5": "El estado de ánimo empeora, la motivación disminuye, se confirman creencias negativas",
+          "paso_6": "El empeoramiento del ánimo produce más retirada y evitación, cerrando el ciclo",
+          "paso_7": "Se pueden añadir estrategias secundarias de afrontamiento disfuncional: aislamiento, rumiación, consumo de sustancias, permanencia en cama"
+        },
+        "mecanismo_de_cambio": "La AC rompe este ciclo actuando directamente sobre la conducta: programando actividades que incrementen el contacto con reforzadores positivos naturales, extinguiendo las conductas de evitación, y aumentando progresivamente el nivel de activación. El cambio emocional y cognitivo se produce como consecuencia del cambio conductual, no como prerrequisito.",
+        "perspectiva_contextual": "El problema no está 'dentro' del paciente (cogniciones distorsionadas, esquemas disfuncionales) sino en la relación entre el paciente y su contexto. La AC no intenta cambiar lo que la persona piensa o siente, sino lo que hace. Al cambiar lo que hace, cambia su relación con el entorno y, consecuentemente, sus pensamientos y emociones."
+      },
+      "conceptos_fundamentales": [
+        {
+          "concepto": "Reforzamiento positivo contingente a la respuesta",
+          "definicion": "Consecuencias positivas del entorno que siguen a las conductas de la persona y que aumentan la probabilidad de que esas conductas se repitan. En la depresión, esta fuente se encuentra dramáticamente reducida.",
+          "ejemplo_clinico": "Una persona deprimida deja de llamar a sus amigos → deja de recibir invitaciones → se confirma su sensación de aislamiento → deja de intentar contactar más aún."
+        },
+        {
+          "concepto": "Evitación experiencial",
+          "definicion": "Patrón de conducta que busca evitar o escapar de experiencias internas aversivas (emociones, pensamientos, sensaciones) a costa de alejarse de actividades valiosas. Se mantiene por reforzamiento negativo: el alivio temporal del malestar.",
+          "ejemplo_clinico": "Un estudiante evita ir a clase porque anticipar la situación le genera ansiedad. No ir le alivia momentáneamente, pero le aleja de sus metas académicas y aumenta la culpa."
+        },
+        {
+          "concepto": "Análisis funcional (AF)",
+          "definicion": "Herramienta central de la AC. Identifica las relaciones funcionales entre los antecedentes, las conductas y las consecuencias de los patrones de comportamiento del paciente. No se centra en el contenido de los pensamientos sino en la función que cumplen las conductas.",
+          "componentes": {
+            "antecedentes": "Situaciones, contextos, estímulos internos (pensamientos, emociones) o externos que preceden a la conducta",
+            "conducta": "Lo que la persona hace o deja de hacer (incluye la evitación como conducta activa)",
+            "consecuencias": "Efectos a corto y largo plazo de la conducta. Clave: las consecuencias a corto plazo (alivio) suelen mantener la evitación, mientras que las consecuencias a largo plazo (empeoramiento) la refuerzan paradójicamente"
+          }
+        },
+        {
+          "concepto": "TRAP (Trigger-Response-Avoidance Pattern)",
+          "definicion": "Patrón disfuncional que mantiene la depresión. Disparador (T) → Respuesta emocional (R) → Patrón de Evitación (AP). La persona ante un disparador tiene una respuesta emocional y recurre a un patrón de evitación que le proporciona alivio temporal pero perpetúa la depresión.",
+          "ejemplo": "Recibe mensaje de un amigo invitándole a salir (T) → Siente ansiedad y fatiga anticipatoria (R) → Pone una excusa y se queda en la cama (AP)"
+        },
+        {
+          "concepto": "TRAC (Trigger-Response-Alternative Coping)",
+          "definicion": "Alternativa saludable al TRAP. Disparador (T) → Respuesta emocional (R) → Afrontamiento Alternativo (AC). Ante el mismo disparador y respuesta emocional, la persona elige una conducta alternativa alineada con sus valores.",
+          "ejemplo": "Recibe mensaje de un amigo invitándole a salir (T) → Siente ansiedad y fatiga anticipatoria (R) → Acepta la invitación aunque no tenga ganas, porque valora la amistad (AC)"
+        },
+        {
+          "concepto": "ACTION (acrónimo para afrontar la evitación)",
+          "definicion": "Protocolo paso a paso para manejar la evitación de Martell et al. (2010)",
+          "pasos": {
+            "A_Assess": "Evalúa para qué sirve esta conducta. ¿Cuáles son sus consecuencias? ¿Son depresivas o activantes? ¿Es coherente con mis metas a largo plazo?",
+            "C_Choose": "Elige una acción alternativa alineada con tus valores",
+            "T_Try": "Prueba llevar a la práctica la acción elegida. Recoge con detalle tu plan",
+            "I_Integrate": "Integra la nueva acción en tus hábitos. Necesitas hacerla más de una vez antes de confirmar si es útil",
+            "O_Observe": "Observa los resultados. ¿Te sientes peor o mejor después? ¿Te has aproximado a alguna meta?",
+            "N_Never_give_up": "Nunca te rindas. Si la primera alternativa no funcionó, prueba otra. El proceso es de ensayo y error"
+          }
+        },
+        {
+          "concepto": "Activación graduada",
+          "definicion": "Principio de incrementar las actividades de forma progresiva, empezando por las más sencillas y menos exigentes, aumentando gradualmente la dificultad y el compromiso. Evita la experiencia de fracaso y construye autoeficacia.",
+          "parametros_clinicos": {
+            "inicio": "1-3 actividades nuevas por semana",
+            "progresion": "Aumentar 1-2 actividades cada 1-2 semanas",
+            "objetivo_final": "15-16 actividades programadas tras aproximadamente 2 meses",
+            "criterio_dificultad": "Empezar por dificultad 1-3 en escala de 1-15, subir gradualmente"
+          }
+        },
+        {
+          "concepto": "Actuar según un plan, no según el estado de ánimo",
+          "definicion": "Principio fundamental de la AC: las actividades se programan y ejecutan independientemente del estado emocional. No se espera a 'tener ganas' porque en la depresión las ganas rara vez llegan primero. La acción precede a la motivación, no al contrario.",
+          "implicacion_clinica": "El terapeuta debe transmitir que no se trata de 'querer hacerlo' sino de 'comprometerse a hacerlo'. La motivación y las ganas vendrán como consecuencia de la acción, no como prerrequisito."
+        }
+      ]
+    },
+    "principios_clave": {
+      "fuente": "Decálogo de principios de Martell et al. (2010), complementado con Barraca y Pérez-Álvarez (2015)",
+      "decalogo": [
+        {
+          "numero": 1,
+          "principio": "La clave para cambiar cómo se siente la gente está en cambiar lo que hace",
+          "explicacion": "El cambio conductual produce cambio emocional. No es necesario esperar a sentirse mejor para actuar; actuar producirá sentirse mejor.",
+          "implicacion_para_app": "El sistema debe priorizar acciones concretas sobre exploración emocional prolongada. Cada sesión debe concluir con al menos un compromiso conductual."
+        },
+        {
+          "numero": 2,
+          "principio": "Los cambios en la vida pueden llevar a la depresión, y las estrategias de afrontamiento inmediatas pueden bloquear indefinidamente la salida",
+          "explicacion": "Lo que inicialmente es una reacción comprensible (retirarse tras una pérdida) se convierte en el problema cuando se cronifica. Las estrategias de afrontamiento a corto plazo (evitación, aislamiento, rumiación) mantienen la depresión.",
+          "implicacion_para_app": "El sistema debe identificar y señalar patrones de evitación en la narrativa del paciente, reformulándolos funcionalmente."
+        },
+        {
+          "numero": 3,
+          "principio": "Los indicios para entender qué será antidepresivo para un cliente concreto se encuentran en lo que precede y en lo que sigue a las conductas más importantes",
+          "explicacion": "El análisis funcional (antecedente-conducta-consecuencia) es la herramienta principal. No hay actividades 'universalmente antidepresivas'; lo que funciona depende del contexto funcional de cada persona.",
+          "implicacion_para_app": "El módulo de análisis funcional (TRAP/TRAC) es central en el sistema. Cada actividad programada debe tener contexto funcional claro."
+        },
+        {
+          "numero": 4,
+          "principio": "Estructurar y programar actividades de acuerdo con un plan, no con el estado de ánimo",
+          "explicacion": "Los pacientes deprimidos tienden a actuar solo cuando se sienten motivados. Como la depresión reduce la motivación, esto garantiza la inactividad. El plan programado rompe este ciclo.",
+          "implicacion_para_app": "El planificador de actividades debe ser una funcionalidad core, con recordatorios y seguimiento independientes del estado de ánimo reportado."
+        },
+        {
+          "numero": 5,
+          "principio": "El cambio será más fácil cuando se empiece poco a poco",
+          "explicacion": "Graduación es esencial. Actividades excesivamente ambiciosas producen fracaso y confirman la creencia depresiva de incompetencia. Pequeños éxitos construyen autoeficacia y momentum.",
+          "implicacion_para_app": "El sistema debe ofrecer jerarquización automática y sugerir divisiones de actividades complejas en pasos manejables."
+        },
+        {
+          "numero": 6,
+          "principio": "Dar prioridad a las actividades que tendrán un reforzamiento natural",
+          "explicacion": "Preferir actividades que estén conectadas con los valores del paciente y que generen consecuencias naturalmente reforzantes en su entorno. Los reforzadores artificiales son útiles solo como puente inicial.",
+          "implicacion_para_app": "Las actividades propuestas deben conectarse siempre con el sistema de valores del paciente. El módulo de áreas vitales alimenta directamente al planificador."
+        },
+        {
+          "numero": 7,
+          "principio": "El terapeuta funciona como un entrenador (coach)",
+          "explicacion": "No es un 'sanador' ni un 'experto que sabe qué le pasa'. Es un entrenador que guía, motiva, planifica, revisa, ajusta y celebra logros. Siempre positivo, siempre orientado a la acción.",
+          "implicacion_para_app": "El tono del sistema de IA debe ser directivo pero cálido, orientado a la acción, celebrando cada logro y anticipando obstáculos sin juzgar."
+        },
+        {
+          "numero": 8,
+          "principio": "Enfatizar el enfoque empírico de resolución de problemas y reconocer que cualquier resultado puede ser útil",
+          "explicacion": "No hay fracasos, hay datos. Si una actividad programada no se completó, se analiza por qué y se ajusta. Si se completó y no mejoró el ánimo, se analiza qué puede ajustarse. Todo es información.",
+          "implicacion_para_app": "El sistema debe tratar actividades no completadas como oportunidades de aprendizaje, no como fallos. Generar retroalimentación constructiva siempre."
+        },
+        {
+          "numero": 9,
+          "principio": "¡No solo hablar, actuar!",
+          "explicacion": "La terapia no es un espacio para analizar interminablemente. Es un espacio para planificar acciones, revisar resultados y ajustar planes. La acción fuera de sesión es donde ocurre el cambio real.",
+          "implicacion_para_app": "Cada interacción en la app debe culminar con un compromiso conductual concreto. Limitar la exploración verbal si no conduce a planes de acción."
+        },
+        {
+          "numero": 10,
+          "principio": "Anticipar posibles barreras para la activación",
+          "explicacion": "Identificar proactivamente lo que podría impedir que el paciente complete las actividades: barreras prácticas, emocionales, sociales, cognitivas. Planificar estrategias de afrontamiento preventivas.",
+          "implicacion_para_app": "Incluir en la programación de actividades un campo de 'barreras anticipadas' y 'plan B' para cada actividad."
+        }
+      ]
+    },
+    "evidencia_cientifica": {
+      "nivel_evidencia": "Tratamiento bien establecido / Tratamiento con fuerte apoyo empírico (Chambless & Hollon, 1998)",
+      "ensayos_clinicos_clave": [
+        {
+          "estudio": "Dimidjian et al. (2006)",
+          "hallazgo": "La AC fue tan eficaz como la medicación antidepresiva (paroxetina) y significativamente más eficaz que la terapia cognitiva (TC) en pacientes con depresión grave. En depresión moderada, AC = TC = medicación.",
+          "implicacion": "La AC puede ser tratamiento de primera línea incluso en depresión severa."
+        },
+        {
+          "estudio": "Jacobson et al. (1996) - Estudio de desmantelamiento",
+          "hallazgo": "El componente de activación conductual solo fue tan eficaz como la terapia cognitiva completa de Beck. El añadir componentes cognitivos no aportó beneficio adicional.",
+          "implicacion": "La parsimonia de la AC: se consigue el mismo resultado con un tratamiento más sencillo."
+        },
+        {
+          "estudio": "Dobson et al. (2008) - Seguimiento a 2 años",
+          "hallazgo": "La AC mostró efectos protectores contra la recaída comparables a la medicación continuada, y superiores a la medicación discontinuada.",
+          "implicacion": "La AC no solo trata el episodio actual sino que previene recaídas futuras."
+        },
+        {
+          "estudio": "Cuijpers et al. (2007) - Metaanálisis",
+          "hallazgo": "La AC mostró tamaños de efecto grandes (d = 0.87) en comparación con condiciones de control.",
+          "implicacion": "Evidencia robusta de eficacia a través de múltiples estudios."
+        },
+        {
+          "estudio": "Ekers et al. (2014) - Metaanálisis actualizado",
+          "hallazgo": "34 ensayos clínicos aleatorizados confirmaron la superioridad de la AC sobre grupos de control y su equivalencia con la TCC y la medicación.",
+          "implicacion": "La base de evidencia es amplia y consistente."
+        }
+      ],
+      "ventajas_respecto_otros_tratamientos": [
+        {
+          "ventaja": "Parsimonia",
+          "descripcion": "Logra los mismos resultados con un modelo más sencillo. Menos componentes, más fácil de aprender, aplicar y supervisar."
+        },
+        {
+          "ventaja": "Aceptabilidad por parte del paciente",
+          "descripcion": "Los pacientes entienden fácilmente la lógica del tratamiento. Es intuitivo que 'hacer cosas' ayuda más que 'analizar pensamientos'. Menor tasa de abandono."
+        },
+        {
+          "ventaja": "Economía",
+          "descripcion": "Requiere menos formación especializada del terapeuta. Puede ser aplicada por terapeutas con menos experiencia bajo supervisión. Menor número de sesiones en TACD."
+        },
+        {
+          "ventaja": "Aplicabilidad transcultural",
+          "descripcion": "No depende de constructos cognitivos occidentales. Se adapta bien a diferentes culturas, niveles educativos y contextos socioeconómicos."
+        },
+        {
+          "ventaja": "Versatilidad de aplicación",
+          "descripcion": "Funciona en formato individual, grupal, online, autoaplicada con guía, y es adaptable a múltiples poblaciones y comorbilidades."
+        }
+      ]
+    }
+  },
+  "area_2_habilidades_terapeuta": {
+    "nombre": "Habilidades y Destrezas del Terapeuta AC",
+    "descripcion": "Competencias clínicas específicas que debe exhibir el terapeuta (o el sistema de IA) para implementar la AC de manera efectiva y ética",
+    "escucha_empatica_y_validacion": {
+      "descripcion": "Capacidad de comprender y comunicar comprensión del mundo experiencial del paciente deprimido, reconociendo la legitimidad de sus sentimientos sin reforzar la pasividad",
+      "componentes": {
+        "validacion_emocional": {
+          "definicion": "Reconocer explícitamente que los sentimientos del paciente son comprensibles dada su situación. No minimizar ('no es para tanto'), no patologizar ('eso es tu depresión hablando'), no invalidar ('deberías verlo positivamente').",
+          "ejemplos_verbales": [
+            "Es completamente comprensible que te sientas así después de lo que has pasado.",
+            "Tiene todo el sentido que te cueste motivarte cuando llevas semanas sin salir de casa.",
+            "Lo que describes suena muy agotador. Cualquiera en tu situación se sentiría abrumado.",
+            "No estás exagerando. Lo que sientes es real y tiene sentido en tu contexto."
+          ],
+          "errores_a_evitar": [
+            "Saltar directamente a soluciones sin validar primero la emoción",
+            "Usar frases vacías como 'todo va a estar bien' o 'ánimo'",
+            "Comparar con otros pacientes o situaciones",
+            "Interpretar pensamientos antes de que el paciente los exprese",
+            "Confundir validación con acuerdo (puedes validar la emoción sin estar de acuerdo con la conducta)"
+          ]
+        },
+        "escucha_reflexiva": {
+          "definicion": "Devolver al paciente una reformulación de lo que ha expresado, demostrando que ha sido escuchado y comprendido, sin añadir interpretación prematura",
+          "tecnica": "Parafrasear el contenido emocional, no solo el contenido informativo. Usar 'Parece que...' o 'Si entiendo bien...' seguido de la reformulación.",
+          "nota_importante": "En AC, la escucha reflexiva se orienta siempre hacia la identificación de patrones conductuales. No se queda en la exploración emocional indefinida."
+        }
+      },
+      "equilibrio_clinico": "En AC, la validación es el punto de partida, NO el objetivo final. El terapeuta valida → y luego guía hacia la acción. El orden es: primero entender, luego mover. Nunca mover sin haber entendido primero."
+    },
+    "analisis_funcional_de_conducta": {
+      "descripcion": "Capacidad de identificar las relaciones funcionales entre antecedentes, conductas y consecuencias en los patrones del paciente",
+      "habilidades_especificas": [
+        {
+          "habilidad": "Identificar antecedentes situacionales",
+          "como_implementar": "Preguntar: '¿Qué estaba pasando justo antes de que decidieras quedarte en la cama / no ir al evento / dejar de hacer X?'. Explorar tanto eventos externos como estados internos (pensamientos, emociones, sensaciones físicas).",
+          "preguntas_guia": [
+            "¿Qué ocurrió justo antes?",
+            "¿Dónde estabas? ¿Con quién?",
+            "¿Qué estabas pensando o sintiendo en ese momento?",
+            "¿Había algo que te preocupara ese día?",
+            "¿Recuerdas algún disparador específico?"
+          ]
+        },
+        {
+          "habilidad": "Identificar la función de la conducta",
+          "como_implementar": "No preguntar '¿por qué hiciste eso?' (invita a justificaciones). En su lugar: '¿Qué conseguiste al quedarte en casa?' o '¿Qué habría pasado si hubieras ido?'. Buscar si la conducta cumple función de evitación (escape de malestar) o de obtención de reforzamiento a corto plazo.",
+          "preguntas_guia": [
+            "¿Qué sentiste después de tomar esa decisión?",
+            "¿Te proporcionó alivio no ir?",
+            "¿Qué habría pasado si hubieras ido?",
+            "¿Esta decisión te acerca o te aleja de lo que valoras?",
+            "¿Cómo te sentiste unas horas después? ¿Y al día siguiente?"
+          ]
+        },
+        {
+          "habilidad": "Identificar consecuencias a corto y largo plazo",
+          "como_implementar": "Distinguir claramente entre el alivio inmediato (consecuencia a corto plazo que refuerza la evitación) y el empeoramiento progresivo (consecuencia a largo plazo que mantiene la depresión).",
+          "esquema_analisis": {
+            "corto_plazo_positivo": "¿Qué ganaste inmediatamente? (alivio, comodidad, evitar ansiedad)",
+            "corto_plazo_negativo": "¿Qué perdiste inmediatamente? (oportunidad social, actividad placentera)",
+            "largo_plazo_positivo": "¿Qué ganarías si mantuvieras esta conducta? (nada positivo, usualmente)",
+            "largo_plazo_negativo": "¿Qué pierdes si esto se mantiene en el tiempo? (relaciones, habilidades, salud, autoeficacia)"
+          }
+        },
+        {
+          "habilidad": "Formular patrones TRAP y proponer TRAC",
+          "como_implementar": "Una vez identificado el TRAP, colaborativamente construir el TRAC alternativo. El paciente participa en elegir la alternativa.",
+          "ejemplo_completo": {
+            "TRAP": {
+              "Trigger": "Mi jefe me envía un email pidiéndome una presentación para el viernes",
+              "Response": "Ansiedad intensa, pensamientos de 'no puedo', nudo en el estómago",
+              "Avoidance_Pattern": "Pospongo abrir el email, me pongo a ver series, llamo enfermo el jueves"
+            },
+            "TRAC": {
+              "Trigger": "Mi jefe me envía un email pidiéndome una presentación para el viernes",
+              "Response": "Ansiedad intensa, pensamientos de 'no puedo', nudo en el estómago (la misma respuesta emocional, que es normal)",
+              "Alternative_Coping": "Abro el email, leo lo que pide, divido la tarea en 3 partes pequeñas, hago la primera parte hoy (solo 20 minutos)"
+            }
+          }
+        }
+      ]
+    },
+    "psicoeducacion_modelo_ac": {
+      "descripcion": "Capacidad de explicar al paciente el modelo de la AC de forma clara, comprensible y motivadora, adaptada a su nivel cultural",
+      "elementos_clave": [
+        {
+          "elemento": "Explicar el ciclo depresivo",
+          "guion_tipo": "Cuando algo difícil nos pasa, es natural retirarse un poco: dejar de hacer cosas, quedarse en casa, alejarse de la gente. El problema es que cuando dejamos de hacer cosas que antes nos hacían sentir bien, nuestro estado de ánimo baja más. Y cuando el ánimo baja, hacemos menos cosas todavía. Se crea como un 'círculo vicioso'. Lo que vamos a hacer juntos es romper ese círculo, empezando por lo que haces, no por lo que sientes."
+        },
+        {
+          "elemento": "Explicar la lógica de 'actuar antes de sentir'",
+          "guion_tipo": "Sé que puede sonar raro, pero lo que sabemos es que la motivación viene DESPUÉS de la acción, no antes. Si esperamos a tener ganas para hacer algo, en la depresión podemos esperar indefinidamente. Es como el ejercicio: casi nadie tiene ganas de ir al gimnasio, pero después de ir, casi todos se alegran de haberlo hecho."
+        },
+        {
+          "elemento": "Normalizar la dificultad inicial",
+          "guion_tipo": "Al principio va a ser difícil y probablemente no vas a notar una gran diferencia inmediata. Es normal. Estamos cambiando hábitos que llevan tiempo instalados. Lo importante es la tendencia: poco a poco, semana a semana, irás notando pequeños cambios."
+        },
+        {
+          "elemento": "Explicar el rol del terapeuta como coach",
+          "guion_tipo": "Mi papel aquí es el de un entrenador. No voy a decirte qué hacer exactamente porque tú conoces tu vida mejor que nadie. Pero voy a ayudarte a planificar, a revisar cómo va, a ajustar lo que no funcione, y a celebrar cada pequeño paso que des."
+        }
+      ],
+      "adaptaciones_por_nivel_cultural": {
+        "nivel_alto": "Puede usarse terminología técnica, explicar el modelo teórico con más detalle, compartir datos de eficacia",
+        "nivel_medio": "Usar analogías cotidianas, enfocarse en la lógica práctica del tratamiento",
+        "nivel_bajo_o_funcional": "Usar ejemplos muy concretos de la vida del paciente, menos teoría y más demostración práctica, apoyarse en material visual"
+      }
+    },
+    "guiar_programacion_actividades": {
+      "descripcion": "Habilidad central del terapeuta AC: guiar colaborativamente al paciente en la selección, planificación y ejecución de actividades",
+      "principios_de_programacion": [
+        {
+          "principio": "Concretar la actividad con todos sus parámetros",
+          "implementacion": "Toda actividad programada debe especificar: QUÉ (descripción específica), CUÁNDO (día y hora), DÓNDE (lugar), CON QUIÉN (si aplica), CUÁNTO TIEMPO (duración), y CÓMO (pasos si es compleja).",
+          "ejemplo_malo": "Voy a hacer ejercicio esta semana",
+          "ejemplo_bueno": "El martes y jueves a las 18:00 voy a caminar 20 minutos por el parque que está al lado de mi casa, solo, con mis auriculares"
+        },
+        {
+          "principio": "Graduar la dificultad",
+          "implementacion": "Empezar SIEMPRE por la versión más sencilla posible de la actividad. Si 'ir al gimnasio' es un 8/10 de dificultad, empezar por 'ponerme la ropa de deporte y dar un paseo de 10 minutos' (3/10).",
+          "escala_dificultad": "1-3: Actividades muy sencillas, rutinas básicas / 4-6: Actividades que requieren algo de esfuerzo pero son familiares / 7-9: Actividades que requieren esfuerzo significativo o enfrentar situaciones evitadas / 10+: Actividades de alta complejidad o carga emocional"
+        },
+        {
+          "principio": "Priorizar reforzamiento natural sobre artificial",
+          "implementacion": "Las actividades deben conectarse con lo que el paciente valora genuinamente. Si valora la familia, programar actividades que impliquen contacto familiar. Los 'premios' (reforzadores artificiales) son un complemento, no el motor principal.",
+          "ejemplo": "No: 'Si vas a clase te compras un helado'. Sí: 'Ir a clase te acerca a terminar tu carrera, que es algo que has dicho que valoras mucho.'"
+        },
+        {
+          "principio": "Variedad de actividades",
+          "implementacion": "Mezclar actividades de diferentes tipos: placenteras (ocio, disfrute), de dominio (logro, competencia), sociales (conexión), obligatorias (responsabilidades) y de salud (autocuidado físico).",
+          "distribucion_recomendada": "Al menos 1 actividad de cada tipo por semana al inicio. Ir aumentando proporcionalmente."
+        },
+        {
+          "principio": "Usar registros preparados",
+          "implementacion": "Facilitar el seguimiento proporcionando formatos ya estructurados donde el paciente solo tenga que marcar/rellenar, no crear el sistema desde cero.",
+          "nota": "En la app, esto se traduce en interfaces de registro intuitivas con las actividades ya precargadas y opciones de valoración rápida."
+        }
+      ]
+    },
+    "fomentar_adherencia_motivacion": {
+      "descripcion": "Estrategias para mantener al paciente comprometido con el tratamiento a lo largo del tiempo",
+      "estrategias": [
+        {
+          "estrategia": "Reforzar en sesión toda conducta adaptativa",
+          "como": "Cuando el paciente reporta haber completado una actividad, reforzar inmediata y genuinamente. No con cumplidos vacíos, sino con reconocimiento específico del esfuerzo.",
+          "ejemplos_verbales": [
+            "Eso que hiciste requirió mucho valor, especialmente cuando no tenías ganas.",
+            "Fíjate: la semana pasada completaste 3 de 4 actividades. Eso es un avance real respecto a hace dos semanas.",
+            "Me parece importante que hayas ido a caminar incluso el día que llovía. Eso demuestra que estás priorizando tu plan por encima del ánimo."
+          ]
+        },
+        {
+          "estrategia": "Normalizar las recaídas y dificultades",
+          "como": "Transmitir que las dificultades son parte esperada del proceso, no señales de fracaso. Usar las dificultades como datos para ajustar el plan.",
+          "ejemplos_verbales": [
+            "Es completamente normal que haya semanas mejores y peores. Lo importante es la tendencia general.",
+            "Que no hayas podido completar esta actividad nos da información valiosa sobre qué ajustar.",
+            "Nadie cambia hábitos de forma perfecta y lineal. Lo que importa es que sigamos trabajando en ello."
+          ]
+        },
+        {
+          "estrategia": "Vincular actividades con valores personales",
+          "como": "Recordar constantemente al paciente POR QUÉ está haciendo cada actividad, conectándola con lo que es importante para él/ella.",
+          "ejemplo": "Sé que ir a esa clase de yoga no es fácil ahora. Pero recuerda que tú dijiste que cuidar tu salud era una de tus prioridades. Cada vez que vas, estás actuando según lo que valoras."
+        },
+        {
+          "estrategia": "Revisar siempre las tareas con importancia",
+          "como": "Nunca pasar por alto las tareas entre sesiones. La revisión detallada comunica al paciente que lo que hace fuera de sesión importa tanto como lo que pasa dentro.",
+          "protocolo_revision": "1. ¿Qué actividades completaste? → Reforzar. 2. ¿Cómo te sentiste antes, durante y después? → Datos. 3. ¿Qué dificultades encontraste? → Ajustar. 4. ¿Qué no pudiste completar? → Analizar funcionalmente sin juzgar."
+        },
+        {
+          "estrategia": "Anticipar barreras proactivamente",
+          "como": "Al programar actividades, siempre preguntar: '¿Qué podría impedir que hagas esto?' y planificar respuestas ante esas barreras.",
+          "ejemplo": "P: 'Quiero ir a correr el martes'. T: '¿Qué podría impedir que lo hagas?' P: 'Si llueve o si me siento muy cansado'. T: 'Bien, si llueve, ¿cuál sería tu plan B? Y sobre el cansancio, ¿recuerdas lo que hablamos sobre actuar según el plan?'"
+        }
+      ],
+      "rol_de_entrenador_coach": {
+        "descripcion": "El terapeuta AC actúa como un coach deportivo: siempre positivo, orientado al rendimiento, que aprecía el esfuerzo sobre el resultado",
+        "caracteristicas": [
+          "Siempre refuerza lo que el paciente hace por encima de la línea base, por mínimo que sea",
+          "Nunca castiga, sanciona ni culpa por actividades no completadas",
+          "Anticipa problemas y prepara al paciente para afrontarlos",
+          "Mantiene optimismo realista incluso cuando el progreso es lento",
+          "Es persistente: no abandona la estrategia ante las primeras dificultades",
+          "Celebra explícitamente cada logro, proporcionando feedback específico",
+          "Ajusta el plan cuando algo no funciona, sin interpretarlo como fracaso"
+        ]
+      }
+    },
+    "manejo_obstaculos_y_recaidas": {
+      "descripcion": "Competencia para identificar, anticipar y resolver los obstáculos comunes en la implementación de la AC",
+      "estrategias_generales": [
+        "Mantener actitud empírica: cada obstáculo es un dato, no un fracaso",
+        "Emplear resolución de problemas colaborativa: explorar opciones junto con el paciente",
+        "Recordar los principios del decálogo cuando surgen dificultades",
+        "Ajustar la dificultad de las actividades si son demasiado exigentes",
+        "Involucrar a personas de apoyo cuando sea apropiado (contratos conductuales)",
+        "Revisar el análisis funcional para identificar nuevos patrones de evitación"
+      ],
+      "obstaculos_frecuentes_y_respuestas": [
+        {
+          "obstaculo": "El paciente dice 'no tengo ganas de hacer nada'",
+          "respuesta_terapeutica": "Validar → Recordar principio 4 (actuar según plan, no según ánimo) → Reducir la actividad al mínimo posible → Preguntar: '¿Cuál es la versión más pequeña de esta actividad que podrías hacer?'"
+        },
+        {
+          "obstaculo": "El paciente no completó ninguna actividad programada",
+          "respuesta_terapeutica": "No juzgar → Analizar funcionalmente qué pasó → ¿Las actividades eran demasiado difíciles? ¿Hubo barreras imprevistas? ¿El paciente entendió bien qué tenía que hacer? → Ajustar plan para la semana siguiente"
+        },
+        {
+          "obstaculo": "El paciente dice 'hice la actividad pero no me sentí mejor'",
+          "respuesta_terapeutica": "Validar → Explicar que el cambio emocional es gradual → Revisar si la actividad estaba conectada con sus valores → Diferenciar entre 'sentirse mejor durante' y 'sentirse mejor a largo plazo' → Revisar datos de la semana en conjunto, no actividades aisladas"
+        },
+        {
+          "obstaculo": "El paciente dice 'esto es como hacer una lista de tareas, no es terapia de verdad'",
+          "respuesta_terapeutica": "Validar la frustración → Reconocer que puede parecer simple → Explicar la evidencia detrás del enfoque → Preguntar: '¿Qué esperabas de la terapia?' → Reconectar con la lógica del modelo y los valores del paciente"
+        },
+        {
+          "obstaculo": "El paciente tiene rumiación persistente que bloquea la activación",
+          "respuesta_terapeutica": "Distinguir rumiación de reflexión productiva → Enseñar técnica de atención a la experiencia (mindfulness funcional) → Pregunta clave: '¿Pensar en esto te está ayudando a resolver algo concreto o te está manteniendo atrapado?' → Redirigir hacia la acción"
+        },
+        {
+          "obstaculo": "Señales de riesgo suicida",
+          "respuesta_terapeutica": "Prioridad absoluta de seguridad → Evaluación directa del riesgo → Activación de protocolo de crisis → No minimizar ni evitar el tema → Derivar a servicios de emergencia si es necesario → La AC continúa siendo apropiada pero con adaptaciones de seguridad",
+          "nota_app": "El sistema DEBE tener un protocolo de detección y respuesta ante riesgo suicida integrado en todas las interacciones"
+        }
+      ]
+    },
+    "destrezas_especificas_situacion_depresiva": {
+      "directividad_medida": {
+        "descripcion": "Ser más directivo que en otras terapias (la depresión reduce la iniciativa del paciente) pero sin ser autoritario. Dirigir el proceso, no al paciente.",
+        "equilibrio": "Directividad alta en la estructura de la sesión y en la propuesta de actividades. Directividad baja en la elección de valores y actividades específicas (esas las elige el paciente)."
+      },
+      "comunicacion_ajustada": {
+        "descripcion": "Adaptar el estilo comunicativo a las características de la depresión: habla lenta, baja energía, dificultad de concentración, pesimismo",
+        "ajustes": [
+          "Usar frases cortas y claras, evitar discursos largos",
+          "Repetir información importante de forma diferente",
+          "Verificar comprensión sin ser condescendiente: '¿Cómo ves esto?' en lugar de '¿Me has entendido?'",
+          "Tolerar los silencios sin llenarlos compulsivamente",
+          "Adaptar el ritmo a la energía del paciente, no forzar rapidez",
+          "Ser concreto: dar ejemplos, usar situaciones reales del paciente"
+        ]
+      },
+      "capacidad_motivacion": {
+        "descripcion": "Mantener la motivación del paciente cuando los resultados tardan en llegar",
+        "tecnicas": [
+          "Hacer visible el progreso: comparar registros de diferentes semanas",
+          "Celebrar logros que el paciente minimiza",
+          "Recordar los valores que dan sentido al esfuerzo",
+          "Contar historias de progreso (no de otros pacientes específicos) para normalizar la trayectoria",
+          "Mantener la propia convicción en el tratamiento: el terapeuta debe creer que funciona"
+        ]
+      }
+    },
+    "ausencia_de_prejuicios": {
+      "descripcion": "Principio clínico fundamental: NUNCA atribuir la falta de progreso a características negativas del paciente",
+      "prohibiciones_absolutas": [
+        "Nunca interpretar la inacción como 'pereza' o 'falta de voluntad'",
+        "Nunca atribuir a 'auto-sabotaje' o 'beneficio secundario de la enfermedad'",
+        "Nunca etiquetar como 'trastorno de personalidad' o 'resistencia' cuando el paciente no progresa",
+        "Nunca comparar negativamente con otros pacientes",
+        "Nunca asumir que el paciente 'no quiere mejorar'"
+      ],
+      "alternativa": "Si el paciente no progresa, la AC asume que el plan necesita ajustarse, no que el paciente es defectuoso. La responsabilidad de encontrar el enfoque correcto es compartida entre terapeuta y paciente."
+    }
+  },
+  "area_3_herramientas_terapeuticas": {
+    "nombre": "Herramientas Terapéuticas",
+    "descripcion": "Instrumentos clínicos que el terapeuta utiliza durante el proceso de AC para evaluar, planificar, monitorizar y ajustar la intervención",
+    "registro_diario_actividades": {
+      "id": "HT01",
+      "nombre": "Registro Diario de Actividades y Estado de Ánimo",
+      "fuente": "Barraca y Pérez-Álvarez (2015), Anexos I.a y I.b",
+      "proposito": "Obtener una línea base del nivel de actividad actual del paciente e identificar patrones de conducta, relaciones entre actividades y estado de ánimo, y horas/días de mayor/menor activación",
+      "cuando_usar": "Desde la primera sesión de evaluación. Se mantiene durante todo el tratamiento como herramienta principal de monitorización.",
+      "formato_semanal": {
+        "descripcion": "Registro horario (6:00 a 2:00) de lunes a domingo",
+        "variables_registradas": [
+          {
+            "variable": "Actividad",
+            "tipo": "texto_libre",
+            "instruccion": "Anote brevemente qué estaba haciendo en cada franja horaria"
+          },
+          {
+            "variable": "Estado de ánimo",
+            "tipo": "escala_1_10",
+            "instruccion": "1 = totalmente deprimido, 10 = totalmente animado"
+          },
+          {
+            "variable": "Emoción",
+            "tipo": "texto_libre",
+            "instruccion": "Qué emoción sentía (triste, asustado, avergonzado, feliz, sorprendido, etc.) e intensidad 1-10"
+          },
+          {
+            "variable": "Placer (P)",
+            "tipo": "escala_1_10",
+            "instruccion": "Grado de disfrute experimentado durante la actividad"
+          },
+          {
+            "variable": "Dominio (D)",
+            "tipo": "escala_1_10",
+            "instruccion": "Grado de control o competencia percibida al realizar la actividad"
+          }
+        ],
+        "franjas_horarias": [
+          "6:00",
+          "7:00",
+          "8:00",
+          "9:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00",
+          "00:00",
+          "1:00-5:00"
+        ]
+      },
+      "formato_diario_alternativo": {
+        "descripcion": "Registro por horas con valoración de agrado e importancia. Más sencillo que el semanal.",
+        "variables_registradas": [
+          {
+            "variable": "Actividad",
+            "tipo": "texto_libre"
+          },
+          {
+            "variable": "Agrado",
+            "tipo": "escala_1_10",
+            "instruccion": "Cuánto disfruté esta actividad"
+          },
+          {
+            "variable": "Importancia",
+            "tipo": "escala_1_10",
+            "instruccion": "Cuán importante considero esta actividad"
+          },
+          {
+            "variable": "Estado de ánimo general del día",
+            "tipo": "escala_1_10"
+          }
+        ]
+      },
+      "caso_ejemplo_luisa": {
+        "paciente": "Luisa, 56 años, profesora de Secundaria de baja, casada y con dos hijos",
+        "muestra_registro": [
+          {
+            "hora": "7:00",
+            "actividad": "Levantarme",
+            "agrado": 1,
+            "importancia": 10
+          },
+          {
+            "hora": "8:00",
+            "actividad": "Preparar desayunos",
+            "agrado": 2,
+            "importancia": 9
+          },
+          {
+            "hora": "9:00",
+            "actividad": "Arreglarme bien (aseo completo y maquillarme)",
+            "agrado": 3,
+            "importancia": 8
+          },
+          {
+            "hora": "10:00-11:00",
+            "actividad": "Salir a comprar y hacer recados pendientes",
+            "agrado": 5.5,
+            "importancia": 8
+          },
+          {
+            "hora": "12:00",
+            "actividad": "Leer o ver correos. O empezar a preparar la comida",
+            "agrado": 5,
+            "importancia": 7
+          },
+          {
+            "hora": "13:00",
+            "actividad": "Preparar la comida",
+            "agrado": 6,
+            "importancia": 9
+          },
+          {
+            "hora": "14:00",
+            "actividad": "Comer bien (sentada, despacio, hablando con mi marido y mis hijos)",
+            "agrado": 7,
+            "importancia": 9
+          },
+          {
+            "hora": "15:00-16:00",
+            "actividad": "Descansar. Leer. Ver la TV",
+            "agrado": 6,
+            "importancia": 5
+          },
+          {
+            "hora": "17:00-18:00",
+            "actividad": "Hacer cosas pendientes o salir a comprar",
+            "agrado": 6,
+            "importancia": 7
+          },
+          {
+            "hora": "20:00",
+            "actividad": "Preparar cena. Ver la TV",
+            "agrado": 6,
+            "importancia": 6
+          },
+          {
+            "hora": "21:00",
+            "actividad": "Cenar (siempre, no dejar de hacerlo)",
+            "agrado": 4,
+            "importancia": 8
+          },
+          {
+            "hora": "22:00",
+            "actividad": "Ver TV o leer en el salón. Hablar con mi marido",
+            "agrado": 7,
+            "importancia": 7
+          },
+          {
+            "hora": "23:00",
+            "actividad": "Acostarme e intentar dormir a esta hora",
+            "agrado": 9,
+            "importancia": 8
+          }
+        ],
+        "animo_general_dia": 4
+      },
+      "uso_clinico_del_registro": [
+        "Identificar 'desiertos de actividad': periodos largos sin actividad significativa",
+        "Detectar patrones de ánimo: ¿hay horas del día mejores/peores?",
+        "Identificar actividades que YA mejoran el ánimo (reforzadores naturales existentes)",
+        "Detectar actividades de alta importancia pero bajo agrado (potencial fuente de dominio)",
+        "Identificar actividades de alto agrado que podrían aumentarse",
+        "Servir como línea base para medir progreso a lo largo del tratamiento"
+      ]
+    },
+    "escalas_dominio_y_placer": {
+      "id": "HT02",
+      "nombre": "Escalas de Dominio y Placer",
+      "fuente": "Beck et al. (1979), adaptado por Martell et al. (2010)",
+      "proposito": "Evaluar la experiencia subjetiva de competencia (dominio) y disfrute (placer) asociada a cada actividad. Permite identificar actividades reforzantes y guiar la programación.",
+      "conceptos": {
+        "dominio": {
+          "definicion": "Grado en que la persona siente que controla, maneja o es competente en una actividad. Actividades de dominio generan sensación de logro y autoeficacia.",
+          "escala": "1 (no me siento nada capaz / me cuesta muchísimo) a 10 (me siento totalmente competente / me resulta muy fácil)",
+          "ejemplos_alto_dominio": "Cocinar un plato conocido, hacer ejercicio habitual, completar tarea laboral familiar",
+          "ejemplos_bajo_dominio": "Ir a un evento social donde no conozco a nadie, iniciar una actividad nueva, enfrentar una conversación difícil"
+        },
+        "placer": {
+          "definicion": "Grado de disfrute o satisfacción experimentado durante o después de una actividad. Indicador directo de reforzamiento positivo.",
+          "escala": "1 (ningún disfrute / totalmente desagradable) a 10 (máximo disfrute / totalmente placentera)",
+          "ejemplos_alto_placer": "Escuchar música favorita, pasear por la naturaleza, reírse con amigos",
+          "ejemplos_bajo_placer": "Tareas domésticas, obligaciones burocráticas, rumiación"
+        }
+      },
+      "interpretacion_clinica": {
+        "alto_dominio_alto_placer": "Actividades ideales para reforzar. Aumentar su frecuencia.",
+        "alto_dominio_bajo_placer": "Actividades de logro que pueden estar desgastando. Equilibrar con actividades placenteras.",
+        "bajo_dominio_alto_placer": "Actividades en las que invertir para desarrollar competencia. Gran potencial de reforzamiento.",
+        "bajo_dominio_bajo_placer": "Actividades a evaluar si son necesarias. Si son obligatorias, encontrar formas de hacerlas más manejables."
+      },
+      "nota_clinica": "En depresión, los pacientes suelen subestimar tanto el dominio como el placer. Es importante señalar discrepancias: 'Dices que no disfrutas cocinando, pero tu registro muestra que los días que cocinas tu ánimo sube 2 puntos. ¿Qué te parece eso?'"
+    },
+    "inventario_areas_vitales_y_valores": {
+      "id": "HT03",
+      "nombre": "Inventario de Áreas Vitales y Valores",
+      "fuente": "Lejuez et al. (2011), Anexo XII.a en Barraca y Pérez-Álvarez (2015)",
+      "proposito": "Identificar las áreas de vida más importantes para el paciente y los valores que guían sus elecciones, para seleccionar actividades alineadas con lo que genuinamente importa a cada persona",
+      "areas_vitales": [
+        {
+          "area_numero": 1,
+          "nombre": "Relaciones (familia, amigos, pareja)",
+          "descripcion": "Calidad y frecuencia de las conexiones interpersonales significativas",
+          "ejemplos_valores": [
+            "Ser buen padre/madre",
+            "Ser un amigo disponible",
+            "Mantener relación de pareja sana",
+            "Cuidar a mis padres",
+            "Ser un buen hermano/a"
+          ],
+          "ejemplos_actividades": [
+            "Llamar a un familiar",
+            "Quedar con un amigo",
+            "Planear una cita con la pareja",
+            "Visitar a los padres",
+            "Escribir un mensaje de agradecimiento"
+          ]
+        },
+        {
+          "area_numero": 2,
+          "nombre": "Formación / Carrera profesional / Trabajo",
+          "descripcion": "Desarrollo profesional, académico y laboral",
+          "ejemplos_valores": [
+            "Ser competente en mi trabajo",
+            "Seguir formándome",
+            "Contribuir a mi equipo",
+            "Avanzar en mi carrera",
+            "Ser un profesional ético"
+          ],
+          "ejemplos_actividades": [
+            "Asistir a clase",
+            "Estudiar 1 hora",
+            "Completar una tarea laboral pendiente",
+            "Hacer un curso online",
+            "Preparar una presentación"
+          ]
+        },
+        {
+          "area_numero": 3,
+          "nombre": "Ocio / Intereses / Actividades de tiempo libre",
+          "descripcion": "Hobbies, entretenimiento, actividades creativas y recreativas",
+          "ejemplos_valores": [
+            "Disfrutar de mi tiempo libre",
+            "Cultivar mis aficiones",
+            "Explorar cosas nuevas",
+            "Tener espacios de diversión"
+          ],
+          "ejemplos_actividades": [
+            "Leer un libro",
+            "Ver una película",
+            "Hacer fotografía",
+            "Ir a un museo",
+            "Practicar un instrumento",
+            "Jardinería",
+            "Videojuegos"
+          ]
+        },
+        {
+          "area_numero": 4,
+          "nombre": "Mente / Cuerpo / Espiritualidad",
+          "descripcion": "Salud física, mental, bienestar corporal, prácticas espirituales o contemplativas",
+          "ejemplos_valores": [
+            "Cuidar mi salud física",
+            "Mantener hábitos saludables",
+            "Cultivar la paz interior",
+            "Reducir consumos nocivos"
+          ],
+          "ejemplos_actividades": [
+            "Ir al gimnasio",
+            "Meditar 10 minutos",
+            "Cocinar comida saludable",
+            "Dormir a horas regulares",
+            "Caminar al aire libre",
+            "Yoga",
+            "No consumir sustancias"
+          ]
+        },
+        {
+          "area_numero": 5,
+          "nombre": "Obligaciones y responsabilidades diarias",
+          "descripcion": "Tareas cotidianas necesarias para el funcionamiento del hogar y la vida diaria",
+          "ejemplos_valores": [
+            "Tener mi casa ordenada",
+            "Ser responsable con mis obligaciones",
+            "Gestionar bien mis finanzas",
+            "Mantener mi entorno funcional"
+          ],
+          "ejemplos_actividades": [
+            "Hacer la compra",
+            "Limpiar la casa",
+            "Pagar facturas",
+            "Hacer trámites pendientes",
+            "Organizar papeles",
+            "Cocinar",
+            "Hacer la colada"
+          ]
+        }
+      ],
+      "estructura_por_area": {
+        "campos_por_actividad": [
+          "actividad",
+          "agrado_1_10",
+          "importancia_1_10"
+        ],
+        "max_actividades_por_objetivo": 5,
+        "campo_objetivo": "Un objetivo concreto derivado del valor (ej: 'Ser un buen hermano y tío')"
+      },
+      "caso_ejemplo_miguel": {
+        "paciente": "Miguel, 35 años, soltero, ingeniero informático, vive solo",
+        "areas_completadas": [
+          {
+            "area": "Relaciones",
+            "objetivo": "Ser un buen hermano y tío",
+            "actividades": [
+              {
+                "actividad": "Llamar a mi hermana 1 vez a la semana",
+                "agrado": 7,
+                "importancia": 7
+              },
+              {
+                "actividad": "Ver a mis sobrinos el fin de semana",
+                "agrado": 5,
+                "importancia": 8
+              },
+              {
+                "actividad": "Reservar días de verano para pasar con mi hermana y sobrinos",
+                "agrado": 8,
+                "importancia": 9
+              }
+            ]
+          },
+          {
+            "area": "Relaciones",
+            "objetivo": "Cuidar a mis padres, no darles preocupaciones",
+            "actividades": [
+              {
+                "actividad": "Llamar a mis padres al menos dos veces a la semana y contarles cómo estoy (con sinceridad)",
+                "agrado": 4,
+                "importancia": 8
+              },
+              {
+                "actividad": "Ir a comer a casa de mis padres el sábado o el domingo",
+                "agrado": 5,
+                "importancia": 7
+              },
+              {
+                "actividad": "Comprar un detalle para mi madre y dárselo el fin de semana",
+                "agrado": 7,
+                "importancia": 6
+              }
+            ]
+          },
+          {
+            "area": "Mente/Cuerpo/Espiritualidad",
+            "objetivo": "Cuidar mi salud física (no consumos inadecuados y falta de actividad)",
+            "actividades": [
+              {
+                "actividad": "No tomar ni un porro más",
+                "agrado": 1,
+                "importancia": 10
+              },
+              {
+                "actividad": "Beber solo 2 cervezas al día",
+                "agrado": 2,
+                "importancia": 9
+              },
+              {
+                "actividad": "Ir al gimnasio (30 minutos)",
+                "agrado": 2,
+                "importancia": 8
+              }
+            ]
+          },
+          {
+            "area": "Obligaciones diarias",
+            "objetivo": "Tener cuidada la casa en la que vivo, que sea acogedora y limpia",
+            "actividades": [
+              {
+                "actividad": "Ordenar el cuarto libre para poder trabajar en él",
+                "agrado": 3,
+                "importancia": 8
+              },
+              {
+                "actividad": "Pasar la mesa de trabajo y ordenador a la habitación libre",
+                "agrado": 4,
+                "importancia": 7
+              },
+              {
+                "actividad": "Organizar papeles, carpetas, libros",
+                "agrado": 2,
+                "importancia": 9
+              }
+            ]
+          }
+        ],
+        "observacion_clinica": "Nótese cómo las actividades de mayor importancia tienen bajo agrado (especialmente las de salud y obligaciones). Esto es típico en depresión. La AC prioriza estas actividades porque su importancia (conectada con valores) predice mejor la mejora a largo plazo que el agrado inmediato."
+      }
+    },
+    "formularios_trap_trac": {
+      "id": "HT04",
+      "nombre": "Formularios de Análisis Funcional TRAP/TRAC",
+      "fuente": "Martell et al. (2010)",
+      "proposito": "Identificar patrones de evitación (TRAP) y generar alternativas de afrontamiento (TRAC) de forma visual y estructurada",
+      "estructura_trap": {
+        "T_trigger": {
+          "label": "Disparador",
+          "instruccion": "¿Qué situación, pensamiento o emoción lo disparó?",
+          "tipo": "texto_libre"
+        },
+        "R_response": {
+          "label": "Respuesta",
+          "instruccion": "¿Qué sentiste/pensaste inmediatamente?",
+          "tipo": "texto_libre"
+        },
+        "AP_avoidance_pattern": {
+          "label": "Patrón de Evitación",
+          "instruccion": "¿Qué hiciste para evitar o escapar del malestar?",
+          "tipo": "texto_libre"
+        },
+        "consecuencias_corto_plazo": {
+          "label": "¿Cómo te sentiste justo después?",
+          "tipo": "texto_libre"
+        },
+        "consecuencias_largo_plazo": {
+          "label": "¿Cómo afectó esto a tu día/semana?",
+          "tipo": "texto_libre"
+        }
+      },
+      "estructura_trac": {
+        "T_trigger": {
+          "label": "Disparador",
+          "instruccion": "El mismo disparador del TRAP",
+          "tipo": "texto_heredado"
+        },
+        "R_response": {
+          "label": "Respuesta",
+          "instruccion": "La misma respuesta emocional (es normal sentirla)",
+          "tipo": "texto_heredado"
+        },
+        "AC_alternative_coping": {
+          "label": "Afrontamiento Alternativo",
+          "instruccion": "¿Qué podrías hacer diferente que esté alineado con tus valores?",
+          "tipo": "texto_libre"
+        },
+        "plan_concreto": {
+          "label": "Plan concreto",
+          "instruccion": "¿Cuándo, dónde, cómo lo harías?",
+          "tipo": "texto_libre"
+        }
+      },
+      "uso_clinico": "Se usa cuando el terapeuta identifica un patrón de evitación recurrente. Primero se mapea el TRAP, luego colaborativamente se construye el TRAC. El paciente puede llevar una copia para consultarla cuando se active el disparador."
+    },
+    "planificador_actividades_graduadas": {
+      "id": "HT05",
+      "nombre": "Planificador de Actividades Graduadas con Jerarquía",
+      "fuente": "Lejuez et al. (2011), Anexo XI en Barraca y Pérez-Álvarez (2015)",
+      "proposito": "Listar las 15 actividades seleccionadas para la intervención y organizarlas por dificultad, creando una jerarquía de implementación graduada",
+      "estructura": {
+        "max_actividades": 15,
+        "campos_por_actividad": [
+          {
+            "campo": "actividad",
+            "tipo": "texto",
+            "descripcion": "Descripción concreta de la actividad"
+          },
+          {
+            "campo": "dificultad",
+            "tipo": "escala_1_15",
+            "descripcion": "1 = lo menos difícil, 15 = lo más difícil"
+          },
+          {
+            "campo": "area_vital",
+            "tipo": "seleccion",
+            "opciones": [
+              "Relaciones",
+              "Trabajo/Formación",
+              "Ocio",
+              "Mente/Cuerpo/Espiritualidad",
+              "Obligaciones"
+            ]
+          },
+          {
+            "campo": "frecuencia_objetivo",
+            "tipo": "texto",
+            "descripcion": "Cuántas veces por semana/mes"
+          },
+          {
+            "campo": "parametros",
+            "tipo": "texto",
+            "descripcion": "Día, hora, duración, lugar, con quién"
+          }
+        ]
+      },
+      "protocolo_implementacion": {
+        "semana_1_2": "Incorporar 1-3 actividades de dificultad 1-3",
+        "semana_3_4": "Añadir 2-3 actividades de dificultad 4-6, mantener las anteriores",
+        "semana_5_8": "Ir incorporando actividades de dificultad 7-10, consolidar las previas",
+        "semana_9_en_adelante": "Incorporar las actividades más difíciles (11-15) cuando las bases estén consolidadas",
+        "nota": "Este ritmo es orientativo. Se ajusta según respuesta individual del paciente."
+      }
+    },
+    "menu_actividades_sugeridas": {
+      "id": "HT06",
+      "nombre": "Menú de Actividades Sugeridas",
+      "proposito": "Catálogo de actividades organizadas por tipo y dificultad que el terapeuta puede usar como inspiración cuando el paciente tiene dificultad para generar ideas propias",
+      "categorias": {
+        "actividades_placenteras": {
+          "dificultad_baja": [
+            "Escuchar música",
+            "Ver una serie/película",
+            "Tomar un baño relajante",
+            "Hojear una revista",
+            "Comer algo que te guste",
+            "Mirar fotos antiguas",
+            "Acariciar a tu mascota"
+          ],
+          "dificultad_media": [
+            "Pasear por un parque",
+            "Cocinar un plato especial",
+            "Llamar a un amigo",
+            "Ir a tomar un café",
+            "Leer un libro",
+            "Hacer manualidades",
+            "Escuchar un podcast"
+          ],
+          "dificultad_alta": [
+            "Ir al cine/teatro",
+            "Hacer una excursión",
+            "Organizar una cena",
+            "Apuntarse a una clase",
+            "Viajar a algún sitio",
+            "Comenzar un hobby nuevo"
+          ]
+        },
+        "actividades_dominio_logro": {
+          "dificultad_baja": [
+            "Hacer la cama",
+            "Ordenar un cajón",
+            "Preparar el desayuno",
+            "Ducharse y vestirse",
+            "Poner una lavadora"
+          ],
+          "dificultad_media": [
+            "Limpiar la casa",
+            "Hacer la compra semanal",
+            "Pagar facturas",
+            "Organizar papeles",
+            "Cocinar para toda la semana",
+            "Estudiar 1 hora"
+          ],
+          "dificultad_alta": [
+            "Completar un proyecto pendiente",
+            "Hacer un trámite complicado",
+            "Resolver un problema técnico",
+            "Preparar una presentación",
+            "Organizar una mudanza"
+          ]
+        },
+        "actividades_sociales": {
+          "dificultad_baja": [
+            "Saludar a un vecino",
+            "Escribir un mensaje a alguien",
+            "Comentar algo en redes sociales",
+            "Hablar brevemente con el tendero"
+          ],
+          "dificultad_media": [
+            "Llamar a un amigo",
+            "Quedar para tomar un café",
+            "Comer con un familiar",
+            "Participar en un grupo online"
+          ],
+          "dificultad_alta": [
+            "Ir a una fiesta o evento",
+            "Unirse a un grupo o actividad nueva",
+            "Iniciar una conversación con un desconocido",
+            "Organizar un encuentro social"
+          ]
+        },
+        "actividades_fisicas_salud": {
+          "dificultad_baja": [
+            "Caminar 10 minutos",
+            "Hacer estiramientos",
+            "Subir escaleras en vez de ascensor",
+            "Beber suficiente agua"
+          ],
+          "dificultad_media": [
+            "Caminar 30 minutos",
+            "Hacer ejercicio en casa (video)",
+            "Nadar",
+            "Ir en bicicleta",
+            "Cocinar saludable"
+          ],
+          "dificultad_alta": [
+            "Ir al gimnasio",
+            "Correr",
+            "Apuntarse a un deporte",
+            "Seguir un plan de alimentación",
+            "Dejar de fumar/reducir consumo"
+          ]
+        },
+        "actividades_mindfulness_espirituales": {
+          "dificultad_baja": [
+            "Respiración consciente 3 minutos",
+            "Observar la naturaleza con atención",
+            "Saborear conscientemente una comida"
+          ],
+          "dificultad_media": [
+            "Meditación guiada 10 minutos",
+            "Escribir un diario de gratitud",
+            "Yoga suave",
+            "Paseo consciente"
+          ],
+          "dificultad_alta": [
+            "Práctica de meditación regular 20 min",
+            "Retiro o taller de mindfulness",
+            "Práctica espiritual sostenida"
+          ]
+        }
+      },
+      "nota_clinica": "Este menú es ORIENTATIVO. Las mejores actividades son siempre las que el paciente identifica como personalmente significativas. El menú solo se usa como ayuda cuando el paciente está muy bloqueado para generar ideas."
+    },
+    "contratos_conductuales": {
+      "id": "HT07",
+      "nombre": "Contratos Conductuales",
+      "fuente": "Adaptado de Lejuez et al. (2011), Anexo X en Barraca y Pérez-Álvarez (2015)",
+      "proposito": "Formalizar el compromiso del paciente con una actividad específica, involucrando a una persona de apoyo que ayudará en la implementación",
+      "estructura": {
+        "campos": [
+          {
+            "campo": "fecha",
+            "tipo": "fecha"
+          },
+          {
+            "campo": "actividad_compromiso",
+            "tipo": "texto",
+            "descripcion": "Actividad que debo hacer / o que debo dejar de hacer"
+          },
+          {
+            "campo": "persona_apoyo",
+            "tipo": "texto",
+            "descripcion": "Persona que me ayudará"
+          },
+          {
+            "campo": "formas_ayuda",
+            "tipo": "lista_texto",
+            "max_items": 5,
+            "descripcion": "De qué manera puede ayudarme esta persona"
+          },
+          {
+            "campo": "firma_paciente",
+            "tipo": "texto"
+          },
+          {
+            "campo": "firma_apoyo",
+            "tipo": "texto"
+          }
+        ]
+      },
+      "caso_ejemplo_jorge": {
+        "paciente": "Jorge, 46 años, psicólogo, casado",
+        "contrato": {
+          "fecha": "11 de febrero de 2015",
+          "actividad": "Debo volver a mis clases de boxeo, para empezar al menos dos veces a la semana",
+          "persona_apoyo": "Mi mujer, Ana Isabel",
+          "formas_ayuda": [
+            "Avisarme cuando llegue la hora de ir al gimnasio",
+            "Recordarme mi compromiso, sacar el contrato y enseñármelo",
+            "Moverme si ve que no arranco, ayudarme con la ropa de deporte",
+            "Acompañarme en coche hasta allí, y luego que entre irse",
+            "Felicitarme cuando vuelva, preguntarme por la clase, animarme"
+          ]
+        }
+      },
+      "cuando_usar": "Especialmente útil cuando: el paciente tiene dificultad para automotivarse, hay una persona cercana disponible y dispuesta, la actividad requiere salir de casa o enfrentar una situación evitada, o cuando el paciente necesita 'accountability' externa.",
+      "precauciones": [
+        "La persona de apoyo debe entender su rol: ayudar, no presionar ni juzgar",
+        "El contrato es un compromiso voluntario, no una imposición",
+        "Si la persona de apoyo no cumple su parte, se ajusta el contrato, no se culpa al paciente",
+        "No usar contratos si la relación con la persona de apoyo es conflictiva o fuente de estrés"
+      ]
+    },
+    "registro_actividades_completadas": {
+      "id": "HT08",
+      "nombre": "Registro Semanal de Actividades Completadas",
+      "fuente": "Martell et al. (2010), Anexo XIII en Barraca y Pérez-Álvarez (2015)",
+      "proposito": "Monitorizar semanalmente qué actividades programadas se completaron y cuáles no, junto con el estado de ánimo diario",
+      "estructura": {
+        "filas": "Actividades programadas (hasta 5)",
+        "columnas": "Lunes a Domingo",
+        "celda": "X si se completó, vacío si no",
+        "fila_adicional": "Estado de ánimo general del día (1-10)"
+      },
+      "caso_ejemplo_marta": {
+        "paciente": "Marta, 37 años, casada, 3 hijos, profesora de Secundaria de baja por depresión. Primera semana de tratamiento.",
+        "nota": "Se programaron solo 3 actividades para la primera semana (mínimo viable)",
+        "datos_animo_semanal": {
+          "lunes": 2,
+          "martes": 4,
+          "miercoles": 1,
+          "jueves": 5,
+          "viernes": 3,
+          "sabado": 3,
+          "domingo": 2
+        },
+        "observacion": "El ánimo fluctúa pero el jueves (día con más actividades completadas) tiene la puntuación más alta. Esta relación es la que el terapeuta señala para fortalecer la motivación."
+      }
+    },
+    "registro_reforzadores_directos": {
+      "id": "HT09",
+      "nombre": "Lista de Reforzadores Positivos Directos",
+      "fuente": "Barraca y Pérez-Álvarez (2015), Anexo IX",
+      "proposito": "Lista jerarquizada de pequeños reforzadores que el paciente puede obtener como recompensa por completar actividades. Útil como complemento motivacional, especialmente al inicio del tratamiento.",
+      "estructura": {
+        "max_items": 10,
+        "campos": [
+          "numero_orden",
+          "reforzador",
+          "obtenido_si_no"
+        ]
+      },
+      "caso_ejemplo_ana": {
+        "paciente": "Ana, 23 años, estudiante de audiovisuales",
+        "lista_reforzadores": [
+          {
+            "orden": 1,
+            "reforzador": "Pulsera"
+          },
+          {
+            "orden": 2,
+            "reforzador": "Descarga del disco de V3"
+          },
+          {
+            "orden": 3,
+            "reforzador": "Descarga del disco de V3"
+          },
+          {
+            "orden": 4,
+            "reforzador": "Café y sándwich en Ambassada"
+          },
+          {
+            "orden": 5,
+            "reforzador": "Excursión a Navacerrada"
+          },
+          {
+            "orden": 6,
+            "reforzador": "Comprarme vestido"
+          },
+          {
+            "orden": 7,
+            "reforzador": "Comprarme vestido"
+          },
+          {
+            "orden": 8,
+            "reforzador": "Al cine"
+          },
+          {
+            "orden": 9,
+            "reforzador": "Helados para el sábado y domingo"
+          },
+          {
+            "orden": 10,
+            "reforzador": "Al spa"
+          }
+        ]
+      },
+      "nota_clinica": "Los reforzadores directos son un complemento TEMPORAL. El objetivo es que la actividad en sí misma se convierta en reforzante (reforzamiento natural). Se usan más al inicio cuando la depresión impide experimentar placer en las actividades."
+    },
+    "registro_action": {
+      "id": "HT10",
+      "nombre": "Registro ACTION para Afrontamiento de Evitación",
+      "fuente": "Martell et al. (2010), Anexo VIII en Barraca y Pérez-Álvarez (2015)",
+      "proposito": "Guía paso a paso para que el paciente analice y modifique sus conductas de evitación de forma autónoma",
+      "estructura": {
+        "A_Assess": {
+          "label": "Evalúa (Assess)",
+          "instruccion": "¿Para qué sirve esta conducta? ¿Cuáles son sus consecuencias? ¿Son depresivas o activantes? ¿Es coherente con mis metas a largo plazo?"
+        },
+        "C_Choose": {
+          "label": "Elige (Choose)",
+          "instruccion": "¿Qué acción eliges como alternativa?"
+        },
+        "T_Try": {
+          "label": "Prueba (Try)",
+          "instruccion": "Recoge con detalle tu plan para poner la nueva conducta en marcha."
+        },
+        "I_Integrate": {
+          "label": "Integra (Integrate)",
+          "instruccion": "Si estás intentando algo nuevo, es necesario hacerla más de una vez antes de confirmar si es útil. Intégrala en tus rutinas. ¿Cómo lo harás?"
+        },
+        "O_Observe": {
+          "label": "Observa (Observe)",
+          "instruccion": "¿Cómo resultó? ¿Te sientes peor o mejor después? ¿Te has aproximado a alguna de tus metas? ¿Has integrado esta conducta en tu registro?"
+        },
+        "N_Never_give_up": {
+          "label": "No te rindas (Never give up)",
+          "instruccion": "Si todavía no has tenido éxito, ¿qué otra cosa puedes probar? Recuerda no tirar la toalla."
+        }
+      }
+    },
+    "notas_prevencion_recaidas": {
+      "id": "HT11",
+      "nombre": "Ficha de Prevención de Recaídas",
+      "fuente": "Barraca y Pérez-Álvarez (2015), Anexo XIV",
+      "proposito": "Documento que el paciente conserva tras finalizar el tratamiento, con información personalizada para prevenir recaídas",
+      "estructura": {
+        "secciones": [
+          {
+            "seccion": "Mis vulnerabilidades",
+            "descripcion": "Factores que me hacen más susceptible a una recaída"
+          },
+          {
+            "seccion": "Conductas del ciclo depresivo que debo vigilar",
+            "descripcion": "Señales de alarma de que estoy volviendo a patrones depresivos"
+          },
+          {
+            "seccion": "Mis conductas antidepresivas",
+            "descripcion": "Lista de actividades que sé que me ayudan a mantenerme bien"
+          },
+          {
+            "seccion": "Estrategias de mantenimiento",
+            "descripcion": "Lo que puedo hacer si noto que estoy bajando"
+          },
+          {
+            "seccion": "Personas de apoyo",
+            "descripcion": "A quién puedo acudir si necesito ayuda"
+          },
+          {
+            "seccion": "Profesional de referencia",
+            "descripcion": "Contacto del terapeuta para sesiones de refuerzo si es necesario"
+          }
+        ]
+      },
+      "caso_ejemplo_marta2": {
+        "paciente": "Marta, 33 años, administrativa",
+        "vulnerabilidades": "Tendencia a asumir demasiadas responsabilidades, dificultad para pedir ayuda, perfeccionismo",
+        "conductas_ciclo_depresivo": "Dejar de quedar con amigas, quedarse en la cama los fines de semana, dejar de hacer ejercicio, empezar a rumiar sobre el trabajo",
+        "conductas_antidepresivas": "Ir a pilates 2x/semana, quedar con amigas al menos 1x/semana, mantener horario regular, cocinar en vez de pedir comida rápida, leer antes de dormir",
+        "estrategias_mantenimiento": "Si noto que empiezo a cancelar planes, activar protocolo TRAC. Si llevo 1 semana sin ejercicio, programar sesión inmediatamente. Si el ánimo baja a 4 o menos durante 3 días seguidos, contactar con mi terapeuta."
+      }
+    }
+  },
+  "area_4_inventarios_cuestionarios": {
+    "nombre": "Inventarios y Cuestionarios Clínicos",
+    "descripcion": "Instrumentos estandarizados con validación psicométrica para evaluar el estado del paciente, monitorizar el progreso y guiar las decisiones clínicas",
+    "BADS": {
+      "id": "IC01",
+      "nombre_completo": "Behavioral Activation for Depression Scale (BADS)",
+      "autores_original": "Kanter, Mulick, Busch, Berlin y Martell (2007)",
+      "adaptacion_espanola": "Barraca, Pérez-Álvarez y Lozano-Bleda (2011)",
+      "items": 25,
+      "escala_respuesta": "0 (en absoluto) a 6 (completamente)",
+      "subescalas": [
+        {
+          "nombre": "Activación (AC)",
+          "items": 7,
+          "descripcion": "Conductas dirigidas a metas, realización de actividades y cumplimiento de rutinas",
+          "direccion": "directa"
+        },
+        {
+          "nombre": "Evitación/Rumiación (ER)",
+          "items": 8,
+          "descripcion": "Evitación de situaciones y personas, rumiación sobre problemas pasados",
+          "direccion": "inversa"
+        },
+        {
+          "nombre": "Afectación en el Trabajo/Escuela (AT)",
+          "items": 5,
+          "descripcion": "Impacto de la depresión en el rendimiento académico o laboral",
+          "direccion": "inversa"
+        },
+        {
+          "nombre": "Afectación en la Vida Social (AS)",
+          "items": 5,
+          "descripcion": "Impacto de la depresión en las relaciones y actividades sociales",
+          "direccion": "inversa"
+        }
+      ],
+      "puntuacion": "Total = suma de las 4 subescalas (invirtiendo las inversas). Mayor puntuación = mayor nivel de activación conductual y menor depresión.",
+      "datos_normativos_espanoles": {
+        "muestra_total": {
+          "N": 263,
+          "M": 86.72,
+          "DT": 25.44
+        },
+        "grupo_clinico": {
+          "N": 124,
+          "M": 76.87,
+          "DT": 24.45
+        },
+        "grupo_control": {
+          "N": 139,
+          "M": 95.51,
+          "DT": 23.03
+        },
+        "subescalas_total": {
+          "Activacion": {
+            "M": 22.67,
+            "DT": 8.22
+          },
+          "Evitacion_Rumiacion": {
+            "M": 14.2,
+            "DT": 6.78
+          },
+          "Afectacion_Trabajo": {
+            "M": 16.78,
+            "DT": 8.21
+          },
+          "Afectacion_Social": {
+            "M": 12.61,
+            "DT": 10.31
+          }
+        }
+      },
+      "uso_clinico": "Administrar al inicio para establecer línea base y repetir periódicamente (cada 4-6 sesiones) para monitorizar progreso. Una mejora significativa se considera un cambio de 1 DT (≈25 puntos) o más.",
+      "frecuencia_administracion": "Evaluación inicial, cada 4-6 semanas durante tratamiento, y al cierre"
+    },
+    "BDI_II": {
+      "id": "IC02",
+      "nombre_completo": "Inventario de Depresión de Beck - Segunda Edición (BDI-II)",
+      "autores": "Beck, Steer y Brown (1996)",
+      "items": 21,
+      "escala_respuesta": "0 a 3 por ítem",
+      "rango_puntuacion": "0-63",
+      "puntos_de_corte": {
+        "minima": {
+          "rango": "0-13",
+          "descripcion": "Depresión mínima o ausente"
+        },
+        "leve": {
+          "rango": "14-19",
+          "descripcion": "Depresión leve"
+        },
+        "moderada": {
+          "rango": "20-28",
+          "descripcion": "Depresión moderada"
+        },
+        "grave": {
+          "rango": "29-63",
+          "descripcion": "Depresión grave"
+        }
+      },
+      "areas_evaluadas": [
+        "Tristeza",
+        "Pesimismo",
+        "Fracaso",
+        "Pérdida de placer",
+        "Sentimientos de culpa",
+        "Sentimientos de castigo",
+        "Disconformidad con uno mismo",
+        "Autocrítica",
+        "Pensamientos o deseos suicidas",
+        "Llanto",
+        "Agitación",
+        "Pérdida de interés",
+        "Indecisión",
+        "Desvalorización",
+        "Pérdida de energía",
+        "Cambios en los hábitos de sueño",
+        "Irritabilidad",
+        "Cambios en el apetito",
+        "Dificultad de concentración",
+        "Cansancio o fatiga",
+        "Pérdida de interés en el sexo"
+      ],
+      "item_critico_suicidio": {
+        "item_numero": 9,
+        "descripcion": "Evalúa pensamientos o deseos suicidas",
+        "protocolo_alerta": "Si puntuación ≥ 2 en ítem 9, activar protocolo de evaluación de riesgo suicida inmediatamente. No continuar con la evaluación estándar hasta que se haya evaluado y gestionado el riesgo.",
+        "opciones_respuesta": {
+          "0": "No tengo ningún pensamiento de matarme",
+          "1": "He tenido pensamientos de matarme, pero no lo haría",
+          "2": "Querría matarme",
+          "3": "Me mataría si tuviera la oportunidad de hacerlo"
+        }
+      },
+      "uso_clinico": "Medida principal de severidad depresiva. Administrar al inicio, semanalmente o bisemanalmente durante tratamiento activo, y al cierre. Permite monitorizar cambios sesión a sesión.",
+      "frecuencia_administracion": "Evaluación inicial, cada 1-2 semanas durante tratamiento, cierre",
+      "criterio_mejoría_clinica": "Reducción de ≥ 50% respecto a línea base O paso a categoría inferior de severidad"
+    },
+    "EROS": {
+      "id": "IC03",
+      "nombre_completo": "Environmental Reward Observation Scale (EROS)",
+      "autores_original": "Armento y Hopko (2007)",
+      "adaptacion_espanola": "Barraca y Pérez-Álvarez (2010)",
+      "items": 10,
+      "escala_respuesta": "1 (totalmente en desacuerdo) a 4 (totalmente de acuerdo)",
+      "estructura_factorial": "Unifactorial",
+      "rango_puntuacion": "10-40",
+      "interpretacion": "Mayor puntuación = mayor reforzamiento positivo contingente percibido del entorno. Es decir, mayor contacto con experiencias reforzantes.",
+      "items_directos": [
+        1,
+        3,
+        4,
+        8,
+        10
+      ],
+      "items_inversos": [
+        2,
+        5,
+        6,
+        7,
+        9
+      ],
+      "contenido_items": [
+        "1. Muchas actividades de mi vida son agradables",
+        "2. Últimamente, me he dado cuenta de que las cosas que vivo me hacen infeliz (I)",
+        "3. En general, estoy muy satisfecho con la forma en que empleo mi tiempo",
+        "4. Me resulta fácil encontrar con qué disfrutar en la vida",
+        "5. Otras personas parecen tener vidas más plenas (I)",
+        "6. Ya no me resultan gratificantes actividades que antes me agradaban (I)",
+        "7. Desearía encontrar más aficiones que me divirtiesen (I)",
+        "8. Estoy satisfecho con mis logros",
+        "9. Mi vida es aburrida (I)",
+        "10. Las actividades en que tomo parte normalmente salen bien"
+      ],
+      "datos_normativos_espanoles": {
+        "muestra_no_clinica": {
+          "N": 569,
+          "M": 29.18,
+          "DT": 5.46
+        },
+        "muestra_clinica": {
+          "N": 72,
+          "M": 22.89,
+          "DT": 5.95
+        },
+        "percentiles_no_clinicos": {
+          "P5": 19,
+          "P10": 22,
+          "P15": 23,
+          "P20": 24,
+          "P25": 25,
+          "P30": 26,
+          "P35": 27,
+          "P40": 28,
+          "P45": 29,
+          "P50": 30,
+          "P55": 30,
+          "P60": 31,
+          "P65": 32,
+          "P70": 33,
+          "P75": 34,
+          "P80": 35,
+          "P85": 35,
+          "P90": 36,
+          "P95": 38
+        }
+      },
+      "uso_clinico": "Medida específica del constructo central de la AC: el reforzamiento positivo contingente del entorno. Complementa al BDI-II al medir un mecanismo de cambio, no solo síntomas. Especialmente útil para: (a) evaluar si el ambiente del paciente es objetivamente pobre en reforzadores, (b) medir progreso en la dimensión que la AC trabaja directamente.",
+      "frecuencia_administracion": "Evaluación inicial, cada 4-6 semanas, cierre"
+    },
+    "SHAPS": {
+      "id": "IC04",
+      "nombre_completo": "Snaith-Hamilton Pleasure Scale (SHAPS) - Escala de Anhedonia",
+      "autores": "Snaith et al. (1995)",
+      "items": 14,
+      "descripcion": "Evalúa específicamente la capacidad de experimentar placer (anhedonia). Complementaria al BDI-II porque la anhedonia es un síntoma cardinal de la depresión que la AC aborda directamente.",
+      "areas_evaluadas": [
+        "Intereses/pasatiempos",
+        "Entretenimiento/diversiones",
+        "Interacciones sociales",
+        "Comida/bebida",
+        "Experiencias sensoriales",
+        "Actividades sociales"
+      ],
+      "escala_respuesta": "4 opciones por ítem: Totalmente de acuerdo / De acuerdo / En desacuerdo / Totalmente en desacuerdo",
+      "puntuacion": "Las respuestas 'En desacuerdo' o 'Totalmente en desacuerdo' puntúan 1 cada una. Rango: 0-14.",
+      "interpretacion": {
+        "0_2": "Funcionamiento hedónico normal",
+        "3_o_mas": "Presencia de anhedonia significativa"
+      },
+      "uso_clinico": "Especialmente útil al inicio del tratamiento para evaluar el grado de anhedonia y al seguimiento para ver si la activación está restaurando la capacidad de placer. Guía la selección de actividades: si hay anhedonia alta, priorizar actividades de placer sensorial y actividades nuevas/novedosas.",
+      "frecuencia_administracion": "Evaluación inicial, mensualmente, cierre"
+    },
+    "cuestionario_evitacion_conductual": {
+      "id": "IC05",
+      "nombre_completo": "Cuestionario de Evitación Conductual (basado en subescala BADS-ER)",
+      "descripcion": "Evaluación específica de patrones de evitación, derivada de la subescala de Evitación/Rumiación del BADS y complementada con ítems clínicos adicionales",
+      "areas_evaluacion": [
+        "Evitación de actividades sociales",
+        "Evitación de responsabilidades laborales/académicas",
+        "Evitación de situaciones que generan ansiedad",
+        "Permanencia en cama/hogar como escape",
+        "Postergación de tareas",
+        "Rumiación como forma de evitación conductual",
+        "Uso de sustancias o pantallas como escape"
+      ],
+      "uso_clinico": "Complementa la identificación de patrones TRAP. Ayuda a priorizar qué conductas de evitación trabajar primero (las más frecuentes o las que más impacto negativo tienen).",
+      "nota": "Puede construirse a partir de los ítems de evitación del BADS más preguntas de entrevista clínica específicas."
+    },
+    "RPI": {
+      "id": "IC06",
+      "nombre_completo": "Reward Probability Index (RPI) - Índice de Probabilidad de Recompensa",
+      "autores": "Carvalho et al. (2011)",
+      "items": 20,
+      "factores": [
+        {
+          "nombre": "Factor I: Probabilidad de Recompensa",
+          "descripcion": "Disponibilidad percibida de recompensas en el entorno",
+          "datos_normativos": {
+            "M": 36.2,
+            "DT": 4.5
+          }
+        },
+        {
+          "nombre": "Factor II: Supresores Ambientales",
+          "descripcion": "Grado en que el entorno suprime o bloquea la obtención de reforzadores",
+          "datos_normativos": {
+            "M": 27.1,
+            "DT": 4.6
+          }
+        }
+      ],
+      "puntuacion_total": {
+        "M": 63.3,
+        "DT": 7.9
+      },
+      "uso_clinico": "Evalúa si el problema es la falta de reforzadores disponibles en el entorno (Factor I bajo) o la presencia de supresores que bloquean el acceso a reforzadores existentes (Factor II alto). Esta distinción guía la intervención: si faltan reforzadores, crear nuevas oportunidades; si hay supresores, trabajar para eliminarlos o reducirlos."
+    },
+    "protocolo_administracion_general": {
+      "evaluacion_inicial": [
+        "BDI-II",
+        "BADS",
+        "EROS",
+        "SHAPS"
+      ],
+      "seguimiento_frecuente": [
+        "BDI-II (cada 1-2 semanas)"
+      ],
+      "seguimiento_periodico": [
+        "BADS (cada 4-6 semanas)",
+        "EROS (cada 4-6 semanas)"
+      ],
+      "cierre_tratamiento": [
+        "BDI-II",
+        "BADS",
+        "EROS",
+        "SHAPS"
+      ],
+      "nota": "Adaptar según necesidades clínicas. No sobrecargar al paciente con demasiados cuestionarios en una sola sesión."
+    }
+  },
+  "area_5_recursos_psicoeducativos": {
+    "nombre": "Recursos Psicoeducativos para Pacientes",
+    "descripcion": "Material educativo diseñado para ayudar al paciente a comprender el modelo de la AC, su proceso de tratamiento, y mantener la motivación",
+    "guias_explicativas_modelo_ac": {
+      "guia_ciclo_depresivo": {
+        "titulo": "¿Por qué me siento así? Entendiendo el ciclo de la depresión",
+        "contenido_clave": [
+          "La depresión no es 'culpa tuya' ni una señal de debilidad",
+          "Cuando algo difícil pasa, es natural retirarse. El problema es cuando esa retirada se mantiene",
+          "Hacer menos cosas → sentirse peor → hacer aún menos → sentirse peor todavía (el círculo vicioso)",
+          "La buena noticia: ese círculo se puede romper. Y se rompe por la conducta, no por los sentimientos"
+        ],
+        "analogias_utiles": [
+          {
+            "analogia": "La bola de nieve",
+            "descripcion": "La depresión es como una bola de nieve: empieza pequeña pero cuanto más rueda, más grande se hace. Cada cosa que dejamos de hacer la hace un poco más grande. La AC es como ponerle palos en el camino a esa bola para que deje de crecer y empiece a reducirse."
+          },
+          {
+            "analogia": "El músculo que no se usa",
+            "descripcion": "Si dejas un brazo en cabestrillo durante meses, cuando lo saques estará débil y torpe. No porque esté roto, sino porque no se ha usado. La depresión es como un cabestrillo emocional: al dejar de hacer cosas, perdemos la 'forma física' emocional. La AC es la rehabilitación."
+          },
+          {
+            "analogia": "El coche sin gasolina",
+            "descripcion": "Imagina que tu ánimo es como un coche que funciona con gasolina. Las actividades que disfrutas o que te hacen sentir capaz son la gasolina. Si dejas de echar gasolina, el coche se para. No porque esté averiado, sino porque se ha quedado sin combustible. La AC te ayuda a volver a llenar el depósito."
+          }
+        ]
+      },
+      "guia_logica_tratamiento": {
+        "titulo": "¿Cómo funciona este tratamiento? Lo que necesitas saber",
+        "mensajes_clave": [
+          "No vamos a analizar interminablemente tu pasado ni tus pensamientos. Vamos a trabajar en lo que haces, aquí y ahora.",
+          "La motivación viene DESPUÉS de actuar, no antes. No necesitas tener ganas para empezar.",
+          "Vamos a ir muy poco a poco. No te pediré nada que no puedas hacer.",
+          "Yo soy tu entrenador. Tú eres el experto en tu vida. Juntos vamos a diseñar un plan que funcione para ti.",
+          "No hay fracasos, solo datos. Si algo no funciona, lo ajustamos.",
+          "El objetivo no es que te sientas bien todo el tiempo, sino que retomes una vida que tenga sentido para ti."
+        ]
+      },
+      "guia_que_esperar": {
+        "titulo": "¿Qué puedo esperar del tratamiento?",
+        "fases": [
+          {
+            "fase": "Primeras 1-2 semanas",
+            "que_esperar": "Vamos a conocernos y entender tu situación. Empezarás a registrar lo que haces cada día. No tienes que cambiar nada todavía, solo observar."
+          },
+          {
+            "fase": "Semanas 3-4",
+            "que_esperar": "Identificaremos qué áreas de tu vida son más importantes para ti. Empezaremos a programar unas pocas actividades sencillas. Puede que no notes grandes cambios todavía, y eso es normal."
+          },
+          {
+            "fase": "Semanas 5-8",
+            "que_esperar": "Iremos añadiendo más actividades gradualmente. Probablemente empezarás a notar algunos días mejores. También habrá días difíciles, y eso es completamente esperado."
+          },
+          {
+            "fase": "Semanas 9-16",
+            "que_esperar": "La tendencia general debería ser de mejora. Trabajaremos en las situaciones más difíciles y en mantener los cambios que ya has logrado."
+          },
+          {
+            "fase": "Cierre",
+            "que_esperar": "Prepararemos juntos un plan de mantenimiento para que puedas seguir adelante con las herramientas que has aprendido."
+          }
+        ]
+      }
+    },
+    "infografias_ciclo_depresivo": {
+      "infografia_1": {
+        "titulo": "El Ciclo Vicioso de la Depresión",
+        "elementos_visuales": [
+          "Círculo con flechas mostrando: Evento adverso → Reducción de actividad → Menos reforzamiento → Peor ánimo → Más evitación → Más reducción de actividad",
+          "Color: tonos progresivamente más oscuros para representar el empeoramiento",
+          "Punto de intervención señalado: 'AQUÍ es donde actuamos: cambiando lo que haces'"
+        ],
+        "formato_recomendado": "SVG interactivo o imagen con animación simple"
+      },
+      "infografia_2": {
+        "titulo": "De TRAP a TRAC: Cambiando el Patrón",
+        "elementos_visuales": [
+          "Lado izquierdo (rojo/gris): Disparador → Emoción → Evitación → (flecha circular: sigue el ciclo)",
+          "Lado derecho (verde/azul): Disparador → Emoción (la misma) → Acción alternativa → (flecha ascendente: mejora)",
+          "Señalar que la emoción es la misma en ambos caminos; lo que cambia es la conducta"
+        ]
+      },
+      "infografia_3": {
+        "titulo": "La Motivación viene Después",
+        "elementos_visuales": [
+          "Mito: Motivación → Acción → Resultado",
+          "Realidad: Acción → Pequeño resultado → Un poco más de motivación → Más acción → Mejor resultado → Más motivación",
+          "Ilustrar con ejemplo cotidiano: nadie tiene ganas de ir al gimnasio, pero después se alegra de haber ido"
+        ]
+      }
+    },
+    "material_sobre_valores": {
+      "titulo": "Tus valores son tu brújula",
+      "contenido": "Los valores son las direcciones que queremos seguir en la vida. No son metas que se alcanzan y ya está, sino direcciones hacia las que caminamos. Por ejemplo, 'ser un buen padre' no es algo que se logra un día y se acaba; es una dirección que guía tus acciones cada día. En momentos de depresión, podemos perder de vista nuestros valores. No porque hayan desaparecido, sino porque la depresión nos nubla la vista. Una parte importante de este tratamiento es reconectar con lo que realmente te importa y usar eso como motor para la acción.",
+      "ejercicio_reflexivo": [
+        "Si un amigo cercano tuviera que describir qué tipo de persona eres cuando estás en tu mejor momento, ¿qué diría?",
+        "¿Qué cosas te gustaría que dijeran de ti las personas que más te importan?",
+        "Si la depresión desapareciera mañana, ¿qué sería lo primero que harías?",
+        "¿Qué actividades de las que has dejado de hacer echas más de menos?",
+        "¿Hay algo que siempre quisiste hacer pero nunca te atreviste?"
+      ]
+    },
+    "material_normalizacion": {
+      "titulo": "Lo que sientes es normal",
+      "mensajes_clave": [
+        "La depresión afecta a aproximadamente 280 millones de personas en el mundo. No estás solo/a.",
+        "No es señal de debilidad ni de falta de voluntad. Es una condición que tiene explicación y tratamiento.",
+        "Es normal sentir que no tienes ganas de nada. Eso es parte de la depresión, no de quién eres.",
+        "Es normal que el progreso no sea lineal. Habrá días buenos y días malos.",
+        "Pedir ayuda es un acto de valentía, no de debilidad.",
+        "Con el tratamiento adecuado, la gran mayoría de las personas mejoran significativamente."
+      ]
+    }
+  },
+  "area_6_ejercicios_y_tecnicas": {
+    "nombre": "Ejercicios y Técnicas de Activación Conductual",
+    "descripcion": "Conjunto de técnicas e intervenciones específicas que se aplican durante el proceso terapéutico de AC, con procedimientos detallados, indicaciones y contraindicaciones",
+    "T01_registro_diario_actividades": {
+      "id": "T01",
+      "nombre": "Registro Diario de Actividades",
+      "peso": "FUNDAMENTAL - herramienta central de toda la terapia",
+      "fase_uso": "Desde sesión 1 hasta el final del tratamiento",
+      "objetivo": "Establecer línea base conductual, monitorizar cambios, identificar patrones actividad-ánimo, reforzar la autoobservación",
+      "procedimiento": {
+        "paso_1": "Presentar el registro en sesión y explicar su importancia: 'Este registro es como el termómetro de la terapia. Nos dice dónde estamos y hacia dónde vamos.'",
+        "paso_2": "Mostrar cómo rellenarlo con un ejemplo del propio paciente: '¿Qué hiciste ayer por la mañana? ¿Cómo te sentiste? Así es como lo anotaríamos.'",
+        "paso_3": "Acordar momento del día para rellenar (idealmente antes de acostarse o en dos momentos: mediodía y noche)",
+        "paso_4": "Revisar en CADA sesión. Nunca omitir la revisión. Si no lo trajo, dedicar tiempo a reconstruirlo de memoria.",
+        "paso_5": "Usar los datos del registro para las decisiones clínicas: qué actividades programar, qué patrones trabajar, qué progreso señalar"
+      },
+      "dificultades_comunes": {
+        "no_lo_rellena": "Explorar barreras (olvido, pereza, no entiende cómo). Simplificar formato si es necesario. Usar alarmas como recordatorio. NUNCA reñir ni juzgar.",
+        "lo_rellena_incompleto": "Validar lo que sí completó. Preguntar qué partes fueron más difíciles. Adaptar el formato.",
+        "duda_de_su_utilidad": "Explicar con datos de su propio registro: 'Mira, el jueves que fuiste a caminar tu ánimo subió a 6. Sin el registro no hubiéramos visto eso.'"
+      }
+    },
+    "T02_calificacion_dominio_placer": {
+      "id": "T02",
+      "nombre": "Calificación de Dominio y Placer",
+      "peso": "FUNDAMENTAL - integrada en el registro diario",
+      "objetivo": "Evaluar la experiencia subjetiva de cada actividad en dos dimensiones clave: sensación de competencia (dominio) y disfrute (placer)",
+      "procedimiento": {
+        "paso_1": "Tras registrar cada actividad, el paciente valora de 1 a 10 el placer y el dominio experimentado",
+        "paso_2": "En sesión, el terapeuta analiza los patrones: actividades de alto placer, de alto dominio, ambos, ninguno",
+        "paso_3": "Usar esta información para: (a) identificar reforzadores naturales existentes, (b) planificar nuevas actividades, (c) equilibrar entre actividades de placer y de logro"
+      },
+      "interpretacion_patrones": {
+        "todo_bajo": "Posible anhedonia severa. Comenzar con actividades muy sencillas y de placer sensorial inmediato.",
+        "dominio_alto_placer_bajo": "Paciente funcional pero sin disfrute. Incorporar actividades puramente placenteras.",
+        "placer_alto_dominio_bajo": "Tiene fuentes de placer pero se siente incompetente. Trabajar actividades de logro graduadas.",
+        "variabilidad_alta": "Buena señal: indica que el sistema de reforzamiento no está completamente anulado."
+      }
+    },
+    "T03_lista_jerarquizada_actividades": {
+      "id": "T03",
+      "nombre": "Lista Jerarquizada de Actividades",
+      "peso": "FUNDAMENTAL - estructura de la intervención",
+      "fuente": "Lejuez et al. (2011)",
+      "objetivo": "Crear una lista ordenada de 15 actividades seleccionadas para el tratamiento, organizadas de menor a mayor dificultad",
+      "procedimiento": {
+        "paso_1": "A partir del trabajo con áreas vitales y valores, el paciente (con ayuda del terapeuta) selecciona 15 actividades concretas que le gustaría incorporar a su vida",
+        "paso_2": "Cada actividad se valora en dificultad de 1 (más fácil) a 15 (más difícil). La dificultad incluye factores físicos, emocionales, sociales y prácticos.",
+        "paso_3": "Las actividades se ordenan de menor a mayor dificultad",
+        "paso_4": "Se comienza implementando las 2-3 más fáciles. Se van añadiendo a medida que el paciente las consolida."
+      },
+      "criterios_buena_actividad": [
+        "Es CONCRETA y específica (no vaga ni abstracta)",
+        "Tiene PARÁMETROS definidos (cuándo, dónde, con quién, cuánto tiempo)",
+        "Está CONECTADA con un valor personal del paciente",
+        "Es REALISTA dado el nivel actual de funcionamiento del paciente",
+        "Puede GRADUARSE si es necesario (dividirse en pasos más pequeños)",
+        "Su RESULTADO es observable (el paciente puede saber si la hizo o no)"
+      ]
+    },
+    "T04_experimentos_conductuales": {
+      "id": "T04",
+      "nombre": "Experimentos Conductuales",
+      "peso": "COMPLEMENTARIO - para desafiar creencias mediante la acción",
+      "objetivo": "Poner a prueba predicciones negativas del paciente deprimido mediante la experiencia directa, en lugar de mediante debate cognitivo",
+      "procedimiento": {
+        "paso_1": "Identificar una predicción negativa específica: 'Si llamo a mi amigo, me va a rechazar' / 'Si voy al gimnasio no voy a aguantar ni 5 minutos'",
+        "paso_2": "Diseñar el experimento: '¿Qué tal si lo probamos y vemos qué pasa? No es un compromiso, es un experimento.'",
+        "paso_3": "Acordar criterios de evaluación: '¿Cómo sabremos qué pasó? ¿Qué resultado te haría pensar que tu predicción era correcta? ¿Y cuál que era incorrecta?'",
+        "paso_4": "El paciente realiza el experimento entre sesiones",
+        "paso_5": "Revisión en sesión: '¿Qué pasó realmente? ¿Coincidió con tu predicción?' Sin juzgar ni interpretar prematuramente. Dejar que los datos hablen."
+      },
+      "nota_clinica": "En AC, los experimentos conductuales NO se enmarcan como 'reestructuración cognitiva'. No se busca 'corregir un pensamiento distorsionado'. Se busca que el paciente tenga una experiencia nueva que amplíe su repertorio conductual. Si además cambia un pensamiento, genial, pero ese no es el objetivo explícito.",
+      "ejemplos": [
+        {
+          "prediccion": "Si llamo a mi madre me va a preguntar por qué no la llamo más y me sentiré culpable",
+          "experimento": "Llamar a mamá 5 minutos esta semana. Observar qué dice realmente y cómo te sientes después.",
+          "resultado_frecuente": "La madre se alegró de la llamada, hablaron 15 minutos de cosas normales. Ánimo subió de 3 a 5."
+        },
+        {
+          "prediccion": "No puedo concentrarme para estudiar ni 10 minutos",
+          "experimento": "Poner un temporizador de 10 minutos. Abrir el libro. Cuando suene, parar. Sin juicio.",
+          "resultado_frecuente": "Estudió 10 minutos. No fue agradable pero lo hizo. Algunos pacientes estudian más de 10 minutos sin darse cuenta."
+        }
+      ]
+    },
+    "T05_visualizacion_exito_futuro": {
+      "id": "T05",
+      "nombre": "Visualización de Éxito Futuro",
+      "peso": "TERCIARIO - complemento motivacional",
+      "objetivo": "Ayudar al paciente a conectar con una imagen positiva de su futuro que sirva como motivador para la acción presente",
+      "procedimiento": {
+        "paso_1": "Pedir al paciente que cierre los ojos e imagine un día típico en su vida dentro de 6 meses, si el tratamiento ha ido bien",
+        "paso_2": "Guiar con preguntas: '¿Dónde estás? ¿Qué estás haciendo? ¿Con quién estás? ¿Cómo te sientes?'",
+        "paso_3": "Conectar esa imagen con las actividades actuales: '¿Qué de lo que estamos trabajando ahora te acerca a esa imagen?'",
+        "paso_4": "Si el paciente tiene mucha dificultad para imaginar algo positivo, NO insistir. Esto puede indicar desesperanza severa y requiere manejo específico."
+      },
+      "precaucion": "No usar si el paciente está en estado de desesperanza aguda. En esos casos, trabajar primero con actividades muy concretas e inmediatas."
+    },
+    "T06_juego_roles_habilidades_sociales": {
+      "id": "T06",
+      "nombre": "Juego de Roles para Habilidades Sociales",
+      "peso": "OCASIONAL - solo cuando hay déficit de habilidades sociales que impide obtener reforzamiento",
+      "fuente": "Barraca y Pérez-Álvarez (2015), cap. 6.5",
+      "objetivo": "Entrenar habilidades específicas que el paciente necesita para poder realizar actividades sociales que le conecten con reforzadores",
+      "cuando_usar": [
+        "El paciente quiere llamar a un amigo pero 'no sabe qué decir'",
+        "El paciente evita situaciones sociales por falta de habilidades, no solo por ansiedad",
+        "El paciente tiene déficits en asertividad que le impiden poner límites o expresar necesidades",
+        "El paciente ha perdido habilidades sociales por aislamiento prolongado"
+      ],
+      "procedimiento": {
+        "paso_1": "Identificar la situación social concreta que el paciente necesita manejar",
+        "paso_2": "Modelar la conducta: el terapeuta demuestra cómo hacerlo",
+        "paso_3": "Role-play: el paciente practica, el terapeuta hace del interlocutor",
+        "paso_4": "Feedback específico y positivo: qué hizo bien, qué podría ajustar",
+        "paso_5": "Repetir hasta que el paciente se sienta razonablemente cómodo",
+        "paso_6": "Programar la situación real como actividad entre sesiones"
+      },
+      "nota": "En AC, el entrenamiento en habilidades sociales NO es una técnica principal. Solo se usa cuando un déficit específico de habilidades impide la activación. Si el paciente tiene las habilidades pero las evita por ansiedad, se trabaja con el protocolo TRAP/TRAC, no con entrenamiento."
+    },
+    "T07_atencion_plena_actividades": {
+      "id": "T07",
+      "nombre": "Práctica de Atención Plena en Actividades (Mindfulness Funcional)",
+      "peso": "CONDICIONAL - se usa específicamente cuando la rumiación bloquea la activación",
+      "fuente": "Martell et al. (2010), cap. sobre manejo de rumiación",
+      "objetivo": "Enseñar al paciente a redirigir su atención de la rumiación (pensamiento repetitivo sobre problemas pasados) hacia la experiencia directa del momento presente durante las actividades",
+      "conceptualizacion_ac": "En AC, el mindfulness NO se enseña como práctica meditativa formal ni como filosofía. Se usa como herramienta funcional: cuando la rumiación impide que el paciente se beneficie de las actividades (hace la actividad pero está 'en su cabeza' todo el tiempo), se le enseña a prestar atención a la experiencia sensorial directa.",
+      "procedimiento": {
+        "paso_1": "Identificar si la rumiación está interfiriendo: '¿Cuándo estás haciendo la actividad, estás ahí o tu mente está en otra parte?'",
+        "paso_2": "Psicoeducar sobre la diferencia entre rumiación y reflexión productiva: 'Pensar en un problema para resolverlo es útil. Darle vueltas al mismo pensamiento sin llegar a ningún sitio es rumiación. ¿Esto te ayuda a resolver algo o te mantiene atrapado/a?'",
+        "paso_3": "Enseñar la técnica de 'ancla sensorial': durante la actividad, prestar atención deliberada a lo que ven, oyen, huelen, tocan, saborean.",
+        "paso_4": "Practicar en sesión: 'Vamos a hacer un ejercicio. Come esta pasa/toma este café como si fuera la primera vez. ¿Qué notas?'",
+        "paso_5": "Asignar como tarea: aplicar atención plena durante 1-2 actividades específicas de la semana"
+      },
+      "pregunta_clave_diferencial": "¿Pensar en esto te está ayudando a resolver algo concreto (reflexión productiva) o te está manteniendo atrapado/a sin avanzar (rumiación)?",
+      "cuando_NO_usar": "Si el paciente no presenta rumiación significativa. No todos los pacientes deprimidos rumian. Para aquellos cuyo problema principal es la inactividad sin rumiación, esta técnica no es necesaria."
+    },
+    "T08_accion_opuesta_emocion": {
+      "id": "T08",
+      "nombre": "Técnica de Acción Opuesta a la Emoción",
+      "peso": "COMPLEMENTARIO - derivada de la TDC (Linehan), compatible con AC",
+      "objetivo": "Cuando una emoción empuja al paciente hacia la evitación, actuar deliberadamente en la dirección opuesta a lo que la emoción dicta",
+      "principio": "Las emociones tienen tendencias de acción asociadas: tristeza → retirarse, miedo → huir, vergüenza → esconderse. La acción opuesta rompe el vínculo automático emoción-conducta de evitación.",
+      "procedimiento": {
+        "paso_1": "Identificar la emoción presente: '¿Qué estás sintiendo ahora mismo?'",
+        "paso_2": "Identificar la tendencia de acción: '¿Qué te pide hacer esa emoción? ¿Quedarte en casa? ¿Cancelar planes?'",
+        "paso_3": "Proponer la acción opuesta: '¿Qué sería lo contrario a lo que la emoción te pide? Si la tristeza te dice 'quédate en la cama', la acción opuesta es levantarse y salir.'",
+        "paso_4": "Ejecutar con compromiso total: 'No basta con hacer la acción a medias. Hazla como si quisieras hacerla, con toda tu atención.'",
+        "paso_5": "Observar el resultado: '¿Cómo te sentiste después? ¿La emoción bajó de intensidad?'"
+      },
+      "nota_ac": "En AC, esta técnica se enmarca como una forma de TRAC: ante el disparador emocional, en vez del patrón de evitación, elegir la conducta alternativa (que resulta ser opuesta a la tendencia emocional). No se conceptualiza como 'regulación emocional' sino como 'activación conductual ante la evitación emocional'.",
+      "ejemplos": [
+        {
+          "emocion": "Tristeza",
+          "tendencia": "Aislarse, quedarse en cama",
+          "accion_opuesta": "Llamar a alguien, salir a caminar"
+        },
+        {
+          "emocion": "Ansiedad",
+          "tendencia": "Evitar la situación",
+          "accion_opuesta": "Aproximarse gradualmente a la situación"
+        },
+        {
+          "emocion": "Vergüenza",
+          "tendencia": "Esconderse, evitar a la gente",
+          "accion_opuesta": "Exponerse, compartir la experiencia con alguien de confianza"
+        },
+        {
+          "emocion": "Culpa",
+          "tendencia": "Autocastigarse, rumiar",
+          "accion_opuesta": "Reparar si es posible, o aceptar y actuar según valores"
+        }
+      ]
+    },
+    "T09_extincion_evitacion": {
+      "id": "T09",
+      "nombre": "Extinción de Conductas de Evitación",
+      "peso": "COMPLEMENTARIO ESENCIAL - segunda técnica más importante tras la programación de actividades",
+      "fuente": "Martell et al. (2010), Barraca y Pérez-Álvarez (2015) cap. 6.2",
+      "objetivo": "Reducir las conductas de evitación que mantienen la depresión, sustituyéndolas por conductas de afrontamiento activo",
+      "protocolo_completo": {
+        "paso_1_identificar": "Usar el registro diario y la entrevista para identificar las principales conductas de evitación: ¿qué situaciones evita? ¿qué actividades ha dejado de hacer? ¿qué hace en su lugar?",
+        "paso_2_funcionalizar": "Analizar cada evitación con TRAP: ¿qué la dispara? ¿qué emoción precede? ¿qué función cumple la evitación? ¿qué refuerzo negativo obtiene?",
+        "paso_3_alternativizar": "Construir TRAC para cada TRAP: ¿qué podría hacer en su lugar? La alternativa debe ser realista, graduada si es necesario, y conectada con valores",
+        "paso_4_implementar": "Programar la alternativa como actividad concreta con todos los parámetros",
+        "paso_5_revisar": "Evaluar resultados y ajustar"
+      },
+      "tipos_evitacion_comunes": [
+        {
+          "tipo": "Evitación situacional",
+          "ejemplo": "No salir de casa, no ir al trabajo, no contestar llamadas",
+          "intervencion": "Exposición gradual programada"
+        },
+        {
+          "tipo": "Evitación cognitiva (rumiación)",
+          "ejemplo": "Darle vueltas a los problemas sin actuar",
+          "intervencion": "Técnica de atención a la experiencia + redirección a la acción"
+        },
+        {
+          "tipo": "Evitación conductual activa",
+          "ejemplo": "Dormir excesivamente, ver TV todo el día, uso excesivo de pantallas",
+          "intervencion": "Sustitución gradual por actividades planificadas"
+        },
+        {
+          "tipo": "Evitación social",
+          "ejemplo": "Rechazar invitaciones, aislarse, no responder mensajes",
+          "intervencion": "Programar contactos sociales graduados"
+        },
+        {
+          "tipo": "Evitación por sustancias",
+          "ejemplo": "Beber alcohol, fumar marihuana, uso excesivo de medicación",
+          "intervencion": "Reducción progresiva + sustitución por actividades alternativas + coordinación médica si procede"
+        }
+      ]
+    },
+    "T10_reforzamiento_positivo_directo": {
+      "id": "T10",
+      "nombre": "Reforzamiento Positivo de Conductas Antidepresivas",
+      "peso": "TERCIARIO - para refuerzo motivacional inicial",
+      "fuente": "Barraca y Pérez-Álvarez (2015) cap. 6.3",
+      "objetivo": "Proporcionar consecuencias reforzantes inmediatas por completar actividades programadas, especialmente al inicio del tratamiento cuando los reforzadores naturales aún no están activos",
+      "tipos_reforzamiento": {
+        "verbal_en_sesion": {
+          "descripcion": "El terapeuta refuerza verbalmente todo progreso",
+          "ejemplos": [
+            "'Eso que hiciste requirió verdadero coraje.'",
+            "'Fíjate en la diferencia entre esta semana y la anterior.'"
+          ]
+        },
+        "auto_reforzamiento": {
+          "descripcion": "El paciente aprende a reconocer y celebrar sus propios logros",
+          "como_ensenar": "'Después de completar cada actividad, quiero que te digas a ti mismo/a: Lo hice. Estoy avanzando.'"
+        },
+        "reforzadores_tangibles": {
+          "descripcion": "Pequeñas recompensas que el paciente se da por completar actividades",
+          "nota": "Solo como complemento temporal. El objetivo es que las actividades sean intrínsecamente reforzantes."
+        }
+      },
+      "principio_fundamental": "Reforzar TODO lo que esté POR ENCIMA de la línea base del paciente, por mínimo que sea. Si antes no salía de casa y ahora ha ido a comprar el pan, eso es un progreso real y merece reconocimiento."
+    }
+  },
+  "area_7_valores_y_areas_vitales": {
+    "nombre": "Lista de Valores y Áreas Vitales",
+    "descripcion": "Sistema completo de valores, objetivos y actividades organizados por las 5 áreas vitales del protocolo de Lejuez et al. (2011), con ejemplos detallados para cada área",
+    "marco_conceptual": {
+      "que_son_valores": "Los valores son direcciones de vida elegidas libremente que orientan la conducta. No son metas que se alcanzan, sino brújulas que guían. Un valor como 'ser un buen padre' nunca se 'termina'; orienta las acciones día a día.",
+      "diferencia_valores_metas": "Un valor es una dirección (ej: 'cuidar mi salud'). Una meta es un objetivo concreto dentro de esa dirección (ej: 'ir al gimnasio 3 veces esta semana'). Una actividad es la acción específica (ej: 'mañana martes a las 18:00, ir al gimnasio 30 minutos').",
+      "por_que_importan_en_ac": "Las actividades desconectadas de valores son 'deberes' que se cumplen a regañadientes. Las actividades conectadas con valores tienen significado personal y generan reforzamiento natural. La AC usa los valores como guía para seleccionar las actividades más relevantes para cada paciente.",
+      "fuente": "Lejuez et al. (2011), adaptado por Barraca y Pérez-Álvarez (2015)"
+    },
+    "area_vital_1_relaciones": {
+      "nombre": "Relaciones Interpersonales",
+      "descripcion": "Familia, amigos, pareja, comunidad",
+      "valores_ejemplo": [
+        "Ser una pareja presente y cariñosa",
+        "Ser un padre/madre disponible y paciente",
+        "Ser un hijo/a agradecido y que cuida a sus padres",
+        "Ser un amigo/a leal y disponible",
+        "Ser un hermano/a cercano y solidario",
+        "Pertenecer a una comunidad y contribuir a ella",
+        "Mantener relaciones honestas y auténticas"
+      ],
+      "actividades_por_dificultad": {
+        "facil_1_3": [
+          "Enviar un mensaje de 'buenos días' a un familiar",
+          "Responder a un mensaje pendiente",
+          "Llamar por teléfono a alguien 5 minutos",
+          "Comentar una foto de un amigo en redes sociales",
+          "Escribir una nota de agradecimiento"
+        ],
+        "media_4_7": [
+          "Quedar a tomar un café con un amigo/a",
+          "Comer con la familia el fin de semana",
+          "Planificar una actividad con la pareja",
+          "Visitar a un familiar que no ves hace tiempo",
+          "Participar en un evento social",
+          "Hablar con un vecino o conocido"
+        ],
+        "dificil_8_10": [
+          "Organizar una reunión o celebración",
+          "Tener una conversación difícil pendiente",
+          "Pedir perdón o reparar una relación dañada",
+          "Unirse a un grupo nuevo (asociación, clase, voluntariado)",
+          "Establecer límites saludables con alguien"
+        ]
+      },
+      "preguntas_exploratorias": [
+        "¿Quiénes son las personas más importantes de tu vida?",
+        "¿Cómo te gustaría que fueran tus relaciones?",
+        "¿Hay alguien a quien te gustaría acercarte?",
+        "¿Hay alguna relación que necesites reparar?",
+        "¿Qué tipo de amigo/a, pareja, padre/madre quieres ser?"
+      ]
+    },
+    "area_vital_2_trabajo_educacion": {
+      "nombre": "Trabajo y Educación",
+      "descripcion": "Carrera profesional, formación, desarrollo académico, vocación",
+      "valores_ejemplo": [
+        "Ser competente y responsable en mi trabajo",
+        "Seguir aprendiendo y formándome",
+        "Contribuir con algo valioso a mi equipo/empresa",
+        "Desarrollar mi carrera hacia donde quiero",
+        "Ser un buen compañero de trabajo",
+        "Equilibrar trabajo y vida personal",
+        "Hacer un trabajo que tenga sentido para mí"
+      ],
+      "actividades_por_dificultad": {
+        "facil_1_3": [
+          "Revisar y organizar emails/tareas pendientes",
+          "Estudiar o leer algo formativo 15 minutos",
+          "Ordenar el espacio de trabajo",
+          "Hacer una lista de prioridades del día",
+          "Asistir a una clase/reunión"
+        ],
+        "media_4_7": [
+          "Completar una tarea pendiente del trabajo/estudios",
+          "Estudiar 1-2 horas seguidas",
+          "Preparar una presentación o informe",
+          "Hacer un curso online corto",
+          "Pedir feedback a un superior o compañero"
+        ],
+        "dificil_8_10": [
+          "Asumir un nuevo proyecto o responsabilidad",
+          "Presentarse a una oportunidad laboral",
+          "Reincorporarse al trabajo tras una baja",
+          "Iniciar un proyecto propio o emprendimiento",
+          "Tener una conversación de carrera con tu jefe"
+        ]
+      },
+      "nota_clinica_baja_laboral": "Para pacientes en baja laboral, la reincorporación es una meta de alta dificultad que requiere planificación gradual. No presionar. Puede programarse una jerarquía específica: visitar el lugar de trabajo → hablar con un compañero → asistir medio día → incorporación progresiva."
+    },
+    "area_vital_3_ocio": {
+      "nombre": "Ocio y Tiempo Libre",
+      "descripcion": "Hobbies, entretenimiento, actividades creativas, recreación, exploración",
+      "valores_ejemplo": [
+        "Disfrutar de mi tiempo libre",
+        "Cultivar mis aficiones y pasiones",
+        "Explorar cosas nuevas y tener nuevas experiencias",
+        "Expresarme creativamente",
+        "Tener momentos de diversión y ligereza",
+        "Conectar con la naturaleza"
+      ],
+      "actividades_por_dificultad": {
+        "facil_1_3": [
+          "Escuchar música que me guste 30 minutos",
+          "Ver un episodio de una serie",
+          "Hojear una revista o libro",
+          "Jugar un videojuego",
+          "Hacer un puzzle o sudoku",
+          "Sentarse en un parque 15 minutos"
+        ],
+        "media_4_7": [
+          "Leer un libro 1 hora",
+          "Ir al cine o al teatro",
+          "Hacer una excursión corta",
+          "Cocinar un plato especial",
+          "Dibujar, pintar o hacer manualidades",
+          "Ir de tiendas sin obligación de comprar",
+          "Pasear por un barrio nuevo"
+        ],
+        "dificil_8_10": [
+          "Apuntarse a una clase nueva (cerámica, baile, fotografía)",
+          "Organizar un viaje o escapada",
+          "Iniciar un proyecto creativo personal",
+          "Ir a un concierto o festival",
+          "Retomar un hobby abandonado hace mucho tiempo"
+        ]
+      }
+    },
+    "area_vital_4_cuidado_personal_salud": {
+      "nombre": "Cuidado Personal y Salud (Mente/Cuerpo/Espiritualidad)",
+      "descripcion": "Bienestar físico, salud mental, autocuidado, prácticas espirituales o contemplativas",
+      "valores_ejemplo": [
+        "Cuidar mi cuerpo y mi salud",
+        "Mantener hábitos de vida saludables",
+        "Reducir o eliminar consumos nocivos",
+        "Dormir bien y descansar lo necesario",
+        "Cultivar mi bienestar emocional",
+        "Practicar la calma y la reflexión",
+        "Alimentarme de forma consciente y saludable"
+      ],
+      "actividades_por_dificultad": {
+        "facil_1_3": [
+          "Ducharse y vestirse cada mañana",
+          "Beber 2 litros de agua al día",
+          "Hacer estiramientos 5 minutos",
+          "Salir a tomar el aire 10 minutos",
+          "Acostarse antes de las 23:00",
+          "Prepararse una comida saludable"
+        ],
+        "media_4_7": [
+          "Caminar 30 minutos al día",
+          "Hacer ejercicio en casa (video guiado)",
+          "Meditar o practicar respiración 10 minutos",
+          "Cocinar saludable toda la semana",
+          "Ir al médico a revisión pendiente",
+          "Reducir consumo de alcohol/tabaco"
+        ],
+        "dificil_8_10": [
+          "Apuntarse y asistir regularmente al gimnasio",
+          "Dejar de fumar",
+          "Establecer una rutina de ejercicio 3-4 veces/semana",
+          "Adoptar un plan de alimentación estructurado",
+          "Comenzar un programa de meditación regular"
+        ]
+      }
+    },
+    "area_vital_5_obligaciones": {
+      "nombre": "Obligaciones y Responsabilidades Diarias",
+      "descripcion": "Tareas domésticas, gestiones administrativas, responsabilidades cotidianas",
+      "valores_ejemplo": [
+        "Tener mi hogar ordenado y funcional",
+        "Ser responsable con mis obligaciones",
+        "Gestionar adecuadamente mis finanzas",
+        "Mantener al día los trámites y gestiones",
+        "Contribuir a las tareas del hogar",
+        "Ser organizado/a y eficiente"
+      ],
+      "actividades_por_dificultad": {
+        "facil_1_3": [
+          "Hacer la cama",
+          "Fregar los platos del día",
+          "Poner una lavadora",
+          "Tirar la basura",
+          "Preparar la lista de la compra"
+        ],
+        "media_4_7": [
+          "Limpiar la casa (una habitación)",
+          "Hacer la compra semanal",
+          "Ordenar armarios o cajones",
+          "Pagar facturas o hacer gestiones bancarias",
+          "Cocinar para varios días"
+        ],
+        "dificil_8_10": [
+          "Organizar documentos y papeles acumulados",
+          "Hacer trámites complicados (impuestos, seguros)",
+          "Reorganizar un espacio completo de la casa",
+          "Resolver deudas o problemas financieros pendientes",
+          "Mantener una rutina doméstica sostenida"
+        ]
+      },
+      "nota_clinica": "Las actividades obligatorias tienen menor agrado pero alta importancia. No deben ser las únicas actividades programadas. Equilibrar siempre con actividades de las otras áreas. Un plan compuesto solo de obligaciones agotará al paciente."
+    }
+  },
+  "area_8_actividades_por_problema": {
+    "nombre": "Actividades Recomendadas por Tipo de Problema",
+    "descripcion": "Guía de actividades específicas organizadas según la problemática principal del paciente, basadas en la evidencia y los principios de la AC",
+    "depresion_mayor": {
+      "problema": "Depresión Mayor",
+      "caracteristicas_relevantes": "Ánimo bajo persistente, pérdida de interés/placer, fatiga, dificultad para concentrarse, alteraciones del sueño/apetito, sentimientos de inutilidad, posibles ideas de muerte",
+      "principios_intervencion": [
+        "Empezar con actividades extremadamente sencillas (hacer la cama, ducharse)",
+        "Priorizar rutinas de autocuidado básico como primer objetivo",
+        "Graduar muy lentamente la dificultad",
+        "No presionar con actividades sociales al inicio si generan mucha angustia",
+        "Monitorizar riesgo suicida continuamente"
+      ],
+      "actividades_recomendadas": {
+        "ejercicio_fisico_graduado": {
+          "descripcion": "Actividad física progresiva adaptada al nivel actual del paciente",
+          "justificacion": "Evidencia robusta de que el ejercicio tiene efecto antidepresivo. Mecanismos: liberación de endorfinas, mejora del sueño, sensación de logro, ruptura del ciclo de inactividad.",
+          "jerarquia": [
+            {
+              "nivel": 1,
+              "actividad": "Levantarse y caminar por la casa 5 minutos",
+              "dificultad": 1
+            },
+            {
+              "nivel": 2,
+              "actividad": "Caminar hasta la puerta y volver",
+              "dificultad": 2
+            },
+            {
+              "nivel": 3,
+              "actividad": "Caminar 10 minutos por el barrio",
+              "dificultad": 3
+            },
+            {
+              "nivel": 4,
+              "actividad": "Caminar 20-30 minutos",
+              "dificultad": 4
+            },
+            {
+              "nivel": 5,
+              "actividad": "Hacer estiramientos o yoga suave en casa",
+              "dificultad": 5
+            },
+            {
+              "nivel": 6,
+              "actividad": "Caminar 30 min a ritmo rápido",
+              "dificultad": 6
+            },
+            {
+              "nivel": 7,
+              "actividad": "Ir a nadar o hacer ejercicio en grupo",
+              "dificultad": 7
+            },
+            {
+              "nivel": 8,
+              "actividad": "Ir al gimnasio o correr regularmente",
+              "dificultad": 8
+            }
+          ]
+        },
+        "restablecimiento_rutinas_autocuidado": {
+          "descripcion": "Reconstrucción de hábitos básicos de higiene, alimentación y descanso",
+          "justificacion": "En depresión severa, las rutinas básicas se deterioran. Restablecerlas proporciona estructura, dominio y base para actividades más complejas.",
+          "jerarquia": [
+            {
+              "nivel": 1,
+              "actividad": "Fijar hora de despertarse (aunque sea tarde)",
+              "dificultad": 1
+            },
+            {
+              "nivel": 2,
+              "actividad": "Ducharse cada día",
+              "dificultad": 2
+            },
+            {
+              "nivel": 3,
+              "actividad": "Vestirse (no quedarse en pijama)",
+              "dificultad": 2
+            },
+            {
+              "nivel": 4,
+              "actividad": "Preparar y comer al menos 2 comidas al día",
+              "dificultad": 3
+            },
+            {
+              "nivel": 5,
+              "actividad": "Fijar horario regular de sueño",
+              "dificultad": 4
+            },
+            {
+              "nivel": 6,
+              "actividad": "Mantener higiene de sueño (no pantallas, no café tarde)",
+              "dificultad": 5
+            }
+          ]
+        },
+        "actividades_sociales_estructuradas": {
+          "descripcion": "Contactos sociales graduados, desde los más seguros hasta los más desafiantes",
+          "jerarquia": [
+            {
+              "nivel": 1,
+              "actividad": "Enviar un mensaje a alguien",
+              "dificultad": 2
+            },
+            {
+              "nivel": 2,
+              "actividad": "Responder llamadas/mensajes",
+              "dificultad": 3
+            },
+            {
+              "nivel": 3,
+              "actividad": "Llamar a un familiar o amigo cercano 5 min",
+              "dificultad": 4
+            },
+            {
+              "nivel": 4,
+              "actividad": "Quedar con alguien en un entorno seguro",
+              "dificultad": 5
+            },
+            {
+              "nivel": 5,
+              "actividad": "Asistir a una reunión familiar o de amigos",
+              "dificultad": 7
+            },
+            {
+              "nivel": 6,
+              "actividad": "Participar en un grupo o actividad social nueva",
+              "dificultad": 8
+            }
+          ]
+        },
+        "retomar_pasatiempos_placenteros": {
+          "descripcion": "Reconectarse con actividades que antes proporcionaban placer",
+          "nota": "No presionar si no hay placer inmediato. El placer se restaura gradualmente.",
+          "proceso": "Identificar las 3-5 actividades más placenteras del pasado → Programar la versión más sencilla de cada una → Evaluar placer real vs. esperado → Ajustar"
+        },
+        "tareas_dominio_logro": {
+          "descripcion": "Actividades que generan sensación de competencia y logro",
+          "jerarquia": [
+            {
+              "nivel": 1,
+              "actividad": "Hacer la cama",
+              "dificultad": 1
+            },
+            {
+              "nivel": 2,
+              "actividad": "Ordenar un espacio pequeño",
+              "dificultad": 2
+            },
+            {
+              "nivel": 3,
+              "actividad": "Completar una tarea pendiente sencilla",
+              "dificultad": 3
+            },
+            {
+              "nivel": 4,
+              "actividad": "Cocinar una comida completa",
+              "dificultad": 4
+            },
+            {
+              "nivel": 5,
+              "actividad": "Resolver un problema práctico",
+              "dificultad": 5
+            },
+            {
+              "nivel": 6,
+              "actividad": "Completar un proyecto pendiente",
+              "dificultad": 7
+            }
+          ]
+        }
+      }
+    },
+    "anhedonia": {
+      "problema": "Anhedonia (incapacidad de experimentar placer)",
+      "caracteristicas_relevantes": "Pérdida de interés en actividades previamente placenteras, dificultad para disfrutar, sensación de vacío emocional, aplanamiento afectivo",
+      "principios_intervencion": [
+        "No esperar que el placer aparezca inmediatamente al hacer la actividad",
+        "Trabajar con 'micro-placeres': momentos breves de experiencia sensorial positiva",
+        "Introducir actividades novedosas (la novedad puede activar el sistema de recompensa cuando lo habitual ya no lo hace)",
+        "Usar mindfulness para potenciar la atención al placer que sí existe pero no se percibe",
+        "Ser paciente: la restauración del placer es gradual"
+      ],
+      "actividades_recomendadas": {
+        "experimentos_actuar_como_si": {
+          "descripcion": "Realizar actividades previamente placenteras 'como si' se disfrutara de ellas, prestando atención plena a la experiencia",
+          "fundamento": "La conducta puede preceder y generar la emoción. 'Actuar como si' no es fingir; es darle a la experiencia la oportunidad de activar el sistema de placer.",
+          "ejemplos": [
+            "Cocinar una receta favorita prestando atención a los aromas, colores y texturas",
+            "Escuchar música favorita con auriculares, ojos cerrados, prestando atención total",
+            "Tomar un café en una terraza observando el entorno como si fuera la primera vez"
+          ]
+        },
+        "saboreo_consciente": {
+          "descripcion": "Práctica de atención deliberada a experiencias sensoriales placenteras",
+          "tecnica": "Elegir una experiencia sensorial simple (comida, aroma, textura, paisaje, música). Dedicar 3-5 minutos a experimentarla con todos los sentidos, sin hacer nada más.",
+          "ejemplos": [
+            "Comer un trozo de chocolate dejándolo derretir en la boca, notando sabor, textura, temperatura",
+            "Ducharse prestando atención al agua caliente, al aroma del jabón, a la sensación en la piel",
+            "Oler flores o plantas aromáticas concentrándose en el olor"
+          ]
+        },
+        "actividades_novedosas": {
+          "descripcion": "Actividades que el paciente NUNCA ha hecho antes, para estimular curiosidad y sistema de exploración",
+          "fundamento": "La novedad activa circuitos de dopamina incluso cuando el sistema de placer habitual está atenuado.",
+          "ejemplos": [
+            "Probar un plato de una cocina desconocida",
+            "Caminar por un barrio/parque nuevo",
+            "Ver un documental sobre un tema totalmente desconocido",
+            "Probar un instrumento musical, una técnica artística, un deporte nuevo",
+            "Escuchar un género musical que nunca escucharía"
+          ]
+        },
+        "ejercicios_mindfulness": {
+          "descripcion": "Prácticas de atención plena focalizadas en las experiencias positivas que pasan desapercibidas",
+          "ejemplos": [
+            "Diario de 3 cosas buenas del día (por mínimas que sean)",
+            "Ejercicio de 'primer momento agradable': registrar el primer momento del día que no fue desagradable",
+            "Paseo de atención sensorial: caminar 10 min prestando atención a 5 cosas que se ven, 4 que se oyen, 3 que se tocan, 2 que se huelen, 1 que se saborea"
+          ]
+        }
+      }
+    },
+    "ansiedad_evitacion": {
+      "problema": "Ansiedad / Evitación comórbida",
+      "caracteristicas_relevantes": "Ansiedad anticipatoria, evitación de situaciones temidas, conductas de seguridad, tensión física, preocupación excesiva. Frecuente comorbilidad con depresión.",
+      "principios_intervencion": [
+        "La AC aborda la ansiedad como parte del patrón TRAP: la ansiedad es el Response que lleva al Avoidance Pattern",
+        "No esperar a que la ansiedad 'baje' para actuar. Actuar CON la ansiedad presente.",
+        "Graduación extrema: la exposición debe ser tolerable, no traumática",
+        "Usar protocolo BATA (Behavioral Activation Treatment for Anxiety) cuando la ansiedad es el problema principal"
+      ],
+      "actividades_recomendadas": {
+        "exposicion_gradual": {
+          "descripcion": "Aproximación progresiva a situaciones evitadas por ansiedad",
+          "jerarquia_ejemplo_fobia_social": [
+            {
+              "nivel": 1,
+              "actividad": "Saludar al tendero",
+              "ansiedad_esperada": "2/10"
+            },
+            {
+              "nivel": 2,
+              "actividad": "Hacer una pregunta a un dependiente",
+              "ansiedad_esperada": "3/10"
+            },
+            {
+              "nivel": 3,
+              "actividad": "Llamar para pedir información",
+              "ansiedad_esperada": "4/10"
+            },
+            {
+              "nivel": 4,
+              "actividad": "Tomar un café solo/a en una terraza",
+              "ansiedad_esperada": "5/10"
+            },
+            {
+              "nivel": 5,
+              "actividad": "Quedar con un amigo/a",
+              "ansiedad_esperada": "5/10"
+            },
+            {
+              "nivel": 6,
+              "actividad": "Asistir a una reunión pequeña",
+              "ansiedad_esperada": "7/10"
+            },
+            {
+              "nivel": 7,
+              "actividad": "Participar activamente en una conversación grupal",
+              "ansiedad_esperada": "8/10"
+            }
+          ]
+        },
+        "actividades_relajacion": {
+          "descripcion": "Técnicas de reducción de la activación fisiológica como complemento (no como prerequisito) de la activación",
+          "ejemplos": [
+            "Respiración diafragmática 5 minutos antes de una situación difícil",
+            "Relajación muscular progresiva",
+            "Ejercicio físico como regulador de la ansiedad crónica"
+          ],
+          "nota": "En AC, la relajación NO se usa como conducta de evitación (relajarse EN VEZ DE enfrentar). Se usa como herramienta que FACILITA enfrentar."
+        },
+        "ejercicio_regulador_estres": {
+          "descripcion": "Actividad física regular como regulador fisiológico de la ansiedad crónica",
+          "evidencia": "El ejercicio aeróbico regular reduce marcadores de ansiedad tanto como algunos fármacos ansiolíticos.",
+          "recomendacion": "30 minutos de ejercicio moderado 3-5 veces por semana"
+        },
+        "habilidades_sociales_asertividad": {
+          "descripcion": "Entrenamiento específico cuando la evitación social se debe a déficit de habilidades",
+          "componentes": [
+            "Contacto visual",
+            "Postura abierta",
+            "Volumen de voz adecuado",
+            "Iniciar conversaciones",
+            "Expresar opiniones",
+            "Decir que no",
+            "Pedir lo que se necesita"
+          ]
+        }
+      }
+    },
+    "baja_autoestima": {
+      "problema": "Baja Autoestima",
+      "caracteristicas_relevantes": "Autocrítica excesiva, sensación de no ser suficiente, comparación desfavorable con otros, evitación de desafíos por miedo al fracaso, dependencia de la aprobación externa",
+      "principios_intervencion": [
+        "En AC, la autoestima no se 'trabaja' directamente (no se hacen ejercicios de 'autoafirmación')",
+        "La autoestima mejora como CONSECUENCIA de la activación: al hacer cosas, se genera evidencia de competencia",
+        "Priorizar actividades de DOMINIO que generen sensación de logro",
+        "Programar experiencias de éxito garantizado al inicio"
+      ],
+      "actividades_recomendadas": {
+        "autocuidado_y_compasion": {
+          "descripcion": "Actividades que comunican al paciente 'merezco cuidarme'",
+          "ejemplos": [
+            "Dedicarse 30 minutos al día a algo placentero SIN culpa",
+            "Cuidar la apariencia personal (arreglarse, vestirse bien)",
+            "Prepararse una buena comida",
+            "Decir 'no' a una petición que no quiere cumplir",
+            "Tomarse un descanso cuando lo necesita"
+          ]
+        },
+        "metas_realistas_celebrar_logros": {
+          "descripcion": "Establecer metas alcanzables y crear ritual de reconocimiento",
+          "proceso": "Definir meta pequeña → Ejecutar → Registrar el logro → Reconocerlo explícitamente (escribirlo, contárselo a alguien, autocongratularse)",
+          "nota": "El terapeuta/sistema SIEMPRE celebra el logro antes de pasar al siguiente objetivo"
+        },
+        "voluntariado_generosidad": {
+          "descripcion": "Actividades prosociales que generan sensación de valor y contribución",
+          "fundamento": "Ayudar a otros activa el sistema de recompensa y proporciona evidencia de competencia y valor personal.",
+          "ejemplos": [
+            "Ayudar a un vecino/familiar con algo",
+            "Hacer un pequeño acto de generosidad (invitar a un café, dejar propina extra)",
+            "Participar como voluntario en una causa que le importe",
+            "Enseñar algo que sabe a alguien",
+            "Donar cosas que no necesita"
+          ]
+        },
+        "relaciones_apoyo_validacion": {
+          "descripcion": "Cultivar relaciones con personas que proporcionan validación genuina",
+          "fundamento": "La autoestima se construye en relación con otros. El aislamiento la deteriora.",
+          "actividades": [
+            "Identificar personas que hacen sentir bien vs. personas que hacen sentir mal",
+            "Aumentar contacto con las primeras, establecer límites con las segundas",
+            "Compartir logros con personas de confianza",
+            "Pedir feedback positivo a personas cercanas: '¿Qué crees que hago bien?'"
+          ]
+        }
+      }
+    },
+    "comorbilidades_adaptaciones": {
+      "dolor_cronico_fibromialgia": {
+        "principios": "Activación graduada adaptada a límites físicos. Énfasis en actividades de placer sensorial y social. No sobrecargar. Respetar umbrales de dolor.",
+        "actividades_especificas": [
+          "Ejercicio acuático",
+          "Estiramientos suaves",
+          "Mindfulness del dolor",
+          "Actividades sociales sedentarias",
+          "Manualidades o hobbies adaptados"
+        ]
+      },
+      "trastorno_bipolar_fase_depresiva": {
+        "principios": "AC aplicable en fase depresiva con precaución. Monitorizar indicadores de viraje hipomaníaco. Coordinación estrecha con psiquiatra. Evitar programar actividades estimulantes nocturnas que alteren el sueño.",
+        "precauciones": [
+          "No sobreactivar",
+          "Mantener rutinas de sueño estrictas",
+          "Revisar medicación regularmente"
+        ]
+      },
+      "consumo_sustancias": {
+        "principios": "Las sustancias se conceptualizan como conductas de evitación (TRAP). La AC proporciona actividades alternativas que compiten con el consumo como fuente de reforzamiento.",
+        "estrategia": "Identificar situaciones de riesgo de consumo → Programar actividades incompatibles con el consumo en esos momentos → Desarrollar reforzadores alternativos"
+      },
+      "poblaciones_especiales": {
+        "adolescentes": "Implicar a la familia, usar lenguaje adaptado, vincular con intereses y mundo social del adolescente",
+        "personas_mayores": "Adaptar ritmo, considerar limitaciones físicas, involucrar red de apoyo, actividades significativas para su etapa vital",
+        "bajo_nivel_cultural": "Menos teoría, más práctica y demostración, material visual, seguimiento más frecuente"
+      }
+    }
+  },
+  "casos_clinicos_ejemplo": {
+    "fuente": "Anexos del libro Barraca & Pérez-Álvarez (2015)",
+    "casos": [
+      {
+        "nombre": "José",
+        "edad": 52,
+        "ocupacion": "Empleado de banca en baja laboral",
+        "situacion": "Casado, con un hijo independiente",
+        "semana_registro": "3ª semana de consulta",
+        "patron_observado": "Largos periodos en cama, actividades de baja estimulación, mejora notable en días con más estructura y actividad social",
+        "tipo_registro": "Registro semanal de actividades y estado de ánimo"
+      },
+      {
+        "nombre": "Juan",
+        "edad": 26,
+        "ocupacion": "Estudiante de Derecho",
+        "situacion": "Vive con su pareja, situación depresiva",
+        "semana_registro": "4ª semana de tratamiento",
+        "actividades_programadas": [
+          "Asistir a clase",
+          "Estudiar",
+          "Ir a correr 3x/semana",
+          "Salir con novia",
+          "Prepararse la comida",
+          "Levantarse a hora fija"
+        ],
+        "tipo_registro": "Registro semanal con tareas de activación programadas"
+      },
+      {
+        "nombre": "Luisa",
+        "edad": 56,
+        "ocupacion": "Profesora de Secundaria, de baja",
+        "situacion": "Casada, dos hijos",
+        "tipo_registro": "Registro diario con tareas de activación programadas",
+        "estado_animo_general": 4
+      },
+      {
+        "nombre": "Ana",
+        "edad": 23,
+        "ocupacion": "Estudiante de Comunicación Audiovisual",
+        "situacion": "Vive con sus padres y un hermano",
+        "tipo_registro": "Registro de reforzamientos directos semanales",
+        "recompensas": [
+          "Pulsera de bisutería",
+          "Descarga disco",
+          "Café y sándwich",
+          "Excursión",
+          "Vestido",
+          "Cine",
+          "Helados",
+          "Spa y masaje"
+        ]
+      },
+      {
+        "nombre": "Jorge",
+        "edad": 46,
+        "ocupacion": "Psicólogo",
+        "situacion": "Casado",
+        "tipo_registro": "Contrato conductual",
+        "actividad": "Volver a clases de boxeo, al menos 2 veces/semana",
+        "persona_ayuda": "Esposa (Ana Isabel)",
+        "formas_ayuda": [
+          "Avisarle a la hora",
+          "Recordarle el contrato",
+          "Moverle si no arranca",
+          "Acompañarle en coche",
+          "Felicitarle al volver"
+        ]
+      },
+      {
+        "nombre": "Miguel",
+        "edad": 35,
+        "ocupacion": "Ingeniero informático",
+        "situacion": "Soltero, vive solo",
+        "tipo_registro": "Áreas vitales, valores y acciones asociadas",
+        "valores_ejemplo": [
+          "Ser buen hermano y tío → Llamar a hermana, ver sobrinos, vacaciones juntos",
+          "Cuidar a sus padres → Llamar 2x/semana, ir a comer, comprar detalles",
+          "Cuidar salud física → No fumar porros, limitar alcohol, ir al gimnasio",
+          "Tener casa cuidada → Ordenar habitación, montar despacho, organizar papeles"
+        ]
+      },
+      {
+        "nombre": "Marta (caso 1)",
+        "edad": 37,
+        "ocupacion": "Profesora de Secundaria, de baja por depresión",
+        "situacion": "Casada, 3 hijos",
+        "semana": "1ª semana de tratamiento",
+        "actividades_programadas": [
+          "Levantarse a las 8:30",
+          "Pasear 30 min",
+          "Ver TV con familia después de cenar"
+        ],
+        "estado_animo_semanal": [
+          2,
+          4,
+          1,
+          5,
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "nombre": "Marta (caso 2 - prevención recaídas)",
+        "edad": 33,
+        "ocupacion": "Administrativa de multinacional",
+        "situacion": "Soltera, vive sola",
+        "tipo_registro": "Apuntes para prevención de recaídas",
+        "vulnerabilidades": [
+          "Compañeras no la incluyen",
+          "Jefes no valoran su trabajo",
+          "Comparación con amigas en redes sociales"
+        ],
+        "conductas_ciclo_depresivo": [
+          "Aislarse",
+          "Dejar de esforzarse o sobre-perfeccionar",
+          "Investigar redes sociales constantemente"
+        ],
+        "conductas_antidepresivas": [
+          "Proponer planes activamente",
+          "Equilibrio en trabajo",
+          "Hacer cosas por su cuenta",
+          "Dejar Facebook"
+        ],
+        "estrategias_mantenimiento": [
+          "Hablar con mejores amigas",
+          "Apuntar cosas",
+          "Completar registros de actividades",
+          "Programar viajes",
+          "Práctica de mindfulness con la gente",
+          "Recordar ACTION"
+        ]
+      }
+    ]
+  },
+  "estructura_sesiones": {
+    "fuente": "Barraca & Pérez-Álvarez (2015), Cap. 7.2",
+    "frecuencia_inicial": "2 sesiones/semana para los más deprimidos",
+    "frecuencia_mantenimiento": "1 sesión/semana aproximadamente",
+    "frecuencia_cierre": "Sesiones cada vez más espaciadas",
+    "duracion_tratamiento": "Aproximadamente 8-20 sesiones según protocolo y severidad",
+    "estructura_tipo_sesion": {
+      "inicio": [
+        "Establecer agenda colaborativamente",
+        "Breve check-in del estado de ánimo"
+      ],
+      "desarrollo": [
+        "Revisión de tareas/actividades de la semana anterior",
+        "Análisis de cumplimiento y dificultades",
+        "Solución de problemas si hubo incumplimiento",
+        "Reforzar socialmente todo avance",
+        "Revisión de registros y cuestionarios",
+        "Programación de actividades para la siguiente semana",
+        "Ajuste de jerarquía si necesario"
+      ],
+      "cierre": [
+        "Resumen de lo trabajado",
+        "Clarificación de tareas para la próxima semana",
+        "Anticipación de posibles barreras"
+      ]
+    }
+  },
+  "prevencion_recaidas": {
+    "fuente": "Barraca & Pérez-Álvarez (2015), Cap. 9",
+    "componentes": [
+      {
+        "nombre": "Finalización y cierre adecuado",
+        "descripcion": "Sesiones dedicadas al cierre cuando indicadores subjetivos y objetivos demuestren recuperación y estabilidad."
+      },
+      {
+        "nombre": "Generalización de aprendizajes",
+        "descripcion": "Asegurar que los aprendizajes de la AC se transfieran a la vida cotidiana sin dependencia del terapeuta."
+      },
+      {
+        "nombre": "Listado de conductas antidepresivas",
+        "descripcion": "Documento personalizado del paciente con las conductas que le mantienen bien."
+      },
+      {
+        "nombre": "Identificar situaciones de alto riesgo",
+        "descripcion": "Anticipar contextos o circunstancias que podrían reactivar el ciclo depresivo."
+      },
+      {
+        "nombre": "Sesiones de refuerzo",
+        "descripcion": "Sesiones espaciadas post-tratamiento para monitorizar y prevenir recaídas."
+      },
+      {
+        "nombre": "Práctica del mindfulness",
+        "descripcion": "Como herramienta de mantenimiento para sostener el contacto con la experiencia."
+      }
+    ]
+  },
+  "trastornos_y_poblaciones_aplicables": {
+    "fuente": "Barraca (2016); Barraca & Pérez-Álvarez (2015), Cap. 10",
+    "aplicacion_principal": {
+      "trastorno": "Depresión Mayor Unipolar",
+      "nivel_evidencia": "Tratamiento bien establecido con fuerte apoyo empírico",
+      "comparacion": "Tan eficaz como antidepresivos y TCC, con ventajas en parsimonia, aceptación por pacientes, economía y facilidad de implementación.",
+      "referencia_clave": "Dimidjian et al. (2006); Dobson et al. (2008)"
+    },
+    "variantes_depresion": [
+      {
+        "trastorno": "Distimia",
+        "nivel_evidencia": "Casos clínicos publicados",
+        "referencia": "Barraca (2014)"
+      },
+      {
+        "trastorno": "Trastorno Bipolar (fase depresiva)",
+        "nivel_evidencia": "Adaptaciones documentadas",
+        "nota": "Principios y procedimientos de la AC aplicados en la fase depresiva."
+      }
+    ],
+    "comorbilidades_ansiedad": [
+      {
+        "trastorno": "Cuadros mixtos ansioso-depresivos",
+        "justificacion": "La perpetuación de la ansiedad se explica por conductas de evitación (misma lógica funcional que la depresión en el modelo AC).",
+        "referencia": "Barraca (2010); Hopko, Lejuez & Hopko (2004)"
+      },
+      {
+        "trastorno": "Trastornos de ansiedad puros",
+        "protocolo": "BATA (Behavioral Activation Treatment of Anxiety)",
+        "autores": "Turner & Leach (2010)",
+        "componentes": [
+          "Monitorización",
+          "Establecimiento de objetivos",
+          "Programación de actividades y revisión",
+          "Solución de problemas colaborativo"
+        ],
+        "nota": "Eficaz SIN componentes tradicionales de ansiedad (exposición gradual, relajación, reestructuración cognitiva)."
+      },
+      {
+        "trastorno": "Trastorno de Estrés Postraumático (TEP)",
+        "justificacion": "La evitación de recuerdos traumáticos favorece aislamiento y mantenimiento del TEP durante años.",
+        "referencia": "Gros (2012); Jakupcak et al. (2006, 2010); Mulick & Naugle (2010); Plagge et al. (2013)",
+        "resultados": "Mejora general en calidad de vida y reducción de síntomas del TEP, que descendieron en mayor medida que los depresivos."
+      }
+    ],
+    "comorbilidades_medicas": [
+      {
+        "condicion": "Cáncer (especialmente cáncer de mama)",
+        "justificacion": "La depresión es uno de los problemas más vinculados a la enfermedad tumoral. El deterioro de actividades se asocia con peor progresión.",
+        "referencia": "Armento & Hopko (2009); Hopko et al. (2011, 2015); Ryba, Lejuez & Hopko (2014)",
+        "contexto_aplicacion": "Fundamentalmente en entornos hospitalarios, integrándose con tratamiento médico intensivo."
+      },
+      {
+        "condicion": "Dolor crónico / Fibromialgia",
+        "referencia": "Lundervold, Talley & Buermann (2008); Plagge et al. (2013)"
+      },
+      {
+        "condicion": "Obesidad (con depresión comórbida)",
+        "referencia": "Busch et al. (2013); Pagoto (2008)"
+      }
+    ],
+    "otros_trastornos": [
+      {
+        "trastorno": "Trastorno Límite de la Personalidad",
+        "referencia": "Hopko, Sanchez, Hopko, Dvir & Lejuez (2003)",
+        "nota": "Aplicación para prevención de conductas suicidas."
+      },
+      {
+        "trastorno": "Síntomas psicóticos / Esquizofrenia paranoide",
+        "referencia": "Romero Gamero, Poves Oñate & Vucínovich (2011)"
+      },
+      {
+        "trastorno": "Consumo de drogas ilegales",
+        "referencia": "Daughters et al. (2008)",
+        "protocolo": "LETS Act! (Life Enhancement Treatment for Substance Use)"
+      },
+      {
+        "trastorno": "Tabaquismo con depresión moderada",
+        "referencia": "McPherson et al. (2010)"
+      }
+    ],
+    "adaptaciones_poblacionales": [
+      {
+        "poblacion": "Adolescentes",
+        "referencia": "McCauley et al. (2011); Ritschel et al. (2011); Jacob et al. (2013); Wallis et al. (2012)"
+      },
+      {
+        "poblacion": "Personas mayores / Geriatría",
+        "referencia": "Yon & Scogin (2009); Moss et al. (2012); Snarski et al. (2011); Polenick & Flora (2013); Pasterfield et al. (2014)"
+      },
+      {
+        "poblacion": "Niveles intelectuales o culturales bajos",
+        "referencia": "Jahoda et al. (2014)"
+      },
+      {
+        "poblacion": "Distintas etnias y marcos culturales (Latinos, afroamericanos)",
+        "referencia": "Santiago-Rivera et al. (2008); Kanter et al. (2014); Collado et al. (2014); Jacob et al. (2013)"
+      },
+      {
+        "poblacion": "Analfabetismo funcional",
+        "referencia": "Revisión en Barraca & Pérez-Álvarez (2015)"
+      }
+    ],
+    "formatos_aplicacion": [
+      {
+        "formato": "Grupal",
+        "referencia": "Houghton, Curran & Saxon (2008); Porter, Spates & Smitham (2004)"
+      },
+      {
+        "formato": "Online / Videoconferencia",
+        "referencia": "Lazzari, Egan & Rees (2011); Davidson et al. (2014); Puspitasari et al. (2013)"
+      },
+      {
+        "formato": "Autoayuda guiada",
+        "referencia": "Addis & Martell (2004); Moss et al. (2012)"
+      },
+      {
+        "formato": "Ámbito rural",
+        "referencia": "Wallis et al. (2012)"
+      },
+      {
+        "formato": "Atención primaria",
+        "referencia": "Jakupcak et al. (2010)"
+      }
+    ]
+  }
+}

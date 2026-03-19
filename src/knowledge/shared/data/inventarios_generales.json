@@ -1,0 +1,221 @@
+{
+  "area_id": "inventarios_generales",
+  "nombre": "Inventarios y Escalas Generales",
+  "descripcion": "Instrumentos de evaluación psicológica transversales utilizados en múltiples técnicas terapéuticas",
+  "inventarios": [
+    {
+      "id": "IG01",
+      "nombre": "Inventario de Depresión de Beck",
+      "siglas": "BDI-II",
+      "autor": "Beck, Steer & Brown (1996)",
+      "proposito": "Evaluar la presencia y gravedad de síntomas depresivos",
+      "poblacion_objetivo": "Adultos y adolescentes (13+)",
+      "numero_items": 21,
+      "tiempo_aplicacion": "5-10 minutos",
+      "escalas": [
+        "Puntuación total (0-63)"
+      ],
+      "puntos_corte": [
+        {
+          "rango": "0-13",
+          "interpretacion": "Depresión mínima"
+        },
+        {
+          "rango": "14-19",
+          "interpretacion": "Depresión leve"
+        },
+        {
+          "rango": "20-28",
+          "interpretacion": "Depresión moderada"
+        },
+        {
+          "rango": "29-63",
+          "interpretacion": "Depresión grave"
+        }
+      ],
+      "notas": "Gold standard para seguimiento semanal en AC. Ítem 9 evalúa ideación suicida (screening obligatorio)."
+    },
+    {
+      "id": "IG02",
+      "nombre": "Inventario de Ansiedad de Beck",
+      "siglas": "BAI",
+      "autor": "Beck & Steer (1993)",
+      "proposito": "Evaluar la severidad de síntomas de ansiedad, diferenciándolos de la depresión",
+      "poblacion_objetivo": "Adultos (17+)",
+      "numero_items": 21,
+      "tiempo_aplicacion": "5-10 minutos",
+      "escalas": [
+        "Puntuación total (0-63)"
+      ],
+      "puntos_corte": [
+        {
+          "rango": "0-7",
+          "interpretacion": "Ansiedad mínima"
+        },
+        {
+          "rango": "8-15",
+          "interpretacion": "Ansiedad leve"
+        },
+        {
+          "rango": "16-25",
+          "interpretacion": "Ansiedad moderada"
+        },
+        {
+          "rango": "26-63",
+          "interpretacion": "Ansiedad grave"
+        }
+      ],
+      "notas": "Útil para detectar ansiedad comórbida que puede bloquear la activación conductual."
+    },
+    {
+      "id": "IG03",
+      "nombre": "Cuestionario de Salud del Paciente",
+      "siglas": "PHQ-9",
+      "autor": "Kroenke, Spitzer & Williams (2001)",
+      "proposito": "Screening rápido de depresión basado en criterios DSM",
+      "poblacion_objetivo": "Adultos",
+      "numero_items": 9,
+      "tiempo_aplicacion": "2-3 minutos",
+      "escalas": [
+        "Puntuación total (0-27)"
+      ],
+      "puntos_corte": [
+        {
+          "rango": "0-4",
+          "interpretacion": "Sin depresión"
+        },
+        {
+          "rango": "5-9",
+          "interpretacion": "Depresión leve"
+        },
+        {
+          "rango": "10-14",
+          "interpretacion": "Depresión moderada"
+        },
+        {
+          "rango": "15-19",
+          "interpretacion": "Depresión moderada-grave"
+        },
+        {
+          "rango": "20-27",
+          "interpretacion": "Depresión grave"
+        }
+      ],
+      "notas": "Alternativa breve al BDI-II para seguimiento frecuente. Ítem 9 evalúa ideación suicida."
+    },
+    {
+      "id": "IG04",
+      "nombre": "Cuestionario de Ansiedad Estado-Rasgo",
+      "siglas": "STAI",
+      "autor": "Spielberger (1983)",
+      "proposito": "Diferenciar ansiedad como estado transitorio vs. rasgo estable de personalidad",
+      "poblacion_objetivo": "Adultos y adolescentes",
+      "numero_items": 40,
+      "tiempo_aplicacion": "10-15 minutos",
+      "escalas": [
+        "Ansiedad-Estado (20 ítems)",
+        "Ansiedad-Rasgo (20 ítems)"
+      ],
+      "notas": "Útil para evaluar si la ansiedad es situacional o disposicional, lo cual guía el foco de la intervención."
+    },
+    {
+      "id": "IG05",
+      "nombre": "Listado de Síntomas SCL-90-R",
+      "siglas": "SCL-90-R",
+      "autor": "Derogatis (1977, 1994); Adaptación argentina: Casullo & Castro Solano (1999, 2008)",
+      "proposito": "Screening psicopatológico amplio de 9 dimensiones clínicas. Identifica riesgo psicopatológico (no diagnóstico). El GSI es el mejor predictor de riesgo.",
+      "poblacion_objetivo": "Adultos y adolescentes (13-65 años)",
+      "numero_items": 90,
+      "tiempo_aplicacion": "12-15 minutos",
+      "escalas": [
+        "Somatizaciones (SOM) — 12 ítems",
+        "Obsesiones y Compulsiones (OBS) — 10 ítems",
+        "Sensibilidad Interpersonal (SI) — 9 ítems",
+        "Depresión (DEP) — 13 ítems",
+        "Ansiedad (ANS) — 10 ítems",
+        "Hostilidad (HOS) — 6 ítems",
+        "Ansiedad Fóbica (FOB) — 7 ítems",
+        "Ideación Paranoide (PAR) — 6 ítems",
+        "Psicoticismo (PSIC) — 10 ítems",
+        "Índice Global de Severidad (GSI) — suma total / nº respuestas",
+        "Total de Síntomas Positivos (TSP) — conteo ítems > 0",
+        "Índice Positivo de Malestar (PSDI) — suma total / TSP"
+      ],
+      "puntos_corte": [
+        {
+          "rango": "GSI T < 65 y < 2 escalas T ≥ 65",
+          "interpretacion": "Sin riesgo psicopatológico"
+        },
+        {
+          "rango": "GSI T ≥ 65 O ≥ 2 escalas T ≥ 65",
+          "interpretacion": "Riesgo psicopatológico — profundizar en entrevista"
+        }
+      ],
+      "notas": "Instrumento de SCREENING (alta sensibilidad, baja especificidad). Marco temporal: última semana. Baremos argentinos: Góngora & Castro Solano (2019, pob. general AMBA, N=2873). Ítem 15 evalúa ideación suicida (screening obligatorio). Ítems adicionales (19, 44, 59, 60, 64, 66, 89) tienen relevancia clínica independiente. Existe versión abreviada SCL-27 (Hardt & Gerbershagen, 2001; adaptación argentina: Góngora & Castro Solano, 2021)."
+    },
+    {
+      "id": "IG06",
+      "nombre": "Escala de Desesperanza de Beck",
+      "siglas": "BHS",
+      "autor": "Beck et al. (1974)",
+      "proposito": "Medir el grado de pesimismo y expectativas negativas sobre el futuro",
+      "poblacion_objetivo": "Adultos y adolescentes",
+      "numero_items": 20,
+      "tiempo_aplicacion": "5-10 minutos",
+      "escalas": [
+        "Puntuación total (0-20)"
+      ],
+      "puntos_corte": [
+        {
+          "rango": "0-3",
+          "interpretacion": "Desesperanza mínima"
+        },
+        {
+          "rango": "4-8",
+          "interpretacion": "Desesperanza leve"
+        },
+        {
+          "rango": "9-14",
+          "interpretacion": "Desesperanza moderada"
+        },
+        {
+          "rango": "15-20",
+          "interpretacion": "Desesperanza grave"
+        }
+      ],
+      "notas": "Predictor significativo de conducta suicida. Complemento importante al BDI-II."
+    },
+    {
+      "id": "IG07",
+      "nombre": "Escala de Activación Conductual para la Depresión",
+      "siglas": "BADS",
+      "autor": "Kanter, Mulick, Busch, Berlin & Martell (2007); Barraca, Pérez-Álvarez & Lozano-Bleda (2011)",
+      "proposito": "Medir activación conductual y evitación en depresión. Complementa al BDI-II: mide el mecanismo de cambio de la AC.",
+      "poblacion_objetivo": "Adultos con depresión o síntomas depresivos clínicamente relevantes",
+      "numero_items": 25,
+      "tiempo_aplicacion": "5-10 minutos",
+      "escalas": [
+        "Activación (directa)",
+        "Evitación/Rumiación (inversa)",
+        "Deterioro trabajo/estudios (inversa)",
+        "Deterioro social (inversa)",
+        "Puntuación total (0-150)"
+      ],
+      "puntos_corte": [
+        {
+          "rango": "0-70",
+          "interpretacion": "Activación baja, evitación alta"
+        },
+        {
+          "rango": "71-110",
+          "interpretacion": "Activación moderada, evitación moderada"
+        },
+        {
+          "rango": "111-150",
+          "interpretacion": "Activación alta, evitación baja"
+        }
+      ],
+      "notas": "Administrar en sesiones 1, 5 y 10 para tracking de progreso. A mayor puntuación, mayor activación y menor evitación. Subescalas II-IV se puntúan de forma inversa (6-valor)."
+    }
+  ]
+}

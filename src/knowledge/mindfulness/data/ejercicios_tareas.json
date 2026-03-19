@@ -1,0 +1,132 @@
+{
+  "area_id": "ejercicios_tareas",
+  "nombre": "Ejercicios y Tareas de Mindfulness",
+  "descripcion": "Repertorio de practicas y tareas para casa basadas en mindfulness aplicables en contexto clinico.",
+  "fuentes": [
+    "Kabat-Zinn, J. (2013). Full Catastrophe Living (revised ed.). Bantam Books.",
+    "Segal, Z. V., Williams, J. M. G. & Teasdale, J. D. (2013). Mindfulness-Based Cognitive Therapy for Depression (2nd ed.). Guilford Press.",
+    "Germer, C. K. (2009). The Mindful Path to Self-Compassion. Guilford Press."
+  ],
+  "ejercicios": [
+    {
+      "id": "respiracion_consciente",
+      "nombre": "Respiracion consciente",
+      "duracion_minutos": "5-15",
+      "nivel": "basico",
+      "instrucciones": [
+        "Sentarse en posicion comoda con la espalda recta",
+        "Cerrar los ojos o mantener mirada suave hacia abajo",
+        "Dirigir la atencion a las sensaciones de la respiracion",
+        "Notar la entrada y salida del aire (nariz, pecho o abdomen)",
+        "Cuando la mente se disperse, notar suavemente y regresar a la respiracion",
+        "No intentar controlar la respiracion, solo observarla"
+      ],
+      "tarea_para_casa": "Practicar 5 minutos diarios, preferiblemente a la misma hora. Registrar brevemente la experiencia.",
+      "indicaciones_clinicas": [
+        "Ansiedad",
+        "Estres",
+        "Inicio de cualquier programa de mindfulness"
+      ]
+    },
+    {
+      "id": "body_scan",
+      "nombre": "Escaneo corporal (Body Scan)",
+      "duracion_minutos": "20-45",
+      "nivel": "basico-intermedio",
+      "instrucciones": [
+        "Acostarse boca arriba en posicion comoda",
+        "Llevar la atencion a los pies: notar sensaciones sin juzgar",
+        "Gradualmente mover la atencion ascendiendo por el cuerpo",
+        "En cada zona: notar sensaciones, tension, temperatura, pulsaciones",
+        "Si hay zonas tensas, respirar hacia ellas con aceptacion",
+        "Completar recorriendo todo el cuerpo hasta la coronilla",
+        "Finalizar con atencion al cuerpo como un todo"
+      ],
+      "tarea_para_casa": "Practicar 3 veces por semana con audio guiado. Registrar zonas de tension y respuesta emocional.",
+      "indicaciones_clinicas": [
+        "Dolor cronico",
+        "Somatizacion",
+        "Disociacion leve",
+        "Dificultad para conectar con emociones"
+      ]
+    },
+    {
+      "id": "comer_consciente",
+      "nombre": "Ejercicio de la uva pasa (comer consciente)",
+      "duracion_minutos": "10-15",
+      "nivel": "basico",
+      "instrucciones": [
+        "Tomar un alimento pequeno (uva pasa, trozo de fruta)",
+        "Observarlo como si nunca se hubiera visto: forma, color, textura",
+        "Olerlo: notar todas las cualidades del aroma",
+        "Colocarlo en la boca sin masticar: notar sensaciones en la lengua",
+        "Masticar lentamente: notar sabores, texturas, cambios",
+        "Tragar conscientemente: seguir las sensaciones al descender"
+      ],
+      "tarea_para_casa": "Realizar una comida consciente a la semana (al menos los primeros 5 minutos).",
+      "indicaciones_clinicas": [
+        "Psicoeducacion inicial sobre mindfulness",
+        "Trastornos alimentarios",
+        "Comer emocional"
+      ]
+    },
+    {
+      "id": "meditacion_sentada",
+      "nombre": "Meditacion sentada formal",
+      "duracion_minutos": "15-30",
+      "nivel": "intermedio",
+      "instrucciones": [
+        "Sentarse con postura estable y dignificada",
+        "Comenzar con atencion a la respiracion (5 min)",
+        "Expandir a sensaciones corporales (5 min)",
+        "Expandir a sonidos del entorno (5 min)",
+        "Expandir a pensamientos y emociones (observar sin engancharse) (5 min)",
+        "Atencion abierta y sin objeto (choiceless awareness) (5 min)",
+        "Cerrar con tres respiraciones profundas"
+      ],
+      "tarea_para_casa": "Practicar diariamente 15-30 minutos. Aumentar gradualmente la duracion.",
+      "indicaciones_clinicas": [
+        "Rumia",
+        "Ansiedad",
+        "Prevencion de recaidas en depresion"
+      ]
+    },
+    {
+      "id": "espacio_respiracion",
+      "nombre": "Espacio de respiracion de tres minutos",
+      "duracion_minutos": "3",
+      "nivel": "basico",
+      "instrucciones": [
+        "Minuto 1 - AMPLIAR: Darse cuenta de la experiencia actual (pensamientos, emociones, sensaciones)",
+        "Minuto 2 - FOCALIZAR: Dirigir atencion a la respiracion como ancla",
+        "Minuto 3 - EXPANDIR: Ampliar la atencion a todo el cuerpo y al momento presente"
+      ],
+      "tarea_para_casa": "Usar 3 veces al dia (manana, mediodia, noche) y en cualquier momento de estres.",
+      "indicaciones_clinicas": [
+        "Practica de emergencia ante estres",
+        "MBCT",
+        "Regulacion emocional rapida"
+      ]
+    },
+    {
+      "id": "caminar_consciente",
+      "nombre": "Caminata consciente (Walking meditation)",
+      "duracion_minutos": "10-20",
+      "nivel": "basico",
+      "instrucciones": [
+        "Elegir un tramo de 10-15 metros para caminar de ida y vuelta",
+        "Caminar lentamente, notando cada fase del paso",
+        "Atender al levantar el pie, moverlo, apoyarlo",
+        "Notar el contacto con el suelo, el equilibrio, el peso",
+        "Al final del tramo, detenerse, respirar, girar conscientemente",
+        "Mantener mirada suave hacia el suelo a unos metros"
+      ],
+      "tarea_para_casa": "Practicar 10 minutos diarios o incorporar atencion plena en caminatas cotidianas.",
+      "indicaciones_clinicas": [
+        "Personas que no toleran quietud",
+        "Agitacion",
+        "Complemento a meditacion sentada"
+      ]
+    }
+  ]
+}

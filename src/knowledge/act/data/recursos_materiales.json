@@ -1,0 +1,78 @@
+{
+  "area_id": "recursos_materiales",
+  "nombre": "Recursos y Materiales de ACT",
+  "descripcion": "Libros, manuales, hojas de trabajo y materiales clínicos para la implementación de la Terapia de Aceptación y Compromiso",
+  "fuentes": [
+    "Hayes, Strosahl & Wilson (2012). Acceptance and Commitment Therapy: The Process and Practice of Mindful Change, 2nd ed.",
+    "Harris (2009). ACT Made Simple: An Easy-to-Read Primer on Acceptance and Commitment Therapy",
+    "Luoma, Hayes & Walser (2007). Learning ACT: An Acceptance and Commitment Therapy Skills Training Manual for Therapists",
+    "Stoddard & Afari (2014). The Big Book of ACT Metaphors",
+    "Wilson & Luciano (2002). Terapia de Aceptación y Compromiso: Un tratamiento conductual orientado a los valores"
+  ],
+  "recursos": [
+    {
+      "id": "RM01",
+      "tipo": "libro_referencia",
+      "titulo": "Acceptance and Commitment Therapy: The Process and Practice of Mindful Change (2nd ed.)",
+      "autor": "Steven C. Hayes, Kirk D. Strosahl, Kelly G. Wilson",
+      "descripcion": "Manual fundacional de ACT en su segunda edición actualizada. Presenta el modelo teórico completo, la base en el contextualismo funcional y RFT, los seis procesos del hexaflex con protocolos detallados, y la evidencia empírica acumulada. Referencia imprescindible para comprender ACT desde sus fundamentos hasta la práctica clínica avanzada.",
+      "uso_clinico": "Referencia teórica y de protocolo. Consultar para fundamentar formulaciones de caso, diseñar intervenciones específicas y comprender los mecanismos de cambio. Capítulos organizados por proceso del hexaflex permiten buscar estrategias para procesos específicos."
+    },
+    {
+      "id": "RM02",
+      "tipo": "manual_clinico",
+      "titulo": "ACT Made Simple: An Easy-to-Read Primer on Acceptance and Commitment Therapy",
+      "autor": "Russ Harris",
+      "descripcion": "Guía práctica y accesible para terapeutas que se inician en ACT. Traduce los conceptos teóricos en técnicas aplicables con scripts de sesión, metáforas listas para usar y soluciones a problemas clínicos comunes. Incluye ejercicios experienciales paso a paso y hojas de trabajo reproducibles.",
+      "uso_clinico": "Manual de trabajo diario del terapeuta. Ideal para preparar sesiones, encontrar metáforas adecuadas para cada proceso y resolver dudas prácticas sobre cómo implementar ACT. Especialmente útil para terapeutas en formación."
+    },
+    {
+      "id": "RM03",
+      "tipo": "manual_entrenamiento",
+      "titulo": "Learning ACT: An Acceptance and Commitment Therapy Skills Training Manual for Therapists",
+      "autor": "Jason B. Luoma, Steven C. Hayes, Robyn D. Walser",
+      "descripcion": "Manual de entrenamiento estructurado en competencias ACT. Organizado como programa de formación progresiva que desarrolla las habilidades clínicas necesarias para cada proceso del hexaflex. Incluye ejercicios de autoaplicación para el terapeuta, role-plays y criterios de competencia.",
+      "uso_clinico": "Formación y supervisión del terapeuta. Cada capítulo contiene ejercicios de autoaplicación que permiten al terapeuta experimentar ACT en primera persona antes de aplicarla con pacientes. Útil para supervisión clínica y evaluación de competencias."
+    },
+    {
+      "id": "RM04",
+      "tipo": "libro_metaforas",
+      "titulo": "The Big Book of ACT Metaphors: A Practitioner's Guide to Experiential Exercises and Metaphors in Acceptance and Commitment Therapy",
+      "autor": "Jill A. Stoddard, Niloofar Afari",
+      "descripcion": "Colección extensa de metáforas clínicas y ejercicios experienciales organizados por proceso del hexaflex. Cada metáfora incluye el script completo, indicaciones de uso, variaciones y cómo conectarla con la experiencia del paciente.",
+      "uso_clinico": "Banco de recursos para sesiones. Consultar cuando se necesite una metáfora específica para un proceso o cuando las metáforas habituales no conectan con un paciente particular. Las variaciones permiten adaptar cada metáfora al contexto cultural y personal del paciente."
+    },
+    {
+      "id": "RM05",
+      "tipo": "libro_paciente",
+      "titulo": "La trampa de la felicidad: Deja de sufrir, comienza a vivir",
+      "autor": "Russ Harris (traducción al español)",
+      "descripcion": "Libro de autoayuda basado en ACT dirigido a pacientes y público general. Presenta los conceptos de ACT de forma accesible con ejercicios prácticos para identificar la trampa del control emocional, practicar defusión y aceptación, clarificar valores y comprometerse con la acción.",
+      "uso_clinico": "Lectura complementaria para pacientes. Asignar capítulos específicos como tarea entre sesiones para reforzar conceptos trabajados en terapia. Capítulos sobre la agenda de control y desesperanza creativa son especialmente útiles al inicio del tratamiento."
+    },
+    {
+      "id": "RM06",
+      "tipo": "libro_referencia_espanol",
+      "titulo": "Terapia de Aceptación y Compromiso: Un tratamiento conductual orientado a los valores",
+      "autor": "Kelly G. Wilson, M. Carmen Luciano",
+      "descripcion": "Texto de referencia fundamental en español que presenta ACT desde la perspectiva del análisis funcional de la conducta verbal. Integra la Teoría de Marcos Relacionales con la práctica clínica y ofrece casos clínicos detallados en contexto hispanohablante.",
+      "uso_clinico": "Referencia principal en español. Fundamental para terapeutas hispanohablantes que necesitan comprender la base conductual de ACT y su vinculación con RFT. Los casos clínicos en español ofrecen ejemplos culturalmente relevantes."
+    },
+    {
+      "id": "RM07",
+      "tipo": "hoja_trabajo",
+      "titulo": "Hoja de trabajo del Hexaflex personal",
+      "autor": "Adaptado de Hayes, Strosahl & Wilson (2012)",
+      "descripcion": "Plantilla visual del hexaflex que permite al paciente autoevaluar su nivel de flexibilidad/inflexibilidad en cada uno de los seis procesos. Incluye espacio para ejemplos personales de fusión vs. defusión, evitación vs. aceptación, desconexión vs. contacto presente, yo-contenido vs. yo-contexto, falta de claridad vs. valores claros, e inacción vs. acción comprometida.",
+      "uso_clinico": "Formulación de caso y psicoeducación. Usar en sesiones 2-3 para que el paciente identifique sus propios patrones de inflexibilidad. Revisar periódicamente para monitorizar cambios en cada proceso."
+    },
+    {
+      "id": "RM08",
+      "tipo": "hoja_trabajo",
+      "titulo": "Choice Point (Punto de Elección)",
+      "autor": "Russ Harris (2019)",
+      "descripcion": "Herramienta visual que permite al paciente mapear situaciones difíciles identificando: la situación/gancho (pensamientos, emociones), movimientos de alejamiento de valores (evitación) y movimientos de acercamiento a valores (acción comprometida). Formato simple y visual que facilita la toma de decisiones en el momento.",
+      "uso_clinico": "Autoregistro diario y herramienta de sesión. Introducir en sesión 3-4 como marco para analizar cualquier situación problemática. El paciente lo usa como registro entre sesiones para identificar patrones de evitación y practicar elecciones conscientes."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "area_id": "mindfulness_practicas_formales",
+  "nombre": "Practicas Formales de Mindfulness",
+  "descripcion": "Practicas meditativas estructuradas con tiempo y espacio dedicados, columna vertebral de los programas basados en mindfulness.",
+  "fuentes": [
+    "Kabat-Zinn, J. (2013). Full Catastrophe Living. Bantam.",
+    "Segal, Z. V. et al. (2013). MBCT for Depression (2nd ed.). Guilford.",
+    "Crane, R. (2009). Mindfulness-Based Cognitive Therapy. Routledge."
+  ],
+  "practicas": [
+    {
+      "id": "body_scan_formal",
+      "nombre": "Escaneo Corporal (Body Scan)",
+      "duracion_sugerida": "30-45 min (puede acortarse a 15-20 para principiantes)",
+      "posicion": "Tumbado boca arriba, brazos a los lados, ojos cerrados",
+      "instrucciones": [
+        "Comenzar con atencion a la respiracion y al cuerpo como un todo",
+        "Dirigir atencion a los dedos del pie izquierdo",
+        "Notar sensaciones presentes: hormigueo, temperatura, presion, nada",
+        "Respirar hacia la zona observada",
+        "Soltar y mover atencion al pie, tobillo, pantorrilla...",
+        "Recorrer todo el lado izquierdo, luego el derecho",
+        "Recorrer tronco, espalda, hombros, brazos, manos",
+        "Cuello, cara (mandibula, mejillas, ojos, frente), coronilla",
+        "Finalizar con atencion al cuerpo como totalidad"
+      ],
+      "desafios_comunes": [
+        "Somnolencia",
+        "Impaciencia",
+        "No sentir nada en algunas zonas",
+        "Dolor o incomodidad"
+      ],
+      "respuestas_terapeuticas": {
+        "somnolencia": "Practicar sentado, ojos entreabiertos, momento del dia con mas alerta",
+        "no_sentir_nada": "Notar el 'no sentir' es tambien una observacion valida. No buscar sensaciones.",
+        "dolor": "Observar el dolor con curiosidad: forma, tamano, densidad. Respirar hacia el. No es necesario eliminarlo."
+      },
+      "progresion_sugerida": [
+        "Semana 1-2: body scan completo con audio (45 min)",
+        "Semana 3-4: body scan sin audio (30 min)",
+        "Semana 5+: body scan breve (15 min) o escaneo rapido como check-in"
+      ]
+    },
+    {
+      "id": "meditacion_sentada_formal",
+      "nombre": "Meditacion Sentada Formal",
+      "duracion_sugerida": "20-40 min",
+      "posicion": "Sentado en silla o cojin, espalda recta sin rigidez, manos en regazo",
+      "progresion_de_focos": [
+        {
+          "etapa": 1,
+          "foco": "Respiracion",
+          "duracion_recomendada": "1-2 semanas",
+          "instruccion": "Atencion a sensaciones de respiracion en nariz, pecho o abdomen"
+        },
+        {
+          "etapa": 2,
+          "foco": "Cuerpo y respiracion",
+          "duracion_recomendada": "1-2 semanas",
+          "instruccion": "Ampliar a sensaciones corporales manteniendo respiracion como ancla"
+        },
+        {
+          "etapa": 3,
+          "foco": "Sonidos",
+          "duracion_recomendada": "1 semana",
+          "instruccion": "Atencion abierta a sonidos: notar sin etiquetar ni juzgar"
+        },
+        {
+          "etapa": 4,
+          "foco": "Pensamientos y emociones",
+          "duracion_recomendada": "2+ semanas",
+          "instruccion": "Observar pensamientos como eventos mentales. Notar emociones como patrones de sensaciones corporales"
+        },
+        {
+          "etapa": 5,
+          "foco": "Atencion abierta (choiceless)",
+          "duracion_recomendada": "practica avanzada",
+          "instruccion": "Atencion receptiva sin objeto fijo. Notar lo que surge momento a momento"
+        }
+      ]
+    },
+    {
+      "id": "movimiento_consciente",
+      "nombre": "Movimiento Consciente (Mindful Movement)",
+      "duracion_sugerida": "20-30 min",
+      "descripcion": "Movimientos suaves basados en yoga o estiramientos realizados con plena atencion.",
+      "instrucciones": [
+        "Realizar movimientos lentos y suaves",
+        "Atender a las sensaciones en cada movimiento",
+        "Respetar los limites del cuerpo sin forzar",
+        "Notar la transicion entre un movimiento y otro",
+        "Mantener la respiracion natural y consciente"
+      ],
+      "indicaciones_especiales": "Especialmente util para pacientes que no toleran la quietud de la meditacion sentada. Tambien para dolor cronico donde el movimiento es terapeutico."
+    },
+    {
+      "id": "meditacion_compasion",
+      "nombre": "Meditacion de Amor Bondadoso (Loving-Kindness / Metta)",
+      "duracion_sugerida": "15-25 min",
+      "instrucciones": [
+        "Sentarse en posicion comoda",
+        "Traer a la mente alguien por quien se siente amor incondicional",
+        "Dirigir frases de amabilidad: 'Que puedas estar bien, que puedas ser feliz, que puedas estar libre de sufrimiento'",
+        "Gradualmente extender a: uno mismo, personas neutras, personas dificiles, todos los seres",
+        "Notar las emociones que surgen sin juzgarlas"
+      ],
+      "progresion_sugerida": [
+        "Comenzar con ser querido (mas facil)",
+        "Incluirse a uno mismo",
+        "Persona neutra",
+        "Persona dificil (gradualmente)",
+        "Todos los seres"
+      ],
+      "indicaciones": [
+        "Autocritica",
+        "Resentimiento",
+        "Aislamiento social",
+        "Fatiga por compasion en cuidadores"
+      ]
+    }
+  ]
+}

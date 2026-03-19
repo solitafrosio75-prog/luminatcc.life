@@ -1,0 +1,111 @@
+{
+  "profile_id": "act_profile_v3",
+  "technique_id": "act",
+  "nombre": "Perfil Clinico de Terapia de Aceptacion y Compromiso",
+  "version": "3.0.0-alpha",
+  "reviewed_at": "2026-03-06",
+  "reviewed_by": [
+    "equipo_tcc_lab",
+    "revision_tecnica_inicial"
+  ],
+  "resumen_clinico": "Intervencion contextual orientada a aumentar flexibilidad psicologica mediante aceptacion, defusion, contacto con el presente, clarificacion de valores y accion comprometida.",
+  "mecanismos_de_cambio": [
+    "reduccion de fusion cognitiva",
+    "disminucion de evitacion experiencial",
+    "orientacion a valores personales",
+    "incremento de acciones consistentes con valores"
+  ],
+  "problemas_diana": [
+    "evitacion_experiencial",
+    "rumiacion_cognitiva",
+    "inflexibilidad_conductual",
+    "desconexion_de_valores",
+    "malestar_emocional_cronico"
+  ],
+  "sintomas_diana": [
+    "ansiedad_persistente",
+    "tristeza_recurrente",
+    "autocritica_invasiva",
+    "paralisis_ante_malestar",
+    "conductas_de_escape"
+  ],
+  "poblaciones_objetivo": [
+    "adultos",
+    "adolescentes",
+    "casos_con_ansiedad_o_depresion",
+    "dolor_cronico_y_estres"
+  ],
+  "prerequisitos": [
+    "disponibilidad para trabajo experiencial",
+    "encuadre terapeutico claro",
+    "identificacion inicial de areas de vida significativas"
+  ],
+  "contraindicaciones": [
+    {
+      "id": "act_ci_01",
+      "condicion": "Psicosis activa con desorganizacion severa",
+      "tipo": "relativa",
+      "razon_clinica": "El trabajo metacognitivo y experiencial puede requerir estabilizacion previa.",
+      "alternativa_sugerida": "Estabilizacion psiquiatrica y abordajes conductuales estructurados"
+    },
+    {
+      "id": "act_ci_02",
+      "condicion": "Riesgo suicida agudo no contenido",
+      "tipo": "absoluta",
+      "razon_clinica": "Se prioriza manejo de crisis y seguridad inmediata.",
+      "alternativa_sugerida": "Activar protocolo de crisis y derivacion urgente"
+    }
+  ],
+  "banderas_seguridad": [
+    "incremento de desesperanza",
+    "desregulacion no modulable tras ejercicios experienciales",
+    "retiro abrupto de actividades de autocuidado"
+  ],
+  "requiere_derivacion_si": [
+    "riesgo_suicida_alto",
+    "sintomas_psicoticos_activos",
+    "consumo_agudo_grave"
+  ],
+  "supervision": [
+    {
+      "id": "act_sup_01",
+      "descripcion": "Supervision recomendada en casos complejos con trauma o comorbilidad severa",
+      "requerido": true,
+      "contexto": "casos moderados a severos"
+    }
+  ],
+  "evidencia": {
+    "nivel_global": "alta",
+    "fuerza_recomendacion": "fuerte",
+    "poblaciones_validadas": [
+      "ansiedad",
+      "depresion",
+      "dolor_cronico",
+      "estres_laboral"
+    ],
+    "fuentes_clave": [
+      "Hayes, S. C. et al. (1999). Acceptance and Commitment Therapy",
+      "A-Tjak, J. G. L. et al. (2015). Meta-analysis of ACT",
+      "Gloster, A. T. et al. (2020). ACT process and outcome research"
+    ],
+    "limitaciones": [
+      "requiere practica sostenida entre sesiones",
+      "puede necesitar adaptaciones en crisis agudas"
+    ]
+  },
+  "combinable_con": [
+    "activacion_conductual",
+    "reestructuracion_cognitiva",
+    "mindfulness",
+    "entrenamiento_en_habilidades"
+  ],
+  "no_recomendada_con": [
+    "exigencia_de_control_total_de_pensamientos",
+    "focalizacion_exclusiva_en_sintoma_sin_valores"
+  ],
+  "trace_sources": [
+    "src/knowledge/act/data/conocimiento.json",
+    "src/knowledge/act/data/tecnicas_especificas.json",
+    "src/knowledge/act/data/objetivos_clinicos.json"
+  ]
+}

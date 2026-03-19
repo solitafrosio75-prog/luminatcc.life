@@ -1,0 +1,76 @@
+{
+  "area_id": "conocimiento",
+  "nombre": "Conocimiento y Fundamentos de la Reestructuración Cognitiva",
+  "descripcion": "Fundamentos teóricos, principios clave y evidencia científica de la Reestructuración Cognitiva como técnica central de la TCC",
+  "fuentes": [
+    "Beck, A. T. (1976). Cognitive Therapy and the Emotional Disorders",
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond (3rd ed.)",
+    "Clark, D. A. & Beck, A. T. (2010). Cognitive Therapy of Anxiety Disorders",
+    "Burns, D. D. (1980). Feeling Good: The New Mood Therapy",
+    "Ellis, A. (1962). Reason and Emotion in Psychotherapy"
+  ],
+  "fundamentos_teoricos": {
+    "definicion": "La Reestructuración Cognitiva (RC) es el proceso terapéutico mediante el cual se identifican, evalúan y modifican los pensamientos automáticos distorsionados, los supuestos intermedios disfuncionales y las creencias nucleares que subyacen al malestar emocional. El motor de cambio es cognitivo: al modificar la interpretación de los eventos, cambian las emociones y las conductas.",
+    "origenes_historicos": [
+      {
+        "autor": "Beck, A. T. (1963-1976)",
+        "aportacion": "Desarrolló el modelo cognitivo de la depresión: los trastornos emocionales se mantienen por patrones sistemáticos de pensamiento distorsionado (tríada cognitiva). Creó la Terapia Cognitiva como sistema terapéutico completo."
+      },
+      {
+        "autor": "Ellis, A. (1955-1962)",
+        "aportacion": "Creó la Terapia Racional Emotiva Conductual (TREC). Identificó las creencias irracionales como causa del malestar emocional y desarrolló el modelo ABC (Acontecimiento-Creencia-Consecuencia)."
+      },
+      {
+        "autor": "Burns, D. D. (1980)",
+        "aportacion": "Sistematizó y popularizó las distorsiones cognitivas en una taxonomía accesible. Su lista de 10 distorsiones se convirtió en herramienta clínica estándar."
+      },
+      {
+        "autor": "Beck, J. S. (1995-2020)",
+        "aportacion": "Sistematizó la práctica de la TC con el modelo de conceptualización cognitiva, diferenciando tres niveles: pensamientos automáticos, supuestos intermedios y creencias nucleares."
+      }
+    ],
+    "modelo_explicativo": "El modelo cognitivo plantea que no son los eventos en sí los que generan malestar, sino la interpretación que la persona hace de ellos. Las experiencias tempranas forman creencias nucleares (sobre uno mismo, los otros y el mundo) que generan supuestos intermedios (reglas, actitudes) que a su vez producen pensamientos automáticos ante situaciones activadoras. Estos pensamientos distorsionados generan emociones negativas y conductas disfuncionales que confirman las creencias, cerrando un ciclo de mantenimiento.",
+    "mecanismo_de_cambio": "La RC opera identificando los pensamientos automáticos negativos, evaluándolos mediante evidencia y lógica (diálogo socrático), generando pensamientos alternativos más adaptativos, y progresivamente modificando los supuestos y creencias subyacentes. Los experimentos conductuales prueban empíricamente las predicciones derivadas de las creencias disfuncionales."
+  },
+  "principios_clave": [
+    {
+      "principio": "Mediación cognitiva",
+      "explicacion": "Las respuestas emocionales y conductuales están mediadas por la interpretación cognitiva del evento, no por el evento en sí. Situación → Pensamiento → Emoción/Conducta."
+    },
+    {
+      "principio": "Niveles de cognición",
+      "explicacion": "Existen tres niveles: pensamientos automáticos (superficiales, situacionales), supuestos intermedios (reglas 'Si...entonces', actitudes) y creencias nucleares (absolutas, sobre identidad). El trabajo terapéutico va de lo superficial a lo profundo."
+    },
+    {
+      "principio": "Empirismo colaborativo",
+      "explicacion": "Terapeuta y paciente trabajan como un equipo de investigación: formulan hipótesis sobre las creencias, buscan evidencia a favor y en contra, y diseñan experimentos para probar predicciones."
+    },
+    {
+      "principio": "Descubrimiento guiado",
+      "explicacion": "El terapeuta no refuta directamente los pensamientos del paciente, sino que mediante preguntas socráticas le guía a descubrir por sí mismo las distorsiones y alternativas más adaptativas."
+    },
+    {
+      "principio": "Especificidad cognitiva",
+      "explicacion": "Cada trastorno tiene un perfil cognitivo específico: la depresión implica visión negativa de uno mismo, el mundo y el futuro; la ansiedad implica sobrestimación de amenaza e infravaloración de recursos."
+    }
+  ],
+  "evidencia_cientifica": {
+    "metaanalisis": [
+      "Cuijpers et al. (2019): El componente cognitivo de la TCC tiene un efecto específico significativo sobre la depresión (d = 0.29) más allá del componente conductual solo.",
+      "Hofmann et al. (2012): Meta-análisis de 269 estudios confirma eficacia de TCC (con RC como componente central) para depresión, ansiedad, TOC, TEPT, entre otros.",
+      "Cristea et al. (2015): La RC como componente activo muestra eficacia en trastornos de ansiedad con tamaños de efecto moderados a grandes."
+    ],
+    "eficacia_comparativa": "La RC combinada con técnicas conductuales (TCC completa) es el tratamiento de referencia para depresión y trastornos de ansiedad. Como componente aislado, la RC muestra eficacia comparable a la activación conductual en depresión moderada, y eficacia superior en prevención de recaídas.",
+    "poblaciones_estudiadas": [
+      "Depresión mayor en adultos",
+      "Trastorno de ansiedad generalizada",
+      "Trastorno de pánico",
+      "Fobia social",
+      "TOC",
+      "TEPT",
+      "Trastornos alimentarios",
+      "Dolor crónico",
+      "Adolescentes con depresión y ansiedad"
+    ]
+  }
+}

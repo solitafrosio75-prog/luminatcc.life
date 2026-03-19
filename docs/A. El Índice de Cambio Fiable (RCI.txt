@@ -1,0 +1,20 @@
+A. El Índice de Cambio Fiable (RCI - Reliable Change Index)
+
+Calcula si la magnitud del cambio en la puntuación de un test (como el BDI-II) es lo suficientemente grande como para que no se deba a un error de medición del propio test.
+RCI=Sdiff​x2​−x1​​
+
+Donde x1​ es la pre-puntuación, x2​ la post-puntuación, y Sdiff​ es el error estándar de la diferencia.
+B. Significación Clínica (El Cruce de Poblaciones)
+
+No basta con bajar puntos; el paciente debe "cruzar la frontera" de la población clínica (enferma) a la población funcional (sana). Jacobson y Truax proponen tres formas (A, B o C) de calcular este punto de corte. El Criterio C es el más exigente y riguroso.
+2. Los 4 Estados del Paciente según JT
+
+Al procesar los datos de tu bibliografía, tu aplicación podría clasificar a los usuarios en estas cuatro categorías automáticas:
+
+    Recuperado: El cambio es fiable (RCI > 1.96) y el paciente ha pasado al rango de población sana.
+
+    Mejorado: El cambio es fiable (RCI > 1.96), pero el paciente sigue dentro del rango de población clínica (aún no está "sano").
+
+    Sin cambios: El cambio es tan pequeño que entra dentro del margen de error del test.
+
+    Deteriorado: El paciente ha empeorado de forma fiable (RCI < -1.96).

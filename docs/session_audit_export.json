@@ -1,0 +1,23 @@
+{
+  "audit_id": "audit_001",
+  "session_id": "ac_sesion_1",
+  "resumen": "Sesión 1 completada, crisis detectada, intervención ética priorizada.",
+  "decisiones": [
+    "Derivación por crisis",
+    "Cambio de técnica"
+  ],
+  "incidentes": [
+    "Crisis suicida"
+  ],
+  "inventarios": [
+    "BDI-II",
+    "BADS"
+  ],
+  "fecha": "2026-03-14",
+  "referencias": [
+    {
+      "tipo": "protocolo",
+      "referencia": "Protocolo Crisis UNAM 2023"
+    }
+  ]
+}

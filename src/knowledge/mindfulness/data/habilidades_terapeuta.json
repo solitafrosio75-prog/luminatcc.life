@@ -1,0 +1,71 @@
+{
+  "area_id": "habilidades_terapeuta",
+  "nombre": "Habilidades del Terapeuta en Mindfulness",
+  "descripcion": "Competencias necesarias para el terapeuta que aplica intervenciones basadas en mindfulness.",
+  "fuentes": [
+    "Crane, R. S. et al. (2012). Competences for Teaching Mindfulness-Based Courses. Mindfulness, 3, 76-84.",
+    "Kabat-Zinn, J. (2013). Full Catastrophe Living. Bantam.",
+    "Segal, Z. V. et al. (2013). MBCT for Depression (2nd ed.). Guilford."
+  ],
+  "habilidades_nucleares": [
+    {
+      "habilidad": "Practica personal sostenida",
+      "descripcion": "El terapeuta debe tener una practica personal de mindfulness regular y continuada.",
+      "componentes": [
+        "Minimo 6-12 meses de practica personal antes de ensenar",
+        "Practica diaria de al menos 20-30 minutos",
+        "Haber completado al menos un retiro de mindfulness",
+        "La practica personal informa y enriquece la ensenanza"
+      ],
+      "importancia": "Fundamental. No se puede guiar a otros en un territorio que uno no ha explorado."
+    },
+    {
+      "habilidad": "Encarnacion del mindfulness (embodiment)",
+      "descripcion": "Capacidad de modelar las actitudes mindful durante la sesion terapeutica.",
+      "componentes": [
+        "Presencia atenta y no reactiva durante la sesion",
+        "Responder en lugar de reaccionar ante material dificil",
+        "Mantener curiosidad genuina por la experiencia del paciente",
+        "Transmitir aceptacion y no-juicio a traves del lenguaje y actitud"
+      ]
+    },
+    {
+      "habilidad": "Guiar practicas meditativas",
+      "descripcion": "Capacidad de guiar meditaciones de forma clara, pausada y terapeuticamente sensible.",
+      "componentes": [
+        "Usar lenguaje invitacional ('puedes notar...', 'si lo deseas...')",
+        "Mantener ritmo pausado con silencios significativos",
+        "Adaptar las instrucciones al nivel del paciente",
+        "Observar respuestas del paciente durante la practica",
+        "Manejar reacciones adversas durante la practica"
+      ]
+    },
+    {
+      "habilidad": "Indagacion (Inquiry)",
+      "descripcion": "Habilidad para explorar la experiencia del paciente despues de una practica mindful de forma que profundice el aprendizaje.",
+      "componentes": [
+        "Preguntas abiertas y curiosas sobre la experiencia directa",
+        "Dirigir atencion a la experiencia del momento, no a explicaciones",
+        "Distinguir entre descripcion de experiencia y narrativa sobre ella",
+        "Usar preguntas como: 'Que notaste?', 'Donde lo sentiste en el cuerpo?', 'Como fue eso para ti?'"
+      ]
+    },
+    {
+      "habilidad": "Manejo de dificultades en la practica",
+      "descripcion": "Capacidad de responder terapeuticamente cuando surgen dificultades durante o fuera de la practica.",
+      "componentes": [
+        "Normalizar la dificultad como parte del proceso",
+        "Distinguir entre dificultad productiva y contraindicacion",
+        "Saber cuando adaptar la practica y cuando pausarla",
+        "Manejar llanto, ansiedad o disociacion durante meditaciones"
+      ]
+    }
+  ],
+  "competencias_avanzadas": [
+    "Adaptar programas MBSR/MBCT a poblaciones especificas",
+    "Integrar mindfulness con otras modalidades terapeuticas (TCC, DBT, ACT)",
+    "Supervisar a otros terapeutas en mindfulness",
+    "Evaluar la practica del paciente sin juicio pero con precision clinica",
+    "Manejar la propia practica personal ante burnout y fatiga por compasion"
+  ]
+}

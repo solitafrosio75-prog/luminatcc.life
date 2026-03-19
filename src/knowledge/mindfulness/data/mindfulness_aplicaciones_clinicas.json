@@ -1,0 +1,105 @@
+{
+  "area_id": "mindfulness_aplicaciones_clinicas",
+  "nombre": "Aplicaciones Clinicas del Mindfulness",
+  "descripcion": "Protocolos y programas estructurados que integran mindfulness para poblaciones clinicas especificas.",
+  "fuentes": [
+    "Segal, Z. V. et al. (2013). MBCT for Depression (2nd ed.). Guilford.",
+    "Bowen, S., Chawla, N. & Marlatt, G. A. (2011). Mindfulness-Based Relapse Prevention for Addictive Behaviors. Guilford.",
+    "Brantley, J. (2007). Calming Your Anxious Mind (2nd ed.). New Harbinger.",
+    "Germer, C. K. & Neff, K. D. (2019). Teaching the Mindful Self-Compassion Program. Guilford."
+  ],
+  "aplicaciones": [
+    {
+      "id": "mbct_depresion",
+      "nombre": "MBCT para Depresion Recurrente",
+      "poblacion_objetivo": "Adultos con 3 o mas episodios depresivos previos, actualmente en remision",
+      "evidencia": "Fuerte. Reduce riesgo de recaida hasta un 43% comparado con tratamiento habitual. Recomendado por NICE (UK).",
+      "mecanismo": "Descentramiento de pensamientos depresogenicos. Deteccion temprana de senales de recaida. Respuesta habil en lugar de reactividad automatica.",
+      "duracion": "8 sesiones semanales de 2 horas + retiro de un dia",
+      "componentes_clave": [
+        "Body scan",
+        "Meditacion sentada",
+        "Espacio de respiracion 3 min",
+        "Psicoeducacion sobre depresion",
+        "Plan de accion ante recaida"
+      ]
+    },
+    {
+      "id": "mbsr_estres",
+      "nombre": "MBSR para Estres y Dolor Cronico",
+      "poblacion_objetivo": "Adultos con estres cronico, dolor cronico o enfermedades medicas",
+      "evidencia": "Fuerte. El programa original de Kabat-Zinn con decadas de investigacion.",
+      "mecanismo": "Cambiar la relacion con el estres y el dolor. Reducir la reactividad. Aumentar la resiliencia.",
+      "duracion": "8 sesiones semanales de 2.5 horas + retiro de un dia",
+      "componentes_clave": [
+        "Body scan",
+        "Yoga consciente",
+        "Meditacion sentada",
+        "Caminata consciente",
+        "Practica diaria 45 min"
+      ]
+    },
+    {
+      "id": "mbrp_adicciones",
+      "nombre": "MBRP para Prevencion de Recaidas en Adicciones",
+      "poblacion_objetivo": "Personas en recuperacion de trastornos por uso de sustancias",
+      "evidencia": "Moderada-Fuerte. Reduce craving y recaidas comparado con tratamiento habitual.",
+      "mecanismo": "Surfear impulsos (urge surfing). Descentramiento de pensamientos de consumo. Atencion a senales de riesgo.",
+      "duracion": "8 sesiones semanales",
+      "componentes_clave": [
+        "Urge surfing",
+        "SOBER breathing space",
+        "Identificacion de disparadores",
+        "Practica de aceptacion"
+      ]
+    },
+    {
+      "id": "msc_autocompasion",
+      "nombre": "MSC - Mindful Self-Compassion",
+      "poblacion_objetivo": "Personas con autocritica severa, verguenza, baja autoestima",
+      "evidencia": "Moderada. Estudios muestran aumento significativo en autocompasion, bienestar y resiliencia.",
+      "mecanismo": "Desarrollar una voz interna compasiva. Normalizar el sufrimiento como experiencia humana compartida.",
+      "duracion": "8 sesiones semanales de 2.5 horas + retiro",
+      "componentes_clave": [
+        "Meditacion de amor bondadoso",
+        "Autocompasion en momentos dificiles",
+        "Trabajo con la voz critica interna",
+        "Exploracion de valores"
+      ]
+    },
+    {
+      "id": "mindfulness_trastornos_ansiedad",
+      "nombre": "Mindfulness para Trastornos de Ansiedad",
+      "poblacion_objetivo": "Adultos con TAG, fobia social, trastorno de panico",
+      "evidencia": "Moderada. Meta-analisis muestran reducciones significativas en ansiedad.",
+      "mecanismo": "Reducir evitacion experiencial. Exposicion interoceptiva (atencion a sensaciones ansiosas). Descentramiento.",
+      "duracion": "Variable, tipicamente 8-12 sesiones integrado con TCC",
+      "componentes_clave": [
+        "Respiracion consciente",
+        "Surfear la ansiedad",
+        "Exposicion mindful a sensaciones temidas",
+        "Aceptacion radical de la incertidumbre"
+      ]
+    }
+  ],
+  "programas_estructurados": [
+    {
+      "nombre": "MBSR (Mindfulness-Based Stress Reduction)",
+      "creador": "Jon Kabat-Zinn, University of Massachusetts (1979)",
+      "formato": "8 semanas, grupal, 2.5h/sesion + retiro de un dia",
+      "formacion_requerida": "Certificacion oficial por centros autorizados (Center for Mindfulness, UMASS; Bangor University; etc.)"
+    },
+    {
+      "nombre": "MBCT (Mindfulness-Based Cognitive Therapy)",
+      "creador": "Segal, Williams & Teasdale (2002)",
+      "formato": "8 semanas, grupal, 2h/sesion + retiro de un dia",
+      "formacion_requerida": "Formacion en MBCT por centros acreditados. Requiere experiencia previa en TCC y practica personal de mindfulness."
+    },
+    {
+      "nombre": "MSC (Mindful Self-Compassion)",
+      "creador": "Kristin Neff & Christopher Germer (2012)",
+      "formato": "8 semanas, grupal, 2.5h/sesion + retiro",
+      "formacion_requerida": "Formacion oficial MSC (Center for Mindful Self-Compassion)."
+    }
+  ]
+}

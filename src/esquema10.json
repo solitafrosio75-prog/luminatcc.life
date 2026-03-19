@@ -1,0 +1,63 @@
+{
+    "session_numero": 1,
+    "contexto_paciente": {
+        "patient_id": "12345",
+        "motivo_consulta": "Depresión",
+        "perfil_clinico": {
+            "edad": 32,
+            "sexo": "F",
+            "diagnostico": "Depresión mayor"
+        }
+    },
+    "decisiones_terapeuta": [
+        {
+            "momento": "Inicio",
+            "decision": "Aplicar BDI-II",
+            "justificacion": "Evaluación inicial recomendada por guías",
+            "referencia": {
+                "tipo": "guía",
+                "referencia": "APA Practice Guidelines 2021",
+                "doi": "10.1176/appi.books.9780890424841"
+            }
+        }
+    ],
+    "base_conocimiento": {
+        "bloques_sesion": [
+            {
+                "nombre": "Psicoeducación",
+                "contenido": "Explicación modelo AC",
+                "referencias": [
+                    {
+                        "tipo": "metaanálisis",
+                        "referencia": "Cuijpers et al. 2013",
+                        "doi": "10.1016/j.cpr.2013.03.009"
+                    }
+                ]
+            }
+        ],
+        "procedures_aplicadas": [
+            {
+                "procedure_id": "ac_psicoeducacion",
+                "resultado": "Paciente comprende el modelo"
+            }
+        ]
+    },
+    "comunicacion_terapeuta": {
+        "estilo": "Validante",
+        "tono": "Directivo",
+        "adaptacion": "Se ajusta por severidad"
+    },
+    "validacion_etica": {
+        "resultado": "Sin contraindicaciones",
+        "incidentes": []
+    },
+    "salida": {
+        "tareas_asignadas": [
+            {
+                "tarea_id": "monitoreo_actividad",
+                "instrucciones": "Registrar actividades diarias"
+            }
+        ],
+        "resumen": "Sesión completada sin incidentes"
+    }
+}

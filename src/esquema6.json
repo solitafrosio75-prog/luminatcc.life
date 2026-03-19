@@ -1,0 +1,27 @@
+{
+    "session_numero": 1,
+    "validaciones": [
+        {
+            "bloque": "Psicoeducación",
+            "criterio": "No iniciar si hay riesgo suicida activo",
+            "resultado": "Validado",
+            "fuente": {
+                "tipo": "guía",
+                "referencia": "NICE Depression Guideline 2022",
+                "doi": "10.1016/S0140-6736(22)01237-2"
+            }
+        },
+        {
+            "bloque": "Monitoreo de actividad",
+            "criterio": "Paciente comprende instrucciones",
+            "resultado": "Validado",
+            "fuente": {
+                "tipo": "RCT",
+                "referencia": "Martell et al. 2010",
+                "doi": "10.1037/12057-000"
+            }
+        }
+    ],
+    "fecha": "2026-03-14",
+    "responsable": "Sistema TCC-Lab"
+}

@@ -1,0 +1,86 @@
+{
+  "area_id": "herramientas_evaluacion",
+  "nombre": "Herramientas de Evaluación en ACT",
+  "descripcion": "Instrumentos clínicos para evaluar flexibilidad psicológica, evitación experiencial, fusión cognitiva, valores y procesos del hexaflex",
+  "fuentes": [
+    "Bond et al. (2011). Preliminary psychometric properties of the AAQ-II",
+    "Francis et al. (2016). The Comprehensive Assessment of ACT processes (CompACT)",
+    "Wilson, Sandoz, Kitchens & Roberts (2010). The Valued Living Questionnaire",
+    "Gillanders et al. (2014). The Cognitive Fusion Questionnaire",
+    "Baer et al. (2006). Five Facet Mindfulness Questionnaire (FFMQ)",
+    "Lundgren, Luoma, Dahl, Strosahl & Melin (2012). The Bull's Eye Values Survey"
+  ],
+  "herramientas": [
+    {
+      "id": "HE01",
+      "nombre": "Cuestionario de Aceptación y Acción (AAQ-II)",
+      "tipo": "inventario",
+      "proposito": "Medir la inflexibilidad psicológica y la evitación experiencial como constructo global. Es la medida de proceso más utilizada en investigación ACT.",
+      "cuando_usar": "Sesión 1 como línea base, y repetir cada 2-4 sesiones para monitorizar el cambio en flexibilidad psicológica. También útil como screening inicial.",
+      "descripcion_formato": "7 ítems con escala Likert de 7 puntos (1 = nunca verdadero, 7 = siempre verdadero). Puntuación total 7-49. Puntuaciones altas indican mayor inflexibilidad psicológica.",
+      "variables": [
+        {"nombre": "Inflexibilidad psicológica total", "tipo": "puntuacion_total", "instruccion": "Suma de los 7 ítems. Punto de corte clínico: ≥24-28 indica niveles clínicamente significativos de evitación experiencial."}
+      ]
+    },
+    {
+      "id": "HE02",
+      "nombre": "Evaluación Comprehensiva de Procesos ACT (CompACT)",
+      "tipo": "inventario",
+      "proposito": "Evaluar los tres pilares de la flexibilidad psicológica: apertura a la experiencia, conciencia conductual y acción valorada. Más completo que el AAQ-II.",
+      "cuando_usar": "Evaluación inicial y cada 4 sesiones para perfil detallado de procesos ACT. Especialmente útil para identificar qué procesos del hexaflex requieren más trabajo.",
+      "descripcion_formato": "23 ítems con escala Likert de 7 puntos distribuidos en 3 subescalas: Apertura a la Experiencia (10 ítems), Conciencia Conductual (5 ítems), Acción Valorada (8 ítems).",
+      "variables": [
+        {"nombre": "Apertura a la Experiencia", "tipo": "subescala", "instruccion": "Mide aceptación y defusión. Puntuaciones bajas indican alta evitación experiencial y fusión cognitiva."},
+        {"nombre": "Conciencia Conductual", "tipo": "subescala", "instruccion": "Mide contacto con el momento presente y yo-como-contexto. Puntuaciones bajas indican desconexión."},
+        {"nombre": "Acción Valorada", "tipo": "subescala", "instruccion": "Mide claridad de valores y compromiso con la acción. Puntuaciones bajas indican desconexión de valores."}
+      ]
+    },
+    {
+      "id": "HE03",
+      "nombre": "Cuestionario de Vida Valorada (VLQ)",
+      "tipo": "formulario",
+      "proposito": "Evaluar la importancia que el paciente otorga a diferentes dominios vitales y su grado de consistencia conductual con esos valores.",
+      "cuando_usar": "Sesiones 1-3 para identificar valores prioritarios y discrepancia valores-acción. Repetir cada 4-6 sesiones para tracking de acción comprometida.",
+      "descripcion_formato": "10 dominios vitales evaluados en dos dimensiones: Importancia (1-10) y Consistencia (1-10). La discrepancia entre importancia y consistencia señala las áreas de trabajo prioritarias.",
+      "variables": [
+        {"nombre": "Importancia del dominio", "tipo": "escala_1_10", "instruccion": "¿Qué tan importante es esta área de tu vida para ti?"},
+        {"nombre": "Consistencia conductual", "tipo": "escala_1_10", "instruccion": "¿Qué tan consistente has sido durante la última semana actuando según tus valores en esta área?"},
+        {"nombre": "Discrepancia", "tipo": "calculado", "instruccion": "Diferencia entre importancia y consistencia. Mayor discrepancia = mayor área de trabajo."}
+      ]
+    },
+    {
+      "id": "HE04",
+      "nombre": "Cuestionario de Fusión Cognitiva (CFQ)",
+      "tipo": "inventario",
+      "proposito": "Medir específicamente el grado de fusión cognitiva del paciente, es decir, la tendencia a quedar atrapado en el contenido literal de los pensamientos.",
+      "cuando_usar": "Sesión 1 como línea base, y antes y después de bloques de defusión cognitiva para evaluar su efectividad.",
+      "descripcion_formato": "7 ítems con escala Likert de 7 puntos (1 = nunca verdadero, 7 = siempre verdadero). Puntuación total 7-49. Puntuaciones altas indican mayor fusión cognitiva.",
+      "variables": [
+        {"nombre": "Fusión cognitiva total", "tipo": "puntuacion_total", "instruccion": "Suma de los 7 ítems. Puntuaciones ≥30 sugieren fusión cognitiva clínicamente significativa."}
+      ]
+    },
+    {
+      "id": "HE05",
+      "nombre": "Cuestionario de Mindfulness de Cinco Facetas (FFMQ)",
+      "tipo": "inventario",
+      "proposito": "Evaluar las cinco facetas del mindfulness: observar, describir, actuar con conciencia, no juzgar la experiencia interna y no reaccionar a la experiencia interna.",
+      "cuando_usar": "Sesión 1 y cada 6-8 sesiones. Útil para evaluar las capacidades de contacto con el momento presente y aceptación no juiciosa.",
+      "descripcion_formato": "39 ítems con escala Likert de 5 puntos distribuidos en 5 subescalas. Cada subescala mide una faceta diferente del mindfulness.",
+      "variables": [
+        {"nombre": "Observar", "tipo": "subescala", "instruccion": "Capacidad de notar estímulos internos y externos"},
+        {"nombre": "Describir", "tipo": "subescala", "instruccion": "Habilidad para etiquetar experiencias con palabras"},
+        {"nombre": "Actuar con conciencia", "tipo": "subescala", "instruccion": "Atención plena a las actividades del momento presente"},
+        {"nombre": "No juzgar", "tipo": "subescala", "instruccion": "Actitud no evaluativa hacia pensamientos y sentimientos"},
+        {"nombre": "No reaccionar", "tipo": "subescala", "instruccion": "Capacidad de permitir que los pensamientos vengan y vayan sin engancharse"}
+      ]
+    },
+    {
+      "id": "HE06",
+      "nombre": "Diana de Valores (Bull's Eye Values Survey)",
+      "tipo": "formulario",
+      "proposito": "Herramienta visual rápida para evaluar la distancia entre los valores del paciente y su conducta actual en cuatro áreas vitales.",
+      "cuando_usar": "Desde sesión 2 y en cada revisión de valores. Herramienta idónea para monitorizar progreso en acción comprometida de forma visual e intuitiva.",
+      "descripcion_formato": "Diana circular con cuatro cuadrantes (trabajo/educación, relaciones, ocio, salud/crecimiento personal). El paciente marca un punto en cada cuadrante: centro = viviendo plenamente según valores, periferia = muy lejos de sus valores. Se evalúan también barreras para cada área."
+    }
+  ]
+}

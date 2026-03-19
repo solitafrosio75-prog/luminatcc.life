@@ -1,0 +1,30 @@
+{
+    "aplicacion_id": "ac_psicoeducacion_1",
+    "procedure_id": "ac_psicoeducacion",
+    "nombre": "Psicoeducación sobre modelo AC",
+    "pasos_realizados": [
+        {
+            "orden": 1,
+            "descripcion": "Explicar el modelo de activación-conducta",
+            "resultado": "Paciente comprende el modelo",
+            "evidencia": [
+                {
+                    "tipo": "guía",
+                    "referencia": "NICE Depression Guideline 2022",
+                    "doi": "10.1016/S0140-6736(22)01237-2"
+                }
+            ]
+        }
+    ],
+    "feedback_paciente": "Comprensión adecuada",
+    "criterios_seguridad": [
+        "No iniciar si hay riesgo suicida activo"
+    ],
+    "referencias": [
+        {
+            "tipo": "metaanálisis",
+            "referencia": "Cuijpers et al. 2013",
+            "doi": "10.1016/j.cpr.2013.03.009"
+        }
+    ]
+}

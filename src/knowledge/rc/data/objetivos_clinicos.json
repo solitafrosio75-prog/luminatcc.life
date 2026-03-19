@@ -1,0 +1,69 @@
+{
+  "area_id": "objetivos_clinicos",
+  "nombre": "Objetivos Clínicos de la Reestructuración Cognitiva",
+  "descripcion": "Indicaciones, contraindicaciones y objetivos terapéuticos de la RC",
+  "fuentes": [
+    "Beck, J. S. (2020). Cognitive Behavior Therapy: Basics and Beyond",
+    "Clark, D. A. & Beck, A. T. (2010). Cognitive Therapy of Anxiety Disorders",
+    "Leahy, R. L. (2003). Cognitive Therapy Techniques"
+  ],
+  "indicaciones": [
+    {
+      "trastorno": "Depresión mayor (leve a moderada)",
+      "nivel_evidencia": "alta",
+      "notas": "La RC es componente central del tratamiento de primera línea. Especialmente indicada cuando predominan rumiación y distorsiones cognitivas."
+    },
+    {
+      "trastorno": "Trastorno de ansiedad generalizada",
+      "nivel_evidencia": "alta",
+      "notas": "Trabajo sobre preocupaciones excesivas, sobrestimación de probabilidad de daño e intolerancia a la incertidumbre."
+    },
+    {
+      "trastorno": "Trastorno de pánico",
+      "nivel_evidencia": "alta",
+      "notas": "Reestructuración de interpretaciones catastróficas de sensaciones corporales."
+    },
+    {
+      "trastorno": "Fobia social",
+      "nivel_evidencia": "alta",
+      "notas": "Modificación de creencias sobre evaluación social negativa y estándares perfeccionistas sociales."
+    },
+    {
+      "trastorno": "TOC",
+      "nivel_evidencia": "moderada",
+      "notas": "Complementaria a exposición con prevención de respuesta. Trabaja sobre responsabilidad excesiva y fusión pensamiento-acción."
+    },
+    {
+      "trastorno": "TEPT",
+      "nivel_evidencia": "moderada",
+      "notas": "Procesamiento cognitivo de significados del trauma (culpa, vergüenza, peligro percibido)."
+    },
+    {
+      "trastorno": "Trastornos alimentarios",
+      "nivel_evidencia": "moderada",
+      "notas": "Reestructuración de creencias sobre imagen corporal, control y perfeccionismo."
+    }
+  ],
+  "contraindicaciones": [
+    {
+      "condicion": "Psicosis activa con nula conciencia de enfermedad",
+      "razon": "Incapacidad para distinguir pensamientos de realidad, lo que imposibilita el trabajo de reestructuración.",
+      "alternativa": "Estabilización farmacológica previa; considerar TCC adaptada para psicosis una vez estabilizado."
+    },
+    {
+      "condicion": "Deterioro cognitivo significativo",
+      "razon": "Requiere capacidad de introspección, razonamiento abstracto y memoria de trabajo preservados.",
+      "alternativa": "Intervenciones conductuales directas, modificación ambiental."
+    },
+    {
+      "condicion": "Intoxicación aguda por sustancias",
+      "razon": "Imposibilidad de procesamiento cognitivo adecuado.",
+      "alternativa": "Desintoxicación primero; RC como parte del tratamiento posterior."
+    },
+    {
+      "condicion": "Crisis suicida activa (riesgo inminente)",
+      "razon": "Priorizar intervención en crisis y seguridad antes del trabajo cognitivo estructurado.",
+      "alternativa": "Protocolo de crisis, plan de seguridad, derivación a urgencias si necesario."
+    }
+  ]
+}
