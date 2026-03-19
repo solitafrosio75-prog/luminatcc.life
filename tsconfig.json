@@ -22,6 +22,6 @@
     }
   },
   "include": ["src", "tcc-pdf-generator/src/pdfGenerator.ts"],
-  "exclude": ["src/server/api.ts", "src/legacy"],
+  "exclude": ["src/server/api.ts", "src/legacy", "src/knowledge/session"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

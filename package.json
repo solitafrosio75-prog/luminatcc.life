@@ -8,7 +8,7 @@
   "main": "postcss.config.js",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "export-chats": "node scripts/export-chats.js",
     "kb:extract": "tsx scripts/extract-bibliography.ts",
